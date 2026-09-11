@@ -1,0 +1,6 @@
+---
+import Layout from '../components/Layout.astro';
+import { getData } from '../data/loader';
+const data=getData();
+---
+<Layout title="Source register"><header class="page-heading"><p class="eyebrow">Traceable claims</p><h1>Source register</h1><p class="lede">Original documents, independent work, vendor studies, and reporting retain their own attribution.</p></header>{data.sources.map(s=><article id={s.slug} class="source-entry"><p class="eyebrow">{s.publisher}<span class="badge">{s.kind}</span></p><h2><a href={s.url}>{s.title} ↗</a></h2><p class="muted small">Published {s.published_at??'date not verified'} · Reviewed {s.reviewed_at}</p></article>)}</Layout>

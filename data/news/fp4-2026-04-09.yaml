@@ -1,0 +1,13 @@
+published_at: 2026-04-09
+event_date: null
+title: Huawei publishes FP4 pretraining research
+summary: The study tests dense and MoE models on Ascend.
+impact: Training feasibility is advancing; the paper is not an independent frontier throughput benchmark.
+source_ids:
+  - hifloat4
+evidence: vendor
+added_at: 2026-09-11
+correction_of: null
+slug: fp4-2026-04-09
+companies:
+  - huawei

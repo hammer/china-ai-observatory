@@ -1,0 +1,13 @@
+published_at: 2026-03-11
+event_date: null
+title: Optical modules retain international component links
+summary: Eoptolink describes 1.6T transceivers using Broadcom DSPs.
+impact: Module competitiveness and complete supply independence need separate assessments.
+source_ids:
+  - eop-dsp
+evidence: vendor
+added_at: 2026-09-11
+correction_of: null
+slug: optics-2026-03-11
+companies:
+  - eoptolink

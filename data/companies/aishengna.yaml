@@ -1,0 +1,27 @@
+name: Shanghai Aishengna
+chinese_name: ""
+counterparts:
+  - ASML
+  - Nikon
+priority: 1
+stage: Development
+role: Reported coordinator of initial domestic immersion DUV production.
+assessment: Public reporting describes initial production, with further testing required.
+key_fact:
+  label: Production milestone
+  value: Initial tool manufacturing reported in July 2026
+  evidence: reported
+  as_of: 2026-07-28
+  source_ids:
+    - duv-reuters
+facts: []
+watch_for:
+  - Deliveries accepted by fabs
+  - Yield over sustained wafer runs
+  - Repeatable maintenance and service
+source_ids:
+  - duv-reuters
+reviewed_at: 2026-09-11
+slug: aishengna
+layers:
+  - lithography

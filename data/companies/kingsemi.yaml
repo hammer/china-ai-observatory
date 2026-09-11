@@ -1,0 +1,25 @@
+name: Kingsemi
+chinese_name: 芯源微
+counterparts:
+  - TEL
+priority: 2
+stage: Commercial
+role: Coating and developing equipment used around lithography.
+assessment: Surrounding process steps matter alongside the exposure scanner.
+key_fact:
+  label: Strategic role
+  value: Coat/develop and associated process equipment
+  evidence: vendor
+  as_of: 2026-09-11
+  source_ids:
+    - kingsemi
+facts: []
+watch_for:
+  - Advanced lithography integration
+  - Customer-qualified throughput and defect rates
+source_ids:
+  - kingsemi
+reviewed_at: 2026-09-11
+slug: kingsemi
+layers:
+  - equipment

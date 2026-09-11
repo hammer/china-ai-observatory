@@ -1,0 +1,30 @@
+name: CXMT
+chinese_name: 长鑫存储
+counterparts:
+  - SK hynix
+  - Samsung
+  - Micron
+priority: 1
+stage: Scaling
+role: China’s principal DRAM and HBM company to watch.
+assessment: Adequate domestic HBM volume and frontier HBM performance are separate milestones.
+key_fact:
+  label: HBM milestone
+  value: Small-volume HBM3E reportedly produced in August 2026
+  evidence: reported
+  as_of: 2026-09-11
+  source_ids:
+    - cxmt-hbm
+    - cxmt
+facts: []
+watch_for:
+  - Customer-qualified HBM shipments
+  - Stack yield and volume
+  - Accelerators shipping with verified domestic DRAM
+source_ids:
+  - cxmt-hbm
+  - cxmt
+reviewed_at: 2026-09-11
+slug: cxmt
+layers:
+  - memory

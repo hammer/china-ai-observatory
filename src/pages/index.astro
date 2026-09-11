@@ -1,0 +1,32 @@
+---
+import Layout from '../components/Layout.astro';
+import FilterBar from '../components/FilterBar.astro';
+import Sources from '../components/Sources.astro';
+import NewsCard from '../components/NewsCard.astro';
+import { getData } from '../data/loader';
+import type { FilterDimension } from '../lib/filters/types';
+const data = getData();
+const dimensions: FilterDimension[] = [
+  { key:'layer',label:'Stack layer',kind:'multi',rowAttr:'layers',options:data.layers.map(l=>({slug:l.slug,label:l.name,count:data.companies.filter(c=>c.layers.includes(l.slug)).length})) },
+  { key:'stage',label:'Stage',kind:'multi',rowAttr:'stage',options:['Commercial','Scaling','Development','Research'].map(s=>({slug:s,label:s,count:data.companies.filter(c=>c.stage===s).length})) },
+  { key:'evidence',label:'Evidence',kind:'multi',rowAttr:'evidence',options:['primary','reported','vendor','measured','standardized'].map(s=>({slug:s,label:s,count:data.companies.filter(c=>c.key_fact.evidence===s).length})) },
+];
+---
+<Layout>
+  <section class="hero"><p class="eyebrow">Industry intelligence · China</p><h1>AI hardware,<br />from ambition to evidence.</h1><p class="lede">{data.overview.thesis}</p><p class="muted">{data.overview.description} <a href="/stack/">Read the outlook →</a></p></section>
+  <div class="stats"><div><strong>{data.companies.length}</strong><span>Companies & institutes</span></div><div><strong>{data.layers.length}</strong><span>Layers of the stack</span></div><div><strong>{data.sources.length}</strong><span>Attributed sources</span></div><div><strong>{data.state.last_research_at}</strong><span>Latest research review</span></div></div>
+  <section data-record-list aria-labelledby="companies-title">
+    <div class="section-title"><h2 id="companies-title">The company index</h2><span class="muted" data-count aria-live="polite"></span></div>
+    <p class="section-intro">Open a profile for the evidence, dependencies, and next milestones. Priority indicates research attention, not an investment rating.</p>
+    <div class="toolbar"><label class="search"><span class="sr-only">Search companies</span><input data-search-input type="search" placeholder="Search company, technology, or counterpart…" /></label><label class="sort"><span>Sort</span><select data-sort><option value="priority">Watch priority</option><option value="name">Company name</option><option value="date">Recently reviewed</option></select></label></div>
+    <FilterBar mode="inline" dimensions={dimensions} id="company-filters" />
+    <table class="company-table"><thead><tr><th scope="col">Company</th><th scope="col" class="layer-col">Stack layer</th><th scope="col">Critical data point</th><th scope="col" class="review-col">Review</th></tr></thead><tbody>{data.companies.map(c => <tr data-record data-layers={c.layers.join(',')} data-stage={c.stage} data-evidence={c.key_fact.evidence} data-name={c.name.toLowerCase()} data-priority={c.priority} data-date={c.reviewed_at} data-search={`${c.name} ${c.chinese_name} ${c.counterparts.join(' ')} ${c.role} ${c.key_fact.value} ${c.layers.join(' ')}`.toLowerCase()}>
+      <th scope="row"><a href={`/companies/${c.slug}/`}>{c.name}</a><span class="chinese">{c.chinese_name}</span><small class="counterparts">{c.counterparts.join(' / ')}</small></th>
+      <td class="layer-col">{c.layers.map(id=><a class="layer-link" href={`/stack/#${id}`}>{data.layers.find(l=>l.slug===id)?.name}</a>)}</td>
+      <td><span class="fact-label">{c.key_fact.label}</span><p>{c.key_fact.value}</p><span class="badge">{c.key_fact.evidence}</span> <Sources compact ids={c.key_fact.source_ids} /></td>
+      <td class="review-col"><time>{c.reviewed_at}</time><small>{c.stage}</small></td>
+    </tr>)}</tbody></table><p data-empty hidden class="empty">No companies match these filters. Try a broader search or clear the filters.</p>
+  </section>
+  <section><div class="section-title"><h2>Latest developments</h2><a href="/timeline/">All news →</a></div><div class="news-grid">{data.news.slice(0,3).map(news=><NewsCard news={news} />)}</div></section>
+</Layout>
+<script>import '../lib/record-list';</script>

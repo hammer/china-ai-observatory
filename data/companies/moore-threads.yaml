@@ -1,0 +1,28 @@
+name: Moore Threads
+chinese_name: 摩尔线程
+counterparts:
+  - NVIDIA
+  - AMD
+priority: 2
+stage: Scaling
+role: GPU hardware and the MUSA programming ecosystem.
+assessment: Compatibility claims need workload-level verification.
+key_fact:
+  label: Current platform
+  value: MTT S5000 and MUSA
+  evidence: vendor
+  as_of: 2026-09-11
+  source_ids:
+    - mthreads
+facts: []
+watch_for:
+  - Real application portability
+  - Sustained training throughput
+  - Compiler correctness and manufacturing access
+source_ids:
+  - mthreads
+reviewed_at: 2026-09-11
+slug: moore-threads
+layers:
+  - accelerators
+  - software

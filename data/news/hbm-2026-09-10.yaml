@@ -1,0 +1,17 @@
+published_at: 2026-09-10
+event_date: null
+title: Memory constraints reach accelerator pricing
+summary: HBM shortages are raising Chinese accelerator prices.
+impact: Domestic memory qualification remains a key condition for expanding compute economically.
+source_ids:
+  - hbm-reuters
+evidence: reported
+added_at: 2026-09-11
+correction_of: null
+slug: hbm-2026-09-10
+companies:
+  - huawei
+  - cambricon
+  - cxmt
+  - iluvatar
+  - metax

@@ -1,0 +1,16 @@
+published_at: 2026-09-08
+event_date: null
+title: Domestic lithography effort extends across components
+summary: Reporting identifies Yuliangsheng, Zhiqi, and RSLaser in the local supply-chain effort.
+impact: The next meaningful gate is sustained fab qualification.
+source_ids:
+  - duv-ft
+evidence: reported
+added_at: 2026-09-11
+correction_of: null
+slug: duv-2026-09-08
+companies:
+  - yuliangsheng
+  - zhiqi
+  - rslaser
+  - huawei

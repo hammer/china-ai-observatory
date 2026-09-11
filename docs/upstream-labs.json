@@ -1,0 +1,48 @@
+{
+  "repository": "hammer/labs",
+  "commit": "f8db86949b5274bd6cebee14ae7a510389adf86a",
+  "files": [
+    {
+      "path": "src/components/FilterBar.astro",
+      "upstream_sha256": "623550f7e592d31af28df0d6ceb00a91b14ed79328dc1fa1dccb7c27892e908f",
+      "local_sha256": "43084f3ddffd6752f79df935dacba42c08e522ae542d4edcaf1210555e3c8591",
+      "modifications": "Escape < in inline JSON configuration to prevent script termination."
+    },
+    {
+      "path": "src/lib/filters/types.ts",
+      "upstream_sha256": "0623dabb2b0dfadd6151de012a192c133855e6df2c243500ae8f939d94364e7a",
+      "local_sha256": "0623dabb2b0dfadd6151de012a192c133855e6df2c243500ae8f939d94364e7a",
+      "modifications": "None."
+    },
+    {
+      "path": "src/lib/filters/state.ts",
+      "upstream_sha256": "d4449055fcea7089407bb42d9f1c7d3f2d5469d379196f764e569f4e14e24624",
+      "local_sha256": "d4449055fcea7089407bb42d9f1c7d3f2d5469d379196f764e569f4e14e24624",
+      "modifications": "None."
+    },
+    {
+      "path": "src/lib/filters/runtime.ts",
+      "upstream_sha256": "de56fcc812d2aef0e12c4cc39b09173627e8403c16f2e3481c0e17c56b3af23e",
+      "local_sha256": "ec71c444745217303581617f7bf436adbc214f7dc5a1ad2b148a4015b690e07a",
+      "modifications": "Restore filter controls on popstate; declare the existing cycleTristate API in InitResult."
+    },
+    {
+      "path": "src/lib/filters/format.ts",
+      "upstream_sha256": "fb41fd147e6c2eca929b1dc36358779ed97d1d0c31a4254d313217cbdcb3accd",
+      "local_sha256": "fb41fd147e6c2eca929b1dc36358779ed97d1d0c31a4254d313217cbdcb3accd",
+      "modifications": "None."
+    },
+    {
+      "path": "src/lib/filters/position.ts",
+      "upstream_sha256": "172af6c55b294729bda951a34945179c6eed0f940d9548927ea8ff6c12824257",
+      "local_sha256": "172af6c55b294729bda951a34945179c6eed0f940d9548927ea8ff6c12824257",
+      "modifications": "None."
+    },
+    {
+      "path": "src/styles/global.css",
+      "upstream_sha256": "a4c3ab78c493d4d08921d31dda79ffdb905d0f2da8b83fcf80aed624629893c1",
+      "local_sha256": "a4c3ab78c493d4d08921d31dda79ffdb905d0f2da8b83fcf80aed624629893c1",
+      "modifications": "None."
+    }
+  ]
+}

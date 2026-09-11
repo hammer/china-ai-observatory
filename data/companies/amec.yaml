@@ -1,0 +1,26 @@
+name: AMEC
+chinese_name: 中微公司
+counterparts:
+  - Lam Research
+  - Applied Materials
+priority: 1
+stage: Commercial
+role: An important domestic etch-equipment supplier.
+assessment: Company-level tool capabilities are not proof of complete process independence.
+key_fact:
+  label: Strategic role
+  value: Etch equipment for semiconductor manufacturing
+  evidence: vendor
+  as_of: 2026-09-11
+  source_ids:
+    - amec
+facts: []
+watch_for:
+  - Advanced-process customer qualifications
+  - Repeat orders and production utilization
+source_ids:
+  - amec
+reviewed_at: 2026-09-11
+slug: amec
+layers:
+  - equipment

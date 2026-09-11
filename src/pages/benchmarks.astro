@@ -1,0 +1,13 @@
+---
+import Layout from '../components/Layout.astro';
+import Sources from '../components/Sources.astro';
+import { getData } from '../data/loader';
+const {benchmarks:b,outputs}=getData();
+---
+<Layout title="Benchmarks"><header class="page-heading"><p class="eyebrow">Performance evidence · Reviewed {b.reviewed_at}</p><h1>What has actually been measured?</h1><p class="lede">{b.headline}</p></header>
+<div class="callout"><p>{b.assessment}</p></div>
+<section><h2>Published hardware specifications</h2><p class="section-intro">Dense BF16 peak per marketed accelerator and HBM bandwidth. These are specifications, not model training or inference benchmarks. Package design and power differ.</p><p class="scroll-hint">Scroll sideways to compare all columns →</p><div class="table-scroll" tabindex="0" role="region" aria-label="Hardware specifications"><table class="spec-table"><thead><tr><th>Accelerator</th><th>Dense BF16<br />(PFLOP/s)</th><th>HBM bandwidth<br />(TB/s)</th><th>Basis & limitations</th></tr></thead><tbody>{outputs.map(o=><tr><th scope="row">{o.name}<small>{o.vendor} · {o.region}</small></th><td class="numeric">{o.bf16_pflops}</td><td class="numeric">{o.hbm_tbps}</td><td>{o.note}<Sources ids={o.source_ids} /></td></tr>)}</tbody></table></div></section>
+<section><h2>{b.comparison.title}</h2><p class="eyebrow">{b.comparison.date} · {b.comparison.evidence} study · Historical comparison</p><p class="scroll-hint">Scroll sideways to compare all columns →</p><div class="table-scroll" tabindex="0" role="region" aria-label="Historical vendor comparison"><table><thead><tr><th>Metric</th><th>Ascend 910C</th><th>H100 baseline</th></tr></thead><tbody>{b.comparison.rows.map(r=><tr><th scope="row">{r.metric}</th><td>{r.china}</td><td>{r.outside}</td></tr>)}</tbody></table></div><p class="callout">{b.comparison.caveats}</p><Sources ids={b.comparison.source_ids} /></section>
+<section><h2>Benchmark evidence register</h2>{b.studies.map(s=><article class="news-card"><div class="eyebrow">{s.date}<span class="badge">{s.evidence}</span></div><h3>{s.title}</h3><p>{s.finding}</p><Sources ids={s.source_ids} /></article>)}</section>
+<section class="panel"><h2>How to read these results</h2><p>Independent means the evaluator ran the workload independently of the vendor. MLPerf provides standardized rules but its submissions are generally run by submitters. Vendor and partner studies remain attributed to their authors.</p><p>A useful comparison aligns model, quality, precision, context, batch, latency target, accelerator count, software and power. Training needs time-to-quality and reliability; inference needs both throughput and latency. Missing evidence does not establish incapability.</p></section>
+</Layout>

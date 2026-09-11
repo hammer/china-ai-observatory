@@ -1,0 +1,7 @@
+---
+import { getData } from '../data/loader';
+interface Props { ids: string[]; compact?: boolean }
+const { ids, compact = false } = Astro.props;
+const sources = getData().sources.filter(s => ids.includes(s.slug));
+---
+{sources.length > 0 && <span class:list={['citations', { compact }]} aria-label="Sources">{sources.map((s,i) => <a href={s.url} title={`${s.publisher}: ${s.title}`} rel="noreferrer">{compact ? `[${i+1}]` : `${s.publisher} · ${s.title}`}<span class="sr-only"> (source)</span></a>)}</span>}

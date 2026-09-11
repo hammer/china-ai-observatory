@@ -1,0 +1,29 @@
+name: Alibaba T-Head
+chinese_name: 阿里平头哥
+counterparts:
+  - Google TPU
+  - AWS Trainium
+priority: 2
+stage: Commercial
+role: Cloud-oriented silicon and model/hardware co-design.
+assessment: Vendor performance multipliers require a disclosed baseline and workload.
+key_fact:
+  label: Product announcement
+  value: Zhenwu M890 announced May 2026
+  evidence: reported
+  as_of: 2026-05-20
+  source_ids:
+    - m890
+    - thead
+facts: []
+watch_for:
+  - Measured cloud utilization
+  - Independent model-serving economics
+  - Memory and manufacturing provenance
+source_ids:
+  - m890
+  - thead
+reviewed_at: 2026-09-11
+slug: thead
+layers:
+  - accelerators

@@ -1,0 +1,11 @@
+slug: tpu7
+type: accelerator
+as_of: 2026-09-11
+name: TPU v7 / Ironwood
+vendor: Google
+region: Outside China
+bf16_pflops: 2.307
+hbm_tbps: 7.38
+source_ids:
+  - tpu7
+note: Per marketed chip, containing two compute chiplets.

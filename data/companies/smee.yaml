@@ -1,0 +1,28 @@
+name: SMEE
+chinese_name: 上海微电子
+counterparts:
+  - ASML
+  - Nikon
+priority: 2
+stage: Commercial
+role: Domestic lithography equipment company.
+assessment: Older public product listings do not define the ceiling of all Chinese lithography efforts.
+key_fact:
+  label: Public evidence
+  value: Commercial lithography portfolio; advanced immersion qualification remains the key test
+  evidence: vendor
+  as_of: 2026-09-11
+  source_ids:
+    - smee
+    - duv-reuters
+facts: []
+watch_for:
+  - Advanced-tool acceptance by customers
+  - Published throughput and overlay
+source_ids:
+  - smee
+  - duv-reuters
+reviewed_at: 2026-09-11
+slug: smee
+layers:
+  - lithography

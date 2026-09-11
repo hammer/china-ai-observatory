@@ -1,0 +1,14 @@
+interface:
+  display_name: China AI Update
+  short_description: Update the China AI Observatory with sourced evidence
+  default_prompt: Use $china-ai-update to refresh the China AI Observatory with verified
+    news and company data.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

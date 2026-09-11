@@ -1,0 +1,11 @@
+slug: 950pr
+type: accelerator
+as_of: 2026-09-11
+name: Atlas 350 / 950PR
+vendor: Huawei
+region: China
+bf16_pflops: 0.425
+hbm_tbps: 1.4
+source_ids:
+  - atlas350
+note: Inference/prefill-oriented PCIe card, up to 600 W.

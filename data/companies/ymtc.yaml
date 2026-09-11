@@ -1,0 +1,28 @@
+name: YMTC
+chinese_name: 长江存储
+counterparts:
+  - Samsung
+  - Kioxia
+  - Micron
+priority: 1
+stage: Commercial
+role: NAND and enterprise storage built around Xtacking.
+assessment: NAND is storage; it is not a direct substitute for accelerator HBM.
+key_fact:
+  label: Technology
+  value: Separate memory-cell and logic wafers, bonded together
+  evidence: vendor
+  as_of: 2026-09-11
+  source_ids:
+    - ymtc
+facts: []
+watch_for:
+  - NAND density and yield
+  - Enterprise SSD qualifications
+  - Equipment localization
+source_ids:
+  - ymtc
+reviewed_at: 2026-09-11
+slug: ymtc
+layers:
+  - memory

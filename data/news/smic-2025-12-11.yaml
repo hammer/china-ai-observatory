@@ -1,0 +1,13 @@
+published_at: 2025-12-11
+event_date: null
+title: Teardown characterizes SMIC N+3
+summary: Independent measurements identify a scaled 7nm-family process.
+impact: Process labels should be tested against density, yield, and economics.
+source_ids:
+  - smic-teardown
+evidence: measured
+added_at: 2026-09-11
+correction_of: null
+slug: smic-2025-12-11
+companies:
+  - smic

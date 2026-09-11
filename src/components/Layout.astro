@@ -1,0 +1,27 @@
+---
+import '../styles/global.css';
+import '../styles/observatory.css';
+import { getData } from '../data/loader';
+interface Props { title?: string; description?: string }
+const { title = 'China AI Observatory', description = 'Companies, evidence and supply-chain dependencies across China’s AI hardware industry.' } = Astro.props;
+const data = getData();
+const nav = [['/','Companies'],['/stack/','Stack & outlook'],['/benchmarks/','Benchmarks'],['/timeline/','News'],['/briefings/','Briefings'],['/whats-new/','Changes']];
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} /><meta name="theme-color" content="#153e50" />
+    <title>{title === 'China AI Observatory' ? title : `${title} · China AI Observatory`}</title>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+    <header class="site-header"><div class="container">
+      <div class="masthead"><a class="brand" href="/"><img src="/favicon.svg" alt="" width="26" height="26" />China AI Observatory</a><a class="repo-link" href="https://github.com/hammer/china-ai-observatory">GitHub ↗</a></div>
+      <nav aria-label="Main">{nav.map(([href,label]) => <a href={href} aria-current={Astro.url.pathname === href ? 'page' : undefined}>{label}</a>)}</nav>
+    </div></header>
+    <main id="main" class="container"><slot /></main>
+    <footer class="container"><p>Evidence before extrapolation. Research reviewed through <time>{data.state.last_research_at}</time>; individual records show their review dates.</p><p><a href="/sources/">Source register</a> · <a href="/data.json">Open data</a> · <a href="https://github.com/hammer/labs">Built on Lab Index conventions</a></p></footer>
+  </body>
+</html>

@@ -1,0 +1,26 @@
+name: InnoLight
+chinese_name: 中际旭创
+counterparts:
+  - Coherent
+priority: 1
+stage: Commercial
+role: Optical modules for global data-center networks.
+assessment: Module-level competitiveness can coexist with foreign-component dependencies.
+key_fact:
+  label: Strategic position
+  value: Globally competitive optical-module supplier
+  evidence: vendor
+  as_of: 2026-09-11
+  source_ids:
+    - innolight
+facts: []
+watch_for:
+  - 1.6T product shipments and customer qualification
+  - DSP and laser sourcing
+  - Performance per watt and manufacturing yield
+source_ids:
+  - innolight
+reviewed_at: 2026-09-11
+slug: innolight
+layers:
+  - photonics

@@ -1,0 +1,27 @@
+name: Iluvatar CoreX
+chinese_name: 天数智芯
+counterparts:
+  - NVIDIA
+  - AMD
+priority: 2
+stage: Commercial
+role: GPU compute and AI deployment supplier.
+assessment: Assess the specific shipping product and its memory and fabrication route.
+key_fact:
+  label: Strategic role
+  value: Commercial GPU compute platform
+  evidence: vendor
+  as_of: 2026-09-11
+  source_ids:
+    - iluvatar
+facts: []
+watch_for:
+  - Repeat orders
+  - Utilization and deployment economics
+  - Independent contemporary benchmarks
+source_ids:
+  - iluvatar
+reviewed_at: 2026-09-11
+slug: iluvatar
+layers:
+  - accelerators

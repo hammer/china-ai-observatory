@@ -1,0 +1,97 @@
+- slug: lithography
+  name: Lithography
+  reference: ASML / Nikon
+  status: Bottleneck
+  assessment: Prototype and early tool deliveries do not establish reliable volume production.
+  source_ids:
+    - duv-reuters
+    - euv-reuters
+- slug: optics
+  name: Optics & light sources
+  reference: Zeiss / TRUMPF / Cymer
+  status: Bottleneck
+  assessment: Projection optics, stable light sources, and precision integration remain difficult.
+  source_ids:
+    - duv-ft
+    - siom
+- slug: equipment
+  name: Process equipment
+  reference: Applied Materials / Lam / TEL
+  status: Developing
+  assessment: Domestic suppliers cover substantial etch, deposition, cleaning and polishing work.
+  source_ids:
+    - naura
+    - acm
+    - hwatsing
+- slug: metrology
+  name: Inspection & metrology
+  reference: KLA / Hitachi High-Tech
+  status: Bottleneck
+  assessment: Inspection sensitivity, overlay, and process control determine usable yield.
+  source_ids:
+    - skyverse
+- slug: eda
+  name: Design software
+  reference: Synopsys / Cadence / Siemens EDA
+  status: Developing
+  assessment: Replacing individual tools is easier than qualifying a complete frontier design flow.
+  source_ids:
+    - empyrean
+- slug: foundry
+  name: Foundry
+  reference: TSMC
+  status: Bottleneck
+  assessment: Domestic advanced logic works, but yield, capacity and process scaling constrain economics.
+  source_ids:
+    - smic-teardown
+    - tsmc
+- slug: packaging
+  name: Advanced packaging
+  reference: TSMC CoWoS / ASE / Amkor
+  status: Developing
+  assessment: Large compute dies and HBM must be integrated at production yield.
+  source_ids:
+    - jcet
+- slug: memory
+  name: Memory & storage
+  reference: SK hynix / Samsung / Micron
+  status: Bottleneck
+  assessment: NAND is a relative strength; sufficient qualified HBM is the immediate compute constraint.
+  source_ids:
+    - ymtc
+    - cxmt
+    - hbm-reuters
+- slug: accelerators
+  name: AI accelerators
+  reference: NVIDIA / AMD / Google TPU
+  status: Developing
+  assessment: Commercial alternatives are advancing faster than independently demonstrated frontier parity.
+  source_ids:
+    - ascend
+    - mlperf-training
+    - inferencex
+- slug: networking
+  name: Networking & interconnects
+  reference: NVLink / InfiniBand / Broadcom
+  status: Developing
+  assessment: Scale-up fabrics and Ethernet RDMA can compensate for some device limitations.
+  source_ids:
+    - cloudmatrix
+    - h3c
+- slug: photonics
+  name: Optical networking
+  reference: Coherent / Lumentum ecosystem
+  status: Competitive
+  assessment: Chinese module suppliers compete globally, with continuing foreign-component dependencies.
+  source_ids:
+    - innolight
+    - eop-dsp
+- slug: software
+  name: AI software stack
+  reference: CUDA / cuDNN / NCCL
+  status: Developing
+  assessment: Kernel coverage, correctness, and recovery determine effective hardware performance.
+  source_ids:
+    - ascend
+    - ascend-field
+    - mthreads

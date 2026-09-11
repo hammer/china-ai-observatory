@@ -1,0 +1,27 @@
+name: Kunlunxin
+chinese_name: 昆仑芯
+counterparts:
+  - Google TPU
+  - AWS Inferentia
+priority: 2
+stage: Commercial
+role: AI accelerators with a cloud and application ecosystem around Baidu.
+assessment: Vertical optimization may deliver useful wins before broad ecosystem parity.
+key_fact:
+  label: Architecture category
+  value: XPU AI accelerators
+  evidence: vendor
+  as_of: 2026-09-11
+  source_ids:
+    - kunlunxin
+facts: []
+watch_for:
+  - Customer adoption beyond affiliated workloads
+  - Model-specific cost/performance
+  - Manufacturing provenance
+source_ids:
+  - kunlunxin
+reviewed_at: 2026-09-11
+slug: kunlunxin
+layers:
+  - accelerators

@@ -1,0 +1,15 @@
+---
+import Layout from '../../components/Layout.astro';
+import Sources from '../../components/Sources.astro';
+import NewsCard from '../../components/NewsCard.astro';
+import { getData } from '../../data/loader';
+export function getStaticPaths() { return getData().companies.map(company=>({params:{slug:company.slug},props:{company}})); }
+const { company: c } = Astro.props;
+const data=getData(); const news=data.news.filter(n=>n.companies.includes(c.slug));
+---
+<Layout title={c.name} description={c.role}>
+  <a class="back" href="/">← Company index</a><header class="page-heading"><p class="eyebrow">Company dossier · Reviewed {c.reviewed_at}</p><h1>{c.name} <span class="chinese inline">{c.chinese_name}</span></h1><p class="lede">{c.role}</p><div class="tags"><span class="badge">{c.stage}</span><span class="badge">Watch priority {c.priority}</span>{c.layers.map(id=><a href={`/stack/#${id}`}>{data.layers.find(l=>l.slug===id)?.name}</a>)}</div></header>
+  <div class="dossier-grid"><section><h2>What the evidence says</h2><p>{c.assessment}</p><Sources ids={c.source_ids} /><h2 class="spaced">Critical facts</h2>{[c.key_fact,...c.facts].map(f=><article class="fact-card"><div class="eyebrow">{f.label}<span class="badge">{f.evidence}</span></div><p class="fact-value">{f.value}</p><small class="muted">As of {f.as_of}</small><Sources ids={f.source_ids} /></article>)}</section>
+  <aside><div class="panel"><h2>What to watch</h2><ul>{c.watch_for.map(w=><li>{w}</li>)}</ul></div><div class="panel"><h2>Reference companies</h2><p>{c.counterparts.join(' · ')}</p><p class="muted small">References identify a comparable role in the stack. They do not imply technical parity.</p></div></aside></div>
+  <section><div class="section-title"><h2>Company news</h2><a href={`/timeline/?company=${c.slug}`}>Timeline →</a></div>{news.length ? news.map(n=><NewsCard news={n} />) : <p class="muted">No events recorded yet. The profile’s source register provides the current baseline.</p>}</section>
+</Layout>

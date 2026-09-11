@@ -1,0 +1,37 @@
+name: Huawei
+chinese_name: 华为
+counterparts:
+  - NVIDIA
+  - Google TPU
+priority: 1
+stage: Commercial
+role: "The central full-stack contender: Ascend, Atlas, interconnects, and CANN."
+assessment: Chinese design and deployment do not establish independence in HBM or fabrication equipment.
+key_fact:
+  label: Next product gate
+  value: "Ascend 950DT: expected Q4 2026"
+  evidence: reported
+  as_of: 2026-09-11
+  source_ids:
+    - ascend
+    - hbm-reuters
+facts:
+  - label: Atlas 350 / 950PR
+    value: 112 GB HBM; 1.4 TB/s; 425 TFLOPS BF16; up to 600 W
+    evidence: vendor
+    as_of: 2026-09-11
+    source_ids:
+      - atlas350
+watch_for:
+  - Sustained time-to-quality on large training runs
+  - Customer utilization and recovery statistics
+  - 950DT deliveries and verified memory provenance
+source_ids:
+  - ascend
+  - hbm-reuters
+reviewed_at: 2026-09-11
+slug: huawei
+layers:
+  - accelerators
+  - networking
+  - software

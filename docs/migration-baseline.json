@@ -1,0 +1,21 @@
+{
+  "baseline_date": "2026-09-11",
+  "counts": {
+    "companies": 31,
+    "sources": 46,
+    "news": 12,
+    "briefings": 3,
+    "outputs": 5
+  },
+  "original_sha256": {
+    "companies.json": "5f26eb30d5b1ab43fe2ffb559aa3b87ba348c9d0ceb0f217c7caa39a7acb355b",
+    "sources.json": "a0dc3b35c36aff4ebf68876f5adafc1424320431d9870b74899d3fe9a15fd152",
+    "news.json": "829e402e403bc4f8dcfd65fda7f52d5be195899ab5c8ce8f7687912cd756e2d4",
+    "briefings.json": "2c45d9da9534a9968ceff5ace376f643dc9d1f8db081b97bbb131f65e5c9b3ce",
+    "layers.json": "fa2393bdc856129e8d6c4e3640acaa5c6b5831d8e9f230405b38ad2ca6e06c63",
+    "overview.json": "2cdfe305e19393416fd9260223546712e5a20494cab6f5f1316a833af24128a0",
+    "benchmarks.json": "246b2e3dbad2ae3304f85c6f5b6db4a5653f363b01bdfb5f5d3d5c5aa700e100",
+    "state.json": "4c7f79c088c4faa5a48a8e4766506c27b12b34ac1b8c073182179c0ebf6dcb39"
+  },
+  "note": "Record identities, facts, dates, citations and historical briefings retained. Operational hosting and scheduler state intentionally separated from research data."
+}

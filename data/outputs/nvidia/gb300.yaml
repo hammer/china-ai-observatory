@@ -1,0 +1,11 @@
+slug: gb300
+type: accelerator
+as_of: 2026-09-11
+name: Blackwell Ultra / GB300
+vendor: NVIDIA
+region: Outside China
+bf16_pflops: 2.5
+hbm_tbps: 8
+source_ids:
+  - gb300
+note: Per GPU, derived from 72-GPU system totals; sparsity removed from BF16 peak.

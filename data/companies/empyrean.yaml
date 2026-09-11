@@ -1,0 +1,28 @@
+name: Empyrean
+chinese_name: 华大九天
+counterparts:
+  - Synopsys
+  - Cadence
+  - Siemens EDA
+priority: 2
+stage: Commercial
+role: Domestic EDA tools across analog, digital, and verification workflows.
+assessment: A complete qualified design flow is a higher bar than replacing one tool.
+key_fact:
+  label: Coverage
+  value: Growing design and verification portfolio
+  evidence: vendor
+  as_of: 2026-09-11
+  source_ids:
+    - empyrean
+facts: []
+watch_for:
+  - Complete-flow customer tape-outs
+  - Frontier-node sign-off accuracy
+  - Interoperability and productivity
+source_ids:
+  - empyrean
+reviewed_at: 2026-09-11
+slug: empyrean
+layers:
+  - eda

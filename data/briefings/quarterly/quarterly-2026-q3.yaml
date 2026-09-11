@@ -1,0 +1,41 @@
+cadence: quarterly
+period_start: 2026-07-01
+period_end: 2026-09-30
+through_date: 2026-09-11
+published_at: 2026-09-11
+status: period-to-date
+title: Qualification becomes the decisive test
+summary: The quarter-to-date record increasingly turns on whether development milestones become dependable production.
+sections:
+  - heading: Industrial progress
+    body: Initial domestic DUV production and reported memory progress add important qualification milestones to
+      the watchlist.
+    source_ids:
+      - duv-reuters
+      - cxmt-hbm
+  - heading: Operational evidence
+    body: The Ascend field study shows why deployment friction deserves its own measurement alongside chip
+      specifications.
+    source_ids:
+      - ascend-field
+  - heading: Forecast
+    body: Expect focused inference and networking gains before broad frontier-training efficiency parity. The
+      longest gaps remain production equipment and sustained advanced-process yield. This is an analytical
+      judgment, not a vendor roadmap.
+    source_ids: []
+news_ids:
+  - enflame-2026-09-11
+  - hbm-2026-09-10
+  - duv-2026-09-08
+  - cxmt-2026-08-31
+  - duv-2026-07-28
+  - field-2026-07-09
+source_ids:
+  - ascend-field
+  - cxmt-hbm
+  - duv-ft
+  - duv-reuters
+  - enflame-ipo
+  - hbm-reuters
+coverage_note: Initial briefing based on the sourced research baseline; not an exhaustive market census.
+slug: quarterly-2026-q3

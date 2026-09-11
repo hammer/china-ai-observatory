@@ -1,0 +1,27 @@
+name: NAURA
+chinese_name: 北方华创
+counterparts:
+  - Applied Materials
+  - Lam Research
+priority: 1
+stage: Commercial
+role: Broad etch, deposition, thermal, and other semiconductor equipment.
+assessment: A qualified tool covers a process step, not an entire sovereign fab.
+key_fact:
+  label: Portfolio
+  value: Etch, PVD, CVD, wet processing and more
+  evidence: vendor
+  as_of: 2026-09-11
+  source_ids:
+    - naura
+facts: []
+watch_for:
+  - Customer-qualified replacement tools
+  - Installed base and service revenue
+  - Production yield at advanced nodes
+source_ids:
+  - naura
+reviewed_at: 2026-09-11
+slug: naura
+layers:
+  - equipment

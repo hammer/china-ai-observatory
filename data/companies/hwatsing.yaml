@@ -1,0 +1,26 @@
+name: Hwatsing
+chinese_name: 华海清科
+counterparts:
+  - Applied Materials
+  - Ebara
+priority: 2
+stage: Commercial
+role: CMP, wafer thinning, and related process equipment.
+assessment: Polishing and thinning quality are essential to downstream packaging yield.
+key_fact:
+  label: Product portfolio
+  value: 12-inch CMP and advanced-packaging equipment
+  evidence: vendor
+  as_of: 2026-09-11
+  source_ids:
+    - hwatsing
+facts: []
+watch_for:
+  - Production yield and customer acceptance
+  - HBM and packaging demand
+source_ids:
+  - hwatsing
+reviewed_at: 2026-09-11
+slug: hwatsing
+layers:
+  - equipment

@@ -1,0 +1,26 @@
+name: SMIC
+chinese_name: 中芯国际
+counterparts:
+  - TSMC
+priority: 1
+stage: Commercial
+role: The key domestic foundry for advanced logic.
+assessment: Fabrication in China still relies on an installed base of foreign tools.
+key_fact:
+  label: Independent process evidence
+  value: "N+3: improved 7nm-family process"
+  evidence: measured
+  as_of: 2025-12-11
+  source_ids:
+    - smic-teardown
+facts: []
+watch_for:
+  - Good large AI dies per month
+  - Process scaling measured by teardown
+  - Domestic-tool qualification and production yield
+source_ids:
+  - smic-teardown
+reviewed_at: 2026-09-11
+slug: smic
+layers:
+  - foundry

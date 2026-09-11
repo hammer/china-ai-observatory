@@ -1,0 +1,7 @@
+---
+import Layout from '../../components/Layout.astro';
+import { getData } from '../../data/loader';
+const data=getData();
+---
+<Layout title="Briefings"><header class="page-heading"><p class="eyebrow">Weekly · Monthly · Quarterly</p><h1>The market, in perspective</h1><p class="lede">What changed, what the evidence supports, and which milestones come next.</p></header>
+{['weekly','monthly','quarterly'].map(cadence=><section><h2 class="capitalize">{cadence} briefings</h2>{data.briefings.filter(b=>b.cadence===cadence).map(b=><article class="news-card"><div class="eyebrow">{b.period_start} — {b.period_end}<span class="badge">{b.status==='complete'?'Completed period':'Period to date'}</span></div><h3><a href={`/briefings/${b.slug}/`}>{b.title}</a></h3><p>{b.summary}</p><p class="muted small">Evidence through {b.through_date} · Published {b.published_at}</p></article>)}</section>)}</Layout>

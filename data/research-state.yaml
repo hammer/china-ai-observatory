@@ -1,0 +1,8 @@
+schema_version: 2
+baseline_date: 2026-09-11
+last_research_at: 2026-09-11
+last_automated_run_at: null
+last_run_status: baseline
+coverage: Sourced baseline from the initial research; per-company review dates are shown.
+timezone: Europe/London
+runs: []

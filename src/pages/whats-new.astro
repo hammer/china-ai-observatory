@@ -1,0 +1,6 @@
+---
+import Layout from '../components/Layout.astro';
+import { getChanges } from '../lib/changelog';
+const changes=getChanges();
+---
+<Layout title="Changes"><header class="page-heading"><p class="eyebrow">A versioned research record</p><h1>What changed</h1><p class="lede">Data additions and corrections from committed repository history.</p></header>{changes.length ? changes.map(c=><article class="news-card"><p class="eyebrow">{c.date}<a href={`https://github.com/hammer/china-ai-observatory/commit/${c.sha}`}>{c.sha.slice(0,7)} ↗</a></p><h3>{c.subject}</h3><ul class="change-list">{c.files.map(f=><li><strong>{f.status==='A'?'Added':f.status==='D'?'Removed':'Updated'}: {f.title}</strong>{f.fields.length>0&&<details><summary>{f.fields.length} field changes</summary><ul>{f.fields.map(field=><li><span class="change-file">{field.field}</span>: {field.before} → {field.after}</li>)}</ul></details>}</li>)}</ul></article>) : <p class="callout">No committed data history is available in this build. Build from a checkout with full Git history to show the archive.</p>}</Layout>

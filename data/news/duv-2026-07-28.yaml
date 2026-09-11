@@ -1,0 +1,16 @@
+published_at: 2026-07-28
+event_date: null
+title: Initial domestic immersion DUV tools enter production
+summary: Reuters identifies Aishengna as the production coordinator.
+impact: Machine output alone does not establish high-volume wafer production.
+source_ids:
+  - duv-reuters
+evidence: reported
+added_at: 2026-09-11
+correction_of: null
+slug: duv-2026-07-28
+companies:
+  - aishengna
+  - smee
+  - yuliangsheng
+  - smic

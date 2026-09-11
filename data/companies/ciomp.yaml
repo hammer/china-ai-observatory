@@ -1,0 +1,28 @@
+name: CIOMP
+chinese_name: 长春光机所
+counterparts:
+  - Zeiss research ecosystem
+priority: 2
+stage: Research
+role: CAS institute working on precision optics and related research.
+assessment: Research capability and production-ready projection optics remain different stages.
+key_fact:
+  label: Research role
+  value: Precision optics relevant to domestic lithography
+  evidence: primary
+  as_of: 2026-09-11
+  source_ids:
+    - ciomp
+    - euv-reuters
+facts: []
+watch_for:
+  - Integrated scanner performance
+  - Independent optics measurements
+source_ids:
+  - ciomp
+  - euv-reuters
+reviewed_at: 2026-09-11
+slug: ciomp
+layers:
+  - optics
+  - lithography

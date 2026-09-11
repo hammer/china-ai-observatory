@@ -1,0 +1,33 @@
+cadence: monthly
+period_start: 2026-09-01
+period_end: 2026-09-30
+through_date: 2026-09-11
+published_at: 2026-09-11
+status: period-to-date
+title: A broader domestic ecosystem, with concentrated dependencies
+summary: September’s early evidence points toward expanding suppliers and continuing pressure at critical inputs.
+sections:
+  - heading: Market structure
+    body: The emerging stack spans compute, manufacturing tools, memory, and networking. Companies with anchor
+      customers have a route to deployment learning; dependence on one customer also narrows the evidence of
+      broader competitiveness.
+    source_ids: []
+  - heading: Assessment
+    body: There is still no verified public comparison establishing parity between the latest Chinese accelerators
+      and the strongest contemporary foreign systems.
+    source_ids:
+      - mlperf-training
+      - inferencex
+  - heading: Watch next
+    body: Track changes in customer diversity, memory provenance, and independently measured operating economics.
+    source_ids: []
+news_ids:
+  - enflame-2026-09-11
+  - hbm-2026-09-10
+  - duv-2026-09-08
+source_ids:
+  - duv-ft
+  - enflame-ipo
+  - hbm-reuters
+coverage_note: Initial briefing based on the sourced research baseline; not an exhaustive market census.
+slug: monthly-2026-09

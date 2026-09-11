@@ -1,0 +1,13 @@
+published_at: 2026-02-03
+event_date: null
+title: Teardown identifies Enflame S60 manufacturing route
+summary: TechInsights identifies a TSMC N6 compute chiplet.
+impact: Chinese design does not alone establish domestic fabrication.
+source_ids:
+  - enflame-teardown
+evidence: measured
+added_at: 2026-09-11
+correction_of: null
+slug: s60-2026-02-03
+companies:
+  - enflame

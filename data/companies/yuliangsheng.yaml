@@ -1,0 +1,29 @@
+name: Yuliangsheng
+chinese_name: 宇量昇
+counterparts:
+  - ASML
+  - Nikon
+priority: 1
+stage: Development
+role: An emerging domestic immersion DUV developer.
+assessment: Testing a scanner does not establish commercially competitive volume production.
+key_fact:
+  label: Qualification stage
+  value: Fab testing reported in September 2026
+  evidence: reported
+  as_of: 2026-09-11
+  source_ids:
+    - duv-ft
+    - duv-reuters
+facts: []
+watch_for:
+  - Qualified wafer production
+  - Overlay, throughput and uptime
+  - Independent component-provenance evidence
+source_ids:
+  - duv-ft
+  - duv-reuters
+reviewed_at: 2026-09-11
+slug: yuliangsheng
+layers:
+  - lithography

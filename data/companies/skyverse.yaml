@@ -1,0 +1,27 @@
+name: Skyverse
+chinese_name: 中科飞测
+counterparts:
+  - KLA
+  - Hitachi High-Tech
+priority: 2
+stage: Commercial
+role: Inspection and metrology for wafer processing and packaging.
+assessment: A product catalog does not establish parity with the most sensitive frontier instruments.
+key_fact:
+  label: Portfolio milestone
+  value: Optical inspection and electron-beam dimensional metrology listed
+  evidence: vendor
+  as_of: 2026-09-11
+  source_ids:
+    - skyverse
+facts: []
+watch_for:
+  - Detection sensitivity
+  - Production throughput
+  - Advanced-node and HBM customer qualifications
+source_ids:
+  - skyverse
+reviewed_at: 2026-09-11
+slug: skyverse
+layers:
+  - metrology

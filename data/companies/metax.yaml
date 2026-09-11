@@ -1,0 +1,27 @@
+name: MetaX
+chinese_name: 沐曦
+counterparts:
+  - NVIDIA
+  - AMD
+priority: 2
+stage: Scaling
+role: Chinese GPU compute contender.
+assessment: The baseline does not establish frontier performance parity.
+key_fact:
+  label: Research status
+  value: Named commercial supplier; comparable independent benchmark still needed
+  evidence: reported
+  as_of: 2026-09-11
+  source_ids:
+    - hbm-reuters
+facts: []
+watch_for:
+  - Independent workload results
+  - Product availability
+  - Memory sourcing
+source_ids:
+  - hbm-reuters
+reviewed_at: 2026-09-11
+slug: metax
+layers:
+  - accelerators

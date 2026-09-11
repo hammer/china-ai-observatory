@@ -1,0 +1,11 @@
+slug: 910c
+type: accelerator
+as_of: 2026-09-11
+name: Ascend 910C
+vendor: Huawei
+region: China
+bf16_pflops: 0.752
+hbm_tbps: 3.2
+source_ids:
+  - cloudmatrix
+note: Dual-die accelerator package; specifications from the 2025 paper.

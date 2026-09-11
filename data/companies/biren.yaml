@@ -1,0 +1,27 @@
+name: Biren
+chinese_name: 壁仞科技
+counterparts:
+  - NVIDIA
+  - AMD
+priority: 2
+stage: Scaling
+role: General-purpose GPU compute contender.
+assessment: No verified latest-versus-latest performance ratio in the baseline research.
+key_fact:
+  label: Strategic role
+  value: AI GPU hardware and systems
+  evidence: vendor
+  as_of: 2026-09-11
+  source_ids:
+    - biren
+facts: []
+watch_for:
+  - Independent benchmarks
+  - Customer utilization
+  - Repeatable manufacturing supply
+source_ids:
+  - biren
+reviewed_at: 2026-09-11
+slug: biren
+layers:
+  - accelerators

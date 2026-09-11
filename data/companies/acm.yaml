@@ -1,0 +1,26 @@
+name: ACM Research Shanghai
+chinese_name: 盛美上海
+counterparts:
+  - SCREEN
+  - TEL
+priority: 2
+stage: Commercial
+role: Wet cleaning and related process equipment.
+assessment: Distinguish the Shanghai operating company from its US-listed parent.
+key_fact:
+  label: Strategic role
+  value: Semiconductor cleaning and other process tools
+  evidence: vendor
+  as_of: 2026-09-11
+  source_ids:
+    - acm
+facts: []
+watch_for:
+  - Domestic-fab adoption
+  - Advanced packaging and HBM process qualifications
+source_ids:
+  - acm
+reviewed_at: 2026-09-11
+slug: acm
+layers:
+  - equipment

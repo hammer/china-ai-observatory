@@ -1,0 +1,37 @@
+name: Enflame
+chinese_name: 燧原科技
+counterparts:
+  - NVIDIA
+  - AMD
+priority: 1
+stage: Scaling
+role: AI accelerators and systems with Tencent as an anchor customer.
+assessment: TechInsights found TSMC N6 in the examined S60 compute chiplet; this does not identify the
+  provenance of every later product.
+key_fact:
+  label: Customer concentration
+  value: 83.79% of 2025 revenue linked to Tencent
+  evidence: reported
+  as_of: 2026-09-11
+  source_ids:
+    - enflame-ipo
+    - enflame-teardown
+facts:
+  - label: S60 compute chiplet
+    value: TSMC N6, identified by independent teardown
+    evidence: measured
+    as_of: 2026-02-03
+    source_ids:
+      - enflame-teardown
+watch_for:
+  - Adoption beyond Tencent
+  - Manufacturing route for new generations
+  - Independent training and inference results
+source_ids:
+  - enflame-ipo
+  - enflame-teardown
+reviewed_at: 2026-09-11
+slug: enflame
+layers:
+  - accelerators
+  - software

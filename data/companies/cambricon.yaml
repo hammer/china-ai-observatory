@@ -1,0 +1,30 @@
+name: Cambricon
+chinese_name: 寒武纪
+counterparts:
+  - NVIDIA
+  - Google TPU
+priority: 1
+stage: Commercial
+role: MLU accelerators and NeuWare software.
+assessment: Current revenue and adoption do not establish parity on all frontier workloads.
+key_fact:
+  label: Current product
+  value: 590; prospective 690 remains separate
+  evidence: reported
+  as_of: 2026-09-11
+  source_ids:
+    - hbm-reuters
+    - cambricon
+facts: []
+watch_for:
+  - Repeat deployments
+  - Measured utilization
+  - HBM supply and future-chip deliveries
+source_ids:
+  - hbm-reuters
+  - cambricon
+reviewed_at: 2026-09-11
+slug: cambricon
+layers:
+  - accelerators
+  - software

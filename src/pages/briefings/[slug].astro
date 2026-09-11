@@ -1,0 +1,8 @@
+---
+import Layout from '../../components/Layout.astro';
+import Sources from '../../components/Sources.astro';
+import { getData } from '../../data/loader';
+export function getStaticPaths(){return getData().briefings.map(briefing=>({params:{slug:briefing.slug},props:{briefing}}));}
+const {briefing:b}=Astro.props;
+---
+<Layout title={b.title}><a href="/briefings/" class="back">← Briefing archive</a><article class="briefing"><header class="page-heading"><p class="eyebrow">{b.cadence} · {b.period_start} — {b.period_end}</p><h1>{b.title}</h1><p class="lede">{b.summary}</p><p class="muted">Published {b.published_at} · Evidence through {b.through_date} · {b.status==='complete'?'Completed period':'Period-to-date snapshot'}</p></header>{b.correction_of && <p class="callout">Corrected edition of <a href={`/briefings/${b.correction_of}/`}>{b.correction_of}</a>. The original remains in the archive.</p>}{b.sections.map(s=><section><h2>{s.heading}</h2><p>{s.body}</p><Sources ids={s.source_ids} /></section>)}<aside class="panel"><h2>Coverage</h2><p>{b.coverage_note}</p><Sources ids={b.source_ids} /></aside></article></Layout>

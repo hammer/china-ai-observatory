@@ -1,0 +1,35 @@
+cadence: weekly
+period_start: 2026-09-07
+period_end: 2026-09-13
+through_date: 2026-09-11
+published_at: 2026-09-11
+status: period-to-date
+title: Capital expands; memory remains the constraint
+summary: This week’s evidence strengthens the case for domestic industry growth without resolving component
+  dependence.
+sections:
+  - heading: What changed
+    body: Enflame’s listing, accelerator pricing pressure, and lithography supply-chain reporting are the
+      principal additions.
+    source_ids:
+      - enflame-ipo
+      - hbm-reuters
+      - duv-ft
+  - heading: What it changes
+    body: Financing capacity and production independence must be tracked separately. Additional funding can
+      accelerate development but cannot by itself qualify memory or manufacturing tools.
+    source_ids: []
+  - heading: Next evidence to watch
+    body: Customer acceptance of new hardware, repeat purchases, and disclosed production metrics would be
+      stronger signals than another peak-performance announcement.
+    source_ids: []
+news_ids:
+  - enflame-2026-09-11
+  - hbm-2026-09-10
+  - duv-2026-09-08
+source_ids:
+  - duv-ft
+  - enflame-ipo
+  - hbm-reuters
+coverage_note: Initial briefing based on the sourced research baseline; not an exhaustive market census.
+slug: weekly-2026-09-07

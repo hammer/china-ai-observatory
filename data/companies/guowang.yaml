@@ -1,0 +1,25 @@
+name: Beijing Guowang
+chinese_name: 北京国望光学
+counterparts:
+  - Zeiss
+priority: 3
+stage: Development
+role: Optical-system development and patent holder.
+assessment: A patent establishes a documented design, not a shipping scanner capability.
+key_fact:
+  label: Evidence base
+  value: Published optical-system patent
+  evidence: primary
+  as_of: 2026-09-11
+  source_ids:
+    - guowang
+facts: []
+watch_for:
+  - Customer qualifications
+  - Verified projection-optics production
+source_ids:
+  - guowang
+reviewed_at: 2026-09-11
+slug: guowang
+layers:
+  - optics

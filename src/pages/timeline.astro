@@ -1,0 +1,12 @@
+---
+import Layout from '../components/Layout.astro';
+import FilterBar from '../components/FilterBar.astro';
+import NewsCard from '../components/NewsCard.astro';
+import { getData } from '../data/loader';
+import type { FilterDimension } from '../lib/filters/types';
+const data=getData();
+const dimensions: FilterDimension[]=[{key:'company',label:'Company',kind:'multi',rowAttr:'companies',options:data.companies.map(c=>({slug:c.slug,label:c.name,count:data.news.filter(n=>n.companies.includes(c.slug)).length}))},{key:'evidence',label:'Evidence',kind:'multi',rowAttr:'evidence',options:['primary','reported','vendor','measured','standardized'].map(e=>({slug:e,label:e,count:data.news.filter(n=>n.evidence===e).length}))}];
+---
+<Layout title="News"><header class="page-heading"><p class="eyebrow">The evidence as it arrives</p><h1>Industry timeline</h1><p class="lede">Material changes, their sources, and what they mean for domestic capability.</p></header>
+<section data-record-list><div class="toolbar"><label class="search"><span class="sr-only">Search news</span><input type="search" data-search-input placeholder="Search the news archive…" /></label><label class="sort"><span>Sort</span><select data-sort><option value="date">Newest first</option><option value="name">Headline</option></select></label><span data-count aria-live="polite" class="muted"></span></div><FilterBar mode="inline" dimensions={dimensions} id="news-filters" /><div class="timeline">{data.news.map(news=><NewsCard news={news} />)}</div><p data-empty hidden class="empty">No recorded events match these filters.</p></section></Layout>
+<script>import '../lib/record-list';</script>

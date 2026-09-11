@@ -1,0 +1,13 @@
+---
+import type { News } from '../schema';
+import { getData } from '../data/loader';
+import Sources from './Sources.astro';
+const { news } = Astro.props as { news: News };
+const data = getData();
+---
+<article id={news.slug} class="news-card" data-record data-companies={news.companies.join(',')} data-evidence={news.evidence} data-name={news.title.toLowerCase()} data-date={news.published_at} data-search={`${news.title} ${news.summary} ${news.companies.map(id=>data.companies.find(c=>c.slug===id)?.name).join(' ')}`.toLowerCase()}>
+  <div class="eyebrow"><time>{news.published_at}</time><span class="badge">{news.evidence}</span>{news.correction_of && <a href={`/timeline/#${news.correction_of}`}>Correction</a>}</div>
+  <h3><a href={`/timeline/#${news.slug}`}>{news.title}</a></h3><p>{news.summary}</p><p class="muted"><strong>Why it matters.</strong> {news.impact}</p>
+  <div class="company-links">{news.companies.map(id=><a href={`/companies/${id}/`}>{data.companies.find(c=>c.slug===id)?.name}</a>)}</div>
+  <Sources ids={news.source_ids} />
+</article>

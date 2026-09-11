@@ -1,0 +1,10 @@
+---
+import Layout from '../components/Layout.astro';
+import Sources from '../components/Sources.astro';
+import { getData } from '../data/loader';
+const data=getData();
+---
+<Layout title="Stack & outlook"><header class="page-heading"><p class="eyebrow">Sovereignty is more than chip design</p><h1>The stack, layer by layer</h1><p class="lede">{data.overview.thesis}</p></header>
+<div class="principles">{data.overview.sovereignty.map((s,i)=><article><span class="number">0{i+1}</span><h2>{s.title}</h2><p>{s.body}</p></article>)}</div>
+<section><h2>The dependency map</h2><div class="stack-grid">{data.layers.map(l=><article id={l.slug} class="panel"><div class="section-title"><h3>{l.name}</h3><span class:list={['badge',l.status.toLowerCase()]}>{l.status}</span></div><p class="muted">Reference: {l.reference}</p><p>{l.assessment}</p><div class="company-links">{data.companies.filter(c=>c.layers.includes(l.slug)).map(c=><a href={`/companies/${c.slug}/`}>{c.name}</a>)}</div><Sources ids={l.source_ids} /></article>)}</div></section>
+<section><h2>Where catch-up comes first</h2><p class="section-intro">The Observatory’s forecasts, dated {data.overview.as_of}. These are judgments with uncertainty, not reported milestones.</p><div class="forecast-list">{data.overview.forecasts.map(f=><article><div><h3>{f.area}</h3><p class="eyebrow">{f.horizon}</p></div><div><p>{f.view}</p><p class="muted small">Confidence: {f.confidence}</p><Sources ids={f.source_ids} /></div></article>)}</div><div class="panel"><h3>Evidence that would change the outlook</h3><ul>{data.overview.change_mind.map(v=><li>{v}</li>)}</ul></div></section></Layout>

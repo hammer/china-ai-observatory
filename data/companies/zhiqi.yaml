@@ -1,0 +1,25 @@
+name: Fujian Zhiqi Photonics
+chinese_name: ""
+counterparts:
+  - Zeiss
+priority: 2
+stage: Development
+role: Domestic projection-optics effort associated with the lithography supply chain.
+assessment: A development program is not a proven EUV optics substitute.
+key_fact:
+  label: Development focus
+  value: Locally sourced alternatives to projection lenses
+  evidence: reported
+  as_of: 2026-09-11
+  source_ids:
+    - duv-ft
+facts: []
+watch_for:
+  - Lens qualification in production scanners
+  - Optical precision and stable yields
+source_ids:
+  - duv-ft
+reviewed_at: 2026-09-11
+slug: zhiqi
+layers:
+  - optics

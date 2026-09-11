@@ -1,0 +1,27 @@
+name: Eoptolink
+chinese_name: 新易盛
+counterparts:
+  - Coherent
+priority: 1
+stage: Commercial
+role: High-speed optical transceivers and network optics.
+assessment: A clear example of global Chinese product competitiveness without total component sovereignty.
+key_fact:
+  label: Component provenance
+  value: 1.6T designs use Broadcom optical DSPs
+  evidence: vendor
+  as_of: 2026-03-11
+  source_ids:
+    - eop-dsp
+    - eoptolink
+facts: []
+watch_for:
+  - Volume adoption of next-generation optics
+  - Domestic DSP and laser substitution
+source_ids:
+  - eop-dsp
+  - eoptolink
+reviewed_at: 2026-09-11
+slug: eoptolink
+layers:
+  - photonics

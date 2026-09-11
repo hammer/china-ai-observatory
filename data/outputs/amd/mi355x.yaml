@@ -1,0 +1,11 @@
+slug: mi355x
+type: accelerator
+as_of: 2026-09-11
+name: MI355X
+vendor: AMD
+region: Outside China
+bf16_pflops: 2.5
+hbm_tbps: 8
+source_ids:
+  - mi355x
+note: Dense BF16 peak; high-power accelerator module.

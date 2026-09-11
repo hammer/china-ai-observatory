@@ -1,0 +1,25 @@
+name: SIOM
+chinese_name: 上海光机所
+counterparts:
+  - Advanced laser research ecosystem
+priority: 2
+stage: Research
+role: CAS institute specializing in optics and laser science.
+assessment: Laboratory light generation alone does not establish a commercial lithography source.
+key_fact:
+  label: Research role
+  value: Advanced laser and optical research
+  evidence: primary
+  as_of: 2026-09-11
+  source_ids:
+    - siom
+facts: []
+watch_for:
+  - Stable integrated light-source demonstrations
+  - Production-relevant lifetime and power
+source_ids:
+  - siom
+reviewed_at: 2026-09-11
+slug: siom
+layers:
+  - optics

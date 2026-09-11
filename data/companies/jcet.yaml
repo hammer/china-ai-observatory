@@ -1,0 +1,27 @@
+name: JCET
+chinese_name: 长电科技
+counterparts:
+  - ASE
+  - Amkor
+  - TSMC CoWoS
+priority: 2
+stage: Commercial
+role: Outsourced assembly, test, and advanced packaging.
+assessment: Broad packaging strength does not establish frontier CoWoS-equivalent capacity.
+key_fact:
+  label: Technology
+  value: XDFOI heterogeneous integration research and platforms
+  evidence: primary
+  as_of: 2026-09-11
+  source_ids:
+    - jcet
+facts: []
+watch_for:
+  - Large compute-plus-HBM package yield
+  - Capacity, thermal limits and reliability
+source_ids:
+  - jcet
+reviewed_at: 2026-09-11
+slug: jcet
+layers:
+  - packaging

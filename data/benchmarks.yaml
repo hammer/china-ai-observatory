@@ -1,0 +1,53 @@
+headline: No verified latest-versus-latest independent comparison
+assessment: The baseline search did not find a matched independent comparison of the latest Chinese
+  accelerators against GB300, MI355X, or TPU v7. Absence of a public result is not evidence of incapability.
+reviewed_at: 2026-09-11
+comparison:
+  title: DeepSeek-R1 on Ascend 910C and H100
+  date: 2025-06
+  evidence: vendor
+  source_ids:
+    - cloudmatrix
+  rows:
+    - metric: Prefill tokens/s per accelerator
+      china: 5,655
+      outside: 6,288
+    - metric: Decode tokens/s per accelerator
+      china: 1,943
+      outside: 2,172
+    - metric: Decode time per output token
+      china: 49.4 ms
+      outside: 55.6 ms
+  caveats: Vendor/partner measurements versus published NVIDIA baselines. INT8 versus FP8, different decode
+    batches, and speculative-decoding assumptions prevent a universal ratio. Perfect expert-balancing results
+    are projections.
+studies:
+  - title: MLPerf Training / Inference v6.0
+    evidence: standardized
+    date: "2026"
+    finding: Standardized submitter-run results; no matched latest Chinese-versus-foreign comparison established
+      in this baseline.
+    source_ids:
+      - mlperf-training
+      - mlperf-inference
+  - title: InferenceX
+    evidence: measured
+    date: Continuous
+    finding: Reproducible independent inference runs. GB300, MI355X and TPU v7 are represented; equivalent current
+      Chinese results were not verified.
+    source_ids:
+      - inferencex
+  - title: Ascend operational field study
+    evidence: measured
+    date: 2026-07
+    finding: A small independent preprint documents deployment friction on older Ascend 910 devices. No matched
+      NVIDIA control.
+    source_ids:
+      - ascend-field
+  - title: HiFloat4 pretraining
+    evidence: vendor
+    date: 2026-04
+    finding: Demonstrates training progress on dense and MoE models; does not measure frontier time-to-quality
+      against foreign hardware.
+    source_ids:
+      - hifloat4

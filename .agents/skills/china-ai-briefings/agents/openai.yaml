@@ -1,0 +1,14 @@
+interface:
+  display_name: China AI Briefings
+  short_description: Publish sourced weekly, monthly and quarterly briefings
+  default_prompt: Use $china-ai-briefings to publish the latest completed-period China
+    AI Observatory briefing.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
