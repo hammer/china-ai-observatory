@@ -28,8 +28,7 @@
     "wrangler": "^4.80.0"
   },
   "dependencies": {
-    "@astrojs/cloudflare": "12",
-    "astro": "^5.18.1",
+    "astro": "^7.3.2",
     "glob": "^10.3.0",
     "yaml": "^2.3.0",
     "zod": "^3.22.0"

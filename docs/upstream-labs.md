@@ -4,7 +4,7 @@ Reference revision: [`f8db869`](https://github.com/hammer/labs/commit/f8db86949b
 
 | Layer | Shared convention or implementation |
 | --- | --- |
-| Framework | Astro 5.18, TypeScript, npm and the labs lockfile dependency resolution |
+| Framework | Astro, TypeScript and npm; current security fixes applied to the initial labs dependency baseline |
 | Data | Per-entity YAML, stable slugs, centralized Zod schemas and typed loader |
 | Releases | `data/outputs/{vendor}` follows `data/outputs/{lab}` |
 | Filters | Reused FilterBar.astro and all five filter modules: types, state, runtime, format, position |
@@ -16,7 +16,7 @@ Reference revision: [`f8db869`](https://github.com/hammer/labs/commit/f8db86949b
 
 Five shared files are unchanged. FilterBar.astro additionally escapes `<` when embedding JSON configuration, so future data cannot prematurely terminate its script element. The runtime also restores control state on browser history navigation and declares its existing cycleTristate method in the return type. `src/styles/observatory.css` contains product-specific additions; no React, Shadcn or Tailwind runtime is retained.
 
-The application uses static Astro output. The Cloudflare adapter remains available at the same major as labs, but this site's public research pages do not require labs' optional account APIs or D1 bindings. No user database, authentication endpoints, database ID, account ID, or secret was copied.
+The application uses static Astro output. Labs was on Astro 5.18 when inspected; this project uses Astro 7.3 with security fixes while preserving the shared components and data conventions. The unused Cloudflare SSR adapter is omitted because these public research pages need no account APIs or D1 bindings. Wrangler still deploys the static output to Cloudflare Pages. No user database, authentication endpoints, database ID, account ID, or secret was copied.
 
 Canonical news records can link multiple companies, avoiding duplicated cross-company events. Sources have a shared register. Accelerator releases follow per-vendor typed outputs, while multi-vendor benchmark studies retain an explicitly caveated comparison register. This preserves the original source distinctions instead of forcing specifications and workload measurements into a single metric.
 
