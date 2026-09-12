@@ -1,8 +1,62 @@
 schema_version: 2
 baseline_date: 2026-09-11
-last_research_at: 2026-09-11
-last_automated_run_at: null
-last_run_status: baseline
-coverage: Sourced baseline from the initial research; per-company review dates are shown.
+last_research_at: 2026-09-12
+last_automated_run_at: 2026-09-12
+last_run_status: partial
+coverage: September 12 sweep used September 4–12 overlapping English and Chinese searches across
+  all 12 priority-1 companies plus ACM Research Shanghai, Biren and CIOMP, selected alphabetically
+  from the oldest-reviewed remaining profiles (all tied on September 11). Substantive source review
+  updated four profiles; other profile review dates were not advanced for search-only coverage.
+  Original-source access and some follow-up verification remain incomplete; this is not a full
+  revalidation of the 31-company directory.
 timezone: Europe/London
-runs: []
+runs:
+  - date: 2026-09-12
+    status: partial
+    companies:
+      - aishengna
+      - amec
+      - cambricon
+      - cxmt
+      - enflame
+      - eoptolink
+      - huawei
+      - innolight
+      - naura
+      - smic
+      - ymtc
+      - yuliangsheng
+      - acm
+      - biren
+      - ciomp
+    summary: >-
+      These 15 companies were screened, not all fully revalidated. Read original CIOE reporting
+      and optical suppliers' public sites; added reported shipment progression for InnoLight
+      and Eoptolink. Read Biren's dated primary announcements; added software-validation and
+      research-laboratory events, preserving the distinction between publication and event dates.
+      Reviewed the indexed original September 11 Reuters Enflame report and added planned use
+      of IPO proceeds without duplicating its existing IPO event. Only these four company review
+      dates advanced. Priority-company searches also revisited the September 10 HBM pricing
+      report and July DUV reporting; no additional chip-performance or qualified-tool claim was
+      accepted. AMEC's official site and the full Financial Times DUV article could not be retrieved.
+      Follow up AMEC's six-tool announcement, the DUV testing chronology, reported optical-module
+      export restrictions, and memory/equipment filings; do not infer qualification from headlines.
+      Downloaded and visually checked Biren's primary half-year infographic; added its revenue,
+      loss, R&D and unnamed-customer delivery claims with vendor attribution, not an independent audit.
+      ACM and CIOMP searches did not establish a verified new qualifying milestone; their profile
+      dates remain unchanged. Checked MLPerf Training v6.0 repository listings, Inference v6.0
+      closed-submitter listings via GitHub, and InferenceX's public coverage. No matched current
+      China-versus-frontier result was verified; individual result artifacts were not exhaustively
+      audited. Historical news, period briefings, forecasts and accelerator specifications are retained.
+      Research scope is partial independently of GitHub sync or Cloudflare publication status.
+    source_ids:
+      - cioe-optics-2026-09-11
+      - biren-2026-h1
+      - biren-glm-2026-09-07
+      - biren-shanghai-lab-2026-09-10
+      - enflame-ipo
+      - hbm-reuters
+      - duv-reuters
+      - mlperf-training
+      - mlperf-inference
+      - inferencex

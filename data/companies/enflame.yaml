@@ -17,6 +17,13 @@ key_fact:
     - enflame-ipo
     - enflame-teardown
 facts:
+  - label: IPO-funded development plans
+    value: Reuters reports IPO proceeds are intended mainly for fifth- and sixth-generation
+      AI chips, software and large computing systems; funding plans are not delivered products.
+    evidence: reported
+    as_of: 2026-09-11
+    source_ids:
+      - enflame-ipo
   - label: S60 compute chiplet
     value: TSMC N6, identified by independent teardown
     evidence: measured
@@ -30,7 +37,7 @@ watch_for:
 source_ids:
   - enflame-ipo
   - enflame-teardown
-reviewed_at: 2026-09-11
+reviewed_at: 2026-09-12
 slug: enflame
 layers:
   - accelerators

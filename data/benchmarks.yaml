@@ -1,7 +1,9 @@
 headline: No verified latest-versus-latest independent comparison
-assessment: The baseline search did not find a matched independent comparison of the latest Chinese
-  accelerators against GB300, MI355X, or TPU v7. Absence of a public result is not evidence of incapability.
-reviewed_at: 2026-09-11
+assessment: The baseline and September 12 scoped follow-up did not verify a matched independent
+  comparison of current Chinese accelerators against GB300, MI355X, or TPU v7. The follow-up checked
+  MLPerf v6.0 repository listings and InferenceX's published coverage, not every result artifact.
+  Absence of a verified public result is not evidence of incapability.
+reviewed_at: 2026-09-12
 comparison:
   title: DeepSeek-R1 on Ascend 910C and H100
   date: 2025-06
@@ -22,6 +24,13 @@ comparison:
     batches, and speculative-decoding assumptions prevent a universal ratio. Perfect expert-balancing results
     are projections.
 studies:
+  - title: Biren GLM-5.3-Flash functional validation
+    evidence: vendor
+    date: "2026-09-07"
+    finding: Vendor reports functional and accuracy checks on Bili 166M with SGLang and BIRENSUPA.
+      Compatibility evidence only; no matched foreign-hardware throughput, latency or power comparison.
+    source_ids:
+      - biren-glm-2026-09-07
   - title: MLPerf Training / Inference v6.0
     evidence: standardized
     date: "2026"

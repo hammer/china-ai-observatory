@@ -1,0 +1,16 @@
+slug: biren-glm-2026-09-07
+published_at: 2026-09-07
+event_date: null
+title: Biren reports GLM-5.3-Flash inference adaptation on Bili 166M
+summary: Biren says SGLang and BIRENSUPA on Bili 166M passed functional and accuracy
+  checks for GLM-5.3-Flash, including loading, serving, text question-answering and image understanding.
+impact: A concrete software-compatibility milestone, not an independent throughput, latency,
+  power or training time-to-quality comparison. The announcement's Day0 branding does not
+  establish the exact validation date.
+companies:
+  - biren
+source_ids:
+  - biren-glm-2026-09-07
+evidence: vendor
+added_at: 2026-09-12
+correction_of: null

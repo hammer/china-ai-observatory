@@ -14,14 +14,38 @@ key_fact:
   as_of: 2026-09-11
   source_ids:
     - biren
-facts: []
+facts:
+  - label: First-half 2026 commercialization
+    value: Company reports RMB 1.236 billion revenue (up 1,997.6% year on year) and a
+      RMB 377 million loss for the period in its September 7 half-year summary.
+    evidence: vendor
+    as_of: 2026-06-30
+    source_ids:
+      - biren-2026-h1
+  - label: Model compatibility
+    value: Reports functional and accuracy validation of GLM-5.3-Flash on Bili 166M
+      using SGLang and BIRENSUPA; no matched hardware speedup established.
+    evidence: vendor
+    as_of: 2026-09-07
+    source_ids:
+      - biren-glm-2026-09-07
+  - label: Optical-interconnect research
+    value: September 2 Shanghai University laboratory agreement includes planned
+      AI-chip optical-interconnect and cooling research, not production qualification.
+    evidence: vendor
+    as_of: 2026-09-02
+    source_ids:
+      - biren-shanghai-lab-2026-09-10
 watch_for:
   - Independent benchmarks
   - Customer utilization
   - Repeatable manufacturing supply
 source_ids:
   - biren
-reviewed_at: 2026-09-11
+  - biren-2026-h1
+  - biren-glm-2026-09-07
+  - biren-shanghai-lab-2026-09-10
+reviewed_at: 2026-09-12
 slug: biren
 layers:
   - accelerators

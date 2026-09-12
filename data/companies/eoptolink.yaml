@@ -14,14 +14,22 @@ key_fact:
   source_ids:
     - eop-dsp
     - eoptolink
-facts: []
+facts:
+  - label: 1.6T shipment progression
+    value: Company reports higher second-quarter than first-quarter 2026 shipments;
+      faster second-half growth is an expectation, not a realized result.
+    evidence: reported
+    as_of: 2026-09-11
+    source_ids:
+      - cioe-optics-2026-09-11
 watch_for:
   - Volume adoption of next-generation optics
   - Domestic DSP and laser substitution
 source_ids:
   - eop-dsp
   - eoptolink
-reviewed_at: 2026-09-11
+  - cioe-optics-2026-09-11
+reviewed_at: 2026-09-12
 slug: eoptolink
 layers:
   - photonics

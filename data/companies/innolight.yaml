@@ -13,14 +13,22 @@ key_fact:
   as_of: 2026-09-11
   source_ids:
     - innolight
-facts: []
+facts:
+  - label: 1.6T commercialization
+    value: Company says silicon-photonics modules are scaling with shipments rising each quarter,
+      according to National Business Daily's September 11 reporting.
+    evidence: reported
+    as_of: 2026-09-11
+    source_ids:
+      - cioe-optics-2026-09-11
 watch_for:
   - 1.6T product shipments and customer qualification
   - DSP and laser sourcing
   - Performance per watt and manufacturing yield
 source_ids:
   - innolight
-reviewed_at: 2026-09-11
+  - cioe-optics-2026-09-11
+reviewed_at: 2026-09-12
 slug: innolight
 layers:
   - photonics
