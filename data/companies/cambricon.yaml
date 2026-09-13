@@ -15,7 +15,15 @@ key_fact:
   source_ids:
     - hbm-reuters
     - cambricon
-facts: []
+facts:
+  - label: Upstream software participation
+    value: PyTorch Foundation Platinum member with reported contributions spanning
+      torch.compile, runtime, distributed computing, AMP, data loading and profiling.
+    evidence: primary
+    as_of: 2026-09-08
+    source_ids:
+      - pytorch-cambricon-2026-09-07
+      - pytorch-china-2026-09-09
 watch_for:
   - Repeat deployments
   - Measured utilization
@@ -23,7 +31,9 @@ watch_for:
 source_ids:
   - hbm-reuters
   - cambricon
-reviewed_at: 2026-09-11
+  - pytorch-cambricon-2026-09-07
+  - pytorch-china-2026-09-09
+reviewed_at: 2026-09-13
 slug: cambricon
 layers:
   - accelerators

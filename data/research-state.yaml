@@ -1,14 +1,14 @@
 schema_version: 2
 baseline_date: 2026-09-11
-last_research_at: 2026-09-12
-last_automated_run_at: 2026-09-12
-last_run_status: partial
-coverage: September 12 sweep used September 4–12 overlapping English and Chinese searches across
-  all 12 priority-1 companies plus ACM Research Shanghai, Biren and CIOMP, selected alphabetically
-  from the oldest-reviewed remaining profiles (all tied on September 11). Substantive source review
-  updated four profiles; other profile review dates were not advanced for search-only coverage.
-  Original-source access and some follow-up verification remain incomplete; this is not a full
-  revalidation of the 31-company directory.
+last_research_at: 2026-09-13
+last_automated_run_at: 2026-09-13
+last_run_status: updated
+coverage: September 13 sweep used September 6–13 overlapping English and Chinese searches across
+  all 12 priority-1 companies plus ACM Research Shanghai, CIOMP and Empyrean, the first three
+  alphabetically among the oldest-reviewed non-priority profiles. AMEC, Cambricon and Huawei gained
+  substantive evidence; the three oldest profiles were rechecked against current company pages
+  without a verified material change. Other priority review dates were not advanced for search-only
+  coverage. This is an overlap sweep, not a full revalidation of the 31-company directory.
 timezone: Europe/London
 runs:
   - date: 2026-09-12
@@ -57,6 +57,59 @@ runs:
       - enflame-ipo
       - hbm-reuters
       - duv-reuters
+      - mlperf-training
+      - mlperf-inference
+      - inferencex
+  - date: 2026-09-13
+    status: updated
+    companies:
+      - aishengna
+      - amec
+      - cambricon
+      - cxmt
+      - enflame
+      - eoptolink
+      - huawei
+      - innolight
+      - naura
+      - smic
+      - ymtc
+      - yuliangsheng
+      - acm
+      - ciomp
+      - empyrean
+    summary: >-
+      Screened all priority-1 profiles and the three oldest-reviewed non-priority profiles with
+      overlapping English and Chinese searches. Added PyTorch Foundation primary evidence that
+      Cambricon joined as a Platinum member with Governing Board and Technical Advisory Council
+      representation and reported upstream work across compile, runtime and distributed areas.
+      Added Huawei's existing Platinum membership and co-chair role in the Foundation's Accelerator
+      Integration Working Group. These are ecosystem and governance signals, not performance results.
+      Closed the prior AMEC follow-up using detailed Science and Technology Daily reporting on six
+      CSEAC launches across etch, PECVD, ALD, metal-film deposition and silicon-carbide epitaxy;
+      kept specifications distinct from customer qualification and volume-production evidence.
+      Reviewed current official portfolio and news pages for ACM Research Shanghai, CIOMP and
+      Empyrean; no new qualifying production, customer or complete-flow milestone was verified,
+      so their facts were unchanged while their actual review dates advanced. Rechecked the
+      Financial Times DUV story, HBM pricing coverage, the September 11 optics report and Enflame's
+      IPO follow-up during the overlap window; no additional claim was accepted. Reviewed the FCC's
+      final component-rule coverage but did not attach an entity-specific restriction to InnoLight
+      or Eoptolink because the rule did not name them. MLPerf Training and Inference v6.0 repository
+      heads were unchanged, and the closed inference submitter list still showed no matched current
+      Chinese accelerator. InferenceX coverage still did not supply an equivalent Chinese result.
+      No independent latest-versus-latest parity claim was added. Historical news, reports,
+      forecasts, evidence labels and prior run records were preserved.
+    source_ids:
+      - pytorch-cambricon-2026-09-07
+      - pytorch-china-2026-09-09
+      - amec-cseac-2026-09-05
+      - acm
+      - ciomp
+      - empyrean
+      - duv-ft
+      - hbm-reuters
+      - cioe-optics-2026-09-11
+      - enflame-ipo
       - mlperf-training
       - mlperf-inference
       - inferencex

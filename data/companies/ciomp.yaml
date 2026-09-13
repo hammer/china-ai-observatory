@@ -21,7 +21,7 @@ watch_for:
 source_ids:
   - ciomp
   - euv-reuters
-reviewed_at: 2026-09-11
+reviewed_at: 2026-09-13
 slug: ciomp
 layers:
   - optics

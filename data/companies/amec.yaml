@@ -14,13 +14,21 @@ key_fact:
   as_of: 2026-09-11
   source_ids:
     - amec
-facts: []
+facts:
+  - label: CSEAC 2026 tool launches
+    value: Six announced tools span very-high-aspect-ratio etch, PECVD, ALD, metal-film
+      deposition and silicon-carbide epitaxy; customer qualification remains unverified.
+    evidence: reported
+    as_of: 2026-09-01
+    source_ids:
+      - amec-cseac-2026-09-05
 watch_for:
   - Advanced-process customer qualifications
   - Repeat orders and production utilization
 source_ids:
   - amec
-reviewed_at: 2026-09-11
+  - amec-cseac-2026-09-05
+reviewed_at: 2026-09-13
 slug: amec
 layers:
   - equipment

@@ -16,6 +16,13 @@ key_fact:
     - ascend
     - hbm-reuters
 facts:
+  - label: PyTorch accelerator integration
+    value: Huawei is a PyTorch Foundation Platinum member and co-chairs its Accelerator
+      Integration Working Group; governance participation does not prove workload parity.
+    evidence: primary
+    as_of: 2026-09-09
+    source_ids:
+      - pytorch-china-2026-09-09
   - label: Atlas 350 / 950PR
     value: 112 GB HBM; 1.4 TB/s; 425 TFLOPS BF16; up to 600 W
     evidence: vendor
@@ -29,7 +36,8 @@ watch_for:
 source_ids:
   - ascend
   - hbm-reuters
-reviewed_at: 2026-09-11
+  - pytorch-china-2026-09-09
+reviewed_at: 2026-09-13
 slug: huawei
 layers:
   - accelerators

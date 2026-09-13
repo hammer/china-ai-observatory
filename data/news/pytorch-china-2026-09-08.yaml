@@ -1,0 +1,20 @@
+slug: pytorch-china-2026-09-08
+published_at: 2026-09-07
+event_date: 2026-09-08
+title: Cambricon joins PyTorch Foundation governance as accelerator integration broadens
+summary: The PyTorch Foundation says Cambricon joined as a Platinum member, gaining seats on
+  its Governing Board and Technical Advisory Council. It reports Cambricon contributions across
+  torch.compile, runtime, distributed computing and related areas. Huawei already holds Platinum
+  membership and co-chairs the Foundation's Accelerator Integration Working Group.
+impact: Upstream governance and device-agnostic integration work can reduce software-porting
+  friction for non-NVIDIA accelerators. Membership and contribution scope do not establish
+  performance, deployment scale or parity with CUDA.
+companies:
+  - cambricon
+  - huawei
+source_ids:
+  - pytorch-cambricon-2026-09-07
+  - pytorch-china-2026-09-09
+evidence: primary
+added_at: 2026-09-13
+correction_of: null
