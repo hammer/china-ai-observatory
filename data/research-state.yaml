@@ -3,11 +3,12 @@ baseline_date: 2026-09-11
 last_research_at: 2026-09-14
 last_automated_run_at: 2026-09-14
 last_run_status: updated
-coverage: September 14 sweep used September 7–14 overlapping English and Chinese searches across
-  all 12 priority-1 companies plus Beijing Guowang, H3C and Hwatsing, the next three oldest-reviewed
-  non-priority profiles. H3C and Hwatsing gained substantive evidence; Guowang's patent record was
-  rechecked without a verified material change. Other priority review dates were not advanced for
-  search-only coverage. This is an overlap sweep, not a full revalidation of the 31-company directory.
+coverage: The September 7–13 complete weekly edition reconstructs four pre-baseline days and covers
+  the three days from the September 11 baseline through period close using ten canonical events,
+  selected primary pages and reporting, and overlapping English and Chinese gap searches. It adds one
+  Biren software-stack event. Coverage is incomplete for private deployments, unindexed Chinese
+  disclosures, tenders and individual benchmark artifacts; only Biren's profile review date advanced
+  in this briefing run.
 timezone: Europe/London
 runs:
   - date: 2026-09-12
@@ -155,6 +156,57 @@ runs:
       - hbm-reuters
       - cioe-optics-2026-09-11
       - enflame-ipo
+      - mlperf-training
+      - mlperf-inference
+      - inferencex
+  - date: 2026-09-14
+    status: updated
+    companies:
+      - aishengna
+      - amec
+      - biren
+      - cambricon
+      - cxmt
+      - enflame
+      - eoptolink
+      - huawei
+      - hwatsing
+      - iluvatar
+      - innolight
+      - metax
+      - naura
+      - rslaser
+      - smic
+      - ymtc
+      - yuliangsheng
+      - zhiqi
+    summary: >-
+      Ran the weekly helper for the previous fully closed Monday-Sunday period and retained the
+      September 11 period-to-date edition unchanged. Audited the ten selected in-period events and
+      ran overlapping English and Chinese gap searches across accelerators, software, memory,
+      optical interconnects, lithography and packaging equipment. Added Biren's September 7 vendor
+      account of an August 28 ecosystem meetup as a canonical source and event: it says TorchSUPA
+      uses PyTorch PrivateUse1 and supports common APIs, collectives and FSDP2, graph capture and
+      profiling. No public code repository was identified, so the record does not infer operator
+      coverage, maintainability, upstream acceptance, performance or CUDA parity. The complete
+      briefing preserves all historical reports and states that no dated forecast moved. It uses
+      the current September 14 benchmark review: no matched contemporary Chinese result against
+      GB300, MI355X or TPU v7 was verified in MLPerf v6.0 or InferenceX coverage. Because systematic
+      coverage began September 11, the September 7-13 reconstruction remains incomplete for private
+      deployments, unindexed disclosures, tenders and individual benchmark artifacts. Search-only
+      coverage did not advance other company review dates.
+    source_ids:
+      - biren-torchsupa-2026-09-07
+      - biren-2026-h1
+      - biren-glm-2026-09-07
+      - biren-shanghai-lab-2026-09-10
+      - pytorch-cambricon-2026-09-07
+      - pytorch-china-2026-09-09
+      - hbm-reuters
+      - cioe-optics-2026-09-11
+      - enflame-ipo
+      - hwatsing-panel-cmp-2026-09-09
+      - duv-ft
       - mlperf-training
       - mlperf-inference
       - inferencex

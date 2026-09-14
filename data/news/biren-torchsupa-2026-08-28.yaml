@@ -1,0 +1,19 @@
+slug: biren-torchsupa-2026-08-28
+published_at: 2026-09-07
+event_date: 2026-08-28
+title: Biren announces TorchSUPA PyTorch backend plugin
+summary: Biren's September 7 account of an August 28 ecosystem meetup says it
+  released TorchSUPA, a PyTorch PrivateUse1 backend plugin for Biren GPUs, with
+  support for common APIs, collective communication and FSDP2, graph capture
+  and profiling.
+impact: A public backend can reduce framework-integration and migration friction,
+  but Biren's claims about CUDA-style code reuse do not establish operator
+  coverage, correctness, performance, upstream acceptance or CUDA parity. No
+  public code repository was identified in this review.
+companies:
+  - biren
+source_ids:
+  - biren-torchsupa-2026-09-07
+evidence: vendor
+added_at: 2026-09-14
+correction_of: null

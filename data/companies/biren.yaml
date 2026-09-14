@@ -29,6 +29,14 @@ facts:
     as_of: 2026-09-07
     source_ids:
       - biren-glm-2026-09-07
+  - label: PyTorch backend
+    value: Company says it released TorchSUPA, a PrivateUse1 backend plugin with
+      common API, collective-communication, graph-capture and profiling support;
+      no public code repository was identified in this review.
+    evidence: vendor
+    as_of: 2026-09-07
+    source_ids:
+      - biren-torchsupa-2026-09-07
   - label: Optical-interconnect research
     value: September 2 Shanghai University laboratory agreement includes planned
       AI-chip optical-interconnect and cooling research, not production qualification.
@@ -44,8 +52,10 @@ source_ids:
   - biren
   - biren-2026-h1
   - biren-glm-2026-09-07
+  - biren-torchsupa-2026-09-07
   - biren-shanghai-lab-2026-09-10
-reviewed_at: 2026-09-12
+reviewed_at: 2026-09-14
 slug: biren
 layers:
   - accelerators
+  - software
