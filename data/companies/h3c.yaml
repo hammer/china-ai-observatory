@@ -7,22 +7,32 @@ counterparts:
 priority: 2
 stage: Commercial
 role: Data-center network and system supplier.
-assessment: A domestic network-system brand does not establish domestic provenance for all silicon.
+assessment: Open interconnect work and a reported customer deployment are meaningful integration signals,
+  but do not establish domestic provenance for all silicon or performance parity with InfiniBand.
 key_fact:
-  label: Strategic role
-  value: Ethernet infrastructure for AI clusters
-  evidence: vendor
-  as_of: 2026-09-11
+  label: Deployment evidence
+  value: H3C reports a deployed DDC lossless-network project with Xiaohongshu and participation in
+    G-Link and ODCC standards work; no matched InfiniBand workload result was disclosed.
+  evidence: primary
+  as_of: 2026-09-04
   source_ids:
-    - h3c
-facts: []
+    - h3c-odx-2026-09-04
+facts:
+  - label: Open scale-up direction
+    value: H3C describes UXM module support, G-Link development and NPO/CPO interfaces with
+      112G/224G compatibility and a reserved 448G SerDes path.
+    evidence: primary
+    as_of: 2026-09-04
+    source_ids:
+      - h3c-odx-2026-09-04
 watch_for:
   - RDMA behavior under congestion
   - Switch and NIC silicon provenance
   - Large-cluster collective performance
 source_ids:
   - h3c
-reviewed_at: 2026-09-11
+  - h3c-odx-2026-09-04
+reviewed_at: 2026-09-14
 slug: h3c
 layers:
   - networking

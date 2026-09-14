@@ -1,0 +1,17 @@
+slug: h3c-odx-2026-09-02
+published_at: 2026-09-04
+event_date: 2026-09-02
+title: H3C presents open interconnect work and an awarded DDC deployment
+summary: H3C says it is contributing to G-Link and ODCC standards, supporting standardized XPU
+  modules and open optical interfaces, and that its DDC lossless-network project with Xiaohongshu
+  received a 2026 ODX project award.
+impact: The disclosure adds evidence of customer deployment and domestic work on open scale-up and
+  scale-out integration. It does not provide a matched InfiniBand workload benchmark, congestion or
+  recovery data, cluster topology, switch-silicon provenance or independent customer measurements.
+companies:
+  - h3c
+source_ids:
+  - h3c-odx-2026-09-04
+evidence: primary
+added_at: 2026-09-14
+correction_of: null

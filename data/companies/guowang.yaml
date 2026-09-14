@@ -19,7 +19,7 @@ watch_for:
   - Verified projection-optics production
 source_ids:
   - guowang
-reviewed_at: 2026-09-11
+reviewed_at: 2026-09-14
 slug: guowang
 layers:
   - optics

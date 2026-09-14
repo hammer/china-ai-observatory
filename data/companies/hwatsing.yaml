@@ -6,21 +6,30 @@ counterparts:
 priority: 2
 stage: Commercial
 role: CMP, wafer thinning, and related process equipment.
-assessment: Polishing and thinning quality are essential to downstream packaging yield.
+assessment: Polishing and thinning quality are essential to downstream packaging yield. Delivery
+  to a production line does not by itself disclose customer acceptance, yield, uptime or volume.
 key_fact:
-  label: Product portfolio
-  value: 12-inch CMP and advanced-packaging equipment
-  evidence: vendor
-  as_of: 2026-09-11
+  label: Panel-level CMP delivery
+  value: Master-P510APEX was reported shipped to an advanced-packaging production line for use.
+  evidence: reported
+  as_of: 2026-09-09
   source_ids:
-    - hwatsing
-facts: []
+    - hwatsing-panel-cmp-2026-09-09
+facts:
+  - label: Process scope
+    value: The vendor describes automated endpoint detection and multiple polishing modes for
+      large-format panel-level packaging; customer and production metrics were not disclosed.
+    evidence: reported
+    as_of: 2026-09-09
+    source_ids:
+      - hwatsing-panel-cmp-2026-09-09
 watch_for:
   - Production yield and customer acceptance
   - HBM and packaging demand
 source_ids:
   - hwatsing
-reviewed_at: 2026-09-11
+  - hwatsing-panel-cmp-2026-09-09
+reviewed_at: 2026-09-14
 slug: hwatsing
 layers:
   - equipment
