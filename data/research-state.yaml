@@ -1,14 +1,15 @@
 schema_version: 2
 baseline_date: 2026-09-11
-last_research_at: 2026-09-14
-last_automated_run_at: 2026-09-14
+last_research_at: 2026-09-15
+last_automated_run_at: 2026-09-15
 last_run_status: updated
-coverage: The September 7–13 complete weekly edition reconstructs four pre-baseline days and covers
-  the three days from the September 11 baseline through period close using ten canonical events,
-  selected primary pages and reporting, and overlapping English and Chinese gap searches. It adds one
-  Biren software-stack event. Coverage is incomplete for private deployments, unindexed Chinese
-  disclosures, tenders and individual benchmark artifacts; only Biren's profile review date advanced
-  in this briefing run.
+coverage: The September 15 daily review screened all 12 priority-1 profiles and the next three
+  oldest-reviewed non-priority profiles with overlapping English and Chinese searches. Three
+  previously omitted August half-year filings produced material production, qualification and
+  delivery-scale backfills for AMEC, NAURA and JCET. No new qualifying September 15 accelerator,
+  memory, optical or benchmark event was verified. Coverage remains incomplete for private
+  deployments, unindexed Chinese disclosures, tenders and individual benchmark artifacts; only
+  the five profiles whose primary pages or filings were actually reviewed advanced.
 timezone: Europe/London
 runs:
   - date: 2026-09-12
@@ -207,6 +208,54 @@ runs:
       - enflame-ipo
       - hwatsing-panel-cmp-2026-09-09
       - duv-ft
+      - mlperf-training
+      - mlperf-inference
+      - inferencex
+  - date: 2026-09-15
+    status: updated
+    companies:
+      - aishengna
+      - amec
+      - cambricon
+      - cxmt
+      - enflame
+      - eoptolink
+      - huawei
+      - innolight
+      - naura
+      - smic
+      - ymtc
+      - yuliangsheng
+      - iluvatar
+      - jcet
+      - kingsemi
+    summary: >-
+      Screened all priority-1 profiles and the next three oldest-reviewed non-priority profiles
+      with overlapping English and Chinese searches covering September 8-15. No new qualifying
+      in-window accelerator, memory, optical-interconnect or semiconductor-equipment event was
+      verified. A filing-gap review found three material August disclosures that were missing from
+      the canonical record. AMEC's company report says three ICP etch families were in volume
+      production on lines at more than 50 customers, with stable production use or repeat orders for
+      additional advanced etch systems and repeat production orders after onsite validation of
+      tungsten deposition systems at key memory and logic customers. NAURA reports more than 1,000
+      cumulative deliveries each for etch, PVD and vertical furnaces, RMB 20.161 billion of first-half
+      revenue, and rollout of hybrid-bonding and high-end TSV electroplating tools. JCET reports
+      XDFOI volume production, customer validation of silicon-photonics engine samples, and 40.4%
+      year-over-year growth in computing-electronics revenue. Each claim remains vendor evidence:
+      unnamed customers, unspecified process nodes, and undisclosed yield, capacity, uptime,
+      throughput or production volume limit the conclusions. Reviewed Iluvatar and Kingsemi's
+      current official pages without accepting a new production or benchmark claim. Rechecked
+      MLPerf Training and Inference v6.0 repository heads and InferenceX's current public coverage;
+      no matched contemporary Chinese result against current GB300, MI355X or TPU v7-class systems
+      was found. Search-only priority coverage did not advance review dates. Historical reports,
+      corrections, forecasts and evidence labels were preserved; the August events are explicitly
+      late-added rather than dated as September events.
+    source_ids:
+      - amec-2026-h1-report
+      - naura-2026-h1-report
+      - jcet-2026-h1-report
+      - iluvatar
+      - kingsemi
       - mlperf-training
       - mlperf-inference
       - inferencex

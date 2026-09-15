@@ -7,21 +7,39 @@ counterparts:
 priority: 2
 stage: Commercial
 role: Outsourced assembly, test, and advanced packaging.
-assessment: Broad packaging strength does not establish frontier CoWoS-equivalent capacity.
+assessment: JCET's half-year report provides company evidence of XDFOI volume production and
+  customer validation of silicon-photonics engine samples. It does not establish frontier
+  compute-plus-HBM package yield, capacity, thermal performance or domestic input provenance.
 key_fact:
-  label: Technology
-  value: XDFOI heterogeneous integration research and platforms
-  evidence: primary
-  as_of: 2026-09-11
+  label: XDFOI production status
+  value: Company reports that its high-density heterogeneous-integration platform reached volume production
+  evidence: vendor
+  as_of: 2026-06-30
   source_ids:
-    - jcet
-facts: []
+    - jcet-2026-h1-report
+facts:
+  - label: Computing-electronics mix
+    value: First-half computing-electronics revenue grew 40.4% year over year and represented 30.1%
+      of company revenue.
+    evidence: vendor
+    as_of: 2026-06-30
+    source_ids:
+      - jcet-2026-h1-report
+  - label: Silicon-photonics validation
+    value: Company reports delivering XDFOI-based silicon-photonics engine samples that passed
+      customer validation and working with multiple customers on packaging, thermal and reliability
+      optimization; volume and capacity were not disclosed.
+    evidence: vendor
+    as_of: 2026-06-30
+    source_ids:
+      - jcet-2026-h1-report
 watch_for:
   - Large compute-plus-HBM package yield
   - Capacity, thermal limits and reliability
 source_ids:
   - jcet
-reviewed_at: 2026-09-11
+  - jcet-2026-h1-report
+reviewed_at: 2026-09-15
 slug: jcet
 layers:
   - packaging

@@ -21,7 +21,7 @@ watch_for:
   - Independent contemporary benchmarks
 source_ids:
   - iluvatar
-reviewed_at: 2026-09-11
+reviewed_at: 2026-09-15
 slug: iluvatar
 layers:
   - accelerators

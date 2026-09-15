@@ -6,15 +6,33 @@ counterparts:
 priority: 1
 stage: Commercial
 role: An important domestic etch-equipment supplier.
-assessment: Company-level tool capabilities are not proof of complete process independence.
+assessment: AMEC's half-year report provides production-line, customer-validation and repeat-order
+  evidence across etch and tungsten deposition. It does not name customers or disclose advanced-node
+  yield, uptime, throughput, installed capacity or complete-process independence.
 key_fact:
-  label: Strategic role
-  value: Etch equipment for semiconductor manufacturing
+  label: Etch deployment scale
+  value: Company reports three ICP etch product families in volume production on lines at more than 50 customers
   evidence: vendor
-  as_of: 2026-09-11
+  as_of: 2026-06-30
   source_ids:
-    - amec
+    - amec-2026-h1-report
 facts:
+  - label: Advanced etch production
+    value: Company reports Primo Nanova LUX-Cryo in stable volume production on a customer's
+      next-generation product line, while Primo Angnova remained in customer certification with
+      multiple repeat orders.
+    evidence: vendor
+    as_of: 2026-06-30
+    source_ids:
+      - amec-2026-h1-report
+  - label: Tungsten deposition qualification
+    value: Company reports its tungsten CVD, high-aspect-ratio CVD and ALD series passed onsite
+      validation at key memory and logic customers and received repeat production orders; customers
+      and production metrics were not disclosed.
+    evidence: vendor
+    as_of: 2026-06-30
+    source_ids:
+      - amec-2026-h1-report
   - label: CSEAC 2026 tool launches
     value: Six announced tools span very-high-aspect-ratio etch, PECVD, ALD, metal-film
       deposition and silicon-carbide epitaxy; customer qualification remains unverified.
@@ -27,8 +45,9 @@ watch_for:
   - Repeat orders and production utilization
 source_ids:
   - amec
+  - amec-2026-h1-report
   - amec-cseac-2026-09-05
-reviewed_at: 2026-09-13
+reviewed_at: 2026-09-15
 slug: amec
 layers:
   - equipment

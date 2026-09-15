@@ -19,7 +19,7 @@ watch_for:
   - Customer-qualified throughput and defect rates
 source_ids:
   - kingsemi
-reviewed_at: 2026-09-11
+reviewed_at: 2026-09-15
 slug: kingsemi
 layers:
   - equipment

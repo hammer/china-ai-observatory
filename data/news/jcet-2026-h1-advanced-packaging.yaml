@@ -1,0 +1,19 @@
+slug: jcet-2026-h1-advanced-packaging
+published_at: 2026-08-21
+event_date: null
+title: JCET reports XDFOI volume production and silicon-photonics customer validation
+summary: >-
+  JCET's half-year report says its XDFOI high-density heterogeneous-integration platform
+  reached volume production and XDFOI-based silicon-photonics engine samples passed customer
+  validation. Computing-electronics revenue grew 40.4% year over year to 30.1% of company revenue.
+impact: >-
+  The filing advances the record from research capability to company-reported production and
+  customer validation. It does not disclose frontier compute-plus-HBM package yield, capacity,
+  thermal performance or the production volume of silicon-photonics products.
+companies:
+  - jcet
+source_ids:
+  - jcet-2026-h1-report
+evidence: vendor
+added_at: 2026-09-15
+correction_of: null

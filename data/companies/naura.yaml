@@ -6,22 +6,40 @@ counterparts:
 priority: 1
 stage: Commercial
 role: Broad etch, deposition, thermal, and other semiconductor equipment.
-assessment: A qualified tool covers a process step, not an entire sovereign fab.
+assessment: NAURA reports broad commercial scale and more than 1,000 cumulative deliveries in each
+  of three tool categories. Delivery counts do not establish advanced-node customer qualification,
+  production yield or domestic provenance for critical components, and a qualified tool still covers
+  only one process step rather than a sovereign fab flow.
 key_fact:
-  label: Portfolio
-  value: Etch, PVD, CVD, wet processing and more
+  label: Deployment scale
+  value: Company reports more than 1,000 cumulative deliveries each for etch, PVD and vertical furnace systems
   evidence: vendor
-  as_of: 2026-09-11
+  as_of: 2026-06-30
   source_ids:
-    - naura
-facts: []
+    - naura-2026-h1-report
+facts:
+  - label: First-half commercial scale
+    value: Company reported RMB 20.161 billion of first-half revenue, up 24.90% year over year,
+      and RMB 2.677 billion of R&D expense, up 28.87%.
+    evidence: vendor
+    as_of: 2026-06-30
+    source_ids:
+      - naura-2026-h1-report
+  - label: Advanced packaging expansion
+    value: Company reports that hybrid-bonding and high-end TSV electroplating tools were rolled out;
+      the filing does not disclose named-customer acceptance, yield or production volume.
+    evidence: vendor
+    as_of: 2026-06-30
+    source_ids:
+      - naura-2026-h1-report
 watch_for:
   - Customer-qualified replacement tools
   - Installed base and service revenue
   - Production yield at advanced nodes
 source_ids:
   - naura
-reviewed_at: 2026-09-11
+  - naura-2026-h1-report
+reviewed_at: 2026-09-15
 slug: naura
 layers:
   - equipment
