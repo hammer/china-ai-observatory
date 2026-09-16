@@ -1,0 +1,18 @@
+slug: metax-atria-2026-09-14
+published_at: 2026-09-14
+event_date: 2026-09-14
+title: MetaX reports same-day adaptation of ATRIA Dawn Preview
+summary: >-
+  MetaX says its GPU and MXMACA stack supported ATRIA Dawn Preview on the model's release day.
+  It also reports 37 flagship-model Day-0 adaptations since December 2025 and full support for
+  PyTorch 2.8's 2,410 GPU operators.
+impact: >-
+  The disclosure is evidence of software coverage and adaptation cadence, not an independent
+  application benchmark or proof of correctness, maintainability or CUDA parity.
+companies:
+  - metax
+source_ids:
+  - metax-atria-2026-09-14
+evidence: vendor
+added_at: 2026-09-16
+correction_of: null

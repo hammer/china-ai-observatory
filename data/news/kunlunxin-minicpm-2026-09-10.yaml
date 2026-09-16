@@ -1,0 +1,17 @@
+slug: kunlunxin-minicpm-2026-09-10
+published_at: 2026-09-10
+event_date: null
+title: Kunlunxin and FlagOS publish a MiniCPM5-2B deployment image
+summary: >-
+  Kunlunxin says it completed MiniCPM5-2B adaptation and inference validation with FlagOS and
+  published a BF16 deployment image through ModelScope and Hugging Face.
+impact: >-
+  The downloadable image is concrete compatibility evidence. It does not supply reproducible
+  throughput, latency, power, accuracy or foreign-hardware comparison data.
+companies:
+  - kunlunxin
+source_ids:
+  - kunlunxin-minicpm-2026-09-10
+evidence: vendor
+added_at: 2026-09-16
+correction_of: null

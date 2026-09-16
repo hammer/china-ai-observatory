@@ -6,7 +6,10 @@ counterparts:
 priority: 2
 stage: Commercial
 role: AI accelerators with a cloud and application ecosystem around Baidu.
-assessment: Vertical optimization may deliver useful wins before broad ecosystem parity.
+assessment: >-
+  Kunlunxin is showing faster model-support cadence through a downloadable FlagOS image for
+  MiniCPM5-2B. The disclosure establishes deployment compatibility, not throughput, latency,
+  power efficiency or broad software-ecosystem parity.
 key_fact:
   label: Architecture category
   value: XPU AI accelerators
@@ -14,14 +17,22 @@ key_fact:
   as_of: 2026-09-11
   source_ids:
     - kunlunxin
-facts: []
+facts:
+  - label: MiniCPM5-2B deployment
+    value: Kunlunxin and FlagOS report Day-0 adaptation and inference validation, with a BF16
+      deployment image published through ModelScope and Hugging Face.
+    evidence: vendor
+    as_of: 2026-09-10
+    source_ids:
+      - kunlunxin-minicpm-2026-09-10
 watch_for:
   - Customer adoption beyond affiliated workloads
   - Model-specific cost/performance
   - Manufacturing provenance
 source_ids:
   - kunlunxin
-reviewed_at: 2026-09-11
+  - kunlunxin-minicpm-2026-09-10
+reviewed_at: 2026-09-16
 slug: kunlunxin
 layers:
   - accelerators

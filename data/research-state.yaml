@@ -1,15 +1,15 @@
 schema_version: 2
 baseline_date: 2026-09-11
-last_research_at: 2026-09-15
-last_automated_run_at: 2026-09-15
+last_research_at: 2026-09-16
+last_automated_run_at: 2026-09-16
 last_run_status: updated
-coverage: The September 15 daily review screened all 12 priority-1 profiles and the next three
-  oldest-reviewed non-priority profiles with overlapping English and Chinese searches. Three
-  previously omitted August half-year filings produced material production, qualification and
-  delivery-scale backfills for AMEC, NAURA and JCET. No new qualifying September 15 accelerator,
-  memory, optical or benchmark event was verified. Coverage remains incomplete for private
-  deployments, unindexed Chinese disclosures, tenders and individual benchmark artifacts; only
-  the five profiles whose primary pages or filings were actually reviewed advanced.
+coverage: The September 16 daily review screened all 12 priority-1 profiles and the next three
+  oldest-reviewed non-priority profiles with overlapping English and Chinese searches. Current
+  primary disclosures produced software-compatibility updates for Kunlunxin and MetaX, a planned
+  100,000-GPU JD Cloud cluster for Moore Threads, and a late-added Moore Threads half-year filing
+  with commercial-scale evidence. Coverage remains incomplete for private deployments, unindexed
+  Chinese disclosures, tenders and individual benchmark artifacts; only the three profiles whose
+  current primary pages or filing were actually reviewed advanced.
 timezone: Europe/London
 runs:
   - date: 2026-09-12
@@ -256,6 +256,51 @@ runs:
       - jcet-2026-h1-report
       - iluvatar
       - kingsemi
+      - mlperf-training
+      - mlperf-inference
+      - inferencex
+  - date: 2026-09-16
+    status: updated
+    companies:
+      - aishengna
+      - amec
+      - cambricon
+      - cxmt
+      - enflame
+      - eoptolink
+      - huawei
+      - innolight
+      - naura
+      - smic
+      - ymtc
+      - yuliangsheng
+      - kunlunxin
+      - metax
+      - moore-threads
+    summary: >-
+      Screened all priority-1 profiles and the next three oldest-reviewed non-priority profiles
+      with overlapping English and Chinese searches covering September 9-16. Added Moore Threads'
+      September 9 primary announcement that JD Cloud plans a 100,000-card full-function GPU cluster.
+      The record treats this as a plan rather than delivery evidence because no schedule, GPU model,
+      completed card count, topology, interconnect, power, recovery or workload result was disclosed.
+      Backfilled Moore Threads' August half-year report: company-reported revenue was RMB 1.736
+      billion, attributable net loss was RMB 11.56 million, and a RMB 660 million KUAE sales contract
+      was fully delivered and recognized. Its Dense and MoE MFU, scaling-efficiency and effective-
+      training-time figures remain vendor measurements without a matched workload, power or current
+      foreign-hardware comparison. Added Kunlunxin's downloadable FlagOS MiniCPM5-2B deployment image
+      and MetaX's ATRIA Dawn Preview Day-0 adaptation plus reported PyTorch operator coverage as
+      compatibility evidence, not performance or CUDA parity. Rechecked MLPerf Training and Inference
+      v6.0 repository heads and submitter directories plus InferenceX's current coverage. No matched
+      contemporary Chinese result against current GB300, MI355X or TPU v7-class systems was verified.
+      Search-only priority coverage did not advance review dates. Historical reports, corrections,
+      forecasts and evidence labels were preserved; the half-year filing is explicitly late-added.
+    source_ids:
+      - moore-threads-2026-h1-report
+      - moore-threads-jd-cloud-2026-09-09
+      - kunlunxin-minicpm-2026-09-10
+      - metax-atria-2026-09-14
+      - mthreads
+      - kunlunxin
       - mlperf-training
       - mlperf-inference
       - inferencex

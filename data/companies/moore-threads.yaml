@@ -6,22 +6,50 @@ counterparts:
 priority: 2
 stage: Scaling
 role: GPU hardware and the MUSA programming ecosystem.
-assessment: Compatibility claims need workload-level verification.
+assessment: >-
+  Moore Threads now has company-reported commercial evidence from a delivered RMB 660 million
+  KUAE cluster contract, while JD Cloud's 100,000-GPU cluster remains an announced plan rather
+  than an operating deployment. The disclosed utilization and scaling figures are self-measured
+  and do not provide a matched current foreign-hardware comparison.
 key_fact:
-  label: Current platform
-  value: MTT S5000 and MUSA
+  label: Delivered cluster contract
+  value: Company reports a RMB 660 million KUAE contract fully delivered and recognized in first-half revenue
   evidence: vendor
-  as_of: 2026-09-11
+  as_of: 2026-06-30
   source_ids:
-    - mthreads
-facts: []
+    - moore-threads-2026-h1-report
+facts:
+  - label: First-half commercial scale
+    value: Company reports RMB 1.736 billion of first-half revenue, up 147.42% year over year,
+      and an attributable net loss of RMB 11.56 million.
+    evidence: vendor
+    as_of: 2026-06-30
+    source_ids:
+      - moore-threads-2026-h1-report
+  - label: Vendor-reported KUAE training metrics
+    value: Company reports Dense-model MFU up to 60%, MoE-model MFU up to 40%, 95% linear
+      scaling efficiency and effective training time above 90%; workload, power and matched
+      comparator details were not disclosed in the filing.
+    evidence: vendor
+    as_of: 2026-06-30
+    source_ids:
+      - moore-threads-2026-h1-report
+  - label: JD Cloud cluster plan
+    value: JD Cloud announced a plan to build a 100,000-GPU cluster based on Moore Threads;
+      no delivery schedule, completed card count, topology or operational results were disclosed.
+    evidence: vendor
+    as_of: 2026-09-09
+    source_ids:
+      - moore-threads-jd-cloud-2026-09-09
 watch_for:
   - Real application portability
   - Sustained training throughput
   - Compiler correctness and manufacturing access
 source_ids:
   - mthreads
-reviewed_at: 2026-09-11
+  - moore-threads-2026-h1-report
+  - moore-threads-jd-cloud-2026-09-09
+reviewed_at: 2026-09-16
 slug: moore-threads
 layers:
   - accelerators

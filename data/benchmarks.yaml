@@ -1,9 +1,9 @@
 headline: No verified latest-versus-latest independent comparison
-assessment: Follow-up through September 15 did not verify a matched independent comparison of
+assessment: Follow-up through September 16 did not verify a matched independent comparison of
   current Chinese accelerators against GB300, MI355X, or TPU v7. The review checked MLPerf v6.0
   repository heads and submitter listings plus InferenceX's published coverage, not every result artifact.
   Absence of a verified public result is not evidence of incapability.
-reviewed_at: 2026-09-15
+reviewed_at: 2026-09-16
 comparison:
   title: DeepSeek-R1 on Ascend 910C and H100
   date: 2025-06

@@ -1,0 +1,19 @@
+slug: moore-threads-2026-h1-scale
+published_at: 2026-08-10
+event_date: null
+title: Moore Threads reports first-half revenue scale and a delivered KUAE cluster contract
+summary: >-
+  Moore Threads' half-year report says revenue reached RMB 1.736 billion, up 147.42% year over
+  year, while attributable net loss narrowed to RMB 11.56 million. It says a RMB 660 million KUAE
+  cluster sales contract was fully delivered and recognized as revenue.
+impact: >-
+  The delivered contract is stronger commercialization evidence than a roadmap announcement.
+  It remains company-reported and does not disclose the customer, accepted card count, topology,
+  workload results, power, uptime or production economics.
+companies:
+  - moore-threads
+source_ids:
+  - moore-threads-2026-h1-report
+evidence: vendor
+added_at: 2026-09-16
+correction_of: null

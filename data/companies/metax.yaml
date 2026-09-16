@@ -6,7 +6,10 @@ counterparts:
 priority: 2
 stage: Scaling
 role: Chinese GPU compute contender.
-assessment: The baseline does not establish frontier performance parity.
+assessment: >-
+  MetaX reports broadening model and framework coverage, including ATRIA Dawn Preview support
+  on release day. The current evidence is vendor-reported compatibility and operator coverage;
+  it does not establish application performance, correctness across workloads or frontier parity.
 key_fact:
   label: Research status
   value: Named commercial supplier; comparable independent benchmark still needed
@@ -14,14 +17,22 @@ key_fact:
   as_of: 2026-09-11
   source_ids:
     - hbm-reuters
-facts: []
+facts:
+  - label: Software compatibility coverage
+    value: MetaX reports 37 flagship-model Day-0 adaptations since December 2025 and full support
+      for PyTorch 2.8's 2,410 GPU operators; no reproducible workload benchmark accompanied the claim.
+    evidence: vendor
+    as_of: 2026-09-14
+    source_ids:
+      - metax-atria-2026-09-14
 watch_for:
   - Independent workload results
   - Product availability
   - Memory sourcing
 source_ids:
   - hbm-reuters
-reviewed_at: 2026-09-11
+  - metax-atria-2026-09-14
+reviewed_at: 2026-09-16
 slug: metax
 layers:
   - accelerators
