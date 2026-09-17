@@ -1,0 +1,18 @@
+slug: huawei-china-unicom-2026-09-10
+published_at: 2026-09-10
+event_date: 2026-09-10
+title: Huawei reports China Unicom deployment and Ascend 950 adaptation work
+summary: >-
+  Huawei said China Unicom had deployed Ascend compute at scale, put a 384-NPU supernode into
+  service and was adapting Ascend 950 for Unicom Cloud.
+impact: >-
+  This supplies a named operator example but remains Huawei's account rather than an independent
+  customer result. It does not disclose deployed accelerator counts beyond the supernode class,
+  acceptance criteria, utilization, workload performance, uptime, power or recovery behavior.
+companies:
+  - huawei
+source_ids:
+  - huawei-china-unicom-2026-09-10
+evidence: vendor
+added_at: 2026-09-17
+correction_of: null

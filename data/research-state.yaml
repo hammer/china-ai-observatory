@@ -1,15 +1,14 @@
 schema_version: 2
 baseline_date: 2026-09-11
-last_research_at: 2026-09-16
-last_automated_run_at: 2026-09-16
+last_research_at: 2026-09-17
+last_automated_run_at: 2026-09-17
 last_run_status: updated
-coverage: The September 16 daily review screened all 12 priority-1 profiles and the next three
-  oldest-reviewed non-priority profiles with overlapping English and Chinese searches. Current
-  primary disclosures produced software-compatibility updates for Kunlunxin and MetaX, a planned
-  100,000-GPU JD Cloud cluster for Moore Threads, and a late-added Moore Threads half-year filing
-  with commercial-scale evidence. Coverage remains incomplete for private deployments, unindexed
-  Chinese disclosures, tenders and individual benchmark artifacts; only the three profiles whose
-  current primary pages or filing were actually reviewed advanced.
+coverage: The September 17 daily review screened all 12 priority-1 profiles and the next three
+  oldest-reviewed non-priority profiles with overlapping English and Chinese searches. It added
+  Huawei's new 2027 accelerator roadmap, company-reported supernode shipment scale and a named
+  China Unicom deployment. Coverage remains incomplete for private deployments, unindexed Chinese
+  disclosures, tenders and individual benchmark artifacts; only Huawei and Skyverse, whose current
+  reporting or primary pages were actually reviewed, advanced.
 timezone: Europe/London
 runs:
   - date: 2026-09-12
@@ -301,6 +300,49 @@ runs:
       - metax-atria-2026-09-14
       - mthreads
       - kunlunxin
+      - mlperf-training
+      - mlperf-inference
+      - inferencex
+  - date: 2026-09-17
+    status: updated
+    companies:
+      - aishengna
+      - amec
+      - cambricon
+      - cxmt
+      - enflame
+      - eoptolink
+      - huawei
+      - innolight
+      - naura
+      - smic
+      - ymtc
+      - yuliangsheng
+      - rslaser
+      - siom
+      - skyverse
+    summary: >-
+      Screened all priority-1 profiles and the next three oldest-reviewed non-priority profiles
+      with overlapping English and Chinese searches covering September 10-17. Added Reuters'
+      September 17 account of Huawei's new launch targets for the 960DT in Q1 2027 and Ascend
+      960PR in Q3 2027, plus Huawei's claim that it had shipped more than 1,000 supernodes to more
+      than 370 customers. The record preserves the older dated roadmap and treats the new dates as
+      expected milestones, not delivery evidence. Huawei did not identify customers, state the
+      number of accelerators per shipped system or disclose acceptance, utilization, workload,
+      power, reliability or interconnect-performance results. Added Huawei's September 10 account
+      of China Unicom deploying Ascend compute and a 384-NPU supernode and adapting Ascend 950 for
+      Unicom Cloud; this is named-deployment evidence but remains a vendor account without independent
+      operating metrics. Reviewed Skyverse's current official portfolio and news pages without
+      accepting prototype or production claims from image-only reporting. RSLaser and SIOM searches
+      produced no retrievable new primary evidence, so their review dates did not advance. Rechecked
+      MLPerf Training and Inference v6.0 repository heads, the closed inference submitter directory
+      and InferenceX's current public coverage. No matched contemporary Chinese result against current
+      GB300, MI355X or TPU v7-class systems was verified. Search-only priority coverage did not advance
+      review dates; historical reports, corrections, forecasts and evidence labels were preserved.
+    source_ids:
+      - huawei-connect-2026-09-17
+      - huawei-china-unicom-2026-09-10
+      - skyverse
       - mlperf-training
       - mlperf-inference
       - inferencex

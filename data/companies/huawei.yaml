@@ -6,7 +6,10 @@ counterparts:
 priority: 1
 stage: Commercial
 role: "The central full-stack contender: Ascend, Atlas, interconnects, and CANN."
-assessment: Chinese design and deployment do not establish independence in HBM or fabrication equipment.
+assessment: >-
+  Huawei reports meaningful system shipments and a named carrier deployment, but neither disclosure
+  supplies independently verified utilization or workload performance. Chinese design and deployment
+  also do not establish independence in HBM or fabrication equipment.
 key_fact:
   label: Next product gate
   value: "Ascend 950DT: expected Q4 2026"
@@ -16,6 +19,27 @@ key_fact:
     - ascend
     - hbm-reuters
 facts:
+  - label: Reported supernode shipments
+    value: Huawei says it shipped more than 1,000 supernodes to more than 370 customers; customer,
+      configuration, utilization and workload details were not disclosed.
+    evidence: reported
+    as_of: 2026-09-17
+    source_ids:
+      - huawei-connect-2026-09-17
+  - label: 2027 accelerator roadmap
+    value: Huawei expects the 960DT in Q1 2027 and Ascend 960PR in Q3 2027; these are launch targets,
+      not delivered-product evidence.
+    evidence: reported
+    as_of: 2026-09-17
+    source_ids:
+      - huawei-connect-2026-09-17
+  - label: China Unicom deployment
+    value: Huawei says China Unicom deployed Ascend compute at scale and a 384-NPU supernode, and
+      is adapting Ascend 950 for Unicom Cloud; independent operating metrics were not disclosed.
+    evidence: vendor
+    as_of: 2026-09-10
+    source_ids:
+      - huawei-china-unicom-2026-09-10
   - label: PyTorch accelerator integration
     value: Huawei is a PyTorch Foundation Platinum member and co-chairs its Accelerator
       Integration Working Group; governance participation does not prove workload parity.
@@ -33,11 +57,14 @@ watch_for:
   - Sustained time-to-quality on large training runs
   - Customer utilization and recovery statistics
   - 950DT deliveries and verified memory provenance
+  - 960DT and 960PR delivery against the new 2027 launch targets
 source_ids:
   - ascend
   - hbm-reuters
   - pytorch-china-2026-09-09
-reviewed_at: 2026-09-13
+  - huawei-connect-2026-09-17
+  - huawei-china-unicom-2026-09-10
+reviewed_at: 2026-09-17
 slug: huawei
 layers:
   - accelerators

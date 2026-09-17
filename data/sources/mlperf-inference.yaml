@@ -3,5 +3,5 @@ publisher: MLCommons
 url: https://github.com/mlcommons/inference_results_v6.0/tree/main/closed
 kind: standardized
 published_at: null
-reviewed_at: 2026-09-16
+reviewed_at: 2026-09-17
 slug: mlperf-inference
