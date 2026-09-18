@@ -1,14 +1,15 @@
 schema_version: 2
 baseline_date: 2026-09-11
-last_research_at: 2026-09-17
-last_automated_run_at: 2026-09-17
+last_research_at: 2026-09-18
+last_automated_run_at: 2026-09-18
 last_run_status: updated
-coverage: The September 17 daily review screened all 12 priority-1 profiles and the next three
+coverage: The September 18 daily review screened all 12 priority-1 profiles and the next three
   oldest-reviewed non-priority profiles with overlapping English and Chinese searches. It added
-  Huawei's new 2027 accelerator roadmap, company-reported supernode shipment scale and a named
-  China Unicom deployment. Coverage remains incomplete for private deployments, unindexed Chinese
-  disclosures, tenders and individual benchmark artifacts; only Huawei and Skyverse, whose current
-  reporting or primary pages were actually reviewed, advanced.
+  CXMT's reported NAND R&D-line plan and added a companion Huawei event covering its September 17
+  domestic supply shortfall, Ascend 950 commercialization claim and scale-up roadmap. Coverage
+  remains incomplete for private deployments, unindexed Chinese disclosures, tenders and individual
+  benchmark artifacts; only CXMT, Huawei and SMEE, whose reporting or primary pages were actually
+  reviewed, advanced.
 timezone: Europe/London
 runs:
   - date: 2026-09-12
@@ -343,6 +344,50 @@ runs:
       - huawei-connect-2026-09-17
       - huawei-china-unicom-2026-09-10
       - skyverse
+      - mlperf-training
+      - mlperf-inference
+      - inferencex
+  - date: 2026-09-18
+    status: updated
+    companies:
+      - aishengna
+      - amec
+      - cambricon
+      - cxmt
+      - enflame
+      - eoptolink
+      - huawei
+      - innolight
+      - naura
+      - smic
+      - ymtc
+      - yuliangsheng
+      - rslaser
+      - siom
+      - smee
+    summary: >-
+      Screened all priority-1 profiles and the next three oldest-reviewed non-priority profiles
+      with overlapping English and Chinese searches covering September 11-18. Added Reuters'
+      September 18 report that CXMT plans a NAND R&D production line at its new Beijing plant and
+      has discussed prospective AI-storage customers. The event is recorded as a research and trial-
+      production plan, not commercial output: Reuters could not establish an operating date or a
+      commitment to volume manufacturing, and CXMT did not comment. Re-reviewed Reuters' materially
+      expanded September 17 Huawei report and added a companion event for the company's statements
+      enough AI computing equipment to satisfy domestic demand, Ascend 950 systems have entered
+      commercial use, an Ascend 960 supernode is planned for up to 4,096 processors and Peerium is
+      intended eventually to connect as many as one million. These are reported company claims;
+      Huawei did not disclose capacity, orders, customer acceptance, utilization, workload, power,
+      reliability or interconnect-performance data. Reviewed SMEE's current official product page;
+      no new qualified production milestone was accepted. RSLaser and SIOM searches produced no
+      retrievable new primary evidence, so their review dates did not advance. Rechecked MLPerf
+      Training and Inference v6.0 repository heads, the closed inference submitter directory and
+      InferenceX's current public coverage. No matched contemporary Chinese result against current
+      GB300, MI355X or TPU v7-class systems was verified. Search-only coverage did not advance other
+      company review dates; historical reports, corrections, forecasts and evidence labels were preserved.
+    source_ids:
+      - cxmt-nand-2026-09-18
+      - huawei-connect-2026-09-17
+      - smee
       - mlperf-training
       - mlperf-inference
       - inferencex

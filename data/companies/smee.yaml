@@ -22,7 +22,7 @@ watch_for:
 source_ids:
   - smee
   - duv-reuters
-reviewed_at: 2026-09-11
+reviewed_at: 2026-09-18
 slug: smee
 layers:
   - lithography

@@ -7,7 +7,9 @@ counterparts:
 priority: 1
 stage: Scaling
 role: China’s principal DRAM and HBM company to watch.
-assessment: Adequate domestic HBM volume and frontier HBM performance are separate milestones.
+assessment: >-
+  Adequate domestic HBM volume and frontier HBM performance are separate milestones. The reported
+  NAND project is an R&D-line plan, not evidence of qualified commercial output.
 key_fact:
   label: HBM milestone
   value: Small-volume HBM3E reportedly produced in August 2026
@@ -16,15 +18,24 @@ key_fact:
   source_ids:
     - cxmt-hbm
     - cxmt
-facts: []
+facts:
+  - label: NAND expansion plan
+    value: Reuters reports CXMT plans a Beijing NAND R&D production line and has discussed prospective
+      AI-storage customers; no operating date or commercial-production commitment was established.
+    evidence: reported
+    as_of: 2026-09-18
+    source_ids:
+      - cxmt-nand-2026-09-18
 watch_for:
   - Customer-qualified HBM shipments
   - Stack yield and volume
   - Accelerators shipping with verified domestic DRAM
+  - NAND trial-line operation and transition to qualified volume production
 source_ids:
   - cxmt-hbm
   - cxmt
-reviewed_at: 2026-09-11
+  - cxmt-nand-2026-09-18
+reviewed_at: 2026-09-18
 slug: cxmt
 layers:
   - memory

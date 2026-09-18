@@ -7,9 +7,10 @@ priority: 1
 stage: Commercial
 role: "The central full-stack contender: Ascend, Atlas, interconnects, and CANN."
 assessment: >-
-  Huawei reports meaningful system shipments and a named carrier deployment, but neither disclosure
-  supplies independently verified utilization or workload performance. Chinese design and deployment
-  also do not establish independence in HBM or fabrication equipment.
+  Huawei reports meaningful system shipments, commercial Ascend 950 use and a named carrier
+  deployment, but also says production cannot satisfy domestic demand. The disclosures do not supply
+  independently verified utilization or workload performance, and Chinese design and deployment do
+  not establish independence in HBM or fabrication equipment.
 key_fact:
   label: Next product gate
   value: "Ascend 950DT: expected Q4 2026"
@@ -19,6 +20,27 @@ key_fact:
     - ascend
     - hbm-reuters
 facts:
+  - label: Domestic supply constraint
+    value: Huawei says it cannot produce enough AI computing equipment to meet Chinese demand and is
+      consequently limiting overseas sales; no capacity, order or fulfillment figures were disclosed.
+    evidence: reported
+    as_of: 2026-09-17
+    source_ids:
+      - huawei-connect-2026-09-17
+  - label: Ascend 950 commercialization claim
+    value: Huawei materials say Ascend 950 systems entered commercial use; configurations, volume,
+      customer acceptance and workload results were not disclosed.
+    evidence: reported
+    as_of: 2026-09-17
+    source_ids:
+      - huawei-connect-2026-09-17
+  - label: Scale-up architecture roadmap
+    value: Huawei says Peerium is intended to link up to one million processors and an Ascend 960
+      supernode is planned for up to 4,096 processors; these are architecture targets, not measured results.
+    evidence: reported
+    as_of: 2026-09-17
+    source_ids:
+      - huawei-connect-2026-09-17
   - label: Reported supernode shipments
     value: Huawei says it shipped more than 1,000 supernodes to more than 370 customers; customer,
       configuration, utilization and workload details were not disclosed.
@@ -58,13 +80,14 @@ watch_for:
   - Customer utilization and recovery statistics
   - 950DT deliveries and verified memory provenance
   - 960DT and 960PR delivery against the new 2027 launch targets
+  - Capacity, order fulfillment and verified performance of commercial Ascend 950 systems
 source_ids:
   - ascend
   - hbm-reuters
   - pytorch-china-2026-09-09
   - huawei-connect-2026-09-17
   - huawei-china-unicom-2026-09-10
-reviewed_at: 2026-09-17
+reviewed_at: 2026-09-18
 slug: huawei
 layers:
   - accelerators
