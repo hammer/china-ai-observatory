@@ -6,6 +6,9 @@ priority: 1
 stage: Commercial
 role: High-speed optical transceivers and network optics.
 assessment: A clear example of global Chinese product competitiveness without total component sovereignty.
+  A September 2026 independent teardown of one 400G module identified US DSP and analog/power
+  components, but the anonymous single-sample inspection does not establish the bill of materials
+  for current 800G or 1.6T production.
 key_fact:
   label: Component provenance
   value: 1.6T designs use Broadcom optical DSPs
@@ -22,6 +25,14 @@ facts:
     as_of: 2026-09-11
     source_ids:
       - cioe-optics-2026-09-11
+  - label: 400G module component inspection
+    value: An independent teardown of one Eoptolink 400G DR4+2km module identified a Marvell
+      IN010C50 DSP and multiple Analog Devices power and analog parts; the module's manufacturing
+      date and representativeness were not established.
+    evidence: measured
+    as_of: 2026-09-19
+    source_ids:
+      - eoptolink-400g-teardown-2026-09-19
 watch_for:
   - Volume adoption of next-generation optics
   - Domestic DSP and laser substitution
@@ -29,7 +40,8 @@ source_ids:
   - eop-dsp
   - eoptolink
   - cioe-optics-2026-09-11
-reviewed_at: 2026-09-12
+  - eoptolink-400g-teardown-2026-09-19
+reviewed_at: 2026-09-19
 slug: eoptolink
 layers:
   - photonics

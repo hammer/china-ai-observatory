@@ -1,0 +1,19 @@
+slug: eoptolink-400g-teardown-2026-09-19
+published_at: 2026-09-19
+event_date: null
+title: Single-module teardown identifies US components in an Eoptolink 400G transceiver
+summary: >-
+  An independent teardown of one Eoptolink 400G DR4+2km module identified a Marvell IN010C50 DSP
+  and several Analog Devices power and analog parts. The author inferred rather than identified the
+  laser supplier, so that inference is excluded from the recorded fact.
+impact: >-
+  The inspection is direct evidence that this sampled module depends on US silicon. It is anonymous,
+  covers one unit with no disclosed manufacturing date and does not establish the bill of materials
+  for Eoptolink's current 800G or 1.6T production.
+companies:
+  - eoptolink
+source_ids:
+  - eoptolink-400g-teardown-2026-09-19
+evidence: measured
+added_at: 2026-09-19
+correction_of: null

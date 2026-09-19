@@ -1,15 +1,15 @@
 schema_version: 2
 baseline_date: 2026-09-11
-last_research_at: 2026-09-18
-last_automated_run_at: 2026-09-18
+last_research_at: 2026-09-19
+last_automated_run_at: 2026-09-19
 last_run_status: updated
-coverage: The September 18 daily review screened all 12 priority-1 profiles and the next three
-  oldest-reviewed non-priority profiles with overlapping English and Chinese searches. It added
-  CXMT's reported NAND R&D-line plan and added a companion Huawei event covering its September 17
-  domestic supply shortfall, Ascend 950 commercialization claim and scale-up roadmap. Coverage
+coverage: The September 19 daily review screened all 12 priority-1 profiles and the next three
+  oldest-reviewed non-priority profiles with overlapping English and Chinese searches. It added a
+  single-sample independent teardown of an Eoptolink 400G module and backfilled T-Head's reported
+  Zhenwu shipment, customer, rack-system and roadmap details from an existing Reuters source. Coverage
   remains incomplete for private deployments, unindexed Chinese disclosures, tenders and individual
-  benchmark artifacts; only CXMT, Huawei and SMEE, whose reporting or primary pages were actually
-  reviewed, advanced.
+  benchmark artifacts; only Eoptolink and T-Head, whose underlying evidence was actually reviewed,
+  advanced.
 timezone: Europe/London
 runs:
   - date: 2026-09-12
@@ -388,6 +388,49 @@ runs:
       - cxmt-nand-2026-09-18
       - huawei-connect-2026-09-17
       - smee
+      - mlperf-training
+      - mlperf-inference
+      - inferencex
+  - date: 2026-09-19
+    status: updated
+    companies:
+      - aishengna
+      - amec
+      - cambricon
+      - cxmt
+      - enflame
+      - eoptolink
+      - huawei
+      - innolight
+      - naura
+      - smic
+      - ymtc
+      - yuliangsheng
+      - rslaser
+      - siom
+      - thead
+    summary: >-
+      Screened all priority-1 profiles and the next three oldest-reviewed non-priority profiles
+      with overlapping English and Chinese searches covering September 12-19. Added an independent
+      teardown of one Eoptolink 400G DR4+2km module that directly identified a Marvell IN010C50 DSP
+      and several Analog Devices power and analog parts. The record excludes the author's inferred
+      laser identification and limits the finding to this anonymous, single sample with no disclosed
+      manufacturing date; it does not establish the bill of materials for current 800G or 1.6T
+      production. The oldest-profile review reopened T-Head's current official page and the existing
+      May Reuters report, then backfilled the materially under-recorded company claims of more than
+      560,000 Zhenwu units shipped, deployments at more than 400 external customers across 20
+      industries, the 128-accelerator Panjiu AL128 rack and expected V900 and J900 roadmap dates.
+      Product mix, acceptance, utilization, workload performance, power, fabrication and memory
+      provenance remain undisclosed. RSLaser and SIOM searches again produced no retrievable new
+      primary evidence, so their review dates did not advance. Rechecked unchanged MLPerf Training
+      and Inference v6.0 repository heads, the closed inference submitter directory and InferenceX's
+      current public coverage. No matched contemporary Chinese result against current GB300, MI355X
+      or TPU v7-class systems was verified. Search-only priority coverage did not advance other
+      company review dates; historical reports, corrections, forecasts and evidence labels were preserved.
+    source_ids:
+      - eoptolink-400g-teardown-2026-09-19
+      - m890
+      - thead
       - mlperf-training
       - mlperf-inference
       - inferencex

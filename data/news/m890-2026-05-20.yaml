@@ -1,8 +1,14 @@
 published_at: 2026-05-20
 event_date: null
 title: Alibaba announces Zhenwu M890
-summary: A new cloud-oriented accelerator enters Alibaba’s product roadmap.
-impact: Watch measured deployment economics rather than undisclosed vendor multipliers.
+summary: >-
+  Alibaba announced the Zhenwu M890 and Panjiu AL128 rack system. T-Head said it had shipped more
+  than 560,000 Zhenwu units and that more than 400 external customers across 20 industries had
+  deployed the chips; the disclosure did not break out product generations or operating metrics.
+impact: >-
+  The shipment and customer counts are evidence of reported deployment scale, not independent
+  workload performance or sovereign supply. Watch measured utilization and economics rather than
+  undisclosed vendor multipliers.
 source_ids:
   - m890
 evidence: reported
