@@ -1,9 +1,9 @@
 headline: No verified latest-versus-latest independent comparison
-assessment: Follow-up through September 19 did not verify a matched independent comparison of
-  current Chinese accelerators against GB300, MI355X, or TPU v7. The review checked MLPerf v6.0
+assessment: Follow-up through September 20 did not verify a matched independent comparison of
+  current Chinese accelerators against Rubin, GB300, MI355X, or TPU v7. The review checked MLPerf v6.0
   repository heads and submitter listings plus InferenceX's published coverage, not every result artifact.
   Absence of a verified public result is not evidence of incapability.
-reviewed_at: 2026-09-19
+reviewed_at: 2026-09-20
 comparison:
   title: DeepSeek-R1 on Ascend 910C and H100
   date: 2025-06
@@ -42,8 +42,8 @@ studies:
   - title: InferenceX
     evidence: measured
     date: Continuous
-    finding: Reproducible independent inference runs. GB300, MI355X and TPU v7 are represented; equivalent current
-      Chinese results were not verified.
+    finding: Reproducible independent inference runs. Rubin, GB300, MI355X and TPU v7 are represented;
+      equivalent current Chinese results were not verified.
     source_ids:
       - inferencex
   - title: Ascend operational field study

@@ -8,8 +8,9 @@ priority: 1
 stage: Scaling
 role: China’s principal DRAM and HBM company to watch.
 assessment: >-
-  Adequate domestic HBM volume and frontier HBM performance are separate milestones. The reported
-  NAND project is an R&D-line plan, not evidence of qualified commercial output.
+  Fifth-generation commodity DRAM is company-reported in mass production, but adequate domestic
+  HBM volume and frontier HBM performance remain separate milestones. The reported NAND project is
+  an R&D-line plan, not evidence of qualified commercial output.
 key_fact:
   label: HBM milestone
   value: Small-volume HBM3E reportedly produced in August 2026
@@ -19,6 +20,21 @@ key_fact:
     - cxmt-hbm
     - cxmt
 facts:
+  - label: Fifth-generation DRAM platform
+    value: CXMT says its fifth-generation platform entered mass production using quadruple patterning
+      and an 11.95 nm active-area half-pitch; independent yield and reliability data were not disclosed.
+    evidence: reported
+    as_of: 2026-09-20
+    source_ids:
+      - cxmt-g5-dram-2026-09-20
+  - label: LPDDR5X production
+    value: Two 24 Gb LPDDR5X products are company-reported in mass production, with at least 50% more
+      gross dies per wafer than the fourth-generation platform on an 8 Gb baseline; gross dies are
+      potential dies before defective units are excluded, not tested yield.
+    evidence: reported
+    as_of: 2026-09-20
+    source_ids:
+      - cxmt-g5-dram-2026-09-20
   - label: NAND expansion plan
     value: Reuters reports CXMT plans a Beijing NAND R&D production line and has discussed prospective
       AI-storage customers; no operating date or commercial-production commitment was established.
@@ -30,12 +46,15 @@ watch_for:
   - Customer-qualified HBM shipments
   - Stack yield and volume
   - Accelerators shipping with verified domestic DRAM
+  - Independent G5 yield, reliability and customer qualification
+  - Named domestic-equipment contributions to the G5 process flow
   - NAND trial-line operation and transition to qualified volume production
 source_ids:
   - cxmt-hbm
   - cxmt
   - cxmt-nand-2026-09-18
-reviewed_at: 2026-09-18
+  - cxmt-g5-dram-2026-09-20
+reviewed_at: 2026-09-20
 slug: cxmt
 layers:
   - memory

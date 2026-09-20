@@ -1,15 +1,14 @@
 schema_version: 2
 baseline_date: 2026-09-11
-last_research_at: 2026-09-19
-last_automated_run_at: 2026-09-19
+last_research_at: 2026-09-20
+last_automated_run_at: 2026-09-20
 last_run_status: updated
-coverage: The September 19 daily review screened all 12 priority-1 profiles and the next three
-  oldest-reviewed non-priority profiles with overlapping English and Chinese searches. It added a
-  single-sample independent teardown of an Eoptolink 400G module and backfilled T-Head's reported
-  Zhenwu shipment, customer, rack-system and roadmap details from an existing Reuters source. Coverage
-  remains incomplete for private deployments, unindexed Chinese disclosures, tenders and individual
-  benchmark artifacts; only Eoptolink and T-Head, whose underlying evidence was actually reviewed,
-  advanced.
+coverage: The September 20 daily review screened all 12 priority-1 profiles and the next three
+  oldest-reviewed non-priority profiles with overlapping English and Chinese searches. It added
+  CXMT's reported fifth-generation DRAM and 24 Gb LPDDR5X mass-production milestone, while separating
+  gross dies per wafer from tested yield and commodity DRAM from HBM. Coverage remains incomplete for
+  private deployments, unindexed Chinese disclosures, tenders and individual benchmark artifacts;
+  only CXMT, whose underlying evidence was actually reviewed, advanced.
 timezone: Europe/London
 runs:
   - date: 2026-09-12
@@ -431,6 +430,46 @@ runs:
       - eoptolink-400g-teardown-2026-09-19
       - m890
       - thead
+      - mlperf-training
+      - mlperf-inference
+      - inferencex
+  - date: 2026-09-20
+    status: updated
+    companies:
+      - aishengna
+      - amec
+      - cambricon
+      - cxmt
+      - enflame
+      - eoptolink
+      - huawei
+      - innolight
+      - naura
+      - smic
+      - ymtc
+      - yuliangsheng
+      - rslaser
+      - siom
+      - zhiqi
+    summary: >-
+      Screened all priority-1 profiles and the next three oldest-reviewed non-priority profiles
+      with overlapping English and Chinese searches covering September 13-20. Added Reuters'
+      September 20 account of CXMT's statement that its fifth-generation DRAM platform entered
+      mass production using quadruple patterning and an 11.95 nm active-area half-pitch, and that
+      two 24 Gb LPDDR5X products made on the platform are in mass production. The record treats
+      these as company claims and preserves Reuters' distinction between gross dies per wafer and
+      the proportion passing final tests: the claimed at-least-50% improvement over the fourth-
+      generation platform does not disclose yield, reliability, customer qualification or output
+      volume. CXMT said Chinese equipment makers contributed to critical process steps but did not
+      name them or establish a fully domestic process flow. The event is a commodity-DRAM milestone,
+      not evidence of HBM volume or performance. RSLaser, SIOM and Zhiqi searches produced no
+      retrievable new primary evidence, so their review dates did not advance. Rechecked unchanged
+      MLPerf Training and Inference v6.0 repository heads and InferenceX's current public coverage,
+      which now names Rubin alongside GB300, MI355X and TPU v7. No matched contemporary Chinese
+      accelerator result was verified. Search-only priority coverage did not advance other company
+      review dates; historical reports, corrections, forecasts and evidence labels were preserved.
+    source_ids:
+      - cxmt-g5-dram-2026-09-20
       - mlperf-training
       - mlperf-inference
       - inferencex
