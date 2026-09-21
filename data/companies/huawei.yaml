@@ -20,6 +20,14 @@ key_fact:
     - ascend
     - hbm-reuters
 facts:
+  - label: Scientific-computing measurements
+    value: A Pengcheng Laboratory preprint measured Ascend 910A/B/C on five scientific workloads;
+      a tuned 910C quantum-simulation run took 11.4 seconds versus 14.3 seconds on A800, while vector-
+      and memory-bound kernels remained constrained. This is not a model-training or inference result.
+    evidence: measured
+    as_of: 2026-07-22
+    source_ids:
+      - ascend-science-2026-07-22
   - label: Domestic supply constraint
     value: Huawei says it cannot produce enough AI computing equipment to meet Chinese demand and is
       consequently limiting overseas sales; no capacity, order or fulfillment figures were disclosed.
@@ -87,7 +95,8 @@ source_ids:
   - pytorch-china-2026-09-09
   - huawei-connect-2026-09-17
   - huawei-china-unicom-2026-09-10
-reviewed_at: 2026-09-18
+  - ascend-science-2026-07-22
+reviewed_at: 2026-09-21
 slug: huawei
 layers:
   - accelerators

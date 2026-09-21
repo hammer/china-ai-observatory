@@ -1,9 +1,11 @@
 headline: No verified latest-versus-latest independent comparison
-assessment: Follow-up through September 20 did not verify a matched independent comparison of
+assessment: Follow-up through September 21 did not verify a matched independent comparison of
   current Chinese accelerators against Rubin, GB300, MI355X, or TPU v7. The review checked MLPerf v6.0
   repository heads and submitter listings plus InferenceX's published coverage, not every result artifact.
-  Absence of a verified public result is not evidence of incapability.
-reviewed_at: 2026-09-20
+  A Pengcheng Laboratory preprint adds measured Ascend 910C scientific-computing results against
+  A800/H800 controls, but it is not a model-training or inference comparison and does not use current
+  frontier foreign hardware. Absence of a verified public result is not evidence of incapability.
+reviewed_at: 2026-09-21
 comparison:
   title: DeepSeek-R1 on Ascend 910C and H100
   date: 2025-06
@@ -24,6 +26,17 @@ comparison:
     batches, and speculative-decoding assumptions prevent a universal ratio. Perfect expert-balancing results
     are projections.
 studies:
+  - title: Ascend 910 scientific-computing study
+    evidence: measured
+    date: "2026-07-22"
+    finding: Pengcheng Laboratory measured Ascend 910A/B/C across scientific kernels and five
+      applications. In one matched quantum-simulation case, a tuned 910C implementation completed
+      a 30-qubit, 30-layer circuit in 11.4 seconds versus 14.3 seconds on A800 with cuQuantum. The
+      study also reports weaker vector and memory-bound behavior, relies on workload-specific
+      optimization, compares against export-limited A800/H800 rather than current frontier chips,
+      and does not establish AI model-training or inference parity.
+    source_ids:
+      - ascend-science-2026-07-22
   - title: Biren GLM-5.3-Flash functional validation
     evidence: vendor
     date: "2026-09-07"

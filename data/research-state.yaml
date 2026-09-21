@@ -1,14 +1,14 @@
 schema_version: 2
 baseline_date: 2026-09-11
-last_research_at: 2026-09-20
-last_automated_run_at: 2026-09-20
+last_research_at: 2026-09-21
+last_automated_run_at: 2026-09-21
 last_run_status: updated
-coverage: The September 20 daily review screened all 12 priority-1 profiles and the next three
-  oldest-reviewed non-priority profiles with overlapping English and Chinese searches. It added
-  CXMT's reported fifth-generation DRAM and 24 Gb LPDDR5X mass-production milestone, while separating
-  gross dies per wafer from tested yield and commodity DRAM from HBM. Coverage remains incomplete for
-  private deployments, unindexed Chinese disclosures, tenders and individual benchmark artifacts;
-  only CXMT, whose underlying evidence was actually reviewed, advanced.
+coverage: The September 21 daily review screened all 12 priority-1 profiles and the next three
+  oldest-reviewed non-priority profiles with overlapping English and Chinese searches. It late-added
+  a measured Pengcheng Laboratory study of Ascend 910 scientific-computing workloads, while separating
+  specialized tuned results against A800/H800 from AI model-training or inference parity. Coverage
+  remains incomplete for private deployments, unindexed Chinese disclosures, tenders and individual
+  benchmark artifacts; only Huawei, whose underlying evidence was actually reviewed, advanced.
 timezone: Europe/London
 runs:
   - date: 2026-09-12
@@ -470,6 +470,46 @@ runs:
       review dates; historical reports, corrections, forecasts and evidence labels were preserved.
     source_ids:
       - cxmt-g5-dram-2026-09-20
+      - mlperf-training
+      - mlperf-inference
+      - inferencex
+  - date: 2026-09-21
+    status: updated
+    companies:
+      - aishengna
+      - amec
+      - cambricon
+      - cxmt
+      - enflame
+      - eoptolink
+      - huawei
+      - innolight
+      - naura
+      - smic
+      - ymtc
+      - yuliangsheng
+      - rslaser
+      - siom
+      - zhiqi
+    summary: >-
+      Screened all priority-1 profiles and the next three oldest-reviewed non-priority profiles with
+      overlapping English and Chinese searches covering September 14-21. Late-added a July 22
+      Pengcheng Laboratory preprint that measures Ascend 910A/B/C on scientific kernels and five
+      application studies. The record captures a favorable matched quantum-simulation case: a tuned
+      910C implementation completed a 30-qubit, 30-layer circuit in 11.4 seconds versus 14.3 seconds
+      on an A800 using cuQuantum. It also preserves the paper's less favorable evidence: vector- and
+      memory-bound kernels remained constrained, several comparisons used different algorithms or
+      implementations, and workload-specific optimization was central. The study uses export-limited
+      A800/H800 controls rather than current frontier hardware and does not test AI model training or
+      inference, so it does not change the latest-versus-latest assessment. RSLaser, SIOM and Zhiqi
+      searches produced no retrievable new primary evidence, so their review dates did not advance.
+      Rechecked unchanged MLPerf Training and Inference v6.0 repository heads and InferenceX's
+      current public coverage; no matched contemporary Chinese result against Rubin, GB300, MI355X,
+      TPU v7 or the newly listed Jalapeno systems was verified. Search-only priority coverage did not
+      advance other company review dates. Historical reports, corrections, forecasts and evidence
+      labels were preserved.
+    source_ids:
+      - ascend-science-2026-07-22
       - mlperf-training
       - mlperf-inference
       - inferencex

@@ -1,0 +1,20 @@
+slug: ascend-science-2026-07-22
+published_at: 2026-07-22
+event_date: null
+title: Pengcheng Laboratory measures Ascend 910 scientific-computing workloads
+summary: >-
+  A Pengcheng Laboratory preprint measures Ascend 910A, 910B and 910C across scientific kernels and
+  five applications. A tuned 910C implementation completed one 30-qubit, 30-layer quantum-simulation
+  benchmark in 11.4 seconds versus 14.3 seconds on an NVIDIA A800 using cuQuantum.
+impact: >-
+  This is useful non-vendor workload evidence and includes both favorable results and documented
+  vector- and memory-bound limits. It is not evidence of frontier AI training or inference parity:
+  implementations and algorithms differ across some comparisons, the GPU controls are export-limited
+  A800/H800 rather than current frontier hardware, and the paper depends on workload-specific tuning.
+companies:
+  - huawei
+source_ids:
+  - ascend-science-2026-07-22
+evidence: measured
+added_at: 2026-09-21
+correction_of: null
