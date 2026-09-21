@@ -3,12 +3,11 @@ baseline_date: 2026-09-11
 last_research_at: 2026-09-21
 last_automated_run_at: 2026-09-21
 last_run_status: updated
-coverage: The September 21 daily review screened all 12 priority-1 profiles and the next three
-  oldest-reviewed non-priority profiles with overlapping English and Chinese searches. It late-added
-  a measured Pengcheng Laboratory study of Ascend 910 scientific-computing workloads, while separating
-  specialized tuned results against A800/H800 from AI model-training or inference parity. Coverage
-  remains incomplete for private deployments, unindexed Chinese disclosures, tenders and individual
-  benchmark artifacts; only Huawei, whose underlying evidence was actually reviewed, advanced.
+coverage: The September 14-20 complete weekly briefing synthesizes six canonical in-period events
+  after source review and bounded English and Chinese gap searches. It separates system roadmaps from
+  delivered operating evidence, commodity DRAM from HBM, module assembly from component sovereignty
+  and specialized scientific workloads from AI model training or inference. Coverage remains incomplete
+  for private deployments, unindexed Chinese disclosures, tenders and individual benchmark artifacts.
 timezone: Europe/London
 runs:
   - date: 2026-09-12
@@ -513,3 +512,39 @@ runs:
       - mlperf-training
       - mlperf-inference
       - inferencex
+  - date: 2026-09-21
+    status: updated
+    companies:
+      - cxmt
+      - eoptolink
+      - huawei
+      - metax
+      - ymtc
+    summary: >-
+      Ran the weekly helper for the previous fully closed Monday-Sunday period and created the complete
+      September 14-20 edition without replacing the earlier September 7 period-to-date or complete
+      reports. Audited all six selected in-period events and their original sources, then ran bounded
+      English and Chinese gap searches across accelerators, memory, optical interconnects, software and
+      manufacturing equipment. The synthesis treats Huawei's accelerated 2027 roadmap, reported system
+      scale and Peerium targets as company evidence rather than delivered workload performance, and
+      makes Huawei's inability to meet Chinese demand the clearest capacity constraint. It distinguishes
+      CXMT's fifth-generation commodity-DRAM and LPDDR5X mass-production claims from tested yield and
+      HBM progress, and its planned NAND R&D line from commercial output. It uses the single Eoptolink
+      400G teardown only as sample-specific component evidence. The pre-period Ascend scientific-
+      computing paper is background because it was public by the period end; it does not enter news_ids
+      or establish model-training or inference parity. Rechecked unchanged MLPerf v6.0 repository heads
+      and current InferenceX coverage. No matched current Chinese result against Rubin, GB300, MI355X or
+      TPU v7 was verified, and no dated forecast changed. Coverage remains incomplete for private and
+      unindexed evidence, tenders, individual benchmark artifacts and undisclosed production or customer
+      metrics.
+    source_ids:
+      - ascend-science-2026-07-22
+      - cioe-optics-2026-09-11
+      - cxmt-g5-dram-2026-09-20
+      - cxmt-nand-2026-09-18
+      - eoptolink-400g-teardown-2026-09-19
+      - huawei-connect-2026-09-17
+      - inferencex
+      - metax-atria-2026-09-14
+      - mlperf-inference
+      - mlperf-training
