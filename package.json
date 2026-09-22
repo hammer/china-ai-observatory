@@ -11,7 +11,7 @@
     "build": "node --import tsx scripts/build.ts",
     "preview": "wrangler pages dev dist",
     "validate": "node --import tsx src/validate.ts",
-    "test": "node --import tsx --test tests/content.test.ts tests/filters.test.ts tests/changelog.test.ts",
+    "test": "node --import tsx --test tests/content.test.ts tests/filters.test.ts tests/changelog.test.ts tests/deploy.test.ts",
     "test:filter": "node --import tsx tests/filter-smoke.ts",
     "test:mobile": "node --import tsx tests/mobile-smoke.ts",
     "test:changelog": "node --import tsx --test tests/changelog.test.ts",

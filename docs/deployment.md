@@ -12,6 +12,10 @@ The production target is Cloudflare Pages project `china-ai-observatory` in the 
 
 This is Cloudflare's [Direct Upload with CI](https://developers.cloudflare.com/pages/how-to/use-direct-upload-with-continuous-integration/) approach. Source is public because the chosen GitHub repository is public; the resulting Pages endpoint is public unless the owner configures access restrictions.
 
+### Project creation failures
+
+The deploy script retries transient API/network failures up to three times. Before retrying creation it checks whether the previous request already created the project. It logs Cloudflare error codes/messages and the request Ray ID, redacting the configured credentials; raw response bodies are never logged. An HTTP 500 alone does not establish a token-permission problem: do not broaden access or replace credentials without inspecting the API error. Authorization failures stop immediately. If failures persist, use the error code and Ray ID when checking Cloudflare status or contacting support. A successful build with failed project creation is not a published site.
+
 ## Local deployment
 
 Provision the same two environment variables through your local secret manager, then:
