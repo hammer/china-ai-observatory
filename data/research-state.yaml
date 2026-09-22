@@ -1,13 +1,13 @@
 schema_version: 2
 baseline_date: 2026-09-11
-last_research_at: 2026-09-21
-last_automated_run_at: 2026-09-21
+last_research_at: 2026-09-22
+last_automated_run_at: 2026-09-22
 last_run_status: updated
-coverage: The September 14-20 complete weekly briefing synthesizes six canonical in-period events
-  after source review and bounded English and Chinese gap searches. It separates system roadmaps from
-  delivered operating evidence, commodity DRAM from HBM, module assembly from component sovereignty
-  and specialized scientific workloads from AI model training or inference. Coverage remains incomplete
-  for private deployments, unindexed Chinese disclosures, tenders and individual benchmark artifacts.
+coverage: The September 15-22 overlap sweep covered all priority-1 companies and the three oldest-reviewed
+  remaining profiles in English and Chinese, then added today's T-Head roadmap change and newly tracked
+  Ligent financing and capacity evidence. Search-only coverage did not advance other company review dates.
+  Coverage remains incomplete for private deployments, unindexed Chinese disclosures, tenders, undisclosed
+  customer and production metrics, and individual benchmark artifacts.
 timezone: Europe/London
 runs:
   - date: 2026-09-12
@@ -548,3 +548,46 @@ runs:
       - metax-atria-2026-09-14
       - mlperf-inference
       - mlperf-training
+  - date: 2026-09-22
+    status: updated
+    companies:
+      - aishengna
+      - amec
+      - cambricon
+      - cxmt
+      - enflame
+      - eoptolink
+      - huawei
+      - innolight
+      - naura
+      - smic
+      - ymtc
+      - yuliangsheng
+      - rslaser
+      - siom
+      - zhiqi
+      - thead
+      - ligent
+    summary: >-
+      Screened all priority-1 profiles and the next three oldest-reviewed non-priority profiles with
+      overlapping English and Chinese searches covering September 15-22. Added Reuters' September 22
+      report that Alibaba unveiled T-Head's Zhenwu V900 and now targets Q1 2027 mass production and
+      commercial release, earlier than the Q3 2027 roadmap reported in May. Preserved that older dated
+      roadmap and recorded the new three-times-M890 performance and 500,000-chip cluster claims as
+      reported targets rather than workload evidence: precision, model, power, topology, recovery,
+      fabrication and memory data were not disclosed. Added Ligent Technologies as a tracked photonics
+      supplier after its HKD 5.67 billion Hong Kong IPO, with planned allocations of about 52.9% of net
+      proceeds to faster optical-product and chip R&D and 25.1% to capacity. The record separates capital
+      raised and a vendor-listed 400G/800G/1.6T portfolio from verified high-speed shipment mix, yield,
+      customer qualification and domestic component provenance. RSLaser, SIOM and Zhiqi searches produced
+      no retrievable new primary evidence, so their review dates did not advance. Rechecked the unchanged
+      MLPerf Training and Inference v6.0 repository heads and submitter directories plus InferenceX's
+      current dashboard; no matched contemporary Chinese result against Rubin, GB300, MI355X, TPU v7 or
+      OpenAI Jalapeño was verified. Search-only priority coverage did not advance other company review dates.
+    source_ids:
+      - alibaba-v900-2026-09-22
+      - ligent
+      - ligent-ipo-2026-09-22
+      - mlperf-training
+      - mlperf-inference
+      - inferencex

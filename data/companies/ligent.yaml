@@ -1,0 +1,43 @@
+name: Ligent Technologies
+chinese_name: ""
+counterparts:
+  - Coherent
+  - Lumentum
+priority: 2
+stage: Commercial
+role: Optical transceivers, optical chips and network terminals for data-center and telecom links.
+assessment: Ligent combines optical modules with some chip and terminal development and has raised
+  substantial capital for faster products and capacity. Reuters reported an analyst's view that its
+  current shipments remain weighted toward lower-speed modules; high-speed shipment mix, customer
+  qualification, manufacturing yield and critical component provenance remain undisclosed.
+key_fact:
+  label: IPO capital for R&D and capacity
+  value: Raised HKD 5.67 billion; plans about 52.9% of net proceeds for product and chip R&D and 25.1% for capacity expansion
+  evidence: reported
+  as_of: 2026-09-22
+  source_ids:
+    - ligent-ipo-2026-09-22
+facts:
+  - label: High-speed product portfolio
+    value: Company lists 400G, 800G and 1.6T pluggable transceiver families; the site does not establish shipment mix, customer qualification or production yield.
+    evidence: vendor
+    as_of: 2026-09-22
+    source_ids:
+      - ligent
+  - label: First-half 2026 scale
+    value: Reuters reports RMB 5.39 billion revenue and RMB 661 million net profit for the six months ended June 30, up 27.9% and 29.7% year over year.
+    evidence: reported
+    as_of: 2026-06-30
+    source_ids:
+      - ligent-ipo-2026-09-22
+watch_for:
+  - 800G and 1.6T shipment mix and named-customer qualification
+  - Optical DSP, laser and analog-component provenance
+  - Capacity additions, manufacturing yield and performance per watt
+source_ids:
+  - ligent
+  - ligent-ipo-2026-09-22
+reviewed_at: 2026-09-22
+slug: ligent
+layers:
+  - photonics

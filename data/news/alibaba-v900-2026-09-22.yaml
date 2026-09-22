@@ -1,0 +1,20 @@
+published_at: 2026-09-22
+event_date: 2026-09-22
+title: Alibaba unveils Zhenwu V900 and advances commercial-release target
+summary: >-
+  Alibaba unveiled T-Head's Zhenwu V900 and said mass production and commercial release are planned
+  for Q1 2027, earlier than the Q3 2027 target reported in May. The company claims three times M890
+  performance and support for clusters of up to 500,000 chips, but did not disclose workload,
+  precision, device memory, fabrication, power, topology, recovery or measured scaling data.
+impact: >-
+  The revised schedule and proposed cluster scale strengthen T-Head's roadmap signal, not delivered
+  performance or supply-chain sovereignty. Preserve the May roadmap as a dated historical claim and
+  watch for production qualification, customer acceptance and reproducible model results.
+source_ids:
+  - alibaba-v900-2026-09-22
+evidence: reported
+added_at: 2026-09-22
+correction_of: null
+slug: alibaba-v900-2026-09-22
+companies:
+  - thead

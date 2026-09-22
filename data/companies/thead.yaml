@@ -6,9 +6,10 @@ counterparts:
 priority: 2
 stage: Commercial
 role: Cloud-oriented silicon and model/hardware co-design.
-assessment: T-Head reports broad shipment and customer deployment, but does not disclose the product
-  mix, customer acceptance, utilization, workload performance, power, fabrication or memory provenance.
-  Vendor performance multipliers still require a disclosed baseline and workload.
+assessment: T-Head reports broad shipment and customer deployment and has accelerated the V900
+  commercialization target, but does not disclose precision-specific workload performance, power,
+  fabrication, memory provenance, customer acceptance or operating utilization. Vendor performance
+  and cluster-scale claims still require disclosed baselines, topology and reproducible workloads.
 key_fact:
   label: Reported deployment scale
   value: More than 560,000 Zhenwu units shipped; over 400 external customers across 20 industries
@@ -32,15 +33,25 @@ facts:
     as_of: 2026-05-20
     source_ids:
       - m890
+  - label: V900 launch update
+    value: Alibaba unveiled V900 and now targets mass production and commercial release in Q1 2027,
+      earlier than its May Q3 2027 roadmap; it claims three times M890 performance and clusters of up
+      to 500,000 chips without disclosing workload, precision, topology, power or operating results.
+    evidence: reported
+    as_of: 2026-09-22
+    source_ids:
+      - alibaba-v900-2026-09-22
 watch_for:
   - Measured cloud utilization
   - Independent model-serving economics
   - Memory and manufacturing provenance
   - Product mix, utilization and acceptance behind reported shipment counts
+  - V900 production, customer acceptance and reproducible cluster-scale workloads
 source_ids:
   - m890
   - thead
-reviewed_at: 2026-09-19
+  - alibaba-v900-2026-09-22
+reviewed_at: 2026-09-22
 slug: thead
 layers:
   - accelerators
