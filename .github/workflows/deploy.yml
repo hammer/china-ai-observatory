@@ -11,11 +11,13 @@ concurrency:
   cancel-in-progress: true
 jobs:
   validate-build-deploy:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 15
     env:
       ASTRO_TELEMETRY_DISABLED: '1'
       WRANGLER_SEND_METRICS: 'false'
+      # GitHub's Ubuntu image includes stable Chrome and its OS dependencies.
+      PLAYWRIGHT_CHANNEL: chrome
     steps:
       - uses: actions/checkout@v6
         with:
@@ -24,16 +26,10 @@ jobs:
         with:
           node-version: '22'
           cache: npm
-      - run: npm ci
+      - run: npm ci --prefer-offline --no-audit --no-fund
       - run: npm run validate && npm run check && npm test
       - run: npm run build
-      - run: npx playwright install --with-deps chromium
       - run: npm run test:ui
-      - name: Keep the verified static build
-        uses: actions/upload-artifact@v4
-        with:
-          name: observatory-dist
-          path: dist
       - name: Check owner's Cloudflare configuration
         id: cloudflare
         if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
@@ -54,3 +50,8 @@ jobs:
           CLOUDFLARE_ACCOUNT_ID: ${{ vars.CLOUDFLARE_ACCOUNT_ID || secrets.CLOUDFLARE_ACCOUNT_ID }}
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
         run: npm run deploy
+      - name: Keep the verified static build
+        uses: actions/upload-artifact@v4
+        with:
+          name: observatory-dist
+          path: dist

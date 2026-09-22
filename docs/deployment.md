@@ -16,6 +16,12 @@ This is Cloudflare's [Direct Upload with CI](https://developers.cloudflare.com/p
 
 The deploy script retries transient API/network failures up to three times. Before retrying creation it checks whether the previous request already created the project. It logs Cloudflare error codes/messages and the request Ray ID, redacting the configured credentials; raw response bodies are never logged. An HTTP 500 alone does not establish a token-permission problem: do not broaden access or replace credentials without inspecting the API error. Authorization failures stop immediately. If failures persist, use the error code and Ray ID when checking Cloudflare status or contacting support. A successful build with failed project creation is not a published site.
 
+### Deployment speed
+
+The workflow uses the stable Chrome already installed on GitHub's `ubuntu-24.04` image through Playwright's supported `chrome` channel, avoiding a browser/OS-package installation on every run. Local tests retain Playwright's default bundled Chromium unless `PLAYWRIGHT_CHANNEL` or an explicit executable path is set. CI logs the browser version; the runner's Chrome version can change as GitHub updates its image.
+
+Both browser suites run concurrently before publication. Every existing interaction and responsive-layout assertion remains enabled. Static-page navigations wait for load, fonts, and a painted frame instead of a fixed network-idle delay. Artifact archiving follows deployment so it does not delay publication. Dependency installation still uses `npm ci` and the lockfile, with npm's download cache; no build or validation result is reused between commits. A sub-30-second run is a target, not a guarantee: runner queues, cold caches, and Cloudflare latency vary.
+
 ## Local deployment
 
 Provision the same two environment variables through your local secret manager, then:
