@@ -22,6 +22,8 @@ The workflow uses the stable Chrome already installed on GitHub's `ubuntu-24.04`
 
 Both browser suites run concurrently before publication. Every existing interaction and responsive-layout assertion remains enabled. Static-page navigations wait for load, fonts, and a painted frame instead of a fixed network-idle delay. Artifact archiving follows deployment so it does not delay publication. Dependency installation still uses `npm ci` and the lockfile, with npm's download cache; no build or validation result is reused between commits. A sub-30-second run is a target, not a guarantee: runner queues, cold caches, and Cloudflare latency vary.
 
+Validation, typechecking, unit tests, and the static build run concurrently; the workflow waits for all four and stops if any fails. The changelog reads historical YAML snapshots with one `git cat-file --batch` call instead of spawning `git show` for every file version. Full Git history, before/after evidence, and post-commit builds are preserved.
+
 ## Local deployment
 
 Provision the same two environment variables through your local secret manager, then:

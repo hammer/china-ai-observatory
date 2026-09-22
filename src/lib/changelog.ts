@@ -16,13 +16,38 @@ export function fieldChanges(before: unknown, after: unknown): FieldChange[] {
 export function getChanges(cwd=process.cwd()): Change[] {
   const git=(args:string[])=>execFileSync('git',args,{cwd,encoding:'utf8',stdio:['ignore','pipe','pipe'],maxBuffer:8*1024*1024});
   let log:string; try {log=git(['log','-40','--format=%H%x09%cs%x09%s','--','data/']);} catch{return [];}
-  const content=(ref:string,path:string)=>{try{return parse(git(['show',`${ref}:${path}`]));}catch{return null;}};
-  return log.trim().split('\n').filter(Boolean).map(line=>{
+  const commits=log.trim().split('\n').filter(Boolean).map(line=>{
     const [sha,date,...subjectParts]=line.split('\t');
     const files=git(['diff-tree','--root','--no-commit-id','--name-status','-r',sha!,'--','data/']).trim().split('\n').filter(Boolean).map(row=>{
-      const [status,path]=row.split('\t'); const before=content(`${sha}^`,path!); const after=content(sha!,path!);
-      return {path:path!,status:status!,title:after?.name??after?.title??before?.name??before?.title??path!,fields:status==='M'?fieldChanges(before,after):[]};
+      const [status,path]=row.split('\t');
+      return {path:path!,status:status!};
     });
     return {sha:sha!,date:date!,subject:subjectParts.join('\t'),files};
   });
+  const refs=commits.flatMap(c=>c.files.flatMap(f=>[`${c.sha}^:${f.path}`,`${c.sha}:${f.path}`]));
+  if(!refs.length) return commits.map(c=>({...c,files:[]}));
+  // One process reads all snapshots instead of two git-show processes per file.
+  // Batch sizes are byte counts, so decode YAML only after slicing the Buffer.
+  const batch=execFileSync('git',['cat-file','--batch'],{cwd,input:refs.join('\n')+'\n',stdio:['pipe','pipe','pipe'],maxBuffer:32*1024*1024});
+  const snapshots=new Map<string,any>();
+  const parsed=new Map<string,any>();
+  let offset=0;
+  for(const ref of refs) {
+    const end=batch.indexOf(10,offset);
+    if(end<0) throw new Error('Incomplete Git snapshot response');
+    const header=batch.subarray(offset,end).toString('utf8');offset=end+1;
+    if(header.endsWith(' missing')) {snapshots.set(ref,null);continue;}
+    const match=/^([a-f0-9]+) blob (\d+)$/.exec(header);
+    if(!match) throw new Error('Unexpected Git snapshot response');
+    const [,object,sizeText]=match;const size=Number(sizeText);
+    if(offset+size>=batch.length||batch[offset+size]!==10) throw new Error('Incomplete Git snapshot contents');
+    if(!parsed.has(object!)) {
+      try {parsed.set(object!,parse(batch.subarray(offset,offset+size).toString('utf8')));}catch{parsed.set(object!,null);}
+    }
+    snapshots.set(ref,parsed.get(object!));offset+=size+1;
+  }
+  return commits.map(c=>({...c,files:c.files.map(f=>{
+    const before=snapshots.get(`${c.sha}^:${f.path}`),after=snapshots.get(`${c.sha}:${f.path}`);
+    return {...f,title:after?.name??after?.title??before?.name??before?.title??f.path,fields:f.status==='M'?fieldChanges(before,after):[]};
+  })}));
 }

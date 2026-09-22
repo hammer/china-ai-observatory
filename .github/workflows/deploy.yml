@@ -27,8 +27,18 @@ jobs:
           node-version: '22'
           cache: npm
       - run: npm ci --prefer-offline --no-audit --no-fund
-      - run: npm run validate && npm run check && npm test
-      - run: npm run build
+      - name: Validate, typecheck, test and build
+        # Independent checks all have to succeed before browser tests or deployment.
+        run: |
+          npm run validate & validate_pid=$!
+          npm run check & typecheck_pid=$!
+          npm test & test_pid=$!
+          npm run build & build_pid=$!
+          result=0
+          for pid in "$validate_pid" "$typecheck_pid" "$test_pid" "$build_pid"; do
+            wait "$pid" || result=1
+          done
+          exit "$result"
       - run: npm run test:ui
       - name: Check owner's Cloudflare configuration
         id: cloudflare
