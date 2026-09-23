@@ -20,6 +20,20 @@ key_fact:
     - ascend
     - hbm-reuters
 facts:
+  - label: Atlas system development status
+    value: Huawei says a 256,000-card Atlas 950 cluster is being deployed and a near-packaged-optics
+      Atlas 960 system is under test; neither is a verified completed deployment or workload result.
+    evidence: vendor
+    as_of: 2026-09-17
+    source_ids:
+      - huawei-peerium-2026-09-17
+  - label: Peerium interconnect design
+    value: Huawei describes UnifiedBus as a common protocol across compute, memory, storage and
+      networking, with unified memory addressing and nested parallelism; independent scaling data are absent.
+    evidence: vendor
+    as_of: 2026-09-17
+    source_ids:
+      - huawei-peerium-2026-09-17
   - label: Scientific-computing measurements
     value: A Pengcheng Laboratory preprint measured Ascend 910A/B/C on five scientific workloads;
       a tuned 910C quantum-simulation run took 11.4 seconds versus 14.3 seconds on A800, while vector-
@@ -96,7 +110,8 @@ source_ids:
   - huawei-connect-2026-09-17
   - huawei-china-unicom-2026-09-10
   - ascend-science-2026-07-22
-reviewed_at: 2026-09-21
+  - huawei-peerium-2026-09-17
+reviewed_at: 2026-09-23
 slug: huawei
 layers:
   - accelerators

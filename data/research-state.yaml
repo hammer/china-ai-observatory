@@ -1,13 +1,14 @@
 schema_version: 2
 baseline_date: 2026-09-11
-last_research_at: 2026-09-22
-last_automated_run_at: 2026-09-22
-last_run_status: updated
-coverage: The September 15-22 overlap sweep covered all priority-1 companies and the three oldest-reviewed
-  remaining profiles in English and Chinese, then added today's T-Head roadmap change and newly tracked
-  Ligent financing and capacity evidence. Search-only coverage did not advance other company review dates.
-  Coverage remains incomplete for private deployments, unindexed Chinese disclosures, tenders, undisclosed
-  customer and production metrics, and individual benchmark artifacts.
+last_research_at: 2026-09-23
+last_automated_run_at: 2026-09-23
+last_run_status: partial
+coverage: The September 16-23 overlap sweep screened 12 priority-1 companies and the three oldest-reviewed
+  remaining profiles using English and Chinese searches. Only Huawei received substantive new primary-source
+  evidence and a new profile review date. Broad searches often returned irrelevant or older material;
+  SIOM's source failed to load and the FT lithography article was accessible only through search excerpts.
+  The remaining profiles were not fully revalidated. Coverage is partial for lithography suppliers,
+  private deployments, unindexed disclosures, tenders, production metrics and individual benchmark artifacts.
 timezone: Europe/London
 runs:
   - date: 2026-09-12
@@ -588,6 +589,43 @@ runs:
       - alibaba-v900-2026-09-22
       - ligent
       - ligent-ipo-2026-09-22
+      - mlperf-training
+      - mlperf-inference
+      - inferencex
+  - date: 2026-09-23
+    status: partial
+    companies:
+      - aishengna
+      - amec
+      - cambricon
+      - cxmt
+      - enflame
+      - eoptolink
+      - huawei
+      - innolight
+      - naura
+      - smic
+      - ymtc
+      - yuliangsheng
+      - rslaser
+      - siom
+      - zhiqi
+    summary: >-
+      Screened these 15 companies with a September 16-23 overlap, not a full source revalidation of
+      every profile. Backfilled Huawei's primary deployment/testing disclosure and interconnect design;
+      retained vendor labels and historical roadmaps. Only Huawei's profile review date advanced.
+      English and Chinese searches for the other priority companies largely returned previously recorded,
+      older or irrelevant results. RSLaser and Zhiqi searches and the FT search excerpt did not establish
+      new qualification, shipment or production evidence; the full FT article could not be retrieved.
+      SIOM's official about page returned 502 and targeted searches did not resolve the gap. These oldest
+      profiles remain pending substantive review. Rechecked MLPerf Training v6.0 head
+      eabf23a07b2a0c60a289ff871dc3a46fff0d0421 and top-level submitters, Inference v6.0 head
+      4d3916ac9cf474b679cdfcf492d43a0559418ad1 and closed submitters, plus InferenceX's published coverage.
+      No matched current Chinese accelerator comparison was verified; individual benchmark artifacts
+      were not exhaustively reviewed. No dated forecast or historical briefing was changed.
+    source_ids:
+      - huawei-peerium-2026-09-17
+      - duv-ft
       - mlperf-training
       - mlperf-inference
       - inferencex
