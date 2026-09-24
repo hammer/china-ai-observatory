@@ -1,0 +1,53 @@
+name: RoboTechnik
+chinese_name: 罗博特科
+counterparts:
+  - ASMPT
+  - Mycronic / MRSI
+priority: 2
+stage: Commercial
+role: Chinese parent of Germany-based ficonTEC, supplying silicon-photonics assembly and test equipment.
+assessment: >-
+  RoboTechnik has commercial silicon-photonics equipment, a large reported order backlog and a rising
+  share of production in Suzhou. Its core position was built by acquiring Germany-based ficonTEC;
+  R&D and production remain geographically distributed, and the prospectus does not establish domestic
+  provenance for industrial cameras, optics, motion-control hardware or specialized test instruments.
+key_fact:
+  label: Mainland production localization
+  value: Company says Chinese-mainland production rose from 28.1% of SiPh equipment units in 2025 to 62.5% in the first four months of 2026
+  evidence: vendor
+  as_of: 2026-04-30
+  source_ids:
+    - robotechnik-prospectus-2026-09-21
+facts:
+  - label: Silicon-photonics backlog
+    value: Company reports RMB 2.0 billion of SiPh assembly and testing equipment backlog at June 30, without customer, margin or acceptance details.
+    evidence: vendor
+    as_of: 2026-06-30
+    source_ids:
+      - robotechnik-prospectus-2026-09-21
+  - label: Silicon-photonics revenue mix
+    value: SiPh assembly and test equipment generated RMB 439.1 million in 2025 and 65.8% of group revenue in the first four months of 2026 after the ficonTEC acquisition.
+    evidence: vendor
+    as_of: 2026-04-30
+    source_ids:
+      - robotechnik-prospectus-2026-09-21
+  - label: Offering plan
+    value: At the maximum offer price, the prospectus estimates HKD 4.961 billion of net proceeds, with 20% planned for R&D and 40% for capacity; final proceeds and execution remain pending.
+    evidence: primary
+    as_of: 2026-09-21
+    source_ids:
+      - robotechnik-prospectus-2026-09-21
+      - robotechnik-offering-2026-09-20
+watch_for:
+  - Final offering proceeds and realized Suzhou capacity additions
+  - Named-customer acceptance, yield, uptime and delivery economics
+  - Provenance of optics, motion control, cameras and test instruments
+  - Transfer and retention of ficonTEC know-how across Germany, Estonia and China
+source_ids:
+  - robotechnik-prospectus-2026-09-21
+  - robotechnik-offering-2026-09-20
+reviewed_at: 2026-09-24
+slug: robotechnik
+layers:
+  - equipment
+  - photonics

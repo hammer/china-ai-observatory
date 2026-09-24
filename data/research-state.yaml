@@ -1,14 +1,13 @@
 schema_version: 2
 baseline_date: 2026-09-11
-last_research_at: 2026-09-23
-last_automated_run_at: 2026-09-23
-last_run_status: partial
-coverage: The September 16-23 overlap sweep screened 12 priority-1 companies and the three oldest-reviewed
-  remaining profiles using English and Chinese searches. Only Huawei received substantive new primary-source
-  evidence and a new profile review date. Broad searches often returned irrelevant or older material;
-  SIOM's source failed to load and the FT lithography article was accessible only through search excerpts.
-  The remaining profiles were not fully revalidated. Coverage is partial for lithography suppliers,
-  private deployments, unindexed disclosures, tenders, production metrics and individual benchmark artifacts.
+last_research_at: 2026-09-24
+last_automated_run_at: 2026-09-24
+last_run_status: updated
+coverage: The September 17-24 overlap sweep screened 12 priority-1 companies and the three oldest-reviewed
+  remaining profiles in English and Chinese, then reviewed RoboTechnik's full September 21 prospectus and
+  added it as a tracked silicon-photonics equipment supplier. Search-only coverage did not advance the other
+  profile dates. Coverage remains incomplete for private deployments, unindexed Chinese disclosures, tenders,
+  customer acceptance, component provenance, production economics and individual benchmark artifacts.
 timezone: Europe/London
 runs:
   - date: 2026-09-12
@@ -626,6 +625,47 @@ runs:
     source_ids:
       - huawei-peerium-2026-09-17
       - duv-ft
+      - mlperf-training
+      - mlperf-inference
+      - inferencex
+  - date: 2026-09-24
+    status: updated
+    companies:
+      - aishengna
+      - amec
+      - cambricon
+      - cxmt
+      - enflame
+      - eoptolink
+      - huawei
+      - innolight
+      - naura
+      - smic
+      - ymtc
+      - yuliangsheng
+      - rslaser
+      - siom
+      - zhiqi
+      - robotechnik
+    summary: >-
+      Screened the 12 priority-1 profiles and the three oldest-reviewed remaining profiles with
+      overlapping English and Chinese searches covering September 17-24. Search results for those
+      15 profiles were previously recorded, older, immaterial or insufficient to establish a new
+      qualification, delivery, production or benchmark milestone, so their profile dates did not advance.
+      Reviewed RoboTechnik's full September 21 Hong Kong prospectus and added the company as a priority-2
+      silicon-photonics equipment supplier. The company reports RMB 2.0 billion of SiPh equipment backlog
+      at June 30 and says mainland production rose from 28.1% of units in 2025 to 62.5% in the first four
+      months of 2026. The record qualifies these as company evidence and notes that core ficonTEC operations,
+      R&D and know-how remain geographically distributed. The proposed offering could provide up to an
+      estimated HKD 4.961 billion net at the maximum price, with 20% planned for R&D and 40% for capacity;
+      final pricing, proceeds and execution were pending when reviewed. Rechecked unchanged MLPerf Training
+      v6.0 head eabf23a07b2a0c60a289ff871dc3a46fff0d0421 and Inference v6.0 head
+      4d3916ac9cf474b679cdfcf492d43a0559418ad1, their current submitter directories and InferenceX's
+      published coverage. No matched current Chinese accelerator comparison was verified; individual
+      result artifacts were not exhaustively reviewed. No dated forecast or historical briefing changed.
+    source_ids:
+      - robotechnik-prospectus-2026-09-21
+      - robotechnik-offering-2026-09-20
       - mlperf-training
       - mlperf-inference
       - inferencex
