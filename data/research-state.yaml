@@ -1,13 +1,13 @@
 schema_version: 2
 baseline_date: 2026-09-11
-last_research_at: 2026-09-24
-last_automated_run_at: 2026-09-24
-last_run_status: updated
-coverage: The September 17-24 overlap sweep screened 12 priority-1 companies and the three oldest-reviewed
-  remaining profiles in English and Chinese, then reviewed RoboTechnik's full September 21 prospectus and
-  added it as a tracked silicon-photonics equipment supplier. Search-only coverage did not advance the other
-  profile dates. Coverage remains incomplete for private deployments, unindexed Chinese disclosures, tenders,
-  customer acceptance, component provenance, production economics and individual benchmark artifacts.
+last_research_at: 2026-09-25
+last_automated_run_at: 2026-09-25
+last_run_status: no-material-change
+coverage: The September 18-25 overlap sweep screened 12 priority-1 companies and the three oldest-reviewed
+  remaining profiles with English and Chinese searches. No new qualifying delivery, production, acceptance,
+  financing or benchmark evidence was verified, so company review dates did not advance. Coverage remains
+  incomplete for private deployments, unindexed Chinese disclosures, tenders, customer acceptance, component
+  provenance, production economics and individual benchmark artifacts.
 timezone: Europe/London
 runs:
   - date: 2026-09-12
@@ -666,6 +666,39 @@ runs:
     source_ids:
       - robotechnik-prospectus-2026-09-21
       - robotechnik-offering-2026-09-20
+      - mlperf-training
+      - mlperf-inference
+      - inferencex
+  - date: 2026-09-25
+    status: no-material-change
+    companies:
+      - aishengna
+      - amec
+      - cambricon
+      - cxmt
+      - enflame
+      - eoptolink
+      - huawei
+      - innolight
+      - naura
+      - smic
+      - ymtc
+      - yuliangsheng
+      - rslaser
+      - siom
+      - zhiqi
+    summary: >-
+      Screened the 12 priority-1 profiles and the three oldest-reviewed remaining profiles with
+      overlapping English and Chinese searches covering September 18-25. Results were previously
+      recorded, older, immaterial, inaccessible or insufficient to establish a new qualified delivery,
+      production volume or yield, tool acceptance, customer adoption, capacity-changing financing or
+      software/interconnect milestone. Company profile review dates therefore did not advance. Rechecked
+      unchanged MLPerf Training v6.0 head eabf23a07b2a0c60a289ff871dc3a46fff0d0421 and Inference v6.0
+      head 4d3916ac9cf474b679cdfcf492d43a0559418ad1 plus their current submitter directories. InferenceX
+      has added newer model coverage, but no comparable Chinese accelerator result was identified in its
+      published hardware coverage. Individual result artifacts were not exhaustively reviewed. No dated
+      forecast, historical news event or briefing changed.
+    source_ids:
       - mlperf-training
       - mlperf-inference
       - inferencex
