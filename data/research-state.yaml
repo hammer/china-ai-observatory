@@ -1,9 +1,9 @@
 schema_version: 2
 baseline_date: 2026-09-11
-last_research_at: 2026-09-25
-last_automated_run_at: 2026-09-25
+last_research_at: 2026-09-26
+last_automated_run_at: 2026-09-26
 last_run_status: no-material-change
-coverage: The September 18-25 overlap sweep screened 12 priority-1 companies and the three oldest-reviewed
+coverage: The September 19-26 overlap sweep screened 12 priority-1 companies and the three oldest-reviewed
   remaining profiles with English and Chinese searches. No new qualifying delivery, production, acceptance,
   financing or benchmark evidence was verified, so company review dates did not advance. Coverage remains
   incomplete for private deployments, unindexed Chinese disclosures, tenders, customer acceptance, component
@@ -697,6 +697,42 @@ runs:
       head 4d3916ac9cf474b679cdfcf492d43a0559418ad1 plus their current submitter directories. InferenceX
       has added newer model coverage, but no comparable Chinese accelerator result was identified in its
       published hardware coverage. Individual result artifacts were not exhaustively reviewed. No dated
+      forecast, historical news event or briefing changed.
+    source_ids:
+      - mlperf-training
+      - mlperf-inference
+      - inferencex
+  - date: 2026-09-26
+    status: no-material-change
+    companies:
+      - aishengna
+      - amec
+      - cambricon
+      - cxmt
+      - enflame
+      - eoptolink
+      - huawei
+      - innolight
+      - naura
+      - smic
+      - ymtc
+      - yuliangsheng
+      - rslaser
+      - siom
+      - zhiqi
+    summary: >-
+      Screened the 12 priority-1 profiles and the three oldest-reviewed remaining profiles with
+      overlapping English and Chinese searches covering September 19-26. Results were previously
+      recorded, older, immaterial or insufficient to establish a new qualified delivery, production
+      volume or yield, tool acceptance, customer adoption, capacity-changing financing or
+      software/interconnect milestone. SIOM's September 22 fused-silica study was read in full; it
+      addresses radiation-driven degradation after ion-beam figuring for space and high-power-laser
+      optics, not a demonstrated lithography-tool delivery, production qualification or AI-hardware
+      milestone. Company profile review dates therefore did not advance. Rechecked unchanged MLPerf
+      Training v6.0 head eabf23a07b2a0c60a289ff871dc3a46fff0d0421 and Inference v6.0 head
+      4d3916ac9cf474b679cdfcf492d43a0559418ad1. InferenceX's published hardware coverage now names
+      Rubin, GB300, MI355X, TPU v7 and OpenAI Jalapeño but still supplied no comparable current Chinese
+      accelerator result. Individual result artifacts were not exhaustively reviewed. No dated
       forecast, historical news event or briefing changed.
     source_ids:
       - mlperf-training
