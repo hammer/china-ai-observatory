@@ -1,11 +1,11 @@
 schema_version: 2
 baseline_date: 2026-09-11
-last_research_at: 2026-09-26
-last_automated_run_at: 2026-09-26
-last_run_status: no-material-change
-coverage: The September 19-26 overlap sweep screened 12 priority-1 companies and the three oldest-reviewed
-  remaining profiles with English and Chinese searches. No new qualifying delivery, production, acceptance,
-  financing or benchmark evidence was verified, so company review dates did not advance. Coverage remains
+last_research_at: 2026-09-27
+last_automated_run_at: 2026-09-27
+last_run_status: updated
+coverage: The September 20-27 overlap sweep screened 12 priority-1 companies and the three oldest-reviewed
+  remaining profiles with English and Chinese searches. Huawei received a substantive primary-source update;
+  search-only coverage did not advance the other company review dates. Coverage remains
   incomplete for private deployments, unindexed Chinese disclosures, tenders, customer acceptance, component
   provenance, production economics and individual benchmark artifacts.
 timezone: Europe/London
@@ -737,4 +737,43 @@ runs:
     source_ids:
       - mlperf-training
       - mlperf-inference
+      - inferencex
+  - date: 2026-09-27
+    status: updated
+    companies:
+      - aishengna
+      - amec
+      - cambricon
+      - cxmt
+      - enflame
+      - eoptolink
+      - huawei
+      - innolight
+      - naura
+      - smic
+      - ymtc
+      - yuliangsheng
+      - rslaser
+      - siom
+      - zhiqi
+    summary: >-
+      Screened the 12 priority-1 profiles and the three oldest-reviewed remaining profiles with
+      overlapping English and Chinese searches covering September 20-27. Backfilled Huawei's
+      September 17 primary disclosure that its Hi-ONE NPO engine has 7.2T transmission capacity per
+      engine and company-claimed mass-production capability. The record does not infer a completed
+      Ascend 960 system, shipped volume, customer acceptance, production yield, component provenance,
+      reliability or workload performance. Only Huawei's company review date advanced; results for the
+      other 14 profiles were previously recorded, older, immaterial or insufficient to establish a new
+      qualified delivery, production, acceptance, financing, software or interconnect milestone.
+      Updated the current standardized benchmark review from MLPerf Inference v6.0 to the September 16
+      v6.1 results. Its 30-participant submitter list contains no current Chinese accelerator vendor,
+      so it still does not supply a matched latest Chinese-versus-foreign comparison; standardized
+      submissions are submitter-run rather than automatically independent. MLPerf Training v6.0 remains
+      the latest published training round while v6.1 submissions are due in October. Rechecked InferenceX's
+      current coverage and found no comparable current Chinese accelerator result. Individual benchmark
+      artifacts were not exhaustively reviewed. No dated forecast or historical briefing changed.
+    source_ids:
+      - huawei-hi-one-2026-09-17
+      - mlperf-training
+      - mlperf-inference-6-1
       - inferencex

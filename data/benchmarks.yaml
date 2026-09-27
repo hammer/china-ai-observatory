@@ -1,11 +1,13 @@
 headline: No verified latest-versus-latest independent comparison
-assessment: Follow-up through September 26 did not verify a matched independent comparison of
-  current Chinese accelerators against Rubin, GB300, MI355X, TPU v7, or OpenAI Jalapeño. The review checked MLPerf v6.0
-  repository heads and submitter listings plus InferenceX's published coverage, not every result artifact.
+assessment: Follow-up through September 27 did not verify a matched independent comparison of
+  current Chinese accelerators against Rubin, GB300, MI355X, TPU v7, or OpenAI Jalapeño. The review checked
+  MLPerf Training v6.0 and Inference v6.1 repository heads and submitter listings plus InferenceX's
+  published coverage, not every result artifact. MLPerf's standardized results are submitter-run and
+  are not automatically independent measurements.
   A Pengcheng Laboratory preprint adds measured Ascend 910C scientific-computing results against
   A800/H800 controls, but it is not a model-training or inference comparison and does not use current
   frontier foreign hardware. Absence of a verified public result is not evidence of incapability.
-reviewed_at: 2026-09-26
+reviewed_at: 2026-09-27
 comparison:
   title: DeepSeek-R1 on Ascend 910C and H100
   date: 2025-06
@@ -44,14 +46,14 @@ studies:
       Compatibility evidence only; no matched foreign-hardware throughput, latency or power comparison.
     source_ids:
       - biren-glm-2026-09-07
-  - title: MLPerf Training / Inference v6.0
+  - title: MLPerf Training v6.0 / Inference v6.1
     evidence: standardized
     date: "2026"
-    finding: Standardized submitter-run results; no matched latest Chinese-versus-foreign comparison established
-      in this baseline.
+    finding: Standardized submitter-run results. The current Training v6.0 and Inference v6.1
+      submitter listings do not establish a matched latest Chinese-versus-foreign comparison.
     source_ids:
       - mlperf-training
-      - mlperf-inference
+      - mlperf-inference-6-1
   - title: InferenceX
     evidence: measured
     date: Continuous

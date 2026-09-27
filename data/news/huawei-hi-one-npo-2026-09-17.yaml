@@ -1,0 +1,20 @@
+slug: huawei-hi-one-npo-2026-09-17
+published_at: 2026-09-17
+event_date: 2026-09-17
+title: Huawei claims mass-production capability for its Hi-ONE NPO engine
+summary: >-
+  Huawei says its Hi-ONE near-packaged-optics engine provides 7.2T of transmission capacity per
+  engine and has mass-production capability. Its planned 4,096-card Ascend 960 supernode would use
+  5,500 Hi-ONE engines in place of 48,000 800G optical modules.
+impact: >-
+  This is a material system-interconnect manufacturing claim, but it remains company evidence.
+  Huawei did not disclose units shipped, fabrication or component provenance, production yield,
+  customer acceptance, live-workload results or independent reliability measurements, and the
+  Ascend 960 supernode remains a future system rather than a completed deployment.
+companies:
+  - huawei
+source_ids:
+  - huawei-hi-one-2026-09-17
+evidence: vendor
+added_at: 2026-09-27
+correction_of: null
