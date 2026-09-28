@@ -8,10 +8,14 @@ summary: >-
   precision, device memory, fabrication, power, topology, recovery or measured scaling data.
 impact: >-
   The revised schedule and proposed cluster scale strengthen T-Head's roadmap signal, not delivered
-  performance or supply-chain sovereignty. Preserve the May roadmap as a dated historical claim and
-  watch for production qualification, customer acceptance and reproducible model results.
+  performance or supply-chain sovereignty. Alibaba separately said M890 AI Supernodes were reaching
+  commercial scale during the quarter while demand exceeded supply capability, but disclosed no
+  configurations, utilization, power, reliability or workload results. Preserve the May roadmap as a
+  dated historical claim and watch for production qualification, customer acceptance and reproducible
+  model results.
 source_ids:
   - alibaba-v900-2026-09-22
+  - alibaba-v900-primary-2026-09-22
 evidence: reported
 added_at: 2026-09-22
 correction_of: null

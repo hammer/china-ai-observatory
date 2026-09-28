@@ -3,11 +3,11 @@ baseline_date: 2026-09-11
 last_research_at: 2026-09-28
 last_automated_run_at: 2026-09-28
 last_run_status: updated
-coverage: The September 21-28 overlap sweep screened 12 priority-1 companies and the three oldest-reviewed
-  remaining profiles with English and Chinese searches. NAURA received a substantive vendor-evidence update;
-  search-only coverage did not advance the other company review dates. Coverage remains
-  incomplete for private deployments, unindexed Chinese disclosures, tenders, customer acceptance, component
-  provenance, production economics and individual benchmark artifacts.
+coverage: The September 21-27 complete weekly briefing audited four canonical events and their original
+  sources, supplemented by bounded English and Chinese gap searches. T-Head received a primary-source
+  revalidation; coverage remains incomplete for private deployments, unindexed Chinese disclosures,
+  tenders, customer acceptance, component provenance, production economics and individual benchmark
+  artifacts.
 timezone: Europe/London
 runs:
   - date: 2026-09-12
@@ -815,6 +815,40 @@ runs:
     source_ids:
       - naura-ale-primary
       - naura-ale-2026-09-24
+      - mlperf-training
+      - mlperf-inference-6-1
+      - inferencex
+  - date: 2026-09-28
+    status: updated
+    companies:
+      - ligent
+      - naura
+      - robotechnik
+      - thead
+    summary: >-
+      Ran the weekly briefing helper for the closed September 21-27 period, retained all earlier
+      editions and audited the four selected canonical events against their original sources.
+      Supplemented the corpus with Alibaba's September 22 primary announcement, which supports the
+      V900 and M890 Supernode roadmap while also recording that medium- and long-term demand exceeds
+      supply capability and wider data-center supply-chain shortages constrain expansion. The source
+      did not disclose delivered configurations, customer acceptance, utilization, reliability, power
+      or workload results. Bounded English and Chinese gap searches across accelerators, optical
+      interconnects and capital, memory, networking and manufacturing equipment did not establish an
+      additional qualifying in-period event. A clearly labeled September 28 post-period check of MLPerf
+      Training v6.0, MLPerf Inference v6.1 and InferenceX found no matched current Chinese accelerator
+      comparison against Rubin, GB300, MI355X, TPU v7 or OpenAI Jalapeño. Individual benchmark artifacts
+      were not exhaustively reviewed. No dated forecast or historical briefing changed. Coverage remains
+      incomplete for private deployments, unindexed disclosures, tenders, customer acceptance, volume,
+      yield, utilization, power and component provenance.
+    source_ids:
+      - alibaba-v900-2026-09-22
+      - alibaba-v900-primary-2026-09-22
+      - ligent-ipo-2026-09-22
+      - ligent
+      - naura-ale-2026-09-24
+      - naura-ale-primary
+      - robotechnik-offering-2026-09-20
+      - robotechnik-prospectus-2026-09-21
       - mlperf-training
       - mlperf-inference-6-1
       - inferencex

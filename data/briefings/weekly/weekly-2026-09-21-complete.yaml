@@ -1,0 +1,122 @@
+slug: weekly-2026-09-21-complete
+cadence: weekly
+period_start: 2026-09-21
+period_end: 2026-09-27
+through_date: 2026-09-27
+published_at: 2026-09-28
+status: complete
+title: Roadmaps and capital scale up; qualification and supply remain the gates
+summary: Alibaba's V900 roadmap, optical-sector financings and NAURA's customer-process-use claim
+  show investment moving from chip design toward systems and manufacturing, but future schedules,
+  distributed supply chains, absent operating metrics and supplier-material tightness still limit
+  evidence of sovereign production at scale.
+sections:
+  - heading: Alibaba is widening from chips to systems before V900 production
+    body: >-
+      Alibaba unveiled Zhenwu V900 and targets mass production and commercial release in the first
+      quarter of 2027, earlier than the third-quarter target reported in May. It claims three times
+      M890 performance and support for clusters of up to 500,000 chips without disclosing workload,
+      precision, device memory, fabrication, topology, power or measured scaling. Alibaba's original
+      announcement also says M890 AI Supernodes began reaching commercial scale during the quarter,
+      while medium- and long-term demand exceeds its supply capability and wider data-center
+      supply-chain shortages constrain expansion. It supplied no delivered configuration, customer,
+      utilization, reliability or workload data. The announcements strengthen T-Head's systems
+      roadmap, not evidence of V900 production or frontier performance.
+    source_ids:
+      - alibaba-v900-2026-09-22
+      - alibaba-v900-primary-2026-09-22
+  - heading: Optical capital is expanding faster than component sovereignty
+    body: >-
+      Ligent raised HKD 5.67 billion in its Hong Kong offering and allocated 52.9% of the proceeds to
+      R&D and 25.1% to capacity. Reuters reported that an analyst still viewed its shipments as
+      weighted toward lower-speed products. RoboTechnik's offering could provide up to an estimated
+      HKD 4.961 billion net at the maximum price, with 20% planned for R&D and 40% for capacity; final
+      pricing and proceeds remained pending during the period. RoboTechnik reports a growing mainland
+      share of silicon-photonics equipment production, but its ficonTEC operations, R&D and know-how
+      remain internationally distributed. Financing and Chinese production capacity therefore do not
+      establish customer-qualified 1.6T shipment volume or domestic DSP, laser and analog-component
+      provenance.
+    source_ids:
+      - ligent-ipo-2026-09-22
+      - ligent
+      - robotechnik-offering-2026-09-20
+      - robotechnik-prospectus-2026-09-21
+  - heading: NAURA crossed a customer-use gate while exposing an upstream constraint
+    body: >-
+      NAURA said its atomic-layer-etch equipment achieved customer process use, while its product
+      disclosure says the tool entered a well-known customer's production line and completed process
+      validation. Neither source names the customer or supplies node, installed-unit, volume, yield,
+      uptime, throughput or domestic-component data. NAURA also warned that material-delivery
+      tightness at individual suppliers may pressure some order deliveries over the next three to six
+      months, without identifying the components, suppliers or affected order value. The evidence is
+      a meaningful qualification step and a direct reminder that tool progress can remain constrained
+      by upstream materials.
+    source_ids:
+      - naura-ale-2026-09-24
+      - naura-ale-primary
+  - heading: Benchmark evidence did not move
+    body: >-
+      A post-period check on September 28 found no matched current Chinese accelerator result against
+      Rubin, GB300, MI355X, TPU v7 or OpenAI Jalapeño in MLPerf Training v6.0, MLPerf Inference v6.1
+      or InferenceX's published coverage. MLPerf provides standardized submitter-run results rather
+      than automatically independent testing, and individual result artifacts were not exhaustively
+      audited. The period supplied no new independently controlled model-training or inference result
+      that changes the frontier comparison.
+    source_ids:
+      - mlperf-training
+      - mlperf-inference-6-1
+      - inferencex
+  - heading: Forecast implications
+    body: >-
+      No dated forecast changes. V900 and M890 Supernode claims support the existing view that Chinese
+      vendors can improve useful inference and aggregate system capability before matching frontier
+      chips, but future production and missing operating evidence limit confidence. Ligent and
+      RoboTechnik reinforce China's strength in optical modules and assembly equipment while leaving
+      foreign-component and internationally distributed know-how caveats intact. NAURA's customer-use
+      claim supports continued progress in non-lithography fab equipment, while its supplier warning
+      reinforces the broader fabrication-dependency assessment. Frontier pretraining, HBM and EUV
+      timelines remain unchanged.
+    source_ids:
+      - alibaba-v900-2026-09-22
+      - alibaba-v900-primary-2026-09-22
+      - ligent-ipo-2026-09-22
+      - robotechnik-prospectus-2026-09-21
+      - naura-ale-2026-09-24
+      - naura-ale-primary
+      - mlperf-training
+      - mlperf-inference-6-1
+      - inferencex
+  - heading: Next evidence to watch
+    body: >-
+      Prioritize V900 production qualification and accepted customer configurations; M890 Supernode
+      delivery counts, utilization, recovery, power and workloads; Ligent and RoboTechnik use of
+      proceeds, high-speed shipment mix, production yield and component provenance; repeat NAURA ALE
+      orders with named process coverage and operating metrics; resolution of NAURA's supplier-material
+      constraints; and matched training time-to-quality or inference throughput, latency and energy
+      measurements on current Chinese and frontier foreign hardware.
+    source_ids: []
+news_ids:
+  - robotechnik-offering-2026-09-21
+  - alibaba-v900-2026-09-22
+  - ligent-ipo-2026-09-22
+  - naura-ale-customer-use-2026-09-24
+source_ids:
+  - alibaba-v900-2026-09-22
+  - alibaba-v900-primary-2026-09-22
+  - inferencex
+  - ligent
+  - ligent-ipo-2026-09-22
+  - mlperf-inference-6-1
+  - mlperf-training
+  - naura-ale-2026-09-24
+  - naura-ale-primary
+  - robotechnik-offering-2026-09-20
+  - robotechnik-prospectus-2026-09-21
+coverage_note: >-
+  This complete edition covers September 21-27 from four canonical in-period events, their original
+  sources and bounded English and Chinese gap searches across accelerators, optical interconnects and
+  capital, memory, networking and manufacturing equipment. Older or post-period public evidence is
+  used only as clearly labeled context and is not included in news_ids. Coverage remains incomplete
+  for private deployments, unindexed Chinese disclosures, tenders, individual benchmark artifacts and
+  customer acceptance, production volume, yield, utilization, reliability, power and component
+  provenance.

@@ -41,6 +41,16 @@ facts:
     as_of: 2026-09-22
     source_ids:
       - alibaba-v900-2026-09-22
+      - alibaba-v900-primary-2026-09-22
+  - label: Supernode commercialization and supply
+    value: Alibaba says M890 AI Supernodes began reaching commercial scale in the third quarter of
+      2026, while medium- and long-term demand exceeds its supply capability and wider data-center
+      supply-chain shortages constrain expansion. It did not disclose delivered configurations,
+      customer acceptance, utilization, reliability, power or workload results.
+    evidence: vendor
+    as_of: 2026-09-22
+    source_ids:
+      - alibaba-v900-primary-2026-09-22
 watch_for:
   - Measured cloud utilization
   - Independent model-serving economics
@@ -51,7 +61,8 @@ source_ids:
   - m890
   - thead
   - alibaba-v900-2026-09-22
-reviewed_at: 2026-09-22
+  - alibaba-v900-primary-2026-09-22
+reviewed_at: 2026-09-28
 slug: thead
 layers:
   - accelerators
