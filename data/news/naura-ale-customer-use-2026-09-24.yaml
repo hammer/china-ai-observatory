@@ -1,0 +1,22 @@
+slug: naura-ale-customer-use-2026-09-24
+published_at: 2026-09-24
+event_date: 2026-09-24
+title: NAURA reports customer process use for atomic-layer-etch equipment
+summary: >-
+  NAURA said on an investor platform that its atomic-layer-etch equipment has achieved customer
+  process use. An undated company product disclosure says the tool entered a well-known customer's
+  production line and completed process validation. The company separately warned that tight delivery
+  of materials from individual suppliers may pressure some order deliveries over the next three to six months.
+impact: >-
+  Customer process use is stronger evidence than a laboratory prototype, but it does not establish
+  advanced-node volume production, named-customer acceptance, installed units, yield, uptime, throughput
+  or domestic component provenance. The delivery warning is evidence that upstream material dependence
+  can still constrain scale; affected components, suppliers and order value were not disclosed.
+companies:
+  - naura
+source_ids:
+  - naura-ale-primary
+  - naura-ale-2026-09-24
+evidence: vendor
+added_at: 2026-09-28
+correction_of: null

@@ -1,10 +1,10 @@
 schema_version: 2
 baseline_date: 2026-09-11
-last_research_at: 2026-09-27
-last_automated_run_at: 2026-09-27
+last_research_at: 2026-09-28
+last_automated_run_at: 2026-09-28
 last_run_status: updated
-coverage: The September 20-27 overlap sweep screened 12 priority-1 companies and the three oldest-reviewed
-  remaining profiles with English and Chinese searches. Huawei received a substantive primary-source update;
+coverage: The September 21-28 overlap sweep screened 12 priority-1 companies and the three oldest-reviewed
+  remaining profiles with English and Chinese searches. NAURA received a substantive vendor-evidence update;
   search-only coverage did not advance the other company review dates. Coverage remains
   incomplete for private deployments, unindexed Chinese disclosures, tenders, customer acceptance, component
   provenance, production economics and individual benchmark artifacts.
@@ -774,6 +774,47 @@ runs:
       artifacts were not exhaustively reviewed. No dated forecast or historical briefing changed.
     source_ids:
       - huawei-hi-one-2026-09-17
+      - mlperf-training
+      - mlperf-inference-6-1
+      - inferencex
+  - date: 2026-09-28
+    status: updated
+    companies:
+      - aishengna
+      - amec
+      - cambricon
+      - cxmt
+      - enflame
+      - eoptolink
+      - huawei
+      - innolight
+      - naura
+      - smic
+      - ymtc
+      - yuliangsheng
+      - rslaser
+      - siom
+      - zhiqi
+    summary: >-
+      Screened the 12 priority-1 profiles and the three oldest-reviewed remaining profiles with
+      overlapping English and Chinese searches covering September 21-28. Added NAURA's September 24
+      statement that its atomic-layer-etch equipment has achieved customer process use and linked the
+      company's undated product disclosure that the tool entered a well-known customer's production
+      line and completed process validation. Recorded this as vendor evidence, not proof of advanced-node
+      volume production, named-customer acceptance, installed units, yield, uptime, throughput or domestic
+      component provenance. Also recorded NAURA's warning that material-delivery tightness at individual
+      suppliers may pressure some order deliveries over the next three to six months; affected components,
+      suppliers and order value were not disclosed. Only NAURA's profile review date advanced. Results for
+      the other 14 profiles were previously recorded, older, immaterial or insufficient to establish a new
+      qualified delivery, production, acceptance, financing, software or interconnect milestone. Rechecked
+      unchanged MLPerf Training v6.0 head eabf23a07b2a0c60a289ff871dc3a46fff0d0421 and MLPerf Inference
+      v6.1 head 10ecdffda3bb94d71f0203a6ca8e20c17943f27c plus their current submitter directories; no matched
+      latest Chinese-versus-foreign accelerator comparison was verified. InferenceX still supplied no
+      comparable current Chinese accelerator result. Individual benchmark artifacts were not exhaustively
+      reviewed. No dated forecast or historical briefing changed.
+    source_ids:
+      - naura-ale-primary
+      - naura-ale-2026-09-24
       - mlperf-training
       - mlperf-inference-6-1
       - inferencex
