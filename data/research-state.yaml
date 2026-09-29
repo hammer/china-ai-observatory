@@ -1,13 +1,13 @@
 schema_version: 2
 baseline_date: 2026-09-11
-last_research_at: 2026-09-28
-last_automated_run_at: 2026-09-28
+last_research_at: 2026-09-29
+last_automated_run_at: 2026-09-29
 last_run_status: updated
-coverage: The September 21-27 complete weekly briefing audited four canonical events and their original
-  sources, supplemented by bounded English and Chinese gap searches. T-Head received a primary-source
-  revalidation; coverage remains incomplete for private deployments, unindexed Chinese disclosures,
-  tenders, customer acceptance, component provenance, production economics and individual benchmark
-  artifacts.
+coverage: The September 22-29 overlap sweep screened 12 priority-1 companies and the three oldest-reviewed
+  remaining profiles with English and Chinese searches. Eoptolink and InnoLight received a substantive
+  policy update; search-only coverage did not advance the other company review dates. Coverage remains
+  incomplete for private deployments, unindexed Chinese disclosures, tenders, customer acceptance,
+  component provenance, production economics and individual benchmark artifacts.
 timezone: Europe/London
 runs:
   - date: 2026-09-12
@@ -849,6 +849,46 @@ runs:
       - naura-ale-primary
       - robotechnik-offering-2026-09-20
       - robotechnik-prospectus-2026-09-21
+      - mlperf-training
+      - mlperf-inference-6-1
+      - inferencex
+  - date: 2026-09-29
+    status: updated
+    companies:
+      - aishengna
+      - amec
+      - cambricon
+      - cxmt
+      - enflame
+      - eoptolink
+      - huawei
+      - innolight
+      - naura
+      - smic
+      - ymtc
+      - yuliangsheng
+      - rslaser
+      - siom
+      - zhiqi
+    summary: >-
+      Screened the 12 priority-1 profiles and the three oldest-reviewed remaining profiles with
+      overlapping English and Chinese searches covering September 22-29. Added the September 25
+      bipartisan Senate proposal that would prohibit federal procurement of covered InnoLight and
+      Eoptolink optical transceivers for national-security systems, including covered modules using
+      their firmware, software or components. The bill provides a five-year transition and limited
+      renewable waivers. Recorded it as proposed legislation, not an enacted, immediate or market-wide
+      ban. Reuters reported industry concern about data-center supply disruption and said neither
+      company commented for its report. Only Eoptolink and InnoLight received new profile review dates;
+      results for the other 13 profiles were previously recorded, older, immaterial or insufficient to
+      establish a new qualified delivery, production, acceptance, financing, software or interconnect
+      milestone. Rechecked unchanged MLPerf Training v6.0 head
+      eabf23a07b2a0c60a289ff871dc3a46fff0d0421 and MLPerf Inference v6.1 head
+      10ecdffda3bb94d71f0203a6ca8e20c17943f27c plus InferenceX's published coverage. No matched latest
+      Chinese-versus-foreign accelerator comparison was verified; individual benchmark artifacts were
+      not exhaustively reviewed. No dated forecast or historical briefing changed.
+    source_ids:
+      - us-optical-transceiver-bill-primary-2026-09-25
+      - us-optical-transceiver-bill-reuters-2026-09-25
       - mlperf-training
       - mlperf-inference-6-1
       - inferencex

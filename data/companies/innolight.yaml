@@ -5,7 +5,9 @@ counterparts:
 priority: 1
 stage: Commercial
 role: Optical modules for global data-center networks.
-assessment: Module-level competitiveness can coexist with foreign-component dependencies.
+assessment: Module-level competitiveness can coexist with foreign-component dependencies. A proposed
+  US procurement restriction now names InnoLight, adding policy risk without yet creating an enacted
+  or general commercial ban.
 key_fact:
   label: Strategic position
   value: Globally competitive optical-module supplier
@@ -21,6 +23,15 @@ facts:
     as_of: 2026-09-11
     source_ids:
       - cioe-optics-2026-09-11
+  - label: Proposed US procurement restriction
+    value: A bipartisan Senate bill introduced on September 25 would prohibit federal procurement
+      of covered InnoLight optical transceivers for national-security systems after a five-year
+      transition, with limited waivers. It is proposed legislation, not a current or market-wide ban.
+    evidence: primary
+    as_of: 2026-09-25
+    source_ids:
+      - us-optical-transceiver-bill-primary-2026-09-25
+      - us-optical-transceiver-bill-reuters-2026-09-25
 watch_for:
   - 1.6T product shipments and customer qualification
   - DSP and laser sourcing
@@ -28,7 +39,9 @@ watch_for:
 source_ids:
   - innolight
   - cioe-optics-2026-09-11
-reviewed_at: 2026-09-12
+  - us-optical-transceiver-bill-primary-2026-09-25
+  - us-optical-transceiver-bill-reuters-2026-09-25
+reviewed_at: 2026-09-29
 slug: innolight
 layers:
   - photonics

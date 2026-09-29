@@ -8,7 +8,8 @@ role: High-speed optical transceivers and network optics.
 assessment: A clear example of global Chinese product competitiveness without total component sovereignty.
   A September 2026 independent teardown of one 400G module identified US DSP and analog/power
   components, but the anonymous single-sample inspection does not establish the bill of materials
-  for current 800G or 1.6T production.
+  for current 800G or 1.6T production. A proposed US procurement restriction now names Eoptolink,
+  adding policy risk without yet creating an enacted or general commercial ban.
 key_fact:
   label: Component provenance
   value: 1.6T designs use Broadcom optical DSPs
@@ -33,6 +34,15 @@ facts:
     as_of: 2026-09-19
     source_ids:
       - eoptolink-400g-teardown-2026-09-19
+  - label: Proposed US procurement restriction
+    value: A bipartisan Senate bill introduced on September 25 would prohibit federal procurement
+      of covered Eoptolink optical transceivers for national-security systems after a five-year
+      transition, with limited waivers. It is proposed legislation, not a current or market-wide ban.
+    evidence: primary
+    as_of: 2026-09-25
+    source_ids:
+      - us-optical-transceiver-bill-primary-2026-09-25
+      - us-optical-transceiver-bill-reuters-2026-09-25
 watch_for:
   - Volume adoption of next-generation optics
   - Domestic DSP and laser substitution
@@ -41,7 +51,9 @@ source_ids:
   - eoptolink
   - cioe-optics-2026-09-11
   - eoptolink-400g-teardown-2026-09-19
-reviewed_at: 2026-09-19
+  - us-optical-transceiver-bill-primary-2026-09-25
+  - us-optical-transceiver-bill-reuters-2026-09-25
+reviewed_at: 2026-09-29
 slug: eoptolink
 layers:
   - photonics

@@ -1,0 +1,25 @@
+slug: us-optical-transceiver-bill-2026-09-25
+published_at: 2026-09-25
+event_date: 2026-09-25
+title: US senators propose procurement restriction naming InnoLight and Eoptolink
+summary: >-
+  Four US senators introduced the Securing National Security Systems from Chinese Optical
+  Transceivers Act. The sponsors' summary says the bill would prohibit federal procurement of
+  covered optical transceivers for national-security systems from InnoLight, Eoptolink, their
+  subsidiaries and affiliates, and covered modules incorporating their firmware, software or
+  components. It provides a five-year transition period and limited renewable waivers.
+impact: >-
+  This is proposed legislation, not an enacted ban, and its stated scope is federal procurement for
+  national-security systems rather than the broader commercial market. If enacted, it would create a
+  direct US government market-access and compliance risk for both companies. Reuters reported industry
+  concern that removing Chinese suppliers could disrupt data-center deployment and that US alternatives
+  lacked equivalent scale, but neither company commented for the report.
+companies:
+  - eoptolink
+  - innolight
+source_ids:
+  - us-optical-transceiver-bill-primary-2026-09-25
+  - us-optical-transceiver-bill-reuters-2026-09-25
+evidence: primary
+added_at: 2026-09-29
+correction_of: null
