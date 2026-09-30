@@ -8,9 +8,10 @@ stage: Commercial
 role: "The central full-stack contender: Ascend, Atlas, interconnects, and CANN."
 assessment: >-
   Huawei reports meaningful system shipments, commercial Ascend 950 use and a named carrier
-  deployment, but also says production cannot satisfy domestic demand. The disclosures do not supply
-  independently verified utilization or workload performance, and Chinese design and deployment do
-  not establish independence in HBM or fabrication equipment.
+  deployment, while DeepSeek contributors have now published an inspectable Ascend 950 backend for
+  TileLang. Huawei also says production cannot satisfy domestic demand. The disclosures do not supply
+  independently verified utilization or matched workload performance, and Chinese design, software
+  support and deployment do not establish independence in HBM or fabrication equipment.
 key_fact:
   label: Next product gate
   value: "Ascend 950DT: expected Q4 2026"
@@ -20,6 +21,16 @@ key_fact:
     - ascend
     - hbm-reuters
 facts:
+  - label: Open-source Ascend 950 programming path
+    value: DeepSeek contributors published TileLang's native Ascend 950 backend with code generation,
+      scheduling, synchronization and kernel examples; Reuters reports related compute and communication
+      libraries for a 128-chip Ascend 950 supernode. This is inspectable software evidence, not a matched
+      workload result or proof of CUDA equivalence.
+    evidence: primary
+    as_of: 2026-09-30
+    source_ids:
+      - tilelang-ascend-950-2026-09-30
+      - deepseek-huawei-tilelang-reuters-2026-09-30
   - label: Hi-ONE optical-interconnect readiness
     value: Huawei says its 7.2T Hi-ONE near-packaged-optics engine has mass-production capability;
       shipped volume, component provenance, yield, customer acceptance and independent reliability
@@ -120,7 +131,9 @@ source_ids:
   - ascend-science-2026-07-22
   - huawei-peerium-2026-09-17
   - huawei-hi-one-2026-09-17
-reviewed_at: 2026-09-27
+  - tilelang-ascend-950-2026-09-30
+  - deepseek-huawei-tilelang-reuters-2026-09-30
+reviewed_at: 2026-09-30
 slug: huawei
 layers:
   - accelerators

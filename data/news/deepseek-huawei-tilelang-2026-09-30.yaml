@@ -1,0 +1,23 @@
+slug: deepseek-huawei-tilelang-2026-09-30
+published_at: 2026-09-30
+event_date: 2026-09-30
+title: DeepSeek contributors publish an Ascend 950 TileLang backend
+summary: >-
+  DeepSeek contributors published a native Ascend 950 backend in the open-source TileLang project,
+  with Ascend-specific code generation, scheduling, synchronization, SIMT/SIMD vector programming
+  and kernel examples. Reuters reports that DeepSeek and Huawei also worked on compute and
+  communication libraries and a 128-chip Ascend 950 supernode solution.
+impact: >-
+  Public source code is stronger ecosystem evidence than a closed compatibility announcement and
+  gives developers an inspectable high-level programming path for Ascend 950. It does not establish
+  broad operator coverage, production stability, adoption, power efficiency, CUDA equivalence or a
+  matched latest-versus-latest workload result. The repository describes same-hardware comparisons
+  with Torch NPU rather than an independent Chinese-versus-foreign accelerator benchmark.
+companies:
+  - huawei
+source_ids:
+  - tilelang-ascend-950-2026-09-30
+  - deepseek-huawei-tilelang-reuters-2026-09-30
+evidence: primary
+added_at: 2026-09-30
+correction_of: null

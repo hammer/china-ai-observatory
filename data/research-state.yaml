@@ -1,13 +1,13 @@
 schema_version: 2
 baseline_date: 2026-09-11
-last_research_at: 2026-09-29
-last_automated_run_at: 2026-09-29
+last_research_at: 2026-09-30
+last_automated_run_at: 2026-09-30
 last_run_status: updated
-coverage: The September 22-29 overlap sweep screened 12 priority-1 companies and the three oldest-reviewed
-  remaining profiles with English and Chinese searches. Eoptolink and InnoLight received a substantive
-  policy update; search-only coverage did not advance the other company review dates. Coverage remains
-  incomplete for private deployments, unindexed Chinese disclosures, tenders, customer acceptance,
-  component provenance, production economics and individual benchmark artifacts.
+coverage: The September 23-30 overlap sweep screened 12 priority-1 companies and the three oldest-reviewed
+  remaining profiles with English and Chinese searches. Huawei received a substantive software-ecosystem
+  update; search-only coverage did not advance the other company review dates. Coverage remains incomplete
+  for private deployments, unindexed Chinese disclosures, tenders, customer acceptance, component
+  provenance, production economics and individual benchmark artifacts.
 timezone: Europe/London
 runs:
   - date: 2026-09-12
@@ -889,6 +889,46 @@ runs:
     source_ids:
       - us-optical-transceiver-bill-primary-2026-09-25
       - us-optical-transceiver-bill-reuters-2026-09-25
+      - mlperf-training
+      - mlperf-inference-6-1
+      - inferencex
+  - date: 2026-09-30
+    status: updated
+    companies:
+      - aishengna
+      - amec
+      - cambricon
+      - cxmt
+      - enflame
+      - eoptolink
+      - huawei
+      - innolight
+      - naura
+      - smic
+      - ymtc
+      - yuliangsheng
+      - rslaser
+      - siom
+      - zhiqi
+    summary: >-
+      Screened the 12 priority-1 profiles and the three oldest-reviewed remaining profiles with
+      overlapping English and Chinese searches covering September 23-30. Added DeepSeek contributors'
+      September 30 open-source TileLang backend for Ascend 950, which includes native code generation,
+      scheduling, synchronization, SIMT/SIMD vector programming and kernel examples. Reuters reports
+      that DeepSeek and Huawei also worked on compute and communication libraries and a 128-chip Ascend
+      950 supernode solution. Recorded this as inspectable software and integration evidence, not proof
+      of broad operator coverage, production stability, adoption, power efficiency, CUDA equivalence or
+      matched workload performance. Only Huawei's profile review date advanced; results for the other 14
+      profiles were previously recorded, older, immaterial or insufficient to establish a new qualified
+      delivery, production, acceptance, financing, software or interconnect milestone. MLPerf Training
+      v6.0 remained at eabf23a07b2a0c60a289ff871dc3a46fff0d0421. MLPerf Inference v6.1 advanced to
+      4bb63cd28eb136be221bc801a9e38c66c8a7553f with previously missing submission documentation; its
+      30 closed submitter directories still include no current Chinese accelerator vendor. InferenceX's
+      published coverage still supplied no comparable current Chinese accelerator result. Individual
+      benchmark artifacts were not exhaustively reviewed. No dated forecast or historical briefing changed.
+    source_ids:
+      - tilelang-ascend-950-2026-09-30
+      - deepseek-huawei-tilelang-reuters-2026-09-30
       - mlperf-training
       - mlperf-inference-6-1
       - inferencex
