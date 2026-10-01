@@ -3,12 +3,13 @@ baseline_date: 2026-09-11
 last_research_at: 2026-10-01
 last_automated_run_at: 2026-10-01
 last_run_status: updated
-coverage: The September 24-October 1 overlap sweep screened 12 priority-1 companies and the three
-  oldest-reviewed remaining profiles with English and Chinese searches. Huawei received fabrication-
-  capacity and cloud-service evidence updates; search-only coverage did not advance the other company
-  review dates. Coverage remains incomplete for private deployments, unindexed Chinese disclosures,
-  tenders, customer acceptance, component provenance, production economics and individual benchmark
-  artifacts.
+coverage: The September monthly briefing audited 30 canonical in-period events and their sources,
+  with bounded English and Chinese gap searches across accelerators, software, memory, networking,
+  optics, lithography, manufacturing equipment and capital. The September 1-10 period was
+  reconstructed because systematic tracking began September 11. Coverage remains incomplete for
+  private deployments, unindexed Chinese disclosures, tenders, filings, individual benchmark
+  artifacts, customer acceptance, production volume, yield, utilization, reliability, power and
+  component provenance.
 timezone: Europe/London
 runs:
   - date: 2026-09-12
@@ -974,6 +975,62 @@ runs:
     source_ids:
       - huawei-advanced-capacity-reuters-2026-10-01
       - huawei-cloud-ascend-950-service-2026-09-18
+      - mlperf-training
+      - mlperf-inference-6-1
+      - inferencex
+  - date: 2026-10-01
+    status: updated
+    companies:
+      - amec
+      - biren
+      - cambricon
+      - cxmt
+      - enflame
+      - eoptolink
+      - h3c
+      - huawei
+      - hwatsing
+      - iluvatar
+      - innolight
+      - kunlunxin
+      - ligent
+      - metax
+      - moore-threads
+      - naura
+      - robotechnik
+      - rslaser
+      - thead
+      - ymtc
+      - yuliangsheng
+      - zhiqi
+    summary: >-
+      Ran the monthly briefing helper for the fully closed September 1-30 period and retained the
+      September 11 period-to-date edition unchanged. Audited all 30 canonical in-period events and
+      their original sources, then ran bounded English and Chinese gap searches across accelerators,
+      software, memory, networking, optical interconnects, lithography, manufacturing equipment and
+      capacity-changing capital. No additional qualifying September event was established. Because
+      systematic tracking began September 11, the September 1-10 period remains a reconstruction
+      rather than a complete contemporaneous census. The complete edition synthesizes stronger
+      evidence of accelerator commercialization, named deployments, system roadmaps, upstream and
+      inspectable software work, optical-module scale and intermediate equipment qualification. It
+      keeps HBM scarcity, constrained accelerator supply, foreign optical components, incomplete
+      tool metrics and absent matched current benchmarks as explicit dependencies. The October 1
+      benchmark review found no comparable current Chinese accelerator result against Rubin, GB300,
+      MI355X, TPU v7 or OpenAI Jalapeno in MLPerf Training v6.0, MLPerf Inference v6.1 or InferenceX's
+      published coverage; individual artifacts were not exhaustively audited. No dated forecast or
+      historical report changed, and company profile review dates did not advance for this synthesis.
+    source_ids:
+      - alibaba-v900-2026-09-22
+      - amec-cseac-2026-09-05
+      - biren-2026-h1
+      - cioe-optics-2026-09-11
+      - cxmt-g5-dram-2026-09-20
+      - deepseek-huawei-tilelang-reuters-2026-09-30
+      - enflame-ipo
+      - hbm-reuters
+      - huawei-connect-2026-09-17
+      - naura-ale-2026-09-24
+      - us-optical-transceiver-bill-primary-2026-09-25
       - mlperf-training
       - mlperf-inference-6-1
       - inferencex
