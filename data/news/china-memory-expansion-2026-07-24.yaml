@@ -1,0 +1,20 @@
+slug: china-memory-expansion-2026-07-24
+published_at: 2026-07-24
+event_date: 2026-07-24
+title: CXMT and YMTC capacity expansion underscores both scale and tool dependence
+summary: >-
+  Reuters reported that CXMT was building two plants and discussing a third, while YMTC had two
+  additional factories planned beyond one due for completion in 2026. Chinese authorities had asked
+  both companies to prioritize domestic customers, according to the report.
+impact: >-
+  Planned capacity supports a larger domestic memory base, but the report also says both companies
+  rely on ASML deep-ultraviolet lithography. Plans, projected wafer capacity and policy direction do
+  not establish completed fabs, qualified output, HBM volume or a replenishable domestic tool chain.
+companies:
+  - cxmt
+  - ymtc
+source_ids:
+  - china-memory-expansion-reuters-2026-07-24
+evidence: reported
+added_at: 2026-10-01
+correction_of: null

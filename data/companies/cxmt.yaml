@@ -15,11 +15,19 @@ key_fact:
   label: HBM milestone
   value: Small-volume HBM3E reportedly produced in August 2026
   evidence: reported
-  as_of: 2026-09-11
+  as_of: 2026-08-31
   source_ids:
     - cxmt-hbm
+    - cxmt-hbm-reuters-2026-08-31
     - cxmt
 facts:
+  - label: Capacity expansion
+    value: Reuters reported two new plants under construction and discussions for a third, with projects
+      projected to lift capacity above 600,000 wafers per month; completion, qualification and realized output remain unverified.
+    evidence: reported
+    as_of: 2026-07-24
+    source_ids:
+      - china-memory-expansion-reuters-2026-07-24
   - label: Fifth-generation DRAM platform
     value: CXMT says its fifth-generation platform entered mass production using quadruple patterning
       and an 11.95 nm active-area half-pitch; independent yield and reliability data were not disclosed.
@@ -51,10 +59,12 @@ watch_for:
   - NAND trial-line operation and transition to qualified volume production
 source_ids:
   - cxmt-hbm
+  - cxmt-hbm-reuters-2026-08-31
   - cxmt
+  - china-memory-expansion-reuters-2026-07-24
   - cxmt-nand-2026-09-18
   - cxmt-g5-dram-2026-09-20
-reviewed_at: 2026-09-20
+reviewed_at: 2026-10-01
 slug: cxmt
 layers:
   - memory

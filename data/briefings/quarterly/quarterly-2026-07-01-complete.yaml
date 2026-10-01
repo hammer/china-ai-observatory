@@ -1,0 +1,292 @@
+slug: quarterly-2026-07-01-complete
+cadence: quarterly
+period_start: 2026-07-01
+period_end: 2026-09-30
+through_date: 2026-09-30
+published_at: 2026-10-01
+status: complete
+title: System capability advanced faster than replenishable sovereignty
+summary: >-
+  China ended the quarter with stronger evidence at the design, software, system-integration and
+  selected equipment layers: accelerators reached customers, large systems moved onto roadmaps,
+  domestic tools crossed additional production and validation gates, and optical suppliers showed
+  global scale. End-to-end sovereignty did not follow. HBM, advanced-fab capacity, foreign optical
+  components, lithography and other upstream inputs remained constraints, while public evidence still
+  lacked a matched current Chinese-versus-frontier training or inference result.
+sections:
+  - heading: The sovereignty map separates control, fabrication and replenishment
+    body: >-
+      Q3 strengthened the first of three distinct claims: Chinese companies increasingly control the
+      design and software of commercially useful accelerators, systems, networking products and optical
+      modules. Evidence for the second claim—domestic fabrication—also improved through initial
+      immersion-DUV production, etch and deposition deployment, advanced-packaging production and
+      customer process use, but usually without yield, throughput, uptime, node or component-provenance
+      data. The third and strongest claim, a supply chain that can be replenished inside China after
+      foreign inventory and service access disappear, remains unproven. Reported reliance on ASML DUV,
+      restricted HBM, foreign optical DSPs and supplier materials shows why design ownership is not the
+      same as production independence.
+    source_ids:
+      - duv-reuters
+      - amec-2026-h1-report
+      - naura-2026-h1-report
+      - jcet-2026-h1-report
+      - china-memory-expansion-reuters-2026-07-24
+      - hbm-reuters
+      - cioe-optics-2026-09-11
+  - heading: Accelerators progressed through revenue, delivery and system aggregation
+    body: >-
+      Moore Threads reported RMB 1.736 billion of first-half revenue and full delivery of a RMB 660
+      million KUAE cluster contract; Biren reported RMB 1.236 billion of revenue and unnamed batch
+      deliveries; Enflame raised about RMB 6.12 billion; and Alibaba said M890 supernodes were reaching
+      commercial scale. Huawei reported more than 1,000
+      supernodes shipped to more than 370 customers, a named China Unicom deployment, and commercial
+      use of Ascend 950 systems. Roadmaps then shifted the competitive unit from one chip toward racks
+      and clusters: Huawei described future 4,096-processor supernodes and larger Peerium fabrics,
+      Alibaba advanced V900's planned production to Q1 2027, and JD Cloud announced a planned
+      100,000-card Moore Threads cluster. These are adoption and aggregation signals, not matched
+      evidence for utilization, reliability, power, workload performance or supply-chain provenance.
+    source_ids:
+      - moore-threads-2026-h1-report
+      - biren-2026-h1
+      - enflame-ipo
+      - huawei-connect-2026-09-17
+      - huawei-china-unicom-2026-09-10
+      - huawei-peerium-2026-09-17
+      - alibaba-v900-2026-09-22
+      - alibaba-v900-primary-2026-09-22
+      - moore-threads-jd-cloud-2026-09-09
+  - heading: Manufacturing evidence crossed intermediate gates, not the complete-flow test
+    body: >-
+      Reuters reported initial production of domestic immersion-DUV tools, while warning that the
+      systems still required testing and were not proven for reliable high-volume production. AMEC's
+      filing reported three ICP etch families in volume production on lines at more than 50 customers
+      and repeat-order evidence for additional etch and tungsten-deposition systems. NAURA reported
+      more than 1,000 cumulative deliveries in each of etch, PVD and vertical-furnace equipment, then
+      said its atomic-layer-etch tool had entered customer process use. JCET reported XDFOI volume
+      production and silicon-photonics-engine sample validation; Hwatsing shipped a panel-level CMP
+      system to a production line. Reuters also reported disputed AMEC evaluations at Samsung and SK
+      Hynix China fabs: both memory companies denied testing tools for China and no deployment decision
+      was reported. Together these are meaningful qualification steps outside the hardest lithography
+      and metrology layers, but not proof of a domestic advanced-node flow with sustained yield,
+      throughput, uptime and serviceability.
+    source_ids:
+      - duv-reuters
+      - duv-ft
+      - amec-2026-h1-report
+      - amec-evaluation-reuters-2026-08-05
+      - naura-2026-h1-report
+      - naura-ale-2026-09-24
+      - naura-ale-primary
+      - jcet-2026-h1-report
+      - hwatsing-panel-cmp-2026-09-09
+  - heading: Memory expanded, but HBM remained the clearest system constraint
+    body: >-
+      Reuters reported that CXMT was building two plants and discussing a third, while YMTC had two
+      additional factories planned beyond one due for completion in 2026. The same report said both
+      companies relied on ASML DUV equipment. CXMT reportedly produced HBM3E in small quantities and
+      planned expansion in 2027; it later reported fifth-generation commodity DRAM and two 24 Gb
+      LPDDR5X products in mass production. Those developments strengthen the domestic memory base but
+      do not establish customer-qualified HBM at useful volume, stack yield or frontier performance.
+      Reuters separately reported HBM scarcity raising Chinese accelerator prices, while Huawei said
+      it could not supply enough AI equipment to meet domestic demand. JCET's advanced-packaging
+      progress helps one adjacent layer but does not disclose frontier accelerator-plus-HBM package
+      yield, capacity or customer volume.
+    source_ids:
+      - china-memory-expansion-reuters-2026-07-24
+      - cxmt-hbm
+      - cxmt-hbm-reuters-2026-08-31
+      - cxmt-g5-dram-2026-09-20
+      - hbm-reuters
+      - huawei-connect-2026-09-17
+      - jcet-2026-h1-report
+  - heading: Optical scale was a competitive strength with foreign-input and policy exposure
+    body: >-
+      Innolight completed a Hong Kong offering with estimated net proceeds of HKD 52.891 billion,
+      while Ligent and RoboTechnik also raised or sought expansion capital. September reporting
+      indicated rising 1.6T shipments at Innolight and Eoptolink, but said 800G remained the volume
+      center and identified constrained 3 nm DSP supply plus Broadcom and Marvell dominance. A teardown
+      of one Eoptolink 400G module directly identified a Marvell DSP and Analog Devices components;
+      that sample cannot establish current 800G or 1.6T bills of materials. A proposed US federal
+      procurement restriction naming Innolight and Eoptolink added market-access risk but was not
+      enacted in the quarter. China can lead at the module and manufacturing-scale level while still
+      depending on foreign semiconductor inputs.
+    source_ids:
+      - innolight-hk-listing-2026-07-29
+      - ligent-ipo-2026-09-22
+      - robotechnik-prospectus-2026-09-21
+      - cioe-optics-2026-09-11
+      - eoptolink-400g-teardown-2026-09-19
+      - us-optical-transceiver-bill-primary-2026-09-25
+      - us-optical-transceiver-bill-reuters-2026-09-25
+  - heading: Networking moved toward domestic fabrics without an InfiniBand-class comparison
+    body: >-
+      H3C reported a DDC lossless-network deployment with Xiaohongshu and work on G-Link, UXM, ODCC
+      and open optical interfaces. Huawei added future scale-up targets and said its 7.2T Hi-ONE
+      near-packaged-optics engine had mass-production capability. The disclosures support active
+      domestic fabric and interconnect engineering, but provide no matched workload, congestion,
+      recovery, topology, switch-silicon provenance, power or independent customer comparison against
+      current InfiniBand or Ethernet systems. System aggregation may compensate for weaker individual
+      devices, but the cost in hardware, energy and operational complexity remains unmeasured.
+    source_ids:
+      - h3c-odx-2026-09-04
+      - huawei-hi-one-2026-09-17
+      - huawei-peerium-2026-09-17
+  - heading: Software evidence became more upstream and inspectable
+    body: >-
+      Cambricon joined the PyTorch Foundation at Platinum level and reported work across compilation,
+      runtime and distributed computing; Huawei already held Platinum membership and co-chaired the
+      Accelerator Integration Working Group. Biren announced a PrivateUse1 TorchSUPA backend, MetaX
+      reported same-day model adaptation, and DeepSeek contributors published an inspectable native
+      Ascend 950 backend for TileLang with code generation, scheduling, synchronization and kernel
+      examples. The independent Ascend field study still documented source patches, disabled features
+      and operational safeguards on an older 16-device system. The quarter therefore improved evidence
+      for ecosystem participation and portability without proving CUDA-equivalent operator coverage,
+      stability, developer productivity or performance.
+    source_ids:
+      - pytorch-cambricon-2026-09-07
+      - pytorch-china-2026-09-09
+      - biren-torchsupa-2026-09-07
+      - metax-atria-2026-09-14
+      - tilelang-ascend-950-2026-09-30
+      - deepseek-huawei-tilelang-reuters-2026-09-30
+      - ascend-field
+  - heading: Training and inference evidence remained below the frontier-comparison standard
+    body: >-
+      A Pengcheng Laboratory study supplied useful measured evidence on Ascend 910A, 910B and 910C.
+      In one tuned quantum-simulation case, 910C completed the workload in 11.4 seconds versus 14.3
+      seconds on NVIDIA A800 with cuQuantum; the paper also documented weaker vector and memory-bound
+      behavior. This is scientific computing, implementations differ in some comparisons and the
+      controls are export-limited A800/H800 rather than current frontier systems. The October 1 review
+      found no matched current Chinese result against Rubin, GB300, MI355X, TPU v7 or OpenAI Jalapeño
+      in MLPerf Training v6.0, MLPerf Inference v6.1 or InferenceX's published coverage. MLPerf results
+      are standardized and submitter-run rather than automatically independent. Absence of a public
+      result is not evidence that a system cannot run the workload; it is a limit on what can be claimed.
+    source_ids:
+      - ascend-science-2026-07-22
+      - mlperf-training
+      - mlperf-inference-6-1
+      - inferencex
+  - heading: Dated forecasts did not move
+    body: >-
+      No forecast horizon changes. Q3 strengthened the existing high-confidence view that optical
+      modules and focused domestic inference can advance first, and the medium-confidence view that
+      China can build more competitive aggregate accelerator systems in 2027-2030 by spending more
+      hardware, power and engineering effort. Small-volume HBM3E, commodity-DRAM production and
+      packaging progress did not establish useful customer-qualified domestic HBM volume, so the
+      2027-2030 memory and packaging horizon remains. Initial DUV production and additional tool
+      qualifications did not demonstrate scanner yield, overlay, throughput, uptime or a complete
+      domestic advanced-node flow, leaving EUV and frontier fabrication the longest-duration gap into
+      the 2030s. The quarter changed confidence in intermediate milestones, not the endpoint dates.
+    source_ids:
+      - cioe-optics-2026-09-11
+      - huawei-connect-2026-09-17
+      - cxmt-hbm-reuters-2026-08-31
+      - cxmt-g5-dram-2026-09-20
+      - jcet-2026-h1-report
+      - duv-reuters
+      - duv-ft
+  - heading: Evidence that would change the assessment
+    body: >-
+      Prioritize customer-qualified domestic HBM with volume and stack-yield data; scanner and
+      advanced-process evidence with sustained yield, overlay, throughput, uptime and maintenance;
+      current accelerator-cluster training time-to-quality, inference throughput, latency and energy
+      on matched models and hardware; delivered Atlas, V900 and other supernode configurations with
+      utilization and recovery data; high-speed optical-module bills of materials; and repeat orders
+      plus production metrics for domestic etch, deposition, CMP, packaging and interconnect equipment.
+    source_ids: []
+news_ids:
+  - field-2026-07-09
+  - ascend-science-2026-07-22
+  - china-memory-expansion-2026-07-24
+  - duv-2026-07-28
+  - innolight-hk-listing-2026-07-29
+  - amec-foreign-fab-evaluation-2026-08-05
+  - moore-threads-2026-h1-scale
+  - amec-2026-h1-qualification
+  - jcet-2026-h1-advanced-packaging
+  - naura-2026-h1-scale
+  - cxmt-2026-08-31
+  - biren-torchsupa-2026-08-28
+  - amec-cseac-2026-09-01
+  - h3c-odx-2026-09-02
+  - biren-shanghai-lab-2026-09-02
+  - biren-2026-h1-summary
+  - biren-glm-2026-09-07
+  - pytorch-china-2026-09-08
+  - duv-2026-09-08
+  - hwatsing-panel-cmp-2026-09-09
+  - moore-threads-jd-cloud-2026-09-09
+  - hbm-2026-09-10
+  - huawei-china-unicom-2026-09-10
+  - kunlunxin-minicpm-2026-09-10
+  - cioe-optics-2026-09-11
+  - enflame-2026-09-11
+  - metax-atria-2026-09-14
+  - huawei-atlas-deployment-testing-2026-09-17
+  - huawei-connect-2026-09-17
+  - huawei-hi-one-npo-2026-09-17
+  - huawei-supply-scale-2026-09-17
+  - cxmt-nand-2026-09-18
+  - huawei-cloud-ascend-950-service-2026-09-18
+  - eoptolink-400g-teardown-2026-09-19
+  - cxmt-g5-dram-2026-09-20
+  - robotechnik-offering-2026-09-21
+  - alibaba-v900-2026-09-22
+  - ligent-ipo-2026-09-22
+  - naura-ale-customer-use-2026-09-24
+  - us-optical-transceiver-bill-2026-09-25
+  - deepseek-huawei-tilelang-2026-09-30
+source_ids:
+  - alibaba-v900-2026-09-22
+  - alibaba-v900-primary-2026-09-22
+  - amec-2026-h1-report
+  - amec-cseac-2026-09-05
+  - amec-evaluation-reuters-2026-08-05
+  - ascend-field
+  - ascend-science-2026-07-22
+  - biren-2026-h1
+  - biren-torchsupa-2026-09-07
+  - china-memory-expansion-reuters-2026-07-24
+  - cioe-optics-2026-09-11
+  - cxmt-g5-dram-2026-09-20
+  - cxmt-hbm
+  - cxmt-hbm-reuters-2026-08-31
+  - deepseek-huawei-tilelang-reuters-2026-09-30
+  - duv-ft
+  - duv-reuters
+  - enflame-ipo
+  - eoptolink-400g-teardown-2026-09-19
+  - h3c-odx-2026-09-04
+  - hbm-reuters
+  - huawei-china-unicom-2026-09-10
+  - huawei-connect-2026-09-17
+  - huawei-hi-one-2026-09-17
+  - huawei-peerium-2026-09-17
+  - hwatsing-panel-cmp-2026-09-09
+  - inferencex
+  - innolight-hk-listing-2026-07-29
+  - jcet-2026-h1-report
+  - ligent-ipo-2026-09-22
+  - metax-atria-2026-09-14
+  - mlperf-inference-6-1
+  - mlperf-training
+  - moore-threads-2026-h1-report
+  - moore-threads-jd-cloud-2026-09-09
+  - naura-2026-h1-report
+  - naura-ale-2026-09-24
+  - naura-ale-primary
+  - pytorch-cambricon-2026-09-07
+  - pytorch-china-2026-09-09
+  - robotechnik-prospectus-2026-09-21
+  - tilelang-ascend-950-2026-09-30
+  - us-optical-transceiver-bill-primary-2026-09-25
+  - us-optical-transceiver-bill-reuters-2026-09-25
+coverage_note: >-
+  This complete edition covers July 1-September 30 from 40 canonical in-period events and their
+  sources. Systematic tracking began September 11, so July, August and September 1-10 were
+  reconstructed from filings, the existing archive and bounded overlapping English and Chinese gap
+  searches across accelerators, software, lithography, equipment, foundries, memory, packaging,
+  networking, optics and capital. The reconstruction is not an exhaustive census of private
+  deployments, unindexed Chinese disclosures, tenders, filings or individual benchmark artifacts.
+  Customer acceptance, production volume, yield, utilization, reliability, power and component
+  provenance remain unavailable for many claims.

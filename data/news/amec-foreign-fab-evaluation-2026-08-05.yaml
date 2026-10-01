@@ -1,0 +1,19 @@
+slug: amec-foreign-fab-evaluation-2026-08-05
+published_at: 2026-08-05
+event_date: 2026-08-05
+title: AMEC etch tools reportedly evaluated at foreign-owned memory fabs in China
+summary: >-
+  Reuters reported that Samsung and SK Hynix had been evaluating AMEC etch equipment for possible
+  use at their Chinese factories as a contingency against tighter US controls. Both companies denied
+  testing AMEC tools for use in China, and the reported evaluations had not produced a wider-deployment decision.
+impact: >-
+  Evaluation by leading memory manufacturers would be a meaningful route toward external qualification,
+  but disputed testing and the absence of a deployment decision do not establish customer acceptance,
+  production use, yield, uptime, service readiness or adoption outside China.
+companies:
+  - amec
+source_ids:
+  - amec-evaluation-reuters-2026-08-05
+evidence: reported
+added_at: 2026-10-01
+correction_of: null

@@ -3,13 +3,13 @@ baseline_date: 2026-09-11
 last_research_at: 2026-10-01
 last_automated_run_at: 2026-10-01
 last_run_status: updated
-coverage: The September monthly briefing audited 30 canonical in-period events and their sources,
-  with bounded English and Chinese gap searches across accelerators, software, memory, networking,
-  optics, lithography, manufacturing equipment and capital. The September 1-10 period was
-  reconstructed because systematic tracking began September 11. Coverage remains incomplete for
-  private deployments, unindexed Chinese disclosures, tenders, filings, individual benchmark
-  artifacts, customer acceptance, production volume, yield, utilization, reliability, power and
-  component provenance.
+coverage: The complete 2026 Q3 briefing audited 40 canonical in-period events and their sources,
+  with bounded overlapping English and Chinese gap searches across accelerators, software,
+  lithography, foundries, process equipment, memory, packaging, networking, optics and capital.
+  July, August and September 1-10 were reconstructed because systematic tracking began September 11.
+  Coverage remains incomplete for private deployments, unindexed Chinese disclosures, tenders,
+  filings, individual benchmark artifacts, customer acceptance, production volume, yield,
+  utilization, reliability, power and component provenance.
 timezone: Europe/London
 runs:
   - date: 2026-09-12
@@ -1031,6 +1031,64 @@ runs:
       - huawei-connect-2026-09-17
       - naura-ale-2026-09-24
       - us-optical-transceiver-bill-primary-2026-09-25
+      - mlperf-training
+      - mlperf-inference-6-1
+      - inferencex
+  - date: 2026-10-01
+    status: updated
+    companies:
+      - aishengna
+      - amec
+      - biren
+      - cambricon
+      - cxmt
+      - enflame
+      - eoptolink
+      - h3c
+      - huawei
+      - hwatsing
+      - innolight
+      - jcet
+      - ligent
+      - metax
+      - moore-threads
+      - naura
+      - robotechnik
+      - thead
+      - ymtc
+      - yuliangsheng
+    summary: >-
+      Ran the quarterly briefing helper for the fully closed July 1-September 30 period and retained
+      the September 11 period-to-date edition unchanged. Audited the 37 previously canonical in-period
+      events and their original sources, then ran bounded overlapping English and Chinese gap searches
+      across accelerators, software, lithography, foundries, process equipment, memory, packaging,
+      networking, optics and capital. Added three missing Q3 events: planned CXMT and YMTC capacity
+      expansion paired with reported ASML DUV reliance; disputed evaluations of AMEC etch tools at
+      Samsung and SK Hynix China fabs, with both memory companies' denials and the absence of a deployment
+      decision retained; and Innolight's completed Hong Kong offering with HKD 52.891 billion of estimated
+      net proceeds. Added a Reuters source confirming the existing small-volume CXMT HBM3E report.
+      Only AMEC, CXMT, Innolight and YMTC received new profile review dates; briefing synthesis did not
+      advance other company dates. Because systematic tracking began September 11, July, August and
+      September 1-10 remain a reconstruction rather than a complete contemporaneous census. The quarter
+      strengthened evidence for Chinese-controlled designs, software, aggregate systems, optical modules
+      and selected equipment while leaving replenishable domestic HBM, lithography, foreign optical
+      components and upstream inputs unresolved. The October 1 benchmark review found no matched current
+      Chinese accelerator result against Rubin, GB300, MI355X, TPU v7 or OpenAI Jalapeño in MLPerf Training
+      v6.0, MLPerf Inference v6.1 or InferenceX's published coverage; individual artifacts were not
+      exhaustively audited. No dated forecast or historical briefing changed.
+    source_ids:
+      - alibaba-v900-2026-09-22
+      - amec-2026-h1-report
+      - amec-evaluation-reuters-2026-08-05
+      - ascend-field
+      - ascend-science-2026-07-22
+      - china-memory-expansion-reuters-2026-07-24
+      - cioe-optics-2026-09-11
+      - cxmt-hbm-reuters-2026-08-31
+      - duv-reuters
+      - hbm-reuters
+      - huawei-connect-2026-09-17
+      - innolight-hk-listing-2026-07-29
       - mlperf-training
       - mlperf-inference-6-1
       - inferencex

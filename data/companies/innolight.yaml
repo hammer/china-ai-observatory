@@ -16,6 +16,13 @@ key_fact:
   source_ids:
     - innolight
 facts:
+  - label: Hong Kong financing
+    value: The July 2026 global offering priced at HKD 980 per share with estimated net proceeds of
+      HKD 52.891 billion before any over-allotment exercise.
+    evidence: primary
+    as_of: 2026-07-29
+    source_ids:
+      - innolight-hk-listing-2026-07-29
   - label: 1.6T commercialization
     value: Company says silicon-photonics modules are scaling with shipments rising each quarter,
       according to National Business Daily's September 11 reporting.
@@ -38,10 +45,11 @@ watch_for:
   - Performance per watt and manufacturing yield
 source_ids:
   - innolight
+  - innolight-hk-listing-2026-07-29
   - cioe-optics-2026-09-11
   - us-optical-transceiver-bill-primary-2026-09-25
   - us-optical-transceiver-bill-reuters-2026-09-25
-reviewed_at: 2026-09-29
+reviewed_at: 2026-10-01
 slug: innolight
 layers:
   - photonics

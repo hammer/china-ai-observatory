@@ -5,6 +5,7 @@ summary: Reports describe initial HBM3E progress.
 impact: Track customer acceptance and production yield.
 source_ids:
   - cxmt-hbm
+  - cxmt-hbm-reuters-2026-08-31
 evidence: reported
 added_at: 2026-09-11
 correction_of: null

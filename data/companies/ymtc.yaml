@@ -7,7 +7,8 @@ counterparts:
 priority: 1
 stage: Commercial
 role: NAND and enterprise storage built around Xtacking.
-assessment: NAND is storage; it is not a direct substitute for accelerator HBM.
+assessment: NAND is storage, not a direct substitute for accelerator HBM. Planned fab expansion can
+  increase domestic supply while reliance on foreign lithography remains a sovereignty constraint.
 key_fact:
   label: Technology
   value: Separate memory-cell and logic wafers, bonded together
@@ -15,14 +16,22 @@ key_fact:
   as_of: 2026-09-11
   source_ids:
     - ymtc
-facts: []
+facts:
+  - label: Capacity expansion
+    value: Reuters reported two additional factories planned beyond one due for completion in 2026;
+      completed capacity, qualified output and domestic equipment provenance remain unverified.
+    evidence: reported
+    as_of: 2026-07-24
+    source_ids:
+      - china-memory-expansion-reuters-2026-07-24
 watch_for:
   - NAND density and yield
   - Enterprise SSD qualifications
   - Equipment localization
 source_ids:
   - ymtc
-reviewed_at: 2026-09-11
+  - china-memory-expansion-reuters-2026-07-24
+reviewed_at: 2026-10-01
 slug: ymtc
 layers:
   - memory

@@ -17,6 +17,13 @@ key_fact:
   source_ids:
     - amec-2026-h1-report
 facts:
+  - label: Reported foreign-fab evaluation
+    value: Reuters reported Samsung and SK Hynix had evaluated AMEC etch tools at their Chinese fabs,
+      while both companies denied testing AMEC equipment for use in China and no deployment decision was reported.
+    evidence: reported
+    as_of: 2026-08-05
+    source_ids:
+      - amec-evaluation-reuters-2026-08-05
   - label: Advanced etch production
     value: Company reports Primo Nanova LUX-Cryo in stable volume production on a customer's
       next-generation product line, while Primo Angnova remained in customer certification with
@@ -45,9 +52,10 @@ watch_for:
   - Repeat orders and production utilization
 source_ids:
   - amec
+  - amec-evaluation-reuters-2026-08-05
   - amec-2026-h1-report
   - amec-cseac-2026-09-05
-reviewed_at: 2026-09-15
+reviewed_at: 2026-10-01
 slug: amec
 layers:
   - equipment
