@@ -2,10 +2,12 @@
   name: Lithography
   reference: ASML / Nikon
   status: Bottleneck
-  assessment: Prototype and early tool deliveries do not establish reliable volume production.
+  assessment: Prototype and early tool deliveries do not establish reliable volume production;
+    Huawei says Chinese advanced-chip production still relies on DUV while domestic firms work toward EUV.
   source_ids:
     - duv-reuters
     - euv-reuters
+    - huawei-advanced-capacity-reuters-2026-10-01
 - slug: optics
   name: Optics & light sources
   reference: Zeiss / TRUMPF / Cymer
@@ -41,10 +43,12 @@
   name: Foundry
   reference: TSMC
   status: Bottleneck
-  assessment: Domestic advanced logic works, but yield, capacity and process scaling constrain economics.
+  assessment: Domestic advanced logic works, but yield, capacity and process scaling constrain economics;
+    Huawei says Ascend and smartphone chips compete for China's very limited advanced-semiconductor capacity.
   source_ids:
     - smic-teardown
     - tsmc
+    - huawei-advanced-capacity-reuters-2026-10-01
 - slug: packaging
   name: Advanced packaging
   reference: TSMC CoWoS / ASE / Amkor

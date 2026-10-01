@@ -1,5 +1,5 @@
 headline: No verified latest-versus-latest independent comparison
-assessment: Follow-up through September 30 did not verify a matched independent comparison of
+assessment: Follow-up through October 1 did not verify a matched independent comparison of
   current Chinese accelerators against Rubin, GB300, MI355X, TPU v7, or OpenAI Jalapeño. The review checked
   MLPerf Training v6.0 and Inference v6.1 repository heads and submitter listings plus InferenceX's
   published coverage, not every result artifact. MLPerf's standardized results are submitter-run and
@@ -9,7 +9,7 @@ assessment: Follow-up through September 30 did not verify a matched independent 
   A Pengcheng Laboratory preprint adds measured Ascend 910C scientific-computing results against
   A800/H800 controls, but it is not a model-training or inference comparison and does not use current
   frontier foreign hardware. Absence of a verified public result is not evidence of incapability.
-reviewed_at: 2026-09-30
+reviewed_at: 2026-10-01
 comparison:
   title: DeepSeek-R1 on Ascend 910C and H100
   date: 2025-06

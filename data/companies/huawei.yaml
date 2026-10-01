@@ -9,9 +9,10 @@ role: "The central full-stack contender: Ascend, Atlas, interconnects, and CANN.
 assessment: >-
   Huawei reports meaningful system shipments, commercial Ascend 950 use and a named carrier
   deployment, while DeepSeek contributors have now published an inspectable Ascend 950 backend for
-  TileLang. Huawei also says production cannot satisfy domestic demand. The disclosures do not supply
-  independently verified utilization or matched workload performance, and Chinese design, software
-  support and deployment do not establish independence in HBM or fabrication equipment.
+  TileLang. Huawei also says production cannot satisfy domestic demand and that Ascend draws on China's
+  very limited advanced-semiconductor capacity, which still relies on DUV lithography. The disclosures
+  do not supply independently verified utilization or matched workload performance, and Chinese design,
+  software support and deployment do not establish independence in HBM or fabrication equipment.
 key_fact:
   label: Next product gate
   value: "Ascend 950DT: expected Q4 2026"
@@ -21,6 +22,15 @@ key_fact:
     - ascend
     - hbm-reuters
 facts:
+  - label: Ascend 950 cloud-service evidence
+    value: Huawei announced its Ascend 950 cloud cluster service and scheduled Chinese commercial
+      availability for September 30, claiming 40 days of stable training, recovery within 10 minutes
+      and 20% higher token throughput than its prior compute generation. Configuration, model, quality,
+      customer use and independent availability or performance confirmation were not disclosed.
+    evidence: vendor
+    as_of: 2026-09-18
+    source_ids:
+      - huawei-cloud-ascend-950-service-2026-09-18
   - label: Open-source Ascend 950 programming path
     value: DeepSeek contributors published TileLang's native Ascend 950 backend with code generation,
       scheduling, synchronization and kernel examples; Reuters reports related compute and communication
@@ -62,12 +72,15 @@ facts:
     source_ids:
       - ascend-science-2026-07-22
   - label: Domestic supply constraint
-    value: Huawei says it cannot produce enough AI computing equipment to meet Chinese demand and is
-      consequently limiting overseas sales; no capacity, order or fulfillment figures were disclosed.
+    value: Huawei executives say it cannot produce enough AI computing equipment to meet Chinese demand,
+      Ascend competes with smartphone chips for China's very limited advanced-semiconductor capacity,
+      and China still relies on DUV while working toward EUV. No capacity, order, fulfillment, yield or
+      equipment-provenance figures were disclosed.
     evidence: reported
-    as_of: 2026-09-17
+    as_of: 2026-10-01
     source_ids:
       - huawei-connect-2026-09-17
+      - huawei-advanced-capacity-reuters-2026-10-01
   - label: Ascend 950 commercialization claim
     value: Huawei materials say Ascend 950 systems entered commercial use; configurations, volume,
       customer acceptance and workload results were not disclosed.
@@ -133,7 +146,9 @@ source_ids:
   - huawei-hi-one-2026-09-17
   - tilelang-ascend-950-2026-09-30
   - deepseek-huawei-tilelang-reuters-2026-09-30
-reviewed_at: 2026-09-30
+  - huawei-cloud-ascend-950-service-2026-09-18
+  - huawei-advanced-capacity-reuters-2026-10-01
+reviewed_at: 2026-10-01
 slug: huawei
 layers:
   - accelerators

@@ -1,0 +1,22 @@
+slug: huawei-cloud-ascend-950-service-2026-09-18
+published_at: 2026-09-18
+event_date: 2026-09-18
+title: Huawei announces an Ascend 950 cloud service and September 30 domestic target
+summary: >-
+  Huawei announced its Ascend 950 cloud cluster service and said it would become commercially
+  available in China on September 30 and overseas on November 30. The company claimed 40 days of
+  stable cloud training, recovery within 10 minutes and 20% higher token throughput than its prior
+  compute generation.
+impact: >-
+  This is concrete vendor evidence of a cloud-service packaging and reliability target, but the
+  announcement does not identify the model, workload, quality target, hardware configuration,
+  customer or comparison basis. No separate public availability confirmation was found after the
+  scheduled Chinese commercial date, so the date remains an announced milestone rather than an
+  independently verified deployment.
+companies:
+  - huawei
+source_ids:
+  - huawei-cloud-ascend-950-service-2026-09-18
+evidence: vendor
+added_at: 2026-10-01
+correction_of: null

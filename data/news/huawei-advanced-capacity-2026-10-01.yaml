@@ -1,0 +1,21 @@
+slug: huawei-advanced-capacity-2026-10-01
+published_at: 2026-10-01
+event_date: 2026-10-01
+title: Huawei says Ascend shares China's constrained advanced-chip capacity
+summary: >-
+  Huawei consumer-business chief Richard Yu said China's advanced-semiconductor capacity remains
+  very limited and that Ascend AI chips draw on the same capacity used for smartphone processors.
+  He said Chinese advanced-chip manufacturing still relies on DUV lithography while domestic
+  manufacturers work toward EUV.
+impact: >-
+  The statement directly connects Huawei's AI-system supply shortfall to fabrication capacity and
+  confirms that EUV is not yet part of China's reported advanced-chip production flow. It supplies
+  no capacity, yield, node, equipment-provenance or order-fulfillment figures. Huawei's LogicFolding
+  disclosure concerned smartphone chips and is not evidence that the method is used for Ascend.
+companies:
+  - huawei
+source_ids:
+  - huawei-advanced-capacity-reuters-2026-10-01
+evidence: reported
+added_at: 2026-10-01
+correction_of: null

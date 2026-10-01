@@ -1,13 +1,14 @@
 schema_version: 2
 baseline_date: 2026-09-11
-last_research_at: 2026-09-30
-last_automated_run_at: 2026-09-30
+last_research_at: 2026-10-01
+last_automated_run_at: 2026-10-01
 last_run_status: updated
-coverage: The September 23-30 overlap sweep screened 12 priority-1 companies and the three oldest-reviewed
-  remaining profiles with English and Chinese searches. Huawei received a substantive software-ecosystem
-  update; search-only coverage did not advance the other company review dates. Coverage remains incomplete
-  for private deployments, unindexed Chinese disclosures, tenders, customer acceptance, component
-  provenance, production economics and individual benchmark artifacts.
+coverage: The September 24-October 1 overlap sweep screened 12 priority-1 companies and the three
+  oldest-reviewed remaining profiles with English and Chinese searches. Huawei received fabrication-
+  capacity and cloud-service evidence updates; search-only coverage did not advance the other company
+  review dates. Coverage remains incomplete for private deployments, unindexed Chinese disclosures,
+  tenders, customer acceptance, component provenance, production economics and individual benchmark
+  artifacts.
 timezone: Europe/London
 runs:
   - date: 2026-09-12
@@ -929,6 +930,50 @@ runs:
     source_ids:
       - tilelang-ascend-950-2026-09-30
       - deepseek-huawei-tilelang-reuters-2026-09-30
+      - mlperf-training
+      - mlperf-inference-6-1
+      - inferencex
+  - date: 2026-10-01
+    status: updated
+    companies:
+      - aishengna
+      - amec
+      - cambricon
+      - cxmt
+      - enflame
+      - eoptolink
+      - huawei
+      - innolight
+      - naura
+      - smic
+      - ymtc
+      - yuliangsheng
+      - rslaser
+      - siom
+      - zhiqi
+    summary: >-
+      Screened the 12 priority-1 profiles and the three oldest-reviewed remaining profiles with
+      overlapping English and Chinese searches covering September 24-October 1. Added Huawei's
+      October 1 statement that China's advanced-semiconductor capacity remains very limited, Ascend
+      AI chips draw on the same capacity used for smartphone processors, and domestic advanced-chip
+      manufacturing still relies on DUV while manufacturers work toward EUV. Recorded this as direct
+      fabrication-constraint evidence without inferring capacity, yield, node, equipment provenance or
+      SMIC production confirmation. Backfilled Huawei's September 18 primary announcement of an Ascend
+      950 cloud cluster service, including vendor claims of 40 days of stable training, recovery within
+      10 minutes and 20% higher token throughput than its prior generation. The announced September 30
+      Chinese commercial date was not converted into verified availability because no separate public
+      confirmation, configuration, workload, quality target or customer evidence was found. Only Huawei's
+      profile review date advanced; results for the other 14 profiles were previously recorded, older,
+      immaterial or insufficient to establish a new qualified delivery, production, acceptance, financing,
+      software or interconnect milestone. MLPerf Training v6.0 remained at
+      eabf23a07b2a0c60a289ff871dc3a46fff0d0421 and MLPerf Inference v6.1 remained at
+      4bb63cd28eb136be221bc801a9e38c66c8a7553f; the latter's 30 closed submitter directories still
+      include no current Chinese accelerator vendor. InferenceX's published hardware coverage still
+      supplied no comparable current Chinese accelerator result. Individual benchmark artifacts were
+      not exhaustively reviewed. No dated forecast or historical briefing changed.
+    source_ids:
+      - huawei-advanced-capacity-reuters-2026-10-01
+      - huawei-cloud-ascend-950-service-2026-09-18
       - mlperf-training
       - mlperf-inference-6-1
       - inferencex
