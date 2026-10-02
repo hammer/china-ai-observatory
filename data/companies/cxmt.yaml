@@ -8,9 +8,10 @@ priority: 1
 stage: Scaling
 role: China’s principal DRAM and HBM company to watch.
 assessment: >-
-  Fifth-generation commodity DRAM is company-reported in mass production, but adequate domestic
-  HBM volume and frontier HBM performance remain separate milestones. The reported NAND project is
-  an R&D-line plan, not evidence of qualified commercial output.
+  Fifth-generation commodity DRAM and LPDDR6 are company-reported in mass production, with Xiaomi
+  providing a named LPDDR6 handset design-in. Adequate domestic HBM volume and frontier HBM performance
+  remain separate milestones. The reported NAND project is an R&D-line plan, not evidence of qualified
+  commercial output.
 key_fact:
   label: HBM milestone
   value: Small-volume HBM3E reportedly produced in August 2026
@@ -21,6 +22,15 @@ key_fact:
     - cxmt-hbm-reuters-2026-08-31
     - cxmt
 facts:
+  - label: LPDDR6 commercial design-in
+    value: CXMT and Xiaomi said CXMT's LPDDR6 entered mass production for the Xiaomi 18 Fold. CXMT
+      reports a 16 Gb die, 16 GB package and up to 12,800 Mbps; bandwidth and power comparisons are
+      internal tests, while volume, yield, reliability at scale and fabrication provenance are undisclosed.
+    evidence: reported
+    as_of: 2026-08-29
+    source_ids:
+      - cxmt-lpddr6-primary-2026-09-07
+      - cxmt-lpddr6-reuters-2026-08-29
   - label: Capacity expansion
     value: Reuters reported two new plants under construction and discussions for a third, with projects
       projected to lift capacity above 600,000 wafers per month; completion, qualification and realized output remain unverified.
@@ -57,6 +67,7 @@ watch_for:
   - Independent G5 yield, reliability and customer qualification
   - Named domestic-equipment contributions to the G5 process flow
   - NAND trial-line operation and transition to qualified volume production
+  - LPDDR6 shipment volume, yield and additional customer qualification
 source_ids:
   - cxmt-hbm
   - cxmt-hbm-reuters-2026-08-31
@@ -64,7 +75,9 @@ source_ids:
   - china-memory-expansion-reuters-2026-07-24
   - cxmt-nand-2026-09-18
   - cxmt-g5-dram-2026-09-20
-reviewed_at: 2026-10-01
+  - cxmt-lpddr6-primary-2026-09-07
+  - cxmt-lpddr6-reuters-2026-08-29
+reviewed_at: 2026-10-02
 slug: cxmt
 layers:
   - memory

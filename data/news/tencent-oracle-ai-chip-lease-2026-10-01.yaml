@@ -1,0 +1,17 @@
+published_at: 2026-10-01
+event_date: null
+title: Tencent reportedly leases advanced foreign AI chips overseas
+summary: >-
+  The Financial Times reported that Tencent agreed to a five-year Oracle lease covering about
+  100,000 advanced AI chips in Southeast Asian data centers.
+impact: >-
+  A reported $7 billion overseas lease for chips unavailable in China is system-level evidence that
+  leading Chinese AI users still seek foreign frontier compute outside the country. Reuters could not
+  independently verify the report; chip models, delivery schedule, utilization and workloads were not disclosed.
+companies: []
+source_ids:
+  - tencent-oracle-ai-chip-lease-reuters-2026-10-01
+evidence: reported
+added_at: 2026-10-02
+correction_of: null
+slug: tencent-oracle-ai-chip-lease-2026-10-01

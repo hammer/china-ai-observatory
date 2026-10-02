@@ -1,0 +1,17 @@
+published_at: 2026-08-29
+event_date: 2026-08-29
+title: CXMT announces LPDDR6 mass production for Xiaomi foldable
+summary: CXMT and Xiaomi said CXMT's LPDDR6 entered mass production for the Xiaomi 18 Fold.
+impact: >-
+  The named handset is customer and commercial-use evidence for a current mobile-memory standard,
+  but the disclosures do not establish production volume, yield, reliability at scale, fabrication-
+  equipment provenance or HBM capability. CXMT's bandwidth and power comparisons are internal tests.
+companies:
+  - cxmt
+source_ids:
+  - cxmt-lpddr6-primary-2026-09-07
+  - cxmt-lpddr6-reuters-2026-08-29
+evidence: reported
+added_at: 2026-10-02
+correction_of: null
+slug: cxmt-lpddr6-xiaomi-2026-08-29

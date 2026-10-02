@@ -19,7 +19,7 @@ watch_for:
   - Production-relevant lifetime and power
 source_ids:
   - siom
-reviewed_at: 2026-09-11
+reviewed_at: 2026-10-02
 slug: siom
 layers:
   - optics
