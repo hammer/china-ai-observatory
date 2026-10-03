@@ -6,21 +6,27 @@ counterparts:
 priority: 2
 stage: Commercial
 role: Wet cleaning and related process equipment.
-assessment: Distinguish the Shanghai operating company from its US-listed parent.
+assessment: >-
+  The Shanghai operating company reports a large and fast-growing equipment backlog, but the
+  aggregate is unaudited, mixes future deliveries with delivered equipment awaiting revenue
+  recognition, and discloses no customer, product, fab, qualification or cancellation split.
+  Distinguish the Shanghai operating company from its US-listed parent.
 key_fact:
-  label: Strategic role
-  value: Semiconductor cleaning and other process tools
-  evidence: vendor
-  as_of: 2026-09-11
+  label: Reported order backlog
+  value: RMB 17.073 billion at September 29, 2026, up 88.2% year over year
+  evidence: primary
+  as_of: 2026-09-29
   source_ids:
-    - acm
+    - acm-orders-2026-10-01
 facts: []
 watch_for:
   - Domestic-fab adoption
   - Advanced packaging and HBM process qualifications
+  - Backlog conversion, cancellations and customer acceptance
 source_ids:
   - acm
-reviewed_at: 2026-09-13
+  - acm-orders-2026-10-01
+reviewed_at: 2026-10-03
 slug: acm
 layers:
   - equipment

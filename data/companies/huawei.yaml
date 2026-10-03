@@ -22,6 +22,15 @@ key_fact:
     - ascend
     - hbm-reuters
 facts:
+  - label: Independent Ascend 950DT trace analysis
+    value: InferenceX examined a 16-rank DeepSeek V4 decode profile on Ascend 950DT and found working,
+      optimized day-one inference with overlapped compute and communications. The article did not
+      publish a same-harness numerical Ascend-versus-H200/B200 result and said that comparison was
+      future work; its profiler images are attributed to SemiAnalysis and Huawei.
+    evidence: measured
+    as_of: 2026-06-09
+    source_ids:
+      - inferencex-ascend-950dt-deepseek-v4-2026-06-09
   - label: Ascend 950 cloud-service evidence
     value: Huawei announced its Ascend 950 cloud cluster service and scheduled Chinese commercial
       availability for September 30, claiming 40 days of stable training, recovery within 10 minutes
@@ -148,7 +157,8 @@ source_ids:
   - deepseek-huawei-tilelang-reuters-2026-09-30
   - huawei-cloud-ascend-950-service-2026-09-18
   - huawei-advanced-capacity-reuters-2026-10-01
-reviewed_at: 2026-10-01
+  - inferencex-ascend-950dt-deepseek-v4-2026-06-09
+reviewed_at: 2026-10-03
 slug: huawei
 layers:
   - accelerators

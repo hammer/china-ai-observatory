@@ -1,0 +1,19 @@
+published_at: 2026-06-09
+event_date: 2026-06-09
+title: InferenceX analyzes DeepSeek V4 on Ascend 950DT
+summary: >-
+  InferenceX analyzed DeepSeek V4 day-one inference on a 16-rank Ascend 950DT deployment and examined
+  profiler traces showing concurrent compute and communication work.
+impact: >-
+  The analysis is useful independent evidence that the current Ascend stack ran an optimized frontier
+  Chinese model on day one. It is not the missing matched frontier comparison: the public article does
+  not provide a same-harness numerical Ascend-versus-H200/B200 result and describes that comparison as
+  future work, while the profiler images are attributed jointly to SemiAnalysis and Huawei.
+companies:
+  - huawei
+source_ids:
+  - inferencex-ascend-950dt-deepseek-v4-2026-06-09
+evidence: measured
+added_at: 2026-10-03
+correction_of: null
+slug: inferencex-ascend-950dt-deepseek-v4-2026-06-09

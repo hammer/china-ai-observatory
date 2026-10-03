@@ -7,7 +7,10 @@ counterparts:
 priority: 2
 stage: Commercial
 role: Domestic EDA tools across analog, digital, and verification workflows.
-assessment: A complete qualified design flow is a higher bar than replacing one tool.
+assessment: >-
+  Empyrean reports adoption in core design flows and several node-specific foundry certifications,
+  but customer identities, tape-outs, sign-off correlation and the breadth of each certified flow
+  remain undisclosed. A complete qualified digital design flow is a higher bar than replacing one tool.
 key_fact:
   label: Coverage
   value: Growing design and verification portfolio
@@ -15,14 +18,24 @@ key_fact:
   as_of: 2026-09-11
   source_ids:
     - empyrean
-facts: []
+facts:
+  - label: Customer-flow and foundry-certification claims
+    value: Empyrean says products entered core design flows at leading domestic chip-design and
+      manufacturing customers and supported mass production. It reports ALPS certification at
+      8 nm, 5 nm and 4 nm, Patron at 14 nm, and Argus DRC/LVS at 28 nm; the filing does not name
+      foundries, customers, tape-outs, covered rule decks, sign-off correlation or production volume.
+    evidence: primary
+    as_of: 2026-06-30
+    source_ids:
+      - empyrean-2026-h1-report
 watch_for:
   - Complete-flow customer tape-outs
   - Frontier-node sign-off accuracy
   - Interoperability and productivity
 source_ids:
   - empyrean
-reviewed_at: 2026-09-13
+  - empyrean-2026-h1-report
+reviewed_at: 2026-10-03
 slug: empyrean
 layers:
   - eda

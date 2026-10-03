@@ -1,15 +1,16 @@
 schema_version: 2
 baseline_date: 2026-09-11
-last_research_at: 2026-10-02
-last_automated_run_at: 2026-10-02
+last_research_at: 2026-10-03
+last_automated_run_at: 2026-10-03
 last_run_status: updated
-coverage: The October 2 daily sweep screened all 12 priority-1 profiles and the three oldest-reviewed
-  remaining profiles with seven-day overlapping English and Chinese searches. It backfilled one missing
-  Q3 memory event and added one current market-dependency event. CXMT, SIOM and Zhiqi received actual
-  profile reviews; RSLaser lacked retrievable current primary evidence and remained unchanged. Coverage
-  remains incomplete for private deployments, unindexed Chinese disclosures, tenders, individual
-  benchmark artifacts, customer acceptance, production volume, yield, utilization, reliability, power
-  and component provenance.
+coverage: The October 3 daily sweep screened all 12 priority-1 profiles and the four oldest-reviewed
+  remaining profiles with overlapping English and Chinese searches covering September 26-October 3.
+  ACM Research Shanghai, CIOMP, Empyrean and Huawei received actual profile reviews; RSLaser again
+  lacked retrievable current primary evidence and remained unchanged. The sweep backfilled overlooked
+  EDA adoption and current-accelerator trace evidence and added ACM's current backlog disclosure.
+  Coverage remains incomplete for private deployments, unindexed Chinese disclosures, tenders,
+  individual benchmark artifacts, customer acceptance, production volume, yield, utilization,
+  reliability, power and component provenance.
 timezone: Europe/London
 runs:
   - date: 2026-09-12
@@ -1138,6 +1139,56 @@ runs:
       - tencent-oracle-ai-chip-lease-reuters-2026-10-01
       - zhiqi-fujing-ir-2026-09-02
       - siom
+      - mlperf-training
+      - mlperf-inference-6-1
+      - inferencex
+  - date: 2026-10-03
+    status: updated
+    companies:
+      - aishengna
+      - amec
+      - cambricon
+      - cxmt
+      - enflame
+      - eoptolink
+      - huawei
+      - innolight
+      - naura
+      - smic
+      - ymtc
+      - yuliangsheng
+      - rslaser
+      - acm
+      - ciomp
+      - empyrean
+    summary: >-
+      Screened all 12 priority-1 profiles and the four oldest-reviewed remaining profiles with
+      overlapping English and Chinese searches covering September 26-October 3. Added ACM Research
+      Shanghai's October 1 primary filing: it reported RMB 17.073 billion of orders on hand at
+      September 29, up 88.2% year over year. The record retains the filing's cautions that the
+      unaudited aggregate combines future deliveries with delivered equipment awaiting revenue
+      recognition, may not convert fully, and supplies no customer, product, fab, qualification,
+      acceptance, cancellation or domestic-content split. Backfilled Empyrean's August 29 half-year
+      filing: the company says products entered core design flows at leading domestic design and
+      manufacturing customers and supported mass production, and reports ALPS certification at 8 nm,
+      5 nm and 4 nm, Patron at 14 nm, and Argus DRC/LVS at 28 nm. Customers, foundries, tape-outs,
+      covered rule decks, sign-off correlation, production volume and evidence of a complete foreign-
+      tool displacement remain undisclosed. Reviewed CIOMP's current official research and news indexes;
+      no new production-lithography optics milestone was established. Current primary evidence for
+      RSLaser remained unavailable, so its profile date did not advance. Backfilled InferenceX's June 9
+      analysis of DeepSeek V4 day-one inference on a 16-rank Ascend 950DT setup. The analysis verifies
+      working optimized inference and profiler evidence, but its public article does not give a same-
+      harness numerical comparison with H200 or B200 and says that comparison was future work; the
+      profiler images are attributed to SemiAnalysis and Huawei. MLPerf Training v6.0 remained at
+      eabf23a07b2a0c60a289ff871dc3a46fff0d0421 and MLPerf Inference v6.1 remained at
+      4bb63cd28eb136be221bc801a9e38c66c8a7553f. No matched current Chinese comparison against Rubin,
+      GB300, MI355X, TPU v7 or OpenAI Jalapeño was verified, and individual benchmark artifacts were
+      not exhaustively reviewed. No dated forecast or historical briefing changed.
+    source_ids:
+      - acm-orders-2026-10-01
+      - empyrean-2026-h1-report
+      - ciomp
+      - inferencex-ascend-950dt-deepseek-v4-2026-06-09
       - mlperf-training
       - mlperf-inference-6-1
       - inferencex

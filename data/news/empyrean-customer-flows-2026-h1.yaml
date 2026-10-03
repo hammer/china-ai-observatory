@@ -1,0 +1,18 @@
+published_at: 2026-08-29
+event_date: 2026-06-30
+title: Empyrean reports EDA adoption in core customer design flows
+summary: >-
+  Empyrean said its EDA products entered core design flows at leading domestic chip-design and
+  manufacturing companies and supported customer product development and mass production.
+impact: >-
+  The filing adds adoption and node-specific certification evidence across simulation, power integrity
+  and physical verification. It does not identify customers, foundries, tape-outs, covered rule decks,
+  sign-off correlation, production volume or whether a complete digital flow displaced foreign tools.
+companies:
+  - empyrean
+source_ids:
+  - empyrean-2026-h1-report
+evidence: primary
+added_at: 2026-10-03
+correction_of: null
+slug: empyrean-customer-flows-2026-h1
