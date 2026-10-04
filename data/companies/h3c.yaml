@@ -7,8 +7,9 @@ counterparts:
 priority: 2
 stage: Commercial
 role: Data-center network and system supplier.
-assessment: Open interconnect work and a reported customer deployment are meaningful integration signals,
-  but do not establish domestic provenance for all silicon or performance parity with InfiniBand.
+assessment: Open interconnect work, a reported customer deployment and a specified 40-card scale-up
+  system are meaningful integration signals, but do not establish domestic provenance for all silicon,
+  production deployment or workload parity with InfiniBand and NVLink systems.
 key_fact:
   label: Deployment evidence
   value: H3C reports a deployed DDC lossless-network project with Xiaohongshu and participation in
@@ -25,6 +26,15 @@ facts:
     as_of: 2026-09-04
     source_ids:
       - h3c-odx-2026-09-04
+  - label: Domestic-accelerator supernode
+    value: H3C says UniPoD S81000 X1 supports 40 unnamed domestic accelerators in one scale-up
+      domain, 448 GB/s peer-to-peer bandwidth, 5,760 GB of unified-address memory and up to
+      28 PFLOP/s FP8. Accelerator and switch silicon, dense-versus-sparse convention, power,
+      deployment and workload results were not disclosed.
+    evidence: vendor
+    as_of: 2026-09-29
+    source_ids:
+      - h3c-unipod-s81000-x1-2026-09-29
 watch_for:
   - RDMA behavior under congestion
   - Switch and NIC silicon provenance
@@ -32,7 +42,8 @@ watch_for:
 source_ids:
   - h3c
   - h3c-odx-2026-09-04
-reviewed_at: 2026-09-14
+  - h3c-unipod-s81000-x1-2026-09-29
+reviewed_at: 2026-10-04
 slug: h3c
 layers:
   - networking

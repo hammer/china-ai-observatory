@@ -1,0 +1,22 @@
+slug: h3c-unipod-s81000-x1-2026-09-29
+published_at: 2026-09-29
+event_date: 2026-09-29
+title: H3C announces a 40-accelerator domestic supernode
+summary: >-
+  H3C announced the UniPoD S81000 X1, a rack-scale system supporting up to 40 unnamed domestic
+  accelerators in one scale-up domain. The company says four dedicated switch trays form a
+  single-stage CLOS topology with 448 GB/s peer-to-peer bandwidth between any two cards, while
+  the 40 cards provide 5,760 GB of unified-address memory and up to 28 PFLOP/s at FP8.
+impact: >-
+  The launch adds concrete domestic system-integration and scale-up evidence, but not deployment
+  or workload-performance evidence. H3C did not identify the accelerator or switch silicon,
+  distinguish dense from sparse FP8, disclose power, latency, utilization, yield, customer
+  acceptance or shipment volume, or publish a matched comparison with NVLink, InfiniBand or a
+  current foreign supernode. Announced specifications therefore do not establish operational parity.
+companies:
+  - h3c
+source_ids:
+  - h3c-unipod-s81000-x1-2026-09-29
+evidence: vendor
+added_at: 2026-10-04
+correction_of: null
