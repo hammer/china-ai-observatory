@@ -8,6 +8,8 @@ stage: Commercial
 role: CMP, wafer thinning, and related process equipment.
 assessment: Polishing and thinning quality are essential to downstream packaging yield. Delivery
   to a production line does not by itself disclose customer acceptance, yield, uptime or volume.
+  The completed 2026 financing funds capacity and equipment development, but does not establish
+  project completion, customer qualification or realized output.
 key_fact:
   label: Panel-level CMP delivery
   value: Master-P510APEX was reported shipped to an advanced-packaging production line for use.
@@ -16,6 +18,15 @@ key_fact:
   source_ids:
     - hwatsing-panel-cmp-2026-09-09
 facts:
+  - label: Equipment and capacity financing
+    value: Hwatsing completed a private placement of 16,080,508 shares at RMB 236 per share,
+      raising RMB 3.795 billion before expenses. The company says proceeds will support a Shanghai
+      semiconductor-equipment R&D and manufacturing base, Kunshan wafer-reclaim expansion and
+      high-end equipment R&D; schedules, installed capacity and realized output remain future work.
+    evidence: primary
+    as_of: 2026-09-30
+    source_ids:
+      - hwatsing-placement-2026-09-30
   - label: Process scope
     value: The vendor describes automated endpoint detection and multiple polishing modes for
       large-format panel-level packaging; customer and production metrics were not disclosed.
@@ -29,7 +40,8 @@ watch_for:
 source_ids:
   - hwatsing
   - hwatsing-panel-cmp-2026-09-09
-reviewed_at: 2026-09-14
+  - hwatsing-placement-2026-09-30
+reviewed_at: 2026-10-05
 slug: hwatsing
 layers:
   - equipment

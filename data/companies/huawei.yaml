@@ -22,6 +22,16 @@ key_fact:
     - ascend
     - hbm-reuters
 facts:
+  - label: Cross-border patent licensing
+    value: Huawei and Qualcomm announced a multi-year cross-license spanning 5G, compute, AI and
+      networking, plus Qualcomm's planned purchase of certain Huawei US patents. The transaction
+      remains subject to regulatory approvals; terms, covered patents and their use in specific
+      products were not disclosed, so it does not establish a hardware-supply dependency.
+    evidence: primary
+    as_of: 2026-10-05
+    source_ids:
+      - huawei-qualcomm-patent-license-2026-10-05
+      - huawei-qualcomm-patent-license-reuters-2026-10-05
   - label: Independent Ascend 950DT trace analysis
     value: InferenceX examined a 16-rank DeepSeek V4 decode profile on Ascend 950DT and found working,
       optimized day-one inference with overlapped compute and communications. The article did not
@@ -158,7 +168,9 @@ source_ids:
   - huawei-cloud-ascend-950-service-2026-09-18
   - huawei-advanced-capacity-reuters-2026-10-01
   - inferencex-ascend-950dt-deepseek-v4-2026-06-09
-reviewed_at: 2026-10-03
+  - huawei-qualcomm-patent-license-2026-10-05
+  - huawei-qualcomm-patent-license-reuters-2026-10-05
+reviewed_at: 2026-10-05
 slug: huawei
 layers:
   - accelerators
