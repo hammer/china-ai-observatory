@@ -3,16 +3,14 @@ baseline_date: 2026-09-11
 last_research_at: 2026-10-05
 last_automated_run_at: 2026-10-05
 last_run_status: updated
-coverage: The October 5 daily sweep screened all 12 priority-1 profiles and the four oldest-reviewed
-  remaining profiles with overlapping English and Chinese searches covering September 28-October 5.
-  Hwatsing received an actual profile review after its September 30 private-placement completion was
-  retrieved from the current company-news index, and Huawei received an actual review after today's
-  Qualcomm patent agreement was checked against Huawei's announcement and Reuters. Biren's current
-  official index remained unchanged; current primary evidence for RSLaser and Guowang remained
-  unavailable or unchanged. Search-only coverage did not advance the other profile dates.
-  Coverage remains incomplete for private deployments, unindexed Chinese disclosures, tenders,
-  individual benchmark artifacts, customer acceptance, production volume, yield, utilization,
-  reliability, power and component provenance.
+coverage: The complete September 28-October 4 weekly briefing audited all six canonical in-period
+  events and their original sources, then used bounded overlapping English and Chinese gap searches
+  across accelerators, software, networking and scale-up systems, lithography and fabrication
+  capacity, manufacturing equipment, capital and benchmarks. No additional material in-period event
+  was established. Older and post-period evidence was excluded from news_ids. Coverage remains
+  incomplete for private deployments, unindexed Chinese disclosures, tenders, individual benchmark
+  artifacts, customer acceptance, production volume, yield, utilization, reliability, power and
+  component provenance. The reported Tencent transaction was not independently verified by Reuters.
 timezone: Europe/London
 runs:
   - date: 2026-09-12
@@ -1285,6 +1283,38 @@ runs:
       - huawei-qualcomm-patent-license-reuters-2026-10-05
       - biren
       - guowang
+      - mlperf-training
+      - mlperf-inference-6-1
+      - inferencex
+  - date: 2026-10-05
+    status: updated
+    companies:
+      - acm
+      - h3c
+      - huawei
+      - hwatsing
+    summary: >-
+      Published the complete September 28-October 4 weekly briefing after auditing all six canonical
+      in-period events and their original sources, plus bounded overlapping English and Chinese gap
+      searches across accelerators, software, networking and scale-up systems, lithography and
+      fabrication capacity, manufacturing equipment, capital and benchmarks. The edition separates
+      inspectable Ascend software, H3C's announced 40-accelerator rack, ACM's unaudited order book and
+      Hwatsing's completed financing from operational performance, customer qualification and
+      realized output. It records Huawei's statement that scarce domestic advanced-chip capacity is
+      shared between Ascend and smartphone processors and that Chinese advanced manufacturing still
+      relies on DUV, along with the reported and unverified Tencent lease for about 100,000 foreign
+      AI chips in Southeast Asia. No additional material in-period event was established. MLPerf
+      Training v6.0, MLPerf Inference v6.1 and InferenceX still supplied no matched current Chinese
+      comparison against Rubin, GB300, MI355X, TPU v7 or OpenAI Jalapeño; individual benchmark
+      artifacts were not exhaustively reviewed. No dated forecast or historical briefing changed.
+    source_ids:
+      - acm-orders-2026-10-01
+      - deepseek-huawei-tilelang-reuters-2026-09-30
+      - h3c-unipod-s81000-x1-2026-09-29
+      - huawei-advanced-capacity-reuters-2026-10-01
+      - hwatsing-placement-2026-09-30
+      - tencent-oracle-ai-chip-lease-reuters-2026-10-01
+      - tilelang-ascend-950-2026-09-30
       - mlperf-training
       - mlperf-inference-6-1
       - inferencex

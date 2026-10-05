@@ -1,0 +1,138 @@
+slug: weekly-2026-09-28-complete
+cadence: weekly
+period_start: 2026-09-28
+period_end: 2026-10-04
+through_date: 2026-10-04
+published_at: 2026-10-05
+status: complete
+title: Software and systems advanced while fabrication scarcity stayed binding
+summary: >-
+  Open Ascend software, a domestic 40-accelerator rack, equipment orders and manufacturing investment
+  strengthened China's integration and scaling evidence. Huawei's own warning about scarce advanced
+  capacity and a reported Tencent lease for foreign chips overseas showed that frontier fabrication
+  volume and access to leading accelerators remain much less sovereign than the surrounding stack.
+sections:
+  - heading: Ascend software became more inspectable as fabrication stayed constrained
+    body: >-
+      DeepSeek contributors published a native Ascend 950 backend in TileLang with Ascend-specific
+      code generation, scheduling, synchronization, vector programming and kernel examples, while
+      Reuters reported joint work with Huawei on compute and communication libraries and a 128-chip
+      Ascend 950 supernode solution. Public code is stronger ecosystem evidence than a closed
+      compatibility announcement, but it does not establish broad operator coverage, production
+      stability, adoption, power efficiency, CUDA equivalence or a matched cross-platform workload
+      result. Huawei consumer-business chief Richard Yu separately said China's advanced-chip
+      capacity remains very limited, that Ascend competes with smartphone processors for the same
+      capacity, and that Chinese advanced manufacturing still relies on DUV while domestic producers
+      work toward EUV. The statement connects Ascend supply directly to fabrication scarcity without
+      supplying capacity, yield, node, equipment-provenance or order-fulfillment figures.
+    source_ids:
+      - tilelang-ascend-950-2026-09-30
+      - deepseek-huawei-tilelang-reuters-2026-09-30
+      - huawei-advanced-capacity-reuters-2026-10-01
+  - heading: A reported offshore lease exposed continuing demand for foreign frontier compute
+    body: >-
+      The Financial Times reported that Tencent agreed to a five-year Oracle lease covering about
+      100,000 advanced AI chips in Southeast Asian data centers for roughly $7 billion. If completed
+      as reported, the arrangement would be system-level evidence that a leading Chinese AI user is
+      still seeking foreign chips unavailable in China rather than relying only on domestic supply.
+      Reuters could not independently verify the report, and the chip models, delivery schedule,
+      utilization and workloads were not disclosed. It should therefore be treated as a reported
+      procurement signal, not a confirmed deployment or performance result.
+    source_ids:
+      - tencent-oracle-ai-chip-lease-reuters-2026-10-01
+  - heading: H3C added a domestic scale-up specification, not an operating comparison
+    body: >-
+      H3C announced the UniPoD S81000 X1, a rack-scale system supporting 40 unnamed domestic
+      accelerators in one scale-up domain. It claims a single-stage CLOS fabric with 448 GB/s
+      peer-to-peer bandwidth between any two cards, 5,760 GB of unified-address memory and up to
+      28 PFLOP/s at FP8. The specification is concrete evidence of domestic rack and fabric
+      integration, but H3C did not identify the accelerator or switch silicon, distinguish dense
+      from sparse FP8, disclose power, latency, utilization, customer acceptance, shipment volume
+      or workload results, or publish a matched comparison with NVLink, InfiniBand or a current
+      foreign supernode. It does not establish operational parity.
+    source_ids:
+      - h3c-unipod-s81000-x1-2026-09-29
+  - heading: Equipment demand and financing grew ahead of qualification evidence
+    body: >-
+      ACM Research Shanghai reported RMB 17.073 billion of orders on hand at September 29, up 88.2%
+      year over year. The unaudited aggregate combines future deliveries with delivered equipment
+      awaiting revenue recognition, may not convert fully, and contains no customer, product, fab,
+      qualification, acceptance or domestic-content split. Hwatsing completed a RMB 3.795 billion
+      private placement and said proceeds would support a Shanghai equipment R&D and manufacturing
+      base, Kunshan wafer-reclaim expansion and high-end equipment development. Both disclosures are
+      meaningful demand and capital signals for domestic process equipment, but neither establishes
+      completed capacity, qualified tools, realized output, yield, uptime or a fully domestic bill of
+      materials.
+    source_ids:
+      - acm-orders-2026-10-01
+      - hwatsing-placement-2026-09-30
+  - heading: Benchmark evidence did not move
+    body: >-
+      A period-end review found no matched current Chinese accelerator result against Rubin, GB300,
+      MI355X, TPU v7 or OpenAI Jalapeño in MLPerf Training v6.0, MLPerf Inference v6.1 or
+      InferenceX's published coverage. MLPerf provides standardized submitter-run results rather
+      than automatically independent testing, and individual result artifacts were not exhaustively
+      audited. TileLang code and H3C specifications improve software and systems evidence, but the
+      week supplied no new independently controlled model-training or inference result that changes
+      the frontier comparison. Absence of a verified public result is not evidence of incapability.
+    source_ids:
+      - mlperf-training
+      - mlperf-inference-6-1
+      - inferencex
+  - heading: Forecast implications
+    body: >-
+      No dated forecast changes. The week strengthens the existing view that Chinese software
+      compatibility, rack integration and equipment investment can improve before frontier
+      single-chip efficiency or a fully sovereign production chain. Huawei's capacity statement
+      reinforces the expectation that advanced logic volume and lithography will remain harder
+      constraints than software or aggregate system engineering. The reported Tencent lease shows
+      that access to foreign frontier accelerators can remain valuable even as domestic alternatives
+      advance. H3C's rack and the equipment disclosures do not change the timelines for EUV, HBM or
+      matched frontier training and inference evidence.
+    source_ids:
+      - deepseek-huawei-tilelang-reuters-2026-09-30
+      - huawei-advanced-capacity-reuters-2026-10-01
+      - tencent-oracle-ai-chip-lease-reuters-2026-10-01
+      - h3c-unipod-s81000-x1-2026-09-29
+      - acm-orders-2026-10-01
+      - hwatsing-placement-2026-09-30
+      - mlperf-training
+      - mlperf-inference-6-1
+      - inferencex
+  - heading: Next evidence to watch
+    body: >-
+      Prioritize Ascend 950 capacity, yield and accepted customer configurations; production use and
+      operator coverage for the new open software; confirmation, chip identities and workloads for
+      the reported Tencent lease; named H3C deployments with fabric utilization, recovery, power and
+      scaling results; conversion of ACM orders into accepted equipment and revenue; Hwatsing project
+      construction, qualification and realized output; and matched training time-to-quality or
+      inference throughput, latency and energy measurements on current Chinese and frontier foreign
+      systems.
+    source_ids: []
+news_ids:
+  - h3c-unipod-s81000-x1-2026-09-29
+  - deepseek-huawei-tilelang-2026-09-30
+  - hwatsing-placement-2026-09-30
+  - acm-orders-2026-10-01
+  - huawei-advanced-capacity-2026-10-01
+  - tencent-oracle-ai-chip-lease-2026-10-01
+source_ids:
+  - acm-orders-2026-10-01
+  - deepseek-huawei-tilelang-reuters-2026-09-30
+  - h3c-unipod-s81000-x1-2026-09-29
+  - huawei-advanced-capacity-reuters-2026-10-01
+  - hwatsing-placement-2026-09-30
+  - inferencex
+  - mlperf-inference-6-1
+  - mlperf-training
+  - tencent-oracle-ai-chip-lease-reuters-2026-10-01
+  - tilelang-ascend-950-2026-09-30
+coverage_note: >-
+  This complete edition covers September 28-October 4 from six canonical in-period events, their
+  original sources and bounded English and Chinese gap searches across accelerators, software,
+  networking and scale-up systems, lithography and fabrication capacity, manufacturing equipment,
+  capital and benchmarks. Older or post-period evidence is not included in news_ids. Coverage
+  remains incomplete for private deployments, unindexed Chinese disclosures, tenders, individual
+  benchmark artifacts and customer acceptance, production volume, yield, utilization, reliability,
+  power and component provenance. The reported Tencent transaction was not independently verified
+  by Reuters.
