@@ -1,18 +1,18 @@
 schema_version: 2
 baseline_date: 2026-09-11
-last_research_at: 2026-10-06
-last_automated_run_at: 2026-10-06
+last_research_at: 2026-10-07
+last_automated_run_at: 2026-10-07
 last_run_status: updated
 coverage: Screened all 12 priority-1 profiles and the four oldest-reviewed remaining profiles with
-  overlapping English and Chinese searches covering September 29-October 6. Added original reporting
-  that YMTC adapted to U.S. tool restrictions by buying Dutch and Japanese equipment and that at least
-  one of its innovations was licensed to Samsung. The report did not identify equipment suppliers,
-  models, domestic tool share, complete-flow provenance, the licensed patent, commercial terms,
-  production use, yield or volume. Search-only coverage did not advance the other profile dates.
-  MLPerf Training v6.0 and Inference v6.1 heads were unchanged, and InferenceX supplied no new matched
-  current Chinese accelerator result. Coverage remains incomplete for private deployments, unindexed
-  Chinese disclosures, tenders, individual benchmark artifacts, customer acceptance, production
-  volume, yield, utilization, reliability, power and component provenance.
+  overlapping English and Chinese searches covering September 30-October 7. Backfilled JCET's
+  September proposal to raise up to RMB 6.5 billion, including funds for compute, memory,
+  wafer-level and power-module packaging capacity. The issuance remains conditional and the filing
+  does not establish installed capacity, customer qualification, domestic-input provenance, yield,
+  throughput or realized output. Search-only coverage did not advance the other profile dates.
+  MLPerf Training v6.0 and Inference v6.1 heads were unchanged, and InferenceX supplied no new
+  matched current Chinese accelerator result. Coverage remains incomplete for private deployments,
+  unindexed Chinese disclosures, tenders, individual benchmark artifacts, customer acceptance,
+  production volume, yield, utilization, reliability, power and component provenance.
 timezone: Europe/London
 runs:
   - date: 2026-09-12
@@ -1360,6 +1360,50 @@ runs:
       - ymtc-wire-china-2026-10-04
       - biren
       - iluvatar
+      - mlperf-training
+      - mlperf-inference-6-1
+      - inferencex
+  - date: 2026-10-07
+    status: updated
+    companies:
+      - aishengna
+      - amec
+      - cambricon
+      - cxmt
+      - enflame
+      - eoptolink
+      - huawei
+      - innolight
+      - naura
+      - smic
+      - ymtc
+      - yuliangsheng
+      - rslaser
+      - biren
+      - guowang
+      - jcet
+    summary: >-
+      Screened all 12 priority-1 profiles and the four oldest-reviewed remaining profiles with
+      overlapping English and Chinese searches covering September 30-October 7. Backfilled JCET's
+      September 3 board-approved proposal to raise up to RMB 6.5 billion, including RMB 1.5 billion
+      for a high-performance-computing advanced-packaging expansion, RMB 1.0 billion for
+      high-density, high-capacity memory-chip system-level packaging and test, and additional funds
+      for wafer-level and power-module packaging. This is a conditional financing and investment
+      plan, not completed funding, installed capacity or operating output. State-asset and
+      shareholder approvals, Shanghai Stock Exchange review and securities-regulator registration
+      remained prerequisites; the filing did not disclose construction schedules, customer
+      qualification, domestic-input provenance, yield, throughput or realized output. Current
+      searches for the remaining profiles did not establish another new qualified production,
+      deployment or benchmark milestone, so their review dates did not advance. MLPerf Training
+      v6.0 remained at eabf23a07b2a0c60a289ff871dc3a46fff0d0421 and MLPerf Inference v6.1
+      remained at 4bb63cd28eb136be221bc801a9e38c66c8a7553f. InferenceX supplied no new matched
+      Chinese accelerator comparison against Rubin, GB300, MI355X, TPU v7 or OpenAI Jalapeño.
+      Individual benchmark artifacts were not exhaustively reviewed. No dated forecast or
+      historical briefing changed.
+    source_ids:
+      - jcet-private-placement-plan-2026-09-04
+      - biren
+      - guowang
       - mlperf-training
       - mlperf-inference-6-1
       - inferencex

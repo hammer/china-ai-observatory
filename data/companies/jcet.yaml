@@ -8,8 +8,11 @@ priority: 2
 stage: Commercial
 role: Outsourced assembly, test, and advanced packaging.
 assessment: JCET's half-year report provides company evidence of XDFOI volume production and
-  customer validation of silicon-photonics engine samples. It does not establish frontier
-  compute-plus-HBM package yield, capacity, thermal performance or domestic input provenance.
+  customer validation of silicon-photonics engine samples. Its September private-placement plan
+  would direct RMB 1.5 billion to a high-performance-computing advanced-packaging expansion, but
+  the financing and projects remain conditional. The record does not establish frontier
+  compute-plus-HBM package yield, installed capacity, thermal performance or domestic input
+  provenance.
 key_fact:
   label: XDFOI production status
   value: Company reports that its high-density heterogeneous-integration platform reached volume production
@@ -33,13 +36,24 @@ facts:
     as_of: 2026-06-30
     source_ids:
       - jcet-2026-h1-report
+  - label: Planned packaging-capacity financing
+    value: >-
+      JCET proposes raising up to RMB 6.5 billion, including RMB 1.5 billion for a
+      high-performance-computing advanced-packaging expansion and RMB 1.0 billion for a
+      high-density, high-capacity memory-chip system-level packaging and test upgrade. The
+      offering and projects remain subject to approvals and completion.
+    evidence: primary
+    as_of: 2026-09-03
+    source_ids:
+      - jcet-private-placement-plan-2026-09-04
 watch_for:
   - Large compute-plus-HBM package yield
   - Capacity, thermal limits and reliability
 source_ids:
   - jcet
   - jcet-2026-h1-report
-reviewed_at: 2026-09-15
+  - jcet-private-placement-plan-2026-09-04
+reviewed_at: 2026-10-07
 slug: jcet
 layers:
   - packaging
