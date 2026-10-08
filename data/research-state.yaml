@@ -1,18 +1,18 @@
 schema_version: 2
 baseline_date: 2026-09-11
-last_research_at: 2026-10-07
-last_automated_run_at: 2026-10-07
-last_run_status: updated
+last_research_at: 2026-10-08
+last_automated_run_at: 2026-10-08
+last_run_status: no-material-change
 coverage: Screened all 12 priority-1 profiles and the four oldest-reviewed remaining profiles with
-  overlapping English and Chinese searches covering September 30-October 7. Backfilled JCET's
-  September proposal to raise up to RMB 6.5 billion, including funds for compute, memory,
-  wafer-level and power-module packaging capacity. The issuance remains conditional and the filing
-  does not establish installed capacity, customer qualification, domestic-input provenance, yield,
-  throughput or realized output. Search-only coverage did not advance the other profile dates.
-  MLPerf Training v6.0 and Inference v6.1 heads were unchanged, and InferenceX supplied no new
-  matched current Chinese accelerator result. Coverage remains incomplete for private deployments,
-  unindexed Chinese disclosures, tenders, individual benchmark artifacts, customer acceptance,
-  production volume, yield, utilization, reliability, power and component provenance.
+  overlapping English and Chinese searches covering October 1-8. No new qualified production,
+  deployment, customer-adoption or benchmark milestone was verified, so no company profile date
+  advanced. Huawei's October 1 Mate 90 and advanced-capacity disclosure was already canonical.
+  Biren's current official news index remained unchanged from September 10; current public records
+  for RSLaser, Guowang and Kingsemi did not establish a new qualifying milestone. MLPerf Training
+  v6.0 and Inference v6.1 heads were unchanged, and InferenceX supplied no new matched current
+  Chinese accelerator result. Coverage remains incomplete for private deployments, unindexed
+  Chinese disclosures, tenders, individual benchmark artifacts, customer acceptance, production
+  volume, yield, utilization, reliability, power and component provenance.
 timezone: Europe/London
 runs:
   - date: 2026-09-12
@@ -1404,6 +1404,48 @@ runs:
       - jcet-private-placement-plan-2026-09-04
       - biren
       - guowang
+      - mlperf-training
+      - mlperf-inference-6-1
+      - inferencex
+  - date: 2026-10-08
+    status: no-material-change
+    companies:
+      - aishengna
+      - amec
+      - cambricon
+      - cxmt
+      - enflame
+      - eoptolink
+      - huawei
+      - innolight
+      - naura
+      - smic
+      - ymtc
+      - yuliangsheng
+      - rslaser
+      - biren
+      - guowang
+      - kingsemi
+    summary: >-
+      Screened all 12 priority-1 profiles and the four oldest-reviewed remaining profiles with
+      overlapping English and Chinese searches covering October 1-8. Huawei's October 1 Mate 90
+      and advanced-capacity disclosure was already canonical. Biren's current official news index
+      remained unchanged from September 10. Current public records for RSLaser, Guowang and
+      Kingsemi did not establish a new qualified production, deployment or customer-adoption
+      milestone. Search-only coverage did not advance any profile review date. MLPerf Training
+      v6.0 remained at eabf23a07b2a0c60a289ff871dc3a46fff0d0421 and MLPerf Inference v6.1
+      remained at 4bb63cd28eb136be221bc801a9e38c66c8a7553f. InferenceX supplied no new matched
+      Chinese accelerator comparison against Rubin, GB300, MI355X, TPU v7 or OpenAI Jalapeño.
+      Individual benchmark artifacts were not exhaustively reviewed. No dated forecast or
+      historical briefing changed. Coverage remains incomplete for private deployments, unindexed
+      Chinese disclosures, tenders, customer acceptance, production volume, yield, utilization,
+      reliability, power and component provenance.
+    source_ids:
+      - huawei-advanced-capacity-reuters-2026-10-01
+      - duv-ft
+      - biren
+      - guowang
+      - kingsemi
       - mlperf-training
       - mlperf-inference-6-1
       - inferencex
