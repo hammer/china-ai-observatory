@@ -1,18 +1,19 @@
 schema_version: 2
 baseline_date: 2026-09-11
-last_research_at: 2026-10-08
-last_automated_run_at: 2026-10-08
-last_run_status: no-material-change
+last_research_at: 2026-10-09
+last_automated_run_at: 2026-10-09
+last_run_status: updated
 coverage: Screened all 12 priority-1 profiles and the four oldest-reviewed remaining profiles with
-  overlapping English and Chinese searches covering October 1-8. No new qualified production,
-  deployment, customer-adoption or benchmark milestone was verified, so no company profile date
-  advanced. Huawei's October 1 Mate 90 and advanced-capacity disclosure was already canonical.
-  Biren's current official news index remained unchanged from September 10; current public records
-  for RSLaser, Guowang and Kingsemi did not establish a new qualifying milestone. MLPerf Training
-  v6.0 and Inference v6.1 heads were unchanged, and InferenceX supplied no new matched current
-  Chinese accelerator result. Coverage remains incomplete for private deployments, unindexed
-  Chinese disclosures, tenders, individual benchmark artifacts, customer acceptance, production
-  volume, yield, utilization, reliability, power and component provenance.
+  overlapping English and Chinese searches covering October 2-9. Backfilled reporting tied to The
+  Wire China that YMTC raised chip prices, shifted production toward higher-margin products and
+  expected the global memory shortage to last at least another three years. This is an unnamed
+  employee's account, not corporate guidance; products, price changes, capacity allocation and
+  contracts were undisclosed. Only YMTC's profile date advanced. Current public records for RSLaser,
+  Biren, Guowang and Iluvatar did not establish a new qualifying milestone. MLPerf Training v6.0 and
+  Inference v6.1 heads were unchanged, and InferenceX supplied no new matched current Chinese
+  accelerator result. Coverage remains incomplete for private deployments, unindexed Chinese
+  disclosures, tenders, individual benchmark artifacts, customer acceptance, production volume,
+  yield, utilization, reliability, power and component provenance.
 timezone: Europe/London
 runs:
   - date: 2026-09-12
@@ -1446,6 +1447,53 @@ runs:
       - biren
       - guowang
       - kingsemi
+      - mlperf-training
+      - mlperf-inference-6-1
+      - inferencex
+  - date: 2026-10-09
+    status: updated
+    companies:
+      - aishengna
+      - amec
+      - cambricon
+      - cxmt
+      - enflame
+      - eoptolink
+      - huawei
+      - innolight
+      - naura
+      - smic
+      - ymtc
+      - yuliangsheng
+      - rslaser
+      - biren
+      - guowang
+      - iluvatar
+    summary: >-
+      Screened all 12 priority-1 profiles and the four oldest-reviewed remaining profiles with
+      overlapping English and Chinese searches covering October 2-9. Backfilled reporting tied to
+      The Wire China's October 4 profile that an unnamed YMTC employee said the company had raised
+      chip prices, shifted production toward higher-margin products and expected the global memory
+      shortage to last at least another three years. This is reported market and allocation evidence,
+      not company guidance, a quantified price or capacity disclosure, or proof of added sovereign
+      supply. The account did not identify affected products, price changes, capacity allocation,
+      customer contracts or whether the forecast referred specifically to NAND rather than memory
+      broadly. Only YMTC's profile date advanced. Current public records for RSLaser, Biren, Guowang
+      and Iluvatar did not establish another qualified production, deployment, customer-adoption or
+      benchmark milestone; search-only coverage did not advance their review dates. MLPerf Training
+      v6.0 remained at eabf23a07b2a0c60a289ff871dc3a46fff0d0421 and MLPerf Inference v6.1 remained
+      at 4bb63cd28eb136be221bc801a9e38c66c8a7553f. InferenceX supplied no new matched Chinese
+      accelerator comparison against Rubin, GB300, MI355X, TPU v7 or OpenAI Jalapeño. Individual
+      benchmark artifacts were not exhaustively reviewed. No dated forecast or historical briefing
+      changed. Coverage remains incomplete for private deployments, unindexed Chinese disclosures,
+      tenders, customer acceptance, production volume, yield, utilization, reliability, power and
+      component provenance.
+    source_ids:
+      - ymtc-wire-china-2026-10-04
+      - ymtc-shortage-techradar-2026-10-06
+      - biren
+      - guowang
+      - iluvatar
       - mlperf-training
       - mlperf-inference-6-1
       - inferencex

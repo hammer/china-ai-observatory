@@ -40,6 +40,16 @@ facts:
     as_of: 2026-10-04
     source_ids:
       - ymtc-wire-china-2026-10-04
+  - label: Pricing and product mix
+    value: The Wire China reportedly quoted one unnamed employee saying YMTC had raised chip prices,
+      shifted production toward higher-margin products and expected the global memory shortage to
+      last at least another three years. Affected products, price changes, capacity allocation and
+      corporate guidance were not disclosed.
+    evidence: reported
+    as_of: 2026-10-04
+    source_ids:
+      - ymtc-wire-china-2026-10-04
+      - ymtc-shortage-techradar-2026-10-06
 watch_for:
   - NAND density and yield
   - Enterprise SSD qualifications
@@ -48,7 +58,8 @@ source_ids:
   - ymtc
   - china-memory-expansion-reuters-2026-07-24
   - ymtc-wire-china-2026-10-04
-reviewed_at: 2026-10-06
+  - ymtc-shortage-techradar-2026-10-06
+reviewed_at: 2026-10-09
 slug: ymtc
 layers:
   - memory
