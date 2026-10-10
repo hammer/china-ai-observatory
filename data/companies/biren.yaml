@@ -44,6 +44,24 @@ facts:
     as_of: 2026-09-02
     source_ids:
       - biren-shanghai-lab-2026-09-10
+  - label: Next-generation product validation
+    value: >-
+      Company says an unnamed new-generation product completed bring-up and entered post-silicon
+      validation; customer sampling and volume production remain expected over coming quarters,
+      subject to satisfactory validation and qualification.
+    evidence: vendor
+    as_of: 2026-10-08
+    source_ids:
+      - biren-placement-2026-10-08
+  - label: Conditional October placement
+    value: >-
+      Proposed best-efforts placement of 130 million H shares at HK$31.08 each could raise an
+      estimated HK$4.0197 billion net; 70% is allocated to supply-chain procurement, production
+      readiness and commercialization, but the transaction had not completed.
+    evidence: vendor
+    as_of: 2026-10-08
+    source_ids:
+      - biren-placement-2026-10-08
 watch_for:
   - Independent benchmarks
   - Customer utilization
@@ -54,7 +72,8 @@ source_ids:
   - biren-glm-2026-09-07
   - biren-torchsupa-2026-09-07
   - biren-shanghai-lab-2026-09-10
-reviewed_at: 2026-09-14
+  - biren-placement-2026-10-08
+reviewed_at: 2026-10-10
 slug: biren
 layers:
   - accelerators
