@@ -1,20 +1,20 @@
 schema_version: 2
 baseline_date: 2026-09-11
-last_research_at: 2026-10-10
-last_automated_run_at: 2026-10-10
+last_research_at: 2026-10-11
+last_automated_run_at: 2026-10-11
 last_run_status: updated
 coverage: Screened all 12 priority-1 profiles and the four oldest-reviewed remaining profiles with
-  overlapping English and Chinese searches covering October 3-10. Added Biren's October 8 primary
-  disclosure that an unnamed next-generation product completed bring-up and entered post-silicon
-  validation, while customer sampling and volume production remain future, qualification-dependent
-  steps. Also recorded its conditional placement of 130 million H shares, which could raise an
-  estimated HK$4.0197 billion net; the transaction had not completed and the filing did not disclose
-  suppliers, reserved capacity, counterparties or commercial commitments. Only Biren's profile date
-  advanced. Current public records for RSLaser, Guowang and Kingsemi did not establish another new
-  qualifying milestone. MLPerf Training v6.0 and Inference v6.1 heads were unchanged, and InferenceX
-  supplied no matched current Chinese accelerator result. Coverage remains incomplete for private
-  deployments, unindexed Chinese disclosures, tenders, individual benchmark artifacts, customer
-  acceptance, production volume, yield, utilization, reliability, power and component provenance.
+  overlapping English and Chinese searches covering October 4-11. Added the October 9 national
+  new-quality-productive-forces guidance as a company-neutral policy event. It calls for stronger AI
+  core technology, compute, algorithm and data supply, a national integrated computing-power network
+  and broader AI adoption, while also warning against herd-like competition, bubbles, blind
+  investment and duplicative local expansion. The guidance contains no quantified budget,
+  implementation schedule, procurement award or company allocation. No fresh qualifying company
+  milestone was established, so no profile review date advanced. MLPerf Training v6.0 and Inference
+  v6.1 heads were unchanged, and InferenceX supplied no matched current Chinese accelerator result.
+  Coverage remains incomplete for private deployments, unindexed Chinese disclosures, tenders,
+  individual benchmark artifacts, customer acceptance, production volume, yield, utilization,
+  reliability, power and component provenance.
 timezone: Europe/London
 runs:
   - date: 2026-09-12
@@ -1546,6 +1546,49 @@ runs:
       - biren
       - guowang
       - kingsemi
+      - mlperf-training
+      - mlperf-inference-6-1
+      - inferencex
+  - date: 2026-10-11
+    status: updated
+    companies:
+      - aishengna
+      - amec
+      - cambricon
+      - cxmt
+      - enflame
+      - eoptolink
+      - huawei
+      - innolight
+      - naura
+      - smic
+      - ymtc
+      - yuliangsheng
+      - rslaser
+      - guowang
+      - iluvatar
+      - kingsemi
+    summary: >-
+      Screened all 12 priority-1 profiles and the four oldest-reviewed remaining profiles with
+      overlapping English and Chinese searches covering October 4-11. Added the October 9 national
+      new-quality-productive-forces guidance as a company-neutral policy event. It calls for faster
+      AI theory and core-technology development, stronger compute, algorithm and data supply, a
+      national integrated computing-power network and broader AI adoption across industries and
+      devices. The same guidance requires locally appropriate planning and warns against herd-like
+      competition, bubbles, blind investment and duplicative local expansion. It sets policy
+      direction but provides no quantified budget, implementation schedule, procurement award or
+      company allocation. No fresh qualifying production, deployment, customer-adoption, financing
+      or benchmark milestone was established for the screened companies, so no profile review date
+      advanced. MLPerf Training v6.0 remained at
+      eabf23a07b2a0c60a289ff871dc3a46fff0d0421 and MLPerf Inference v6.1 remained at
+      4bb63cd28eb136be221bc801a9e38c66c8a7553f. InferenceX supplied no matched Chinese accelerator
+      comparison against current Rubin, GB300, MI355X, TPU v7 or OpenAI Jalapeño systems. Individual
+      benchmark artifacts were not exhaustively reviewed. No dated forecast or historical briefing
+      changed. Coverage remains incomplete for private deployments, unindexed Chinese disclosures,
+      tenders, customer acceptance, production volume, yield, utilization, reliability, power and
+      component provenance.
+    source_ids:
+      - china-new-quality-productive-forces-policy-2026-10-09
       - mlperf-training
       - mlperf-inference-6-1
       - inferencex
