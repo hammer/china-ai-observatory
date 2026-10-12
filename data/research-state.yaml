@@ -4,12 +4,12 @@ last_research_at: 2026-10-12
 last_automated_run_at: 2026-10-12
 last_run_status: updated
 coverage: Screened all 12 priority-1 profiles and the four oldest-reviewed remaining profiles with
-  overlapping English and Chinese searches covering October 5-12. Backfilled Iluvatar's official
-  first-half filing with GPGPU revenue, reported customer count, product mix and economic caveats;
-  only Iluvatar's profile date advanced. No fresh in-window production, deployment, customer-adoption,
-  financing or benchmark milestone was established for the other screened companies. MLPerf Training
-  v6.0 and Inference v6.1 heads were unchanged, and InferenceX supplied no matched current Chinese
-  accelerator result. Coverage remains incomplete for private deployments, unindexed Chinese
+  overlapping English and Chinese searches covering October 5-12, then published the complete
+  October 5-11 weekly briefing from four canonical in-period events and their original sources.
+  The briefing separates Biren's bring-up and conditional placement, national policy direction and
+  Huawei's Qualcomm patent agreement from customer qualification, realized capacity, chip supply
+  and matched performance evidence. No additional material in-period event was established. No
+  dated forecast changed. Coverage remains incomplete for private deployments, unindexed Chinese
   disclosures, tenders, individual benchmark artifacts, customer acceptance, production volume,
   yield, utilization, reliability, power and component provenance.
 timezone: Europe/London
@@ -1633,6 +1633,37 @@ runs:
       - iluvatar-2026-h1-report
       - guowang
       - kingsemi
+      - mlperf-training
+      - mlperf-inference-6-1
+      - inferencex
+  - date: 2026-10-12
+    status: updated
+    companies:
+      - biren
+      - huawei
+    summary: >-
+      Ran the weekly briefing helper for the fully closed October 5-11 period and retained all
+      earlier editions. Audited all four canonical in-period events and their original sources,
+      using the Observatory's daily overlapping English and Chinese searches across 16 priority and
+      oldest-reviewed companies to check gaps. The complete edition separates Biren's reported
+      post-silicon bring-up from validation, customer sampling, qualification and volume production;
+      it also separates Biren's proposed HK$4.0197 billion placement from completed funding,
+      reserved capacity and realized output. The national guidance combines stronger AI compute,
+      algorithm, data and adoption support with controls against bubbles, blind investment and
+      duplicative local expansion, but provides no budget, schedule, procurement award or company
+      allocation. Huawei and Qualcomm's cross-license is recorded as global IP exchange rather than
+      a chip-supply agreement or proof of a named Ascend dependency. MLPerf Training v6.0 and
+      Inference v6.1 heads remained unchanged, and InferenceX supplied no matched current Chinese
+      accelerator result against Rubin, GB300, MI355X, TPU v7 or OpenAI Jalapeño. Individual
+      benchmark artifacts were not exhaustively audited. No additional material in-period event was
+      established and no dated forecast changed. Coverage remains incomplete for private
+      deployments, unindexed Chinese disclosures, tenders, customer acceptance, production volume,
+      yield, utilization, reliability, power and component provenance.
+    source_ids:
+      - biren-placement-2026-10-08
+      - china-new-quality-productive-forces-policy-2026-10-09
+      - huawei-qualcomm-patent-license-2026-10-05
+      - huawei-qualcomm-patent-license-reuters-2026-10-05
       - mlperf-training
       - mlperf-inference-6-1
       - inferencex
