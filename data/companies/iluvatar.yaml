@@ -6,22 +6,54 @@ counterparts:
 priority: 2
 stage: Commercial
 role: GPU compute and AI deployment supplier.
-assessment: Assess the specific shipping product and its memory and fabrication route.
+assessment: >-
+  Iluvatar now has quantified company-reported commercialization evidence: first-half GPGPU
+  revenue reached RMB 916.1 million and the company says it served more than 380 customers.
+  The report does not identify customers or disclose units, product mix, utilization or workload
+  results, while lower margins, operating cash outflow and delivery-schedule adjustments qualify
+  the growth. It does not establish current frontier parity or a sovereign fabrication and memory route.
 key_fact:
-  label: Strategic role
-  value: Commercial GPU compute platform
+  label: First-half GPGPU revenue
+  value: Company reports RMB 916.1 million, up 231.0%, and more than 380 customers
   evidence: vendor
-  as_of: 2026-09-11
+  as_of: 2026-06-30
   source_ids:
-    - iluvatar
-facts: []
+    - iluvatar-2026-h1-report
+facts:
+  - label: Product revenue mix
+    value: >-
+      Company reports RMB 654.2 million of inference-product revenue, up 651.8%, and RMB 261.9
+      million of training-product revenue, up 38.0%; units, average prices and model mix are undisclosed.
+    evidence: vendor
+    as_of: 2026-06-30
+    source_ids:
+      - iluvatar-2026-h1-report
+  - label: Delivery and supply qualification
+    value: >-
+      AI-computing-solutions revenue fell 68.1% to RMB 13.6 million; the company cited strategic
+      focus plus supply-resource coordination and delivery-schedule adjustments, without establishing
+      a specific chip shortage or customer cancellation.
+    evidence: vendor
+    as_of: 2026-06-30
+    source_ids:
+      - iluvatar-2026-h1-report
+  - label: Economic qualification
+    value: >-
+      Total gross margin fell to 17.2% from 50.1%. Net profit was RMB 106.3 million alongside a
+      RMB 760.2 million fair-value gain, operating cash outflow was RMB 2.786 billion and borrowings
+      reached RMB 2.687 billion.
+    evidence: vendor
+    as_of: 2026-06-30
+    source_ids:
+      - iluvatar-2026-h1-report
 watch_for:
   - Repeat orders
   - Utilization and deployment economics
   - Independent contemporary benchmarks
 source_ids:
   - iluvatar
-reviewed_at: 2026-09-15
+  - iluvatar-2026-h1-report
+reviewed_at: 2026-10-12
 slug: iluvatar
 layers:
   - accelerators

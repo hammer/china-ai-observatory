@@ -1,0 +1,21 @@
+slug: iluvatar-2026-h1-commercial-scale
+published_at: 2026-09-29
+event_date: 2026-06-30
+title: Iluvatar reports RMB 916 million of first-half GPGPU revenue
+summary: >-
+  Iluvatar's interim report says first-half revenue reached RMB 945.7 million and GPGPU revenue
+  reached RMB 916.1 million, up 231.0% year over year. It reports more than 380 customers, with
+  inference-product revenue of RMB 654.2 million and training-product revenue of RMB 261.9 million.
+impact: >-
+  The report is meaningful commercialization evidence, but it does not name customers or disclose
+  unit shipments, product mix, utilization or workload results. Total gross margin fell to 17.2%,
+  net profit was RMB 106.3 million alongside a RMB 760.2 million fair-value gain, operating cash
+  outflow was RMB 2.786 billion and borrowings reached RMB 2.687 billion. AI-computing-solutions
+  revenue also fell 68.1% amid supply-resource coordination and delivery-schedule adjustments.
+companies:
+  - iluvatar
+source_ids:
+  - iluvatar-2026-h1-report
+evidence: vendor
+added_at: 2026-10-12
+correction_of: null
