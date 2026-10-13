@@ -1,0 +1,26 @@
+slug: china-ai-accelerator-share-2026-h1
+published_at: 2026-10-13
+event_date: 2026-06-30
+title: Domestic accelerators gain reported share in China's first-half market
+summary: >-
+  Reuters reports IDC data showing 2.008 million AI accelerators shipped in China in the first half
+  of 2026. Huawei reportedly shipped 572,000 units for 28% share, behind Nvidia's 678,000 units and
+  34%. T-Head held 7%, Cambricon 5% and Kunlunxin 4%. Non-GPU accelerator shipments rose nearly 80%
+  to 1.016 million units and exceeded GPU shipments by volume; Huawei, T-Head, Kunlunxin and
+  Cambricon together accounted for 95% of that segment.
+impact: >-
+  The figures are useful third-party market-adoption evidence and show domestic substitution at
+  meaningful scale. They do not identify product mix, buyers, prices, accepted deliveries,
+  utilization, workload performance, memory or fabrication provenance, and IDC's definition of an
+  accelerator can include products aimed at different tasks. Nvidia's accessible product mix also
+  differs under export controls, so market share is not a latest-versus-latest performance result.
+companies:
+  - huawei
+  - thead
+  - cambricon
+  - kunlunxin
+source_ids:
+  - china-ai-accelerator-share-reuters-2026-10-13
+evidence: reported
+added_at: 2026-10-13
+correction_of: null

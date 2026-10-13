@@ -7,9 +7,9 @@ priority: 2
 stage: Commercial
 role: AI accelerators with a cloud and application ecosystem around Baidu.
 assessment: >-
-  Kunlunxin is showing faster model-support cadence through a downloadable FlagOS image for
-  MiniCPM5-2B. The disclosure establishes deployment compatibility, not throughput, latency,
-  power efficiency or broad software-ecosystem parity.
+  IDC-reported market share and inspectable RLinf support strengthen adoption and software evidence.
+  The disclosures do not identify product mix, customer utilization, matched performance, power
+  efficiency or broad software-ecosystem parity.
 key_fact:
   label: Architecture category
   value: XPU AI accelerators
@@ -18,6 +18,22 @@ key_fact:
   source_ids:
     - kunlunxin
 facts:
+  - label: Reported China market share
+    value: IDC data reported by Reuters put Kunlunxin at 4% of China's data-center AI-accelerator
+      shipments in the first half of 2026; unit volume, product mix, customers and workloads were not disclosed.
+    evidence: reported
+    as_of: 2026-06-30
+    source_ids:
+      - china-ai-accelerator-share-reuters-2026-10-13
+  - label: RLinf distributed-training support
+    value: Kunlunxin reports P800 validation across single- and multi-node RLinf modes, with a standard
+      XPU plugin, XCCL collectives and Pi 0.5 LIBERO reproduction; release-v0.4 exposes setup instructions.
+      Reported task and synchronization results lack a matched foreign-hardware control or independent reproduction.
+    evidence: primary
+    as_of: 2026-10-10
+    source_ids:
+      - kunlunxin-rlinf-2026-10-10
+      - rlinf-kunlunxin-support
   - label: MiniCPM5-2B deployment
     value: Kunlunxin and FlagOS report Day-0 adaptation and inference validation, with a BF16
       deployment image published through ModelScope and Hugging Face.
@@ -32,7 +48,10 @@ watch_for:
 source_ids:
   - kunlunxin
   - kunlunxin-minicpm-2026-09-10
-reviewed_at: 2026-09-16
+  - china-ai-accelerator-share-reuters-2026-10-13
+  - kunlunxin-rlinf-2026-10-10
+  - rlinf-kunlunxin-support
+reviewed_at: 2026-10-13
 slug: kunlunxin
 layers:
   - accelerators

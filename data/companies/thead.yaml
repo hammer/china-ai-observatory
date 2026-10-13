@@ -19,6 +19,13 @@ key_fact:
     - m890
     - thead
 facts:
+  - label: Reported China market share
+    value: IDC data reported by Reuters put T-Head at 7% of China's data-center AI-accelerator
+      shipments in the first half of 2026; unit volume, product mix, customers and workloads were not disclosed.
+    evidence: reported
+    as_of: 2026-06-30
+    source_ids:
+      - china-ai-accelerator-share-reuters-2026-10-13
   - label: M890 rack system
     value: Alibaba said the Panjiu AL128 packages 128 M890 accelerators in one rack and was available
       to Chinese enterprise customers through Bailian; operating and customer-acceptance data were not disclosed.
@@ -62,7 +69,8 @@ source_ids:
   - thead
   - alibaba-v900-2026-09-22
   - alibaba-v900-primary-2026-09-22
-reviewed_at: 2026-09-28
+  - china-ai-accelerator-share-reuters-2026-10-13
+reviewed_at: 2026-10-13
 slug: thead
 layers:
   - accelerators

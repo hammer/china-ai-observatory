@@ -1,0 +1,24 @@
+slug: kunlunxin-rlinf-adaptation-2026-10-10
+published_at: 2026-10-10
+event_date: 2026-10-10
+title: Kunlunxin adds an RLinf backend for embodied reinforcement learning
+summary: >-
+  Kunlunxin says its P800 completed RLinf validation across single-node, multi-node,
+  training-simulation separation and training-inference separation. The implementation uses a
+  standard XPU plugin, Ray scheduling and XCCL collectives, and the company reports Pi 0.5 training
+  reproduction on LIBERO in eight- and 16-card configurations. RLinf's release-v0.4 repository
+  exposes Kunlunxin hardware instructions alongside its other accelerator backends.
+impact: >-
+  This is inspectable software-compatibility evidence and covers distributed execution beyond a
+  single-card demo. The success-rate and synchronization figures are vendor tests without a matched
+  foreign-hardware control, disclosed power or cost, independent reproduction, or evidence of
+  production customer use. Compatibility with one reinforcement-learning stack does not establish
+  broad framework coverage or CUDA parity.
+companies:
+  - kunlunxin
+source_ids:
+  - kunlunxin-rlinf-2026-10-10
+  - rlinf-kunlunxin-support
+evidence: primary
+added_at: 2026-10-13
+correction_of: null

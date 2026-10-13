@@ -22,6 +22,14 @@ key_fact:
     - ascend
     - hbm-reuters
 facts:
+  - label: Reported first-half shipment scale
+    value: IDC data reported by Reuters put Huawei at 572,000 AI accelerators shipped in China in
+      the first half of 2026, up from more than 300,000 a year earlier and equal to 28% market share.
+      Product mix, buyers, accepted deliveries, utilization and workload results were not disclosed.
+    evidence: reported
+    as_of: 2026-06-30
+    source_ids:
+      - china-ai-accelerator-share-reuters-2026-10-13
   - label: Cross-border patent licensing
     value: Huawei and Qualcomm announced a multi-year cross-license spanning 5G, compute, AI and
       networking, plus Qualcomm's planned purchase of certain Huawei US patents. The transaction
@@ -170,7 +178,8 @@ source_ids:
   - inferencex-ascend-950dt-deepseek-v4-2026-06-09
   - huawei-qualcomm-patent-license-2026-10-05
   - huawei-qualcomm-patent-license-reuters-2026-10-05
-reviewed_at: 2026-10-05
+  - china-ai-accelerator-share-reuters-2026-10-13
+reviewed_at: 2026-10-13
 slug: huawei
 layers:
   - accelerators
