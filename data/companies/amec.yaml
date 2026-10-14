@@ -8,7 +8,9 @@ stage: Commercial
 role: An important domestic etch-equipment supplier.
 assessment: AMEC's half-year report provides production-line, customer-validation and repeat-order
   evidence across etch and tungsten deposition. It does not name customers or disclose advanced-node
-  yield, uptime, throughput, installed capacity or complete-process independence.
+  yield, uptime, throughput, installed capacity or complete-process independence. Its proposed
+  investment in Qinghe Jingyuan supports an advanced-packaging-equipment supplier but is not evidence
+  that bonding tools have completed customer qualification or entered volume production.
 key_fact:
   label: Etch deployment scale
   value: Company reports three ICP etch product families in volume production on lines at more than 50 customers
@@ -47,15 +49,25 @@ facts:
     as_of: 2026-09-01
     source_ids:
       - amec-cseac-2026-09-05
+  - label: Advanced bonding-equipment investment
+    value: AMEC approved up to RMB 35 million of additional investment in Qinghe Jingyuan as part
+      of a RMB 250 million round intended partly for hybrid-bonding and atomic-beam equipment;
+      the agreement remained unsigned and production qualification was undisclosed.
+    evidence: primary
+    as_of: 2026-10-09
+    source_ids:
+      - amec-qinghe-jingyuan-investment-2026-10-13
 watch_for:
   - Advanced-process customer qualifications
   - Repeat orders and production utilization
+  - Signed Qinghe Jingyuan financing and independently verified bonding-tool customer acceptance
 source_ids:
   - amec
   - amec-evaluation-reuters-2026-08-05
   - amec-2026-h1-report
   - amec-cseac-2026-09-05
-reviewed_at: 2026-10-01
+  - amec-qinghe-jingyuan-investment-2026-10-13
+reviewed_at: 2026-10-14
 slug: amec
 layers:
   - equipment

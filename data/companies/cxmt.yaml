@@ -10,8 +10,9 @@ role: China’s principal DRAM and HBM company to watch.
 assessment: >-
   Fifth-generation commodity DRAM and LPDDR6 are company-reported in mass production, with Xiaomi
   providing a named LPDDR6 handset design-in. Adequate domestic HBM volume and frontier HBM performance
-  remain separate milestones. The reported NAND project is an R&D-line plan, not evidence of qualified
-  commercial output.
+  remain separate milestones. Proposed post-IPO research and back-end-testing projects would expand
+  vertical integration, but approved funding is not completed capacity. The reported NAND project is
+  an R&D-line plan, not evidence of qualified commercial output.
 key_fact:
   label: HBM milestone
   value: Small-volume HBM3E reportedly produced in August 2026
@@ -60,6 +61,14 @@ facts:
     as_of: 2026-09-18
     source_ids:
       - cxmt-nand-2026-09-18
+  - label: Proposed research and testing investment
+    value: CXMT's board proposed using RMB 13.0 billion of over-raised IPO funds for a technology-
+      research project and RMB 5.0 billion for a second-phase DRAM wafer back-end testing base;
+      shareholder approval, construction, installed capacity and qualified output remained pending.
+    evidence: primary
+    as_of: 2026-09-28
+    source_ids:
+      - cxmt-overfund-projects-2026-09-29
 watch_for:
   - Customer-qualified HBM shipments
   - Stack yield and volume
@@ -68,6 +77,7 @@ watch_for:
   - Named domestic-equipment contributions to the G5 process flow
   - NAND trial-line operation and transition to qualified volume production
   - LPDDR6 shipment volume, yield and additional customer qualification
+  - Shareholder approval, construction and operating milestones for the research and testing projects
 source_ids:
   - cxmt-hbm
   - cxmt-hbm-reuters-2026-08-31
@@ -77,7 +87,8 @@ source_ids:
   - cxmt-g5-dram-2026-09-20
   - cxmt-lpddr6-primary-2026-09-07
   - cxmt-lpddr6-reuters-2026-08-29
-reviewed_at: 2026-10-02
+  - cxmt-overfund-projects-2026-09-29
+reviewed_at: 2026-10-14
 slug: cxmt
 layers:
   - memory
