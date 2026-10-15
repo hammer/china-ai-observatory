@@ -1,19 +1,20 @@
 schema_version: 2
 baseline_date: 2026-09-11
-last_research_at: 2026-10-14
-last_automated_run_at: 2026-10-14
+last_research_at: 2026-10-15
+last_automated_run_at: 2026-10-15
 last_run_status: updated
 coverage: Screened all 12 priority-1 profiles and the four oldest-reviewed remaining profiles with
-  overlapping English and Chinese searches covering October 7-14. Added CXMT's proposed RMB 18.0
-  billion allocation of over-raised IPO funds to technology research and a second-phase DRAM wafer
-  back-end testing base, and AMEC's proposed additional investment in advanced bonding-equipment
-  supplier Qinghe Jingyuan. Both remain conditional plans rather than completed capacity or qualified
-  production; only CXMT and AMEC received new profile-review dates. No other fresh qualifying
-  production, deployment, customer-adoption or financing milestone was established. MLPerf Training
-  v6.0 and Inference v6.1 heads were unchanged, while InferenceX still supplied no matched current
-  Chinese accelerator result. No dated forecast changed. Coverage remains incomplete for private
-  deployments, unindexed Chinese disclosures, tenders, individual benchmark artifacts, customer
-  acceptance, production volume, yield, utilization, reliability, power and component provenance.
+  overlapping English and Chinese searches covering October 8-15. Backfilled independent evidence
+  that YMTC held 14% of global NAND shipment volume in the second quarter of 2026 and ranked third
+  by volume but fifth by revenue because of its consumer-heavy mix. Also added the Shanghai Stock
+  Exchange record of YMTC's proposed RMB 33 billion STAR Market raise, which remained under inquiry
+  and was not completed financing or installed capacity. Only YMTC received a new profile-review
+  date. No other fresh qualifying production, deployment, customer-adoption or financing milestone
+  was established. MLPerf Training v6.0 and Inference v6.1 heads were unchanged, while InferenceX
+  still supplied no matched current Chinese accelerator result. No dated forecast changed. Coverage
+  remains incomplete for private deployments, unindexed Chinese disclosures, tenders, individual
+  benchmark artifacts, customer acceptance, production volume, yield, utilization, reliability,
+  power and component provenance.
 timezone: Europe/London
 runs:
   - date: 2026-09-12
@@ -1766,6 +1767,53 @@ runs:
     source_ids:
       - cxmt-overfund-projects-2026-09-29
       - amec-qinghe-jingyuan-investment-2026-10-13
+      - mlperf-training
+      - mlperf-inference-6-1
+      - inferencex
+  - date: 2026-10-15
+    status: updated
+    companies:
+      - aishengna
+      - amec
+      - cambricon
+      - cxmt
+      - enflame
+      - eoptolink
+      - huawei
+      - innolight
+      - naura
+      - smic
+      - ymtc
+      - yuliangsheng
+      - rslaser
+      - guowang
+      - metax
+      - moore-threads
+    summary: >-
+      Screened all 12 priority-1 profiles and the four oldest-reviewed remaining profiles with
+      overlapping English and Chinese searches covering October 8-15. Backfilled Counterpoint's
+      independent second-quarter NAND shipment estimate: YMTC held 14% by volume, ranking third
+      behind Samsung and SK hynix, with shipments up 22% year over year and 5% quarter over quarter.
+      Counterpoint ranked YMTC fifth by revenue because its mix remained concentrated in lower-priced
+      consumer applications with a low share of data-center enterprise SSDs, so the volume ranking
+      does not establish enterprise leadership, production yield, customer qualification or supply-
+      chain sovereignty. Also added the Shanghai Stock Exchange's August 21 record accepting YMTC's
+      application for a proposed RMB 33 billion STAR Market raise. The project was under inquiry;
+      the record does not establish completed financing, final proceeds, installed capacity,
+      qualified output or a fully domestic equipment and materials flow. Only YMTC received a new
+      profile-review date. Current official or original-source checks for the other screened
+      companies did not establish another fresh qualifying production, deployment, customer-
+      adoption or financing milestone. MLPerf Training v6.0 remained at
+      eabf23a07b2a0c60a289ff871dc3a46fff0d0421 and Inference v6.1 remained at
+      4bb63cd28eb136be221bc801a9e38c66c8a7553f. InferenceX's current dashboard still supplied no
+      matched Chinese result against Rubin, GB300, MI355X, TPU v7 or OpenAI Jalapeño. Individual
+      benchmark artifacts were not exhaustively reviewed. No dated forecast or historical briefing
+      changed. Coverage remains incomplete for private deployments, unindexed Chinese disclosures,
+      tenders, customer acceptance, production volume, yield, utilization, reliability, power and
+      component provenance.
+    source_ids:
+      - ymtc-star-market-ipo-2026-08-21
+      - counterpoint-ymtc-q2-shipments-2026-08-12
       - mlperf-training
       - mlperf-inference-6-1
       - inferencex

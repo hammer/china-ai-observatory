@@ -7,9 +7,11 @@ counterparts:
 priority: 1
 stage: Commercial
 role: NAND and enterprise storage built around Xtacking.
-assessment: NAND is storage, not a direct substitute for accelerator HBM. Planned fab expansion can
-  increase domestic supply while reliance on foreign lithography and other fab equipment remains a
-  sovereignty constraint.
+assessment: >-
+  YMTC has reached global commercial scale in NAND, but its shipment rank still exceeds its revenue
+  rank because of a consumer-heavy product mix. NAND is storage, not a direct substitute for
+  accelerator HBM. Proposed IPO financing and fab expansion can increase domestic supply while
+  reliance on foreign lithography and other fab equipment remains a sovereignty constraint.
 key_fact:
   label: Technology
   value: Separate memory-cell and logic wafers, bonded together
@@ -50,16 +52,35 @@ facts:
     source_ids:
       - ymtc-wire-china-2026-10-04
       - ymtc-shortage-techradar-2026-10-06
+  - label: Global shipment scale
+    value: Counterpoint estimated YMTC held 14% of global NAND shipment volume in the second quarter
+      of 2026, ranking third, but ranked fifth by revenue because its mix remained concentrated in
+      lower-priced consumer applications with a low enterprise-SSD share.
+    evidence: measured
+    as_of: 2026-06-30
+    source_ids:
+      - counterpoint-ymtc-q2-shipments-2026-08-12
+  - label: Proposed STAR Market financing
+    value: The Shanghai Stock Exchange accepted YMTC's application for a proposed RMB 33 billion
+      STAR Market raise; the project was under inquiry and did not establish completed financing or
+      installed capacity.
+    evidence: primary
+    as_of: 2026-08-21
+    source_ids:
+      - ymtc-star-market-ipo-2026-08-21
 watch_for:
   - NAND density and yield
   - Enterprise SSD qualifications
   - Equipment localization
+  - IPO approval, final proceeds and attributable capacity spending
 source_ids:
   - ymtc
   - china-memory-expansion-reuters-2026-07-24
   - ymtc-wire-china-2026-10-04
   - ymtc-shortage-techradar-2026-10-06
-reviewed_at: 2026-10-09
+  - counterpoint-ymtc-q2-shipments-2026-08-12
+  - ymtc-star-market-ipo-2026-08-21
+reviewed_at: 2026-10-15
 slug: ymtc
 layers:
   - memory
