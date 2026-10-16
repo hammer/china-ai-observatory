@@ -8,9 +8,11 @@ stage: Commercial
 role: Broad etch, deposition, thermal, and other semiconductor equipment.
 assessment: NAURA reports broad commercial scale and more than 1,000 cumulative deliveries in each
   of three tool categories, and says its atomic-layer-etch tool has achieved customer process use.
-  Delivery counts and customer use do not establish advanced-node volume production, yield, uptime or
-  domestic provenance for critical components. The company's warning that supplier-material tightness
-  may delay some orders also shows that qualified tools do not by themselves establish a sovereign fab flow.
+  Its signed acquisition of a hybrid-bonding equipment developer would broaden its advanced-packaging
+  portfolio after closing. Delivery counts, product validation and a signed transaction do not establish
+  advanced-node volume production, yield, uptime or domestic provenance for critical components. The
+  company's warning that supplier-material tightness may delay some orders also shows that qualified
+  tools do not by themselves establish a sovereign fab flow.
 key_fact:
   label: Deployment scale
   value: Company reports more than 1,000 cumulative deliveries each for etch, PVD and vertical furnace systems
@@ -19,6 +21,15 @@ key_fact:
   source_ids:
     - naura-2026-h1-report
 facts:
+  - label: Hybrid-bonding acquisition agreement
+    value: NAURA Microelectronics signed an agreement to acquire 100% of Nuohe Jianwei for RMB 404.6
+      million. The target's hybrid-bonding systems were described as being in product validation and
+      market introduction with repeat orders, but closing conditions remained and customer names,
+      accepted production tools, throughput, yield and uptime were not disclosed.
+    evidence: vendor
+    as_of: 2026-10-15
+    source_ids:
+      - naura-nuohe-jianwei-acquisition-2026-10-16
   - label: First-half commercial scale
     value: Company reported RMB 20.161 billion of first-half revenue, up 24.90% year over year,
       and RMB 2.677 billion of R&D expense, up 28.87%.
@@ -58,7 +69,8 @@ source_ids:
   - naura-2026-h1-report
   - naura-ale-primary
   - naura-ale-2026-09-24
-reviewed_at: 2026-09-28
+  - naura-nuohe-jianwei-acquisition-2026-10-16
+reviewed_at: 2026-10-16
 slug: naura
 layers:
   - equipment

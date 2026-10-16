@@ -55,11 +55,22 @@ facts:
   - label: Global shipment scale
     value: Counterpoint estimated YMTC held 14% of global NAND shipment volume in the second quarter
       of 2026, ranking third, but ranked fifth by revenue because its mix remained concentrated in
-      lower-priced consumer applications with a low enterprise-SSD share.
+      lower-priced consumer applications with a low enterprise-SSD share. A later Counterpoint article
+      described a 16.5% current shipment share without publicly reconciling the measurement basis or
+      revision with the earlier 14% estimate.
     evidence: measured
     as_of: 2026-06-30
     source_ids:
       - counterpoint-ymtc-q2-shipments-2026-08-12
+      - counterpoint-ymtc-ipo-dram-2026-10-13
+  - label: DRAM research and testing
+    value: Counterpoint reported that YMTC was conducting R&D and testing of a second-generation
+      16 Gb LPDDR5 device at roughly 5,000 wafers per month and explicitly said the device had no
+      mass-production plan. A faster 9,600 MT/s version remained a development target for Fab 3.
+    evidence: reported
+    as_of: 2026-10-13
+    source_ids:
+      - counterpoint-ymtc-ipo-dram-2026-10-13
   - label: Proposed STAR Market financing
     value: The Shanghai Stock Exchange accepted YMTC's application for a proposed RMB 33 billion
       STAR Market raise; the project was under inquiry and did not establish completed financing or
@@ -80,7 +91,8 @@ source_ids:
   - ymtc-shortage-techradar-2026-10-06
   - counterpoint-ymtc-q2-shipments-2026-08-12
   - ymtc-star-market-ipo-2026-08-21
-reviewed_at: 2026-10-15
+  - counterpoint-ymtc-ipo-dram-2026-10-13
+reviewed_at: 2026-10-16
 slug: ymtc
 layers:
   - memory

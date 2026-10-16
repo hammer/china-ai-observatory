@@ -7,9 +7,11 @@ priority: 2
 stage: Scaling
 role: Chinese GPU compute contender.
 assessment: >-
-  MetaX reports broadening model and framework coverage, including ATRIA Dawn Preview support
-  on release day. The current evidence is vendor-reported compatibility and operator coverage;
-  it does not establish application performance, correctness across workloads or frontier parity.
+  MetaX reports broadening model and framework coverage and forecast a first-nine-month profit
+  after a year-earlier loss. This strengthens evidence of commercial scale, but the forecast was
+  unaudited and said increased investment in supply-chain companies also contributed to the
+  profit change. Compatibility and financial evidence do not establish application performance,
+  correctness across workloads, memory provenance or frontier parity.
 key_fact:
   label: Research status
   value: Named commercial supplier; comparable independent benchmark still needed
@@ -18,6 +20,15 @@ key_fact:
   source_ids:
     - hbm-reuters
 facts:
+  - label: Nine-month earnings forecast
+    value: Company forecast January-September revenue of RMB 2.541-3.106 billion and attributable
+      net profit of RMB 586.8-717.2 million, versus a RMB 345.5 million loss a year earlier. The
+      figures were unaudited, and the filing said increased investment in supply-chain companies
+      contributed to the profit turnaround.
+    evidence: primary
+    as_of: 2026-09-30
+    source_ids:
+      - metax-nine-month-forecast-2026-10-16
   - label: Software compatibility coverage
     value: MetaX reports 37 flagship-model Day-0 adaptations since December 2025 and full support
       for PyTorch 2.8's 2,410 GPU operators; no reproducible workload benchmark accompanied the claim.
@@ -32,7 +43,8 @@ watch_for:
 source_ids:
   - hbm-reuters
   - metax-atria-2026-09-14
-reviewed_at: 2026-09-16
+  - metax-nine-month-forecast-2026-10-16
+reviewed_at: 2026-10-16
 slug: metax
 layers:
   - accelerators

@@ -1,17 +1,20 @@
 schema_version: 2
 baseline_date: 2026-09-11
-last_research_at: 2026-10-15
-last_automated_run_at: 2026-10-15
+last_research_at: 2026-10-16
+last_automated_run_at: 2026-10-16
 last_run_status: updated
 coverage: Screened all 12 priority-1 profiles and the four oldest-reviewed remaining profiles with
-  overlapping English and Chinese searches covering October 8-15. Backfilled independent evidence
-  that YMTC held 14% of global NAND shipment volume in the second quarter of 2026 and ranked third
-  by volume but fifth by revenue because of its consumer-heavy mix. Also added the Shanghai Stock
-  Exchange record of YMTC's proposed RMB 33 billion STAR Market raise, which remained under inquiry
-  and was not completed financing or installed capacity. Only YMTC received a new profile-review
-  date. No other fresh qualifying production, deployment, customer-adoption or financing milestone
-  was established. MLPerf Training v6.0 and Inference v6.1 heads were unchanged, while InferenceX
-  still supplied no matched current Chinese accelerator result. No dated forecast changed. Coverage
+  overlapping English and Chinese searches covering October 9-16. Added MetaX's unaudited
+  January-September revenue and profit forecast, while separating operating performance from the
+  disclosed contribution of increased investment in supply-chain companies. Added NAURA's signed
+  RMB 404.6 million agreement to acquire hybrid-bonding equipment developer Nuohe Jianwei, while
+  keeping signing separate from closing and vendor-reported validation separate from accepted
+  production use. Added Counterpoint's report of YMTC LPDDR5 research and testing at roughly 5,000
+  wafers per month with no mass-production plan, and preserved rather than silently replacing its
+  earlier 14% Q2 shipment estimate when the newer article described a 16.5% current share without
+  reconciling the public measurement basis. Only MetaX, NAURA and YMTC received new profile-review
+  dates. MLPerf Training v6.0 and Inference v6.1 heads were unchanged, while InferenceX still
+  supplied no matched current Chinese accelerator result. No dated forecast changed. Coverage
   remains incomplete for private deployments, unindexed Chinese disclosures, tenders, individual
   benchmark artifacts, customer acceptance, production volume, yield, utilization, reliability,
   power and component provenance.
@@ -1814,6 +1817,55 @@ runs:
     source_ids:
       - ymtc-star-market-ipo-2026-08-21
       - counterpoint-ymtc-q2-shipments-2026-08-12
+      - mlperf-training
+      - mlperf-inference-6-1
+      - inferencex
+  - date: 2026-10-16
+    status: updated
+    companies:
+      - aishengna
+      - amec
+      - cambricon
+      - cxmt
+      - enflame
+      - eoptolink
+      - huawei
+      - innolight
+      - naura
+      - smic
+      - ymtc
+      - yuliangsheng
+      - rslaser
+      - guowang
+      - metax
+      - moore-threads
+    summary: >-
+      Screened all 12 priority-1 profiles and the four oldest-reviewed remaining profiles with
+      overlapping English and Chinese searches covering October 9-16. MetaX's October 16 filing
+      forecast January-September revenue of RMB 2.541-3.106 billion and attributable net profit of
+      RMB 586.8-717.2 million, compared with a RMB 345.5 million loss a year earlier. The forecast
+      was unaudited, and the filing said increased investment in supply-chain companies also
+      contributed to the profit turnaround; customer names, units, workloads, utilization,
+      fabrication and memory provenance were not disclosed. NAURA's subsidiary signed an agreement
+      to acquire hybrid-bonding equipment developer Nuohe Jianwei for RMB 404.6 million. Closing
+      conditions remained, and reported product validation, shipments and repeat orders do not
+      establish named-customer acceptance, production use, throughput, yield, uptime or domestic
+      component provenance. Counterpoint reported that YMTC was conducting R&D and testing of a
+      second-generation 16 Gb LPDDR5 device at roughly 5,000 wafers per month with no mass-production
+      plan. Its article also described a 16.5% current NAND shipment share without publicly
+      reconciling that basis with the earlier 14% second-quarter estimate, so both were retained
+      with the discrepancy disclosed. Only MetaX, NAURA and YMTC received new profile-review dates.
+      MLPerf Training v6.0 remained at eabf23a07b2a0c60a289ff871dc3a46fff0d0421 and Inference
+      v6.1 remained at 4bb63cd28eb136be221bc801a9e38c66c8a7553f. InferenceX's current dashboard
+      still supplied no matched Chinese result against Rubin, GB300, MI355X, TPU v7 or OpenAI
+      Jalapeño. Individual benchmark artifacts were not exhaustively reviewed. No dated forecast or
+      historical briefing changed. Coverage remains incomplete for private deployments, unindexed
+      Chinese disclosures, tenders, customer acceptance, production volume, yield, utilization,
+      reliability, power and component provenance.
+    source_ids:
+      - metax-nine-month-forecast-2026-10-16
+      - naura-nuohe-jianwei-acquisition-2026-10-16
+      - counterpoint-ymtc-ipo-dram-2026-10-13
       - mlperf-training
       - mlperf-inference-6-1
       - inferencex
