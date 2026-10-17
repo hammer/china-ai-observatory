@@ -1,20 +1,19 @@
 schema_version: 2
 baseline_date: 2026-09-11
-last_research_at: 2026-10-16
-last_automated_run_at: 2026-10-16
+last_research_at: 2026-10-17
+last_automated_run_at: 2026-10-17
 last_run_status: updated
-coverage: Screened all 12 priority-1 profiles and the four oldest-reviewed remaining profiles with
-  overlapping English and Chinese searches covering October 9-16. Added MetaX's unaudited
-  January-September revenue and profit forecast, while separating operating performance from the
-  disclosed contribution of increased investment in supply-chain companies. Added NAURA's signed
-  RMB 404.6 million agreement to acquire hybrid-bonding equipment developer Nuohe Jianwei, while
-  keeping signing separate from closing and vendor-reported validation separate from accepted
-  production use. Added Counterpoint's report of YMTC LPDDR5 research and testing at roughly 5,000
-  wafers per month with no mass-production plan, and preserved rather than silently replacing its
-  earlier 14% Q2 shipment estimate when the newer article described a 16.5% current share without
-  reconciling the public measurement basis. Only MetaX, NAURA and YMTC received new profile-review
-  dates. MLPerf Training v6.0 and Inference v6.1 heads were unchanged, while InferenceX still
-  supplied no matched current Chinese accelerator result. No dated forecast changed. Coverage
+coverage: >-
+  Screened all 12 priority-1 profiles and the four oldest-reviewed remaining profiles with
+  overlapping English and Chinese searches covering October 10-17. Added CXMT's unaudited
+  January-September revenue and profit forecast, while keeping the preliminary financial figures
+  separate from undisclosed unit volume, yield, product mix and HBM output. Backfilled the named
+  Wuxi Huishan operating deployment: all 2,000 Moore Threads MTT S5000 cards were reported in
+  operation, aggregate demand near full load and more than 20 customers testing or using the
+  cluster. Aggregate utilization is not a workload benchmark or proof of component-level domestic
+  provenance. Only CXMT and Moore Threads received new profile-review dates. MLPerf Training v6.0
+  and Inference v6.1 heads were unchanged, while InferenceX still supplied no matched current
+  Chinese accelerator result. No dated forecast changed. Coverage
   remains incomplete for private deployments, unindexed Chinese disclosures, tenders, individual
   benchmark artifacts, customer acceptance, production volume, yield, utilization, reliability,
   power and component provenance.
@@ -1866,6 +1865,53 @@ runs:
       - metax-nine-month-forecast-2026-10-16
       - naura-nuohe-jianwei-acquisition-2026-10-16
       - counterpoint-ymtc-ipo-dram-2026-10-13
+      - mlperf-training
+      - mlperf-inference-6-1
+      - inferencex
+  - date: 2026-10-17
+    status: updated
+    companies:
+      - aishengna
+      - amec
+      - cambricon
+      - cxmt
+      - enflame
+      - eoptolink
+      - huawei
+      - innolight
+      - naura
+      - smic
+      - ymtc
+      - yuliangsheng
+      - rslaser
+      - guowang
+      - moore-threads
+      - skyverse
+    summary: >-
+      Screened all 12 priority-1 profiles and the four oldest-reviewed remaining profiles with
+      overlapping English and Chinese searches covering October 10-17. CXMT's October 17 filing
+      forecast January-September revenue of RMB 265.0-270.0 billion and attributable net profit of
+      RMB 131.0-132.5 billion, compared with RMB 32.084 billion of revenue and a RMB 5.280 billion
+      loss a year earlier. The figures were preliminary and unaudited. CXMT attributed the change
+      to higher DRAM prices, high utilization, higher output per wafer, scale and product-mix
+      improvements, but did not disclose units, product-level revenue, yield, customer mix, HBM
+      volume or domestic equipment and materials provenance. Backfilled the Wuxi Huishan center's
+      reported operating milestone: all 2,000 MTT S5000 cards in phase one were operating, aggregate
+      demand was near full load and more than 20 customers were testing or using the cluster. This
+      is named deployment and adoption evidence, not a workload-level utilization, reliability,
+      power or matched foreign-hardware benchmark; the claimed full-stack domestic status also
+      lacks public component-level provenance. Only CXMT and Moore Threads received new profile-
+      review dates. MLPerf Training v6.0 remained at eabf23a07b2a0c60a289ff871dc3a46fff0d0421
+      and Inference v6.1 remained at 4bb63cd28eb136be221bc801a9e38c66c8a7553f. InferenceX's
+      current dashboard listed Rubin, GB300, MI355X, TPU v7 and OpenAI Jalapeño systems but no
+      matched current Chinese accelerator result. Individual benchmark artifacts were not
+      exhaustively reviewed. No dated forecast or historical briefing changed. Coverage remains
+      incomplete for private deployments, unindexed Chinese disclosures, tenders, customer
+      acceptance, production volume, yield, utilization, reliability, power and component provenance.
+    source_ids:
+      - cxmt-nine-month-forecast-2026-10-17
+      - moore-threads-wuxi-center-2026-09-02
+      - moore-threads-wuxi-center-primary-2026-10-16
       - mlperf-training
       - mlperf-inference-6-1
       - inferencex

@@ -1,0 +1,21 @@
+slug: moore-threads-wuxi-center-2026-08-25
+published_at: 2026-09-02
+event_date: 2026-08-25
+title: Wuxi Huishan center reports 2,000 Moore Threads cards operating near full load
+summary: >-
+  The Wuxi Huishan center's operator reported that all 2,000 MTT S5000 cards in phase one were in
+  operation, aggregate demand was near full load and more than 20 customers were testing or using
+  the cluster. Moore Threads republished the milestone on October 16.
+impact: >-
+  This is named operating-deployment and customer-adoption evidence, stronger than an announced
+  cluster plan. Aggregate demand does not disclose workload-level utilization, accepted service
+  levels, reliability, power, production economics or matched foreign-hardware performance, and
+  the claimed full-stack domestic status lacks public component-level provenance.
+companies:
+  - moore-threads
+source_ids:
+  - moore-threads-wuxi-center-2026-09-02
+  - moore-threads-wuxi-center-primary-2026-10-16
+evidence: reported
+added_at: 2026-10-17
+correction_of: null

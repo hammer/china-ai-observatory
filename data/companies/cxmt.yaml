@@ -12,7 +12,9 @@ assessment: >-
   providing a named LPDDR6 handset design-in. Adequate domestic HBM volume and frontier HBM performance
   remain separate milestones. Proposed post-IPO research and back-end-testing projects would expand
   vertical integration, but approved funding is not completed capacity. The reported NAND project is
-  an R&D-line plan, not evidence of qualified commercial output.
+  an R&D-line plan, not evidence of qualified commercial output. An unaudited nine-month forecast
+  reports a sharp revenue increase and profit turnaround amid higher DRAM prices and utilization,
+  strengthening commercial-scale evidence without disclosing unit volume, yield or product mix.
 key_fact:
   label: HBM milestone
   value: Small-volume HBM3E reportedly produced in August 2026
@@ -23,6 +25,14 @@ key_fact:
     - cxmt-hbm-reuters-2026-08-31
     - cxmt
 facts:
+  - label: Nine-month earnings forecast
+    value: CXMT forecast January-September revenue of RMB 265.0-270.0 billion and attributable net
+      profit of RMB 131.0-132.5 billion, compared with RMB 32.084 billion of revenue and a RMB 5.280
+      billion loss a year earlier. The figures were preliminary and unaudited.
+    evidence: primary
+    as_of: 2026-09-30
+    source_ids:
+      - cxmt-nine-month-forecast-2026-10-17
   - label: LPDDR6 commercial design-in
     value: CXMT and Xiaomi said CXMT's LPDDR6 entered mass production for the Xiaomi 18 Fold. CXMT
       reports a 16 Gb die, 16 GB package and up to 12,800 Mbps; bandwidth and power comparisons are
@@ -88,7 +98,8 @@ source_ids:
   - cxmt-lpddr6-primary-2026-09-07
   - cxmt-lpddr6-reuters-2026-08-29
   - cxmt-overfund-projects-2026-09-29
-reviewed_at: 2026-10-14
+  - cxmt-nine-month-forecast-2026-10-17
+reviewed_at: 2026-10-17
 slug: cxmt
 layers:
   - memory

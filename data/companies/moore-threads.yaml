@@ -8,9 +8,10 @@ stage: Scaling
 role: GPU hardware and the MUSA programming ecosystem.
 assessment: >-
   Moore Threads now has company-reported commercial evidence from a delivered RMB 660 million
-  KUAE cluster contract, while JD Cloud's 100,000-GPU cluster remains an announced plan rather
-  than an operating deployment. The disclosed utilization and scaling figures are self-measured
-  and do not provide a matched current foreign-hardware comparison.
+  KUAE cluster contract and a named 2,000-card Wuxi deployment reported near full load, while JD
+  Cloud's 100,000-GPU cluster remains an announced plan rather than an operating deployment. The
+  disclosed utilization and scaling figures are self-reported and do not provide workload-level
+  utilization, reliability, power or a matched current foreign-hardware comparison.
 key_fact:
   label: Delivered cluster contract
   value: Company reports a RMB 660 million KUAE contract fully delivered and recognized in first-half revenue
@@ -19,6 +20,15 @@ key_fact:
   source_ids:
     - moore-threads-2026-h1-report
 facts:
+  - label: Wuxi operating deployment
+    value: The operator reported all 2,000 MTT S5000 cards in phase one of the Wuxi Huishan center
+      were operating and aggregate demand was near full load, with more than 20 customers testing or
+      using the cluster. Workload-level utilization, reliability, power and performance were undisclosed.
+    evidence: reported
+    as_of: 2026-08-25
+    source_ids:
+      - moore-threads-wuxi-center-2026-09-02
+      - moore-threads-wuxi-center-primary-2026-10-16
   - label: First-half commercial scale
     value: Company reports RMB 1.736 billion of first-half revenue, up 147.42% year over year,
       and an attributable net loss of RMB 11.56 million.
@@ -49,7 +59,9 @@ source_ids:
   - mthreads
   - moore-threads-2026-h1-report
   - moore-threads-jd-cloud-2026-09-09
-reviewed_at: 2026-09-16
+  - moore-threads-wuxi-center-2026-09-02
+  - moore-threads-wuxi-center-primary-2026-10-16
+reviewed_at: 2026-10-17
 slug: moore-threads
 layers:
   - accelerators
