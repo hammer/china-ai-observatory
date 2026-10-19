@@ -1,0 +1,114 @@
+slug: weekly-2026-10-12-complete
+cadence: weekly
+period_start: 2026-10-12
+period_end: 2026-10-18
+through_date: 2026-10-18
+published_at: 2026-10-19
+status: complete
+title: Adoption and earnings scale while sovereignty proof stays incomplete
+summary: >-
+  Third-party shipment data and preliminary company forecasts strengthened the evidence for domestic
+  accelerator adoption and commercial scale. Investment and acquisition activity also targeted
+  hybrid-bonding equipment, but closing, production qualification and domestic-component evidence
+  remain incomplete. YMTC's reported DRAM work stayed at research and testing scale, and no matched
+  current frontier accelerator comparison or dated forecast change was established.
+sections:
+  - heading: Domestic accelerators gained adoption, not demonstrated performance parity
+    body: >-
+      Reuters reported IDC data showing 2.008 million AI accelerators shipped in China in the first
+      half of 2026. Huawei accounted for 572,000 units and 28% share, while T-Head held 7%, Cambricon
+      5% and Kunlunxin 4%. Non-GPU accelerator shipments rose nearly 80% to 1.016 million units and
+      exceeded GPU shipments by volume; the four domestic vendors represented 95% of that segment.
+      These figures establish meaningful market adoption, but not the product mix, buyers, accepted
+      deliveries, utilization, workload performance, prices, memory or fabrication provenance.
+      Export controls also constrain Nvidia's accessible China product mix, so shipment share is not
+      a latest-versus-latest performance comparison.
+    source_ids:
+      - china-ai-accelerator-share-reuters-2026-10-13
+  - heading: CXMT and MetaX forecasts strengthened commercial-scale evidence
+    body: >-
+      CXMT forecast January-September revenue of RMB 265.0-270.0 billion and attributable net profit
+      of RMB 131.0-132.5 billion, versus RMB 32.084 billion of revenue and a RMB 5.280 billion loss a
+      year earlier. It cited higher DRAM prices, high utilization, higher output per wafer, scale and
+      product mix. MetaX forecast revenue of RMB 2.541-3.106 billion and attributable net profit of
+      RMB 586.8-717.2 million, versus a RMB 345.5 million loss, while saying supply-chain investments
+      also contributed to the change. Both forecasts were preliminary and unaudited. Neither filing
+      supplied the unit, customer, yield, workload, HBM-volume or component-provenance evidence needed
+      to translate financial scale into current production or performance conclusions.
+    source_ids:
+      - cxmt-nine-month-forecast-2026-10-17
+      - metax-nine-month-forecast-2026-10-16
+  - heading: Hybrid-bonding transactions target capability before proving production use
+    body: >-
+      NAURA's subsidiary signed an agreement to acquire hybrid-bonding equipment developer Nuohe
+      Jianwei for RMB 404.6 million, subject to closing conditions. AMEC's board separately approved
+      up to RMB 35 million of additional investment in Qinghe Jingyuan within a RMB 250 million round
+      intended partly for hybrid-bonding and atomic-beam equipment research, market development and
+      customer delivery; that investment agreement had not been signed. The moves could broaden
+      domestic advanced-packaging capability, but reported validation, shipments and repeat orders
+      do not establish named-customer acceptance, production use, throughput, yield, uptime,
+      reliability or domestic component provenance.
+    source_ids:
+      - naura-nuohe-jianwei-acquisition-2026-10-16
+      - amec-qinghe-jingyuan-investment-2026-10-13
+  - heading: YMTC's DRAM effort remained research rather than commercial output
+    body: >-
+      Counterpoint reported that YMTC was researching and testing a second-generation 16 Gb LPDDR5
+      device at roughly 5,000 wafers per month and had no plan to mass-produce that version. It
+      described a faster 9,600 MT/s version as a development target for Fab 3. This is process-learning
+      evidence, not qualified output, yield, customer acceptance, HBM capability, equipment
+      provenance or a production date. Counterpoint also cited a current 16.5% NAND shipment share
+      without publicly reconciling its basis with its earlier 14% second-quarter estimate, so the
+      Observatory retains both figures with the discrepancy disclosed.
+    source_ids:
+      - counterpoint-ymtc-ipo-dram-2026-10-13
+  - heading: Benchmark evidence and dated forecasts did not move
+    body: >-
+      A period-end review found no matched current Chinese accelerator result against Rubin, GB300,
+      MI355X, TPU v7 or OpenAI Jalapeño in MLPerf Training v6.0, MLPerf Inference v6.1 or InferenceX's
+      published coverage. MLPerf results are standardized but submitter-run, and individual result
+      artifacts were not exhaustively audited. Market share, earnings forecasts and pre-production
+      memory research do not change the existing late-2020s frontier-pretraining view or the
+      2027-2030 assessment for HBM and advanced packaging. No dated forecast changed.
+    source_ids:
+      - china-ai-accelerator-share-reuters-2026-10-13
+      - cxmt-nine-month-forecast-2026-10-17
+      - counterpoint-ymtc-ipo-dram-2026-10-13
+      - mlperf-training
+      - mlperf-inference-6-1
+      - inferencex
+  - heading: Next evidence to watch
+    body: >-
+      Prioritize product-level and accepted-delivery breakdowns behind IDC's shipment totals;
+      audited CXMT and MetaX results with unit, customer, yield and product-mix detail; completion of
+      NAURA's acquisition and AMEC's investment; production qualification and operating metrics for
+      hybrid-bonding tools; YMTC DRAM qualification, yield and volume-production decisions; HBM and
+      fabrication provenance; and matched training time-to-quality or inference throughput, latency,
+      energy and cost measurements on current Chinese and frontier foreign systems.
+    source_ids: []
+news_ids:
+  - china-ai-accelerator-share-2026-h1
+  - ymtc-dram-research-2026-10-13
+  - amec-qinghe-jingyuan-investment-2026-10-09
+  - naura-nuohe-jianwei-acquisition-2026-10-15
+  - metax-nine-month-forecast-2026-09-30
+  - cxmt-nine-month-forecast-2026-09-30
+source_ids:
+  - amec-qinghe-jingyuan-investment-2026-10-13
+  - china-ai-accelerator-share-reuters-2026-10-13
+  - counterpoint-ymtc-ipo-dram-2026-10-13
+  - cxmt-nine-month-forecast-2026-10-17
+  - inferencex
+  - metax-nine-month-forecast-2026-10-16
+  - mlperf-inference-6-1
+  - mlperf-training
+  - naura-nuohe-jianwei-acquisition-2026-10-16
+coverage_note: >-
+  This complete edition covers October 12-18 from six canonical disclosures published during the
+  period, their original sources and the Observatory's daily overlapping English and Chinese
+  searches across 16 priority and oldest-reviewed companies. The earnings and market-share events
+  concern earlier reporting periods but became public during this week. A final cross-sector gap
+  search established no additional material in-period event. Coverage remains incomplete for
+  private deployments, unindexed Chinese disclosures, tenders, individual benchmark artifacts,
+  customer acceptance, production volume, yield, utilization, reliability, power and component
+  provenance.
