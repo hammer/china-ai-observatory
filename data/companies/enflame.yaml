@@ -7,7 +7,9 @@ priority: 1
 stage: Scaling
 role: AI accelerators and systems with Tencent as an anchor customer.
 assessment: TechInsights found TSMC N6 in the examined S60 compute chiplet; this does not identify the
-  provenance of every later product.
+  provenance of every later product. Enflame displayed an ESL64-0 supernode with an orthogonal,
+  cable-free electrical interconnect and optical scale-out, but supplied no card count, operating
+  deployment, workload, reliability, power or matched performance result.
 key_fact:
   label: Customer concentration
   value: 83.79% of 2025 revenue linked to Tencent
@@ -17,6 +19,15 @@ key_fact:
     - enflame-ipo
     - enflame-teardown
 facts:
+  - label: ESL64-0 supernode
+    value: Enflame displayed an ESL64-0 supernode using its own AI accelerators, an OEX orthogonal
+      electrical interconnect, a cable-free internal design and optical scale-out. The exhibition
+      report did not establish an operating deployment, card count, topology, workload performance,
+      utilization, reliability or power.
+    evidence: reported
+    as_of: 2026-10-12
+    source_ids:
+      - guoxin-expo-2026-10-12
   - label: IPO-funded development plans
     value: Reuters reports IPO proceeds are intended mainly for fifth- and sixth-generation
       AI chips, software and large computing systems; funding plans are not delivered products.
@@ -34,10 +45,12 @@ watch_for:
   - Adoption beyond Tencent
   - Manufacturing route for new generations
   - Independent training and inference results
+  - Operating ESL64-0 deployments with card count, topology, utilization, reliability and power data
 source_ids:
   - enflame-ipo
   - enflame-teardown
-reviewed_at: 2026-09-12
+  - guoxin-expo-2026-10-12
+reviewed_at: 2026-10-20
 slug: enflame
 layers:
   - accelerators

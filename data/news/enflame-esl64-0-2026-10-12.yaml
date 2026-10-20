@@ -1,0 +1,18 @@
+slug: enflame-esl64-0-2026-10-12
+published_at: 2026-10-12
+event_date: 2026-10-12
+title: Enflame displays its ESL64-0 supernode
+summary: >-
+  Enflame displayed an ESL64-0 supernode using its own AI accelerators, an OEX orthogonal electrical
+  interconnect, a cable-free internal design and optical links intended for scale-out.
+impact: >-
+  The disclosure adds system-level integration evidence but not deployment or performance evidence.
+  The report supplied no card count, named customer, operating cluster, workload result, utilization,
+  reliability, power or matched foreign-hardware comparison.
+companies:
+  - enflame
+source_ids:
+  - guoxin-expo-2026-10-12
+evidence: reported
+added_at: 2026-10-20
+correction_of: null

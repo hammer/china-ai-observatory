@@ -10,7 +10,9 @@ assessment: AMEC's half-year report provides production-line, customer-validatio
   evidence across etch and tungsten deposition. It does not name customers or disclose advanced-node
   yield, uptime, throughput, installed capacity or complete-process independence. Its proposed
   investment in Qinghe Jingyuan supports an advanced-packaging-equipment supplier but is not evidence
-  that bonding tools have completed customer qualification or entered volume production.
+  that bonding tools have completed customer qualification or entered volume production. Reported
+  product and installed-base figures from the 2026 Guoxin Expo strengthen scale evidence but do not
+  identify production nodes, tool utilization, acceptance criteria or customer economics.
 key_fact:
   label: Etch deployment scale
   value: Company reports three ICP etch product families in volume production on lines at more than 50 customers
@@ -19,6 +21,23 @@ key_fact:
   source_ids:
     - amec-2026-h1-report
 facts:
+  - label: Reported installed reaction-chamber scale
+    value: China Star Market reported that AMEC had more than 8,800 cumulative reaction chambers
+      operating in over 220 domestic and overseas production lines at more than 100 customers by
+      June 2026. The report did not name customers or disclose product mix, nodes, utilization,
+      uptime, yield contribution or repeat-order economics.
+    evidence: reported
+    as_of: 2026-06-30
+    source_ids:
+      - guoxin-expo-2026-10-12
+  - label: Advanced-memory tool launches
+    value: AMEC displayed its newly launched Primo XD-RIE 70-to-90:1 aspect-ratio etch system and
+      Prefima Unicore AM 300 mm molybdenum ALD system. Announced capabilities were not accompanied
+      by named-customer qualification, accepted deliveries, production use or operating metrics.
+    evidence: reported
+    as_of: 2026-10-12
+    source_ids:
+      - guoxin-expo-2026-10-12
   - label: Reported foreign-fab evaluation
     value: Reuters reported Samsung and SK Hynix had evaluated AMEC etch tools at their Chinese fabs,
       while both companies denied testing AMEC equipment for use in China and no deployment decision was reported.
@@ -61,13 +80,15 @@ watch_for:
   - Advanced-process customer qualifications
   - Repeat orders and production utilization
   - Signed Qinghe Jingyuan financing and independently verified bonding-tool customer acceptance
+  - Customer qualification and production metrics for XD-RIE and Unicore AM
 source_ids:
   - amec
   - amec-evaluation-reuters-2026-08-05
   - amec-2026-h1-report
   - amec-cseac-2026-09-05
   - amec-qinghe-jingyuan-investment-2026-10-13
-reviewed_at: 2026-10-14
+  - guoxin-expo-2026-10-12
+reviewed_at: 2026-10-20
 slug: amec
 layers:
   - equipment

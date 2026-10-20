@@ -15,6 +15,8 @@ assessment: >-
   an R&D-line plan, not evidence of qualified commercial output. An unaudited nine-month forecast
   reports a sharp revenue increase and profit turnaround amid higher DRAM prices and utilization,
   strengthening commercial-scale evidence without disclosing unit volume, yield or product mix.
+  Its announced 4F2 VSG roadmap targets a server DDR5 RDIMM by year-end 2026, but no completed
+  product, qualification, capacity, speed or density was disclosed.
 key_fact:
   label: HBM milestone
   value: Small-volume HBM3E reportedly produced in August 2026
@@ -25,6 +27,15 @@ key_fact:
     - cxmt-hbm-reuters-2026-08-31
     - cxmt
 facts:
+  - label: 4F2 server-memory roadmap
+    value: CXMT said its first product using a self-developed vertical-surrounding-gate 4F2 cell
+      architecture would be a DDR5 RDIMM expected by year-end 2026. The company described related
+      word-line, bit-line and junction-process work, but disclosed no completed product, speed,
+      capacity, node, customer qualification or intended volume.
+    evidence: reported
+    as_of: 2026-10-10
+    source_ids:
+      - cxmt-4f2-rdimm-2026-10-11
   - label: Nine-month earnings forecast
     value: CXMT forecast January-September revenue of RMB 265.0-270.0 billion and attributable net
       profit of RMB 131.0-132.5 billion, compared with RMB 32.084 billion of revenue and a RMB 5.280
@@ -88,6 +99,7 @@ watch_for:
   - NAND trial-line operation and transition to qualified volume production
   - LPDDR6 shipment volume, yield and additional customer qualification
   - Shareholder approval, construction and operating milestones for the research and testing projects
+  - Launch, independent validation and server qualification of the planned 4F2 DDR5 RDIMM
 source_ids:
   - cxmt-hbm
   - cxmt-hbm-reuters-2026-08-31
@@ -99,7 +111,8 @@ source_ids:
   - cxmt-lpddr6-reuters-2026-08-29
   - cxmt-overfund-projects-2026-09-29
   - cxmt-nine-month-forecast-2026-10-17
-reviewed_at: 2026-10-17
+  - cxmt-4f2-rdimm-2026-10-11
+reviewed_at: 2026-10-20
 slug: cxmt
 layers:
   - memory
