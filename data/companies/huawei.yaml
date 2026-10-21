@@ -22,6 +22,15 @@ key_fact:
     - ascend
     - hbm-reuters
 facts:
+  - label: Reported DeepSeek training plans
+    value: Investing.com, citing The Information, reports DeepSeek input into future Huawei chip
+      designs, planned Ascend 950DT training as early as end-2026, and priority access to most
+      960DT supply expected in Q1 2027. These are reported intentions, not verified deliveries
+      or completed training. Contracts, allocation counts, time-to-quality and reliability are unknown.
+    evidence: reported
+    as_of: 2026-10-19
+    source_ids:
+      - deepseek-huawei-design-investing-2026-10-19
   - label: Reported first-half shipment scale
     value: IDC data reported by Reuters put Huawei at 572,000 AI accelerators shipped in China in
       the first half of 2026, up from more than 300,000 a year earlier and equal to 28% market share.
@@ -179,7 +188,8 @@ source_ids:
   - huawei-qualcomm-patent-license-2026-10-05
   - huawei-qualcomm-patent-license-reuters-2026-10-05
   - china-ai-accelerator-share-reuters-2026-10-13
-reviewed_at: 2026-10-13
+  - deepseek-huawei-design-investing-2026-10-19
+reviewed_at: 2026-10-21
 slug: huawei
 layers:
   - accelerators

@@ -1,0 +1,15 @@
+slug: enflame-esl64-o-name-correction-2026-10-21
+published_at: '2026-10-18'
+event_date: '2026-10-12'
+title: 'Correction: Enflame supernode is ESL64-O, with letter O'
+summary: The company release identifies ESL64-O, correcting the numeral-zero spelling in the earlier exhibition
+  record, and names ZTE as co-developer.
+impact: The original event remains preserved. The naming correction and partner attribution do not establish
+  operational cluster size, production provenance or workload performance.
+companies:
+- enflame
+source_ids:
+- enflame-ciif-release-2026-10-16
+evidence: vendor
+added_at: '2026-10-21'
+correction_of: enflame-esl64-0-2026-10-12

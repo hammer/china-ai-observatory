@@ -7,7 +7,7 @@ priority: 1
 stage: Scaling
 role: AI accelerators and systems with Tencent as an anchor customer.
 assessment: TechInsights found TSMC N6 in the examined S60 compute chiplet; this does not identify the
-  provenance of every later product. Enflame displayed an ESL64-0 supernode with an orthogonal,
+  provenance of every later product. Enflame displayed an ESL64-O supernode with an orthogonal,
   cable-free electrical interconnect and optical scale-out, but supplied no card count, operating
   deployment, workload, reliability, power or matched performance result.
 key_fact:
@@ -19,8 +19,17 @@ key_fact:
     - enflame-ipo
     - enflame-teardown
 facts:
-  - label: ESL64-0 supernode
-    value: Enflame displayed an ESL64-0 supernode using its own AI accelerators, an OEX orthogonal
+  - label: System partner and corrected model name
+    value: Enflame's October 16 release, republished October 18, identifies the model as ESL64-O
+      (letter O) and names ZTE as co-developer. Its claim of supporting clusters above 10,000 cards
+      describes design capability, not a measured or accepted deployment. See the appended correction
+      to the earlier exhibition record.
+    evidence: vendor
+    as_of: 2026-10-16
+    source_ids:
+      - enflame-ciif-release-2026-10-16
+  - label: ESL64-O supernode
+    value: Enflame displayed an ESL64-O supernode using its own AI accelerators, an OEX orthogonal
       electrical interconnect, a cable-free internal design and optical scale-out. The exhibition
       report did not establish an operating deployment, card count, topology, workload performance,
       utilization, reliability or power.
@@ -45,12 +54,13 @@ watch_for:
   - Adoption beyond Tencent
   - Manufacturing route for new generations
   - Independent training and inference results
-  - Operating ESL64-0 deployments with card count, topology, utilization, reliability and power data
+  - Operating ESL64-O deployments with card count, topology, utilization, reliability and power data
 source_ids:
   - enflame-ipo
   - enflame-teardown
   - guoxin-expo-2026-10-12
-reviewed_at: 2026-10-20
+  - enflame-ciif-release-2026-10-16
+reviewed_at: 2026-10-21
 slug: enflame
 layers:
   - accelerators

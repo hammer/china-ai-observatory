@@ -1,21 +1,17 @@
 schema_version: 2
 baseline_date: 2026-09-11
-last_research_at: 2026-10-20
-last_automated_run_at: 2026-10-20
-last_run_status: updated
+last_research_at: 2026-10-21
+last_automated_run_at: 2026-10-21
+last_run_status: partial
 coverage: >-
-  Screened all 12 priority-1 profiles and the four oldest-reviewed remaining profiles with
-  overlapping English and Chinese searches covering October 13-20, plus targeted backfill searches.
-  Added CXMT's reported 4F2 server-memory roadmap, Enflame's displayed ESL64-0 supernode and AMEC's
-  reported installed reaction-chamber scale and two memory-equipment launches. These disclosures
-  establish announced architecture, integration and commercial-scale evidence but not completed
-  4F2 products, operating supernode deployments, new-tool customer qualification, workload
-  performance, yield or provenance. Only CXMT, Enflame and AMEC received new profile-review dates.
-  MLPerf Training v6.0 and Inference v6.1 repository heads were unchanged, and InferenceX still
-  supplied no matched current Chinese accelerator result. No dated forecast or historical briefing
-  changed. Coverage remains incomplete for private deployments, unindexed Chinese disclosures,
-  tenders, individual benchmark artifacts, customer acceptance, production volume, yield,
-  utilization, reliability, power and component provenance.
+  Screened all 12 priority-1 companies and the four oldest-reviewed remaining profiles using
+  overlapping English and Chinese searches for October 13-21, with targeted filing backfills.
+  Updated Huawei, Skyverse and Enflame only; search-only screening did not advance other review
+  dates. Added reported training plans, customer-validation evidence and an explicit model-name
+  correction. Coverage is partial: the original DeepSeek report was paywalled, NAURA's linked
+  WeChat release could not be read, and private deployments, unindexed disclosures, tenders and
+  individual benchmark artifacts were not exhaustively audited. No matched current Chinese
+  accelerator comparison was verified and no dated forecast or historical briefing changed.
 timezone: Europe/London
 runs:
   - date: 2026-09-12
@@ -2079,3 +2075,47 @@ runs:
       - mlperf-training
       - mlperf-inference-6-1
       - inferencex
+  - date: '2026-10-21'
+    status: partial
+    companies:
+    - aishengna
+    - amec
+    - cambricon
+    - cxmt
+    - enflame
+    - eoptolink
+    - huawei
+    - innolight
+    - naura
+    - smic
+    - ymtc
+    - yuliangsheng
+    - rslaser
+    - guowang
+    - skyverse
+    - smee
+    summary: Screened priority-1 Aishengna, AMEC, Cambricon, CXMT, Enflame, Eoptolink, Huawei, InnoLight,
+      NAURA, SMIC, YMTC and Yuliangsheng, plus oldest-reviewed RSLaser, Guowang, Skyverse and SMEE.
+      The overlap began October 13 (seven days before the preceding run). Backfilled Skyverse's original
+      September investor document from the SSE investor platform, distinguishing validated and sold
+      tool families from ongoing HBM and electron-beam evaluations. Recorded Huawei adoption intentions
+      from accessible relay reporting; The Information original remained paywalled, so corroboration
+      is incomplete. Corrected Enflame's model-name spelling in the current profile and appended a correction
+      event while retaining the original news. Only Huawei, Skyverse and Enflame profile dates advanced.
+      MLPerf Training v6.0 remained at eabf23a07b2a0c60a289ff871dc3a46fff0d0421 and Inference v6.1 at
+      4bb63cd28eb136be221bc801a9e38c66c8a7553f; Inference closed-directory web retrieval failed, but
+      the unchanged repository head was verified through GitHub. InferenceX's current public coverage
+      did not establish a matched current Chinese accelerator result. Individual artifacts were not
+      exhaustively audited. NAURA's supplier-award detail and Eoptolink's newer shipment/roadmap claims
+      need primary-document follow-up. No dated forecast or historical briefing changed. Search-only
+      profiles retain their previous dates; coverage remains partial for private deployments, unindexed
+      Chinese disclosures, tenders, production yield, volume, acceptance, utilization, reliability,
+      power and component provenance.
+    source_ids:
+    - skyverse-ir-2026-09-11
+    - deepseek-huawei-design-investing-2026-10-19
+    - deepseek-huawei-design-information-2026-10-19
+    - enflame-ciif-release-2026-10-16
+    - mlperf-training
+    - mlperf-inference-6-1
+    - inferencex
