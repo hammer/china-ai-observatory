@@ -165,6 +165,13 @@ facts:
     as_of: 2026-09-11
     source_ids:
       - atlas350
+  - label: Independent Ascend 950PR kernel measurements
+    value: SemiAnalysis tested a 950PR_9579 with 28 Cube cores and 128 GiB HBM. These measurements do not
+      establish end-to-end model parity.
+    evidence: measured
+    as_of: '2026-10-21'
+    source_ids:
+    - semianalysis-ascend-950pr-2026-10-21
 watch_for:
   - Sustained time-to-quality on large training runs
   - Customer utilization and recovery statistics
@@ -189,7 +196,8 @@ source_ids:
   - huawei-qualcomm-patent-license-reuters-2026-10-05
   - china-ai-accelerator-share-reuters-2026-10-13
   - deepseek-huawei-design-investing-2026-10-19
-reviewed_at: 2026-10-21
+  - semianalysis-ascend-950pr-2026-10-21
+reviewed_at: 2026-10-22
 slug: huawei
 layers:
   - accelerators

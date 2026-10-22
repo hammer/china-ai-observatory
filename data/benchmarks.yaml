@@ -1,5 +1,5 @@
-headline: No verified latest-versus-latest independent comparison
-assessment: Follow-up through October 21 did not verify a matched independent comparison of
+headline: No verified matched frontier end-to-end comparison
+assessment: Follow-up through October 22 did not verify a matched independent end-to-end comparison of
   current Chinese accelerators against Rubin, GB300, MI355X, TPU v7, or OpenAI Jalapeño. The review checked
   MLPerf Training v6.0 and Inference v6.1 repository heads (unchanged since the previous submitter
   review) plus InferenceX's
@@ -12,7 +12,7 @@ assessment: Follow-up through October 21 did not verify a matched independent co
   A Pengcheng Laboratory preprint adds measured Ascend 910C scientific-computing results against
   A800/H800 controls, but it is not a model-training or inference comparison and does not use current
   frontier foreign hardware. Absence of a verified public result is not evidence of incapability.
-reviewed_at: 2026-10-21
+reviewed_at: 2026-10-22
 comparison:
   title: DeepSeek-R1 on Ascend 910C and H100
   date: 2025-06
@@ -33,6 +33,15 @@ comparison:
     batches, and speculative-decoding assumptions prevent a universal ratio. Perfect expert-balancing results
     are projections.
 studies:
+  - title: Ascend 950PR kernel study
+    evidence: measured
+    date: '2026-10-21'
+    finding: SemiAnalysis reports a best GEMM kernel reaching 99.7% of its compute ceiling; below the compute-bound
+      ridge, median achieved/attainable performance was 41.5% versus H100's 46.8%. Power and clock limits
+      differed. High kernel utilization is not model utilization. Its EP16 communication comparison with
+      GB300 includes different operator work, precluding an unqualified speedup.
+    source_ids:
+    - semianalysis-ascend-950pr-2026-10-21
   - title: Ascend 910 scientific-computing study
     evidence: measured
     date: "2026-07-22"

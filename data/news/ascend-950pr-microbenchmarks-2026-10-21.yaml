@@ -1,0 +1,15 @@
+slug: ascend-950pr-microbenchmarks-2026-10-21
+published_at: '2026-10-21'
+event_date: '2026-10-21'
+title: SemiAnalysis publishes Ascend 950PR microbenchmarks
+summary: SemiAnalysis measures 1,055 BF16 GEMM shapes and memory behavior, and analyzes a Huawei-supplied
+  DeepSeek V4.1 Flash trace.
+impact: Independent kernel measurements and analysis of a vendor trace have different provenance. Neither
+  establishes matched full-model throughput, latency, training time-to-quality or TCO.
+companies:
+- huawei
+source_ids:
+- semianalysis-ascend-950pr-2026-10-21
+evidence: measured
+added_at: '2026-10-22'
+correction_of: null

@@ -1,17 +1,13 @@
 schema_version: 2
 baseline_date: 2026-09-11
-last_research_at: 2026-10-21
-last_automated_run_at: 2026-10-21
+last_research_at: 2026-10-22
+last_automated_run_at: 2026-10-22
 last_run_status: partial
-coverage: >-
-  Screened all 12 priority-1 companies and the four oldest-reviewed remaining profiles using
-  overlapping English and Chinese searches for October 13-21, with targeted filing backfills.
-  Updated Huawei, Skyverse and Enflame only; search-only screening did not advance other review
-  dates. Added reported training plans, customer-validation evidence and an explicit model-name
-  correction. Coverage is partial: the original DeepSeek report was paywalled, NAURA's linked
-  WeChat release could not be read, and private deployments, unindexed disclosures, tenders and
-  individual benchmark artifacts were not exhaustively audited. No matched current Chinese
-  accelerator comparison was verified and no dated forecast or historical briefing changed.
+coverage: 'Screened all 12 priority-1 companies plus oldest-reviewed RSLaser, Guowang, SMEE and Ligent
+  with overlapping English and Chinese searches for October 14-22 and targeted primary-source backfills.
+  Updated only Huawei, Eoptolink and Ligent; other profile dates remain unchanged. Coverage is partial:
+  search results were sparse or stale for several companies, and private deployments, tenders, production
+  metrics and every benchmark artifact were not exhaustively audited.'
 timezone: Europe/London
 runs:
   - date: 2026-09-12
@@ -2116,6 +2112,46 @@ runs:
     - deepseek-huawei-design-investing-2026-10-19
     - deepseek-huawei-design-information-2026-10-19
     - enflame-ciif-release-2026-10-16
+    - mlperf-training
+    - mlperf-inference-6-1
+    - inferencex
+  - date: '2026-10-22'
+    status: partial
+    companies:
+    - aishengna
+    - amec
+    - cambricon
+    - cxmt
+    - enflame
+    - eoptolink
+    - huawei
+    - innolight
+    - naura
+    - smic
+    - ymtc
+    - yuliangsheng
+    - rslaser
+    - guowang
+    - smee
+    - ligent
+    summary: Screened priority-1 companies and the four oldest-reviewed remaining profiles over October
+      14-22 (seven-day overlap from the preceding run). Added a new independent microbenchmark study, distinguished
+      kernel measurements from vendor-trace analysis and full-model comparisons, and backfilled two optical-company
+      primary documents. Eoptolink's September investor record resolves the earlier NPO roadmap follow-up;
+      Ligent's release distinguishes initial commercialization from demonstrations. Only Huawei, Eoptolink
+      and Ligent profile dates advanced. MLPerf Training v6.0 remained at eabf23a07b2a0c60a289ff871dc3a46fff0d0421
+      and Inference v6.1 at 4bb63cd28eb136be221bc801a9e38c66c8a7553f, verified through GitHub. InferenceX's
+      public dashboard was reviewed; no matched current Chinese end-to-end result was verified. Individual
+      result artifacts and plotted microbenchmark values were not exhaustively audited. NAURA supplier-award
+      details and newer Eoptolink shipment claims remain follow-ups; neither was promoted to a fact. Search
+      coverage was limited by sparse/stale indexed results, especially lithography suppliers, and does not
+      exclude undisclosed progress. No dated forecast or historical briefing changed. Private deployments,
+      unindexed disclosures, tenders, customer acceptance, yield, volume, utilization, reliability, power
+      and component provenance remain incomplete.
+    source_ids:
+    - semianalysis-ascend-950pr-2026-10-21
+    - eoptolink-ir-2026-09-11
+    - ligent-cioe-2026-09-07
     - mlperf-training
     - mlperf-inference-6-1
     - inferencex

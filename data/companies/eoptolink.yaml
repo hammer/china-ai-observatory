@@ -43,6 +43,14 @@ facts:
     source_ids:
       - us-optical-transceiver-bill-primary-2026-09-25
       - us-optical-transceiver-bill-reuters-2026-09-25
+  - label: NPO delivery outlook and capacity
+    value: Company expects NPO deliveries from 2027 and larger scale in 2028, conditional on demand. It
+      reports ongoing Chengdu and Thailand capacity expansion; qualified capacity, yields and named customers
+      are undisclosed.
+    evidence: vendor
+    as_of: '2026-09-11'
+    source_ids:
+    - eoptolink-ir-2026-09-11
 watch_for:
   - Volume adoption of next-generation optics
   - Domestic DSP and laser substitution
@@ -53,7 +61,8 @@ source_ids:
   - eoptolink-400g-teardown-2026-09-19
   - us-optical-transceiver-bill-primary-2026-09-25
   - us-optical-transceiver-bill-reuters-2026-09-25
-reviewed_at: 2026-09-29
+  - eoptolink-ir-2026-09-11
+reviewed_at: 2026-10-22
 slug: eoptolink
 layers:
   - photonics

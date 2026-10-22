@@ -1,5 +1,5 @@
 name: Ligent Technologies
-chinese_name: ""
+chinese_name: 纳真科技
 counterparts:
   - Coherent
   - Lumentum
@@ -30,6 +30,14 @@ facts:
     as_of: 2026-06-30
     source_ids:
       - ligent-ipo-2026-09-22
+  - label: External light-source commercialization boundary
+    value: Ligent reports initial commercialization of 100 mW ELSFP using self-developed CW lasers, while
+      400 mW ELSFP was scheduled for demonstration. It announced 6.4T/3.2T NPO and 12.8T TFLN XPO products;
+      customer acceptance, shipment volume and component provenance remain unknown.
+    evidence: vendor
+    as_of: '2026-09-07'
+    source_ids:
+    - ligent-cioe-2026-09-07
 watch_for:
   - 800G and 1.6T shipment mix and named-customer qualification
   - Optical DSP, laser and analog-component provenance
@@ -37,7 +45,8 @@ watch_for:
 source_ids:
   - ligent
   - ligent-ipo-2026-09-22
-reviewed_at: 2026-09-22
+  - ligent-cioe-2026-09-07
+reviewed_at: 2026-10-22
 slug: ligent
 layers:
   - photonics
