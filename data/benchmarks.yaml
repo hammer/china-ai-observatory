@@ -1,5 +1,5 @@
 headline: No verified matched frontier end-to-end comparison
-assessment: Follow-up through October 22 did not verify a matched independent end-to-end comparison of
+assessment: Follow-up through October 23 did not verify a matched independent end-to-end comparison of
   current Chinese accelerators against Rubin, GB300, MI355X, TPU v7, or OpenAI Jalapeño. The review checked
   MLPerf Training v6.0 and Inference v6.1 repository heads (unchanged since the previous submitter
   review) plus InferenceX's
@@ -12,7 +12,7 @@ assessment: Follow-up through October 22 did not verify a matched independent en
   A Pengcheng Laboratory preprint adds measured Ascend 910C scientific-computing results against
   A800/H800 controls, but it is not a model-training or inference comparison and does not use current
   frontier foreign hardware. Absence of a verified public result is not evidence of incapability.
-reviewed_at: 2026-10-22
+reviewed_at: 2026-10-23
 comparison:
   title: DeepSeek-R1 on Ascend 910C and H100
   date: 2025-06
@@ -33,6 +33,15 @@ comparison:
     batches, and speculative-decoding assumptions prevent a universal ratio. Perfect expert-balancing results
     are projections.
 studies:
+  - title: DeepInfer published performance scope
+    evidence: vendor
+    date: '2026-10-20'
+    finding: DeepSeek publishes prefill and decode throughput/latency plots using 4 and 64 NVIDIA SM100
+      GPUs respectively, each within one scale-up domain. Ascend 950 is a supported software target, but
+      these plots are not Ascend measurements or a matched cross-hardware comparison. The offline release
+      excludes complete service infrastructure. No benchmark was rerun by the Observatory.
+    source_ids:
+    - deepinfer-release-2026-10-20
   - title: Ascend 950PR kernel study
     evidence: measured
     date: '2026-10-21'

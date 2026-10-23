@@ -172,6 +172,16 @@ facts:
     as_of: '2026-10-21'
     source_ids:
     - semianalysis-ascend-950pr-2026-10-21
+  - label: DeepInfer public inference engine
+    value: DeepSeek released an Apache-2.0 offline engine for V4.1-Flash supporting Ascend 950 with CANN
+      9.2 and NVIDIA SM100. The README excludes the KV-cache service, complete disaggregation and replica
+      load balancing; batch-invariant inference and deterministic sampling are NVIDIA-only. Its published
+      performance plots use NVIDIA hardware, not Ascend. Code availability does not establish measured production
+      parity.
+    evidence: primary
+    as_of: '2026-10-20'
+    source_ids:
+    - deepinfer-release-2026-10-20
 watch_for:
   - Sustained time-to-quality on large training runs
   - Customer utilization and recovery statistics
@@ -197,7 +207,8 @@ source_ids:
   - china-ai-accelerator-share-reuters-2026-10-13
   - deepseek-huawei-design-investing-2026-10-19
   - semianalysis-ascend-950pr-2026-10-21
-reviewed_at: 2026-10-22
+  - deepinfer-release-2026-10-20
+reviewed_at: 2026-10-23
 slug: huawei
 layers:
   - accelerators

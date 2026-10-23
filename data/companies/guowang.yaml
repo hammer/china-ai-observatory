@@ -13,13 +13,23 @@ key_fact:
   as_of: 2026-09-11
   source_ids:
     - guowang
-facts: []
+facts:
+  - label: Optical manufacturing recruitment
+    value: An October 16 Hebei University notice recruits 2027 graduates for optical coating, processing
+      and inspection, optical-mechanical integration, and system testing. It supports continuing staffing
+      activity but identifies no qualified projection-optics product, delivered unit, customer acceptance
+      or production yield.
+    evidence: primary
+    as_of: '2026-10-16'
+    source_ids:
+    - guowang-recruitment-2026-10-16
 watch_for:
   - Customer qualifications
   - Verified projection-optics production
 source_ids:
   - guowang
-reviewed_at: 2026-09-14
+  - guowang-recruitment-2026-10-16
+reviewed_at: 2026-10-23
 slug: guowang
 layers:
   - optics

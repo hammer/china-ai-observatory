@@ -1,13 +1,14 @@
 schema_version: 2
 baseline_date: 2026-09-11
-last_research_at: 2026-10-22
-last_automated_run_at: 2026-10-22
+last_research_at: '2026-10-23'
+last_automated_run_at: '2026-10-23'
 last_run_status: partial
-coverage: 'Screened all 12 priority-1 companies plus oldest-reviewed RSLaser, Guowang, SMEE and Ligent
-  with overlapping English and Chinese searches for October 14-22 and targeted primary-source backfills.
-  Updated only Huawei, Eoptolink and Ligent; other profile dates remain unchanged. Coverage is partial:
-  search results were sparse or stale for several companies, and private deployments, tenders, production
-  metrics and every benchmark artifact were not exhaustively audited.'
+coverage: 'Screened all 12 priority-1 companies plus the four oldest-reviewed remaining profiles (RSLaser,
+  Guowang, SMEE and RoboTechnik), using overlapping English and Chinese searches for October 15-23 and
+  targeted primary-source backfills. Reviewed supporting documents for Huawei, InnoLight, Eoptolink, Guowang
+  and RoboTechnik; only those five profile dates advanced. Coverage remains partial: several searches
+  returned stale or sparse results, and private deployments, tenders, production metrics and individual
+  benchmark artifacts were not comprehensively audited.'
 timezone: Europe/London
 runs:
   - date: 2026-09-12
@@ -2152,6 +2153,49 @@ runs:
     - semianalysis-ascend-950pr-2026-10-21
     - eoptolink-ir-2026-09-11
     - ligent-cioe-2026-09-07
+    - mlperf-training
+    - mlperf-inference-6-1
+    - inferencex
+  - date: '2026-10-23'
+    status: partial
+    companies:
+    - aishengna
+    - amec
+    - cambricon
+    - cxmt
+    - enflame
+    - eoptolink
+    - huawei
+    - innolight
+    - naura
+    - smic
+    - ymtc
+    - yuliangsheng
+    - rslaser
+    - guowang
+    - smee
+    - robotechnik
+    summary: Screened 16 companies over October 15-23. Added DeepInfer release evidence after reading the
+      initial README at d585e6542c0571176272d703f03c4807ae901284 and confirming the latest README at 9bd9cf243fc53ef9afbf8f04d391d989117d6ab9;
+      recorded Ascend support separately from NVIDIA-only benchmark plots and service exclusions. Read original
+      CNR reporting on October 22 optical-company operating statements and added one cross-company event;
+      these statements do not provide new shipment volumes. Backfilled RoboTechnik final base-offering terms
+      from HKEX pages 2-4, visually checked proceeds, and preserved the September offering plan; subsequent
+      over-allotment outcome and realized spending remain unverified. Reviewed Guowang university-hosted
+      recruiting evidence without claiming qualified optics deliveries. Only Huawei, InnoLight, Eoptolink,
+      Guowang and RoboTechnik profile dates advanced. MLPerf Training v6.0 remained at eabf23a07b2a0c60a289ff871dc3a46fff0d0421
+      and Inference v6.1 at 4bb63cd28eb136be221bc801a9e38c66c8a7553f, checked through GitHub; reviewed the
+      InferenceX public landing page. No matched current Chinese end-to-end result was verified, but individual
+      artifacts were not exhaustively audited and yesterday's independent Ascend kernel evidence remains
+      intact. NAURA supplier-award details and quantitative optical shipment claims remain follow-ups. Sparse/stale
+      lithography search results do not establish absence of progress. Private deployments, unindexed disclosures,
+      tenders, yields, volume, reliability, power and provenance remain incompletely covered. No historical
+      briefing, correction or dated forecast changed.
+    source_ids:
+    - deepinfer-release-2026-10-20
+    - optical-operations-cnr-2026-10-22
+    - robotechnik-allotment-2026-09-28
+    - guowang-recruitment-2026-10-16
     - mlperf-training
     - mlperf-inference-6-1
     - inferencex

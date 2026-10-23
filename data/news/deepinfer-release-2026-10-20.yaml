@@ -1,0 +1,16 @@
+slug: deepinfer-release-2026-10-20
+published_at: '2026-10-20'
+event_date: '2026-10-20'
+title: DeepSeek releases DeepInfer with Ascend 950 support
+summary: The initial public repository supports V4.1-Flash offline inference on Ascend 950 and NVIDIA
+  SM100. It requires CANN 9.2 on Ascend and is Apache-2.0 licensed.
+impact: Inspectable engine code expands the domestic accelerator software ecosystem. Complete service
+  infrastructure is excluded and some reproducibility features are NVIDIA-only. Published prefill/decode
+  performance uses 4/64 SM100 GPUs respectively, not a matched Ascend comparison.
+companies:
+- huawei
+source_ids:
+- deepinfer-release-2026-10-20
+evidence: primary
+added_at: '2026-10-23'
+correction_of: null

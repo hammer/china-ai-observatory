@@ -38,15 +38,25 @@ facts:
     source_ids:
       - robotechnik-prospectus-2026-09-21
       - robotechnik-offering-2026-09-20
+  - label: Final base offering terms
+    value: The September 28 allotment filing sets 11,876,000 H shares at HKD 436 each, with HKD 5,177.9
+      million gross and HKD 4,961.3 million net proceeds before any over-allotment exercise. The offer-size
+      adjustment option was not exercised; over-allocation was 1,781,400 shares. This resolves base-offering
+      pricing, not realized equipment capacity or spending.
+    evidence: primary
+    as_of: '2026-09-28'
+    source_ids:
+    - robotechnik-allotment-2026-09-28
 watch_for:
-  - Final offering proceeds and realized Suzhou capacity additions
+  - Over-allotment outcome, use of proceeds and realized Suzhou capacity additions
   - Named-customer acceptance, yield, uptime and delivery economics
   - Provenance of optics, motion control, cameras and test instruments
   - Transfer and retention of ficonTEC know-how across Germany, Estonia and China
 source_ids:
   - robotechnik-prospectus-2026-09-21
   - robotechnik-offering-2026-09-20
-reviewed_at: 2026-09-24
+  - robotechnik-allotment-2026-09-28
+reviewed_at: 2026-10-23
 slug: robotechnik
 layers:
   - equipment

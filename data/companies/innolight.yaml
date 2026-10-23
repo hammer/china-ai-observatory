@@ -39,6 +39,14 @@ facts:
     source_ids:
       - us-optical-transceiver-bill-primary-2026-09-25
       - us-optical-transceiver-bill-reuters-2026-09-25
+  - label: October operating statement
+    value: CNR reports that InnoLight said operations and its supply chain were normal, capacity utilization
+      was adequate and it could obtain and deliver orders. No utilization percentage, shipment count or
+      customer acceptance data accompanied this October 22 statement.
+    evidence: reported
+    as_of: '2026-10-22'
+    source_ids:
+    - optical-operations-cnr-2026-10-22
 watch_for:
   - 1.6T product shipments and customer qualification
   - DSP and laser sourcing
@@ -49,7 +57,8 @@ source_ids:
   - cioe-optics-2026-09-11
   - us-optical-transceiver-bill-primary-2026-09-25
   - us-optical-transceiver-bill-reuters-2026-09-25
-reviewed_at: 2026-10-01
+  - optical-operations-cnr-2026-10-22
+reviewed_at: 2026-10-23
 slug: innolight
 layers:
   - photonics
