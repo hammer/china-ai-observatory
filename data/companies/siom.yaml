@@ -13,13 +13,22 @@ key_fact:
   as_of: 2026-09-11
   source_ids:
     - siom
-facts: []
+facts:
+  - label: Active-glass photonics research
+    value: The institute reports molecular sol-gel design combined with DLP 3D printing to make rare-earth-doped
+      active glass and demonstrate optical amplification in a glass waveguide. This is laboratory materials
+      and device research, not evidence of a qualified lithography source or commercial AI-network deployment.
+    evidence: primary
+    as_of: '2026-10-23'
+    source_ids:
+    - siom-active-glass-2026-10-23
 watch_for:
   - Stable integrated light-source demonstrations
   - Production-relevant lifetime and power
 source_ids:
   - siom
-reviewed_at: 2026-10-02
+  - siom-active-glass-2026-10-23
+reviewed_at: 2026-10-24
 slug: siom
 layers:
   - optics

@@ -47,6 +47,14 @@ facts:
     as_of: '2026-10-22'
     source_ids:
     - optical-operations-cnr-2026-10-22
+  - label: Order horizon and next-generation sampling
+    value: Company says major overseas customers have placed orders through 2027, while some key customers
+      supplied 2028 demand guidance. It reports co-development and sample delivery for unspecified next-generation
+      products; neither guidance nor samples establish firm 2028 orders or qualified volume production.
+    evidence: vendor
+    as_of: '2026-10-23'
+    source_ids:
+    - innolight-operations-2026-10-23
 watch_for:
   - 1.6T product shipments and customer qualification
   - DSP and laser sourcing
@@ -58,7 +66,8 @@ source_ids:
   - us-optical-transceiver-bill-primary-2026-09-25
   - us-optical-transceiver-bill-reuters-2026-09-25
   - optical-operations-cnr-2026-10-22
-reviewed_at: 2026-10-23
+  - innolight-operations-2026-10-23
+reviewed_at: 2026-10-24
 slug: innolight
 layers:
   - photonics

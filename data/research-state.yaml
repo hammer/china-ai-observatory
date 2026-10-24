@@ -1,14 +1,12 @@
 schema_version: 2
 baseline_date: 2026-09-11
-last_research_at: '2026-10-23'
-last_automated_run_at: '2026-10-23'
+last_research_at: '2026-10-24'
+last_automated_run_at: '2026-10-24'
 last_run_status: partial
-coverage: 'Screened all 12 priority-1 companies plus the four oldest-reviewed remaining profiles (RSLaser,
-  Guowang, SMEE and RoboTechnik), using overlapping English and Chinese searches for October 15-23 and
-  targeted primary-source backfills. Reviewed supporting documents for Huawei, InnoLight, Eoptolink, Guowang
-  and RoboTechnik; only those five profile dates advanced. Coverage remains partial: several searches
-  returned stale or sparse results, and private deployments, tenders, production metrics and individual
-  benchmark artifacts were not comprehensively audited.'
+coverage: Screened all 12 priority-1 companies and the four oldest-reviewed remaining profiles (RSLaser,
+  SMEE, SIOM and Zhiqi) over October 16-24. Read original optical operating filings and SIOM research
+  disclosure; only InnoLight, Eoptolink and SIOM profile dates advanced. Sparse/stale search results,
+  private deployments, tenders and undisclosed production metrics remain coverage gaps.
 timezone: Europe/London
 runs:
   - date: 2026-09-12
@@ -2196,6 +2194,47 @@ runs:
     - optical-operations-cnr-2026-10-22
     - robotechnik-allotment-2026-09-28
     - guowang-recruitment-2026-10-16
+    - mlperf-training
+    - mlperf-inference-6-1
+    - inferencex
+  - date: '2026-10-24'
+    status: partial
+    companies:
+    - aishengna
+    - amec
+    - cambricon
+    - cxmt
+    - enflame
+    - eoptolink
+    - huawei
+    - innolight
+    - naura
+    - smic
+    - ymtc
+    - yuliangsheng
+    - rslaser
+    - smee
+    - siom
+    - zhiqi
+    summary: Screened 16 companies using overlapping English and Chinese searches from October 16, seven
+      days before the preceding run. Read October 23 InnoLight and Eoptolink original filing PDFs via Sina
+      after the HKEX mirror could not be retrieved. Added order-horizon, sampling and shipment-ramp claims
+      with vendor attribution; primary sourcing is now established, but quantitative optical shipment evidence
+      remains missing. Read SIOM active-glass research announcement and recorded laboratory-stage evidence
+      without advancing commercial qualification. Only these three profile dates advanced. RSLaser and Zhiqi
+      searches yielded no verified new qualifying milestone; an SMEE SSD820 exhibition claim in a user-posted
+      article remains unverified and requires primary follow-up. NAURA supplier-award detail remains unresolved.
+      MLPerf Training v6.0 remained at eabf23a07b2a0c60a289ff871dc3a46fff0d0421 and Inference v6.1 at 4bb63cd28eb136be221bc801a9e38c66c8a7553f,
+      checked through GitHub. Reviewed the current InferenceX landing page; no new matched frontier end-to-end
+      result was verified. Existing independent Ascend kernel evidence is retained; individual result artifacts
+      were not exhaustively audited. No dated forecast, historical news, correction or briefing changed.
+      Search-only profiles retain previous review dates. Private deployments, unindexed disclosures, tenders,
+      customer acceptance, yield, volume, utilization, reliability, power and component provenance remain
+      incompletely covered.
+    source_ids:
+    - innolight-operations-2026-10-23
+    - eoptolink-operations-2026-10-23
+    - siom-active-glass-2026-10-23
     - mlperf-training
     - mlperf-inference-6-1
     - inferencex

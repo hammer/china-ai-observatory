@@ -59,6 +59,14 @@ facts:
     as_of: '2026-10-22'
     source_ids:
     - optical-operations-cnr-2026-10-22
+  - label: 1.6T volume-ramp disclosure
+    value: Company says 800G and 1.6T are its main delivered products in 2026 and 1.6T has entered a continuing
+      volume ramp. Faster future shipments remain an expectation; unit counts, yields, utilization and named
+      customer acceptance are undisclosed.
+    evidence: vendor
+    as_of: '2026-10-23'
+    source_ids:
+    - eoptolink-operations-2026-10-23
 watch_for:
   - Volume adoption of next-generation optics
   - Domestic DSP and laser substitution
@@ -71,7 +79,8 @@ source_ids:
   - us-optical-transceiver-bill-reuters-2026-09-25
   - eoptolink-ir-2026-09-11
   - optical-operations-cnr-2026-10-22
-reviewed_at: 2026-10-23
+  - eoptolink-operations-2026-10-23
+reviewed_at: 2026-10-24
 slug: eoptolink
 layers:
   - photonics
