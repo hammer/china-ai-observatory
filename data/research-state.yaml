@@ -1,12 +1,12 @@
 schema_version: 2
 baseline_date: 2026-09-11
-last_research_at: '2026-10-24'
-last_automated_run_at: '2026-10-24'
+last_research_at: '2026-10-25'
+last_automated_run_at: '2026-10-25'
 last_run_status: partial
-coverage: Screened all 12 priority-1 companies and the four oldest-reviewed remaining profiles (RSLaser,
-  SMEE, SIOM and Zhiqi) over October 16-24. Read original optical operating filings and SIOM research
-  disclosure; only InnoLight, Eoptolink and SIOM profile dates advanced. Sparse/stale search results,
-  private deployments, tenders and undisclosed production metrics remain coverage gaps.
+coverage: Screened 12 priority-1 companies plus oldest-reviewed RSLaser, SMEE, Zhiqi and CIOMP over October
+  17-25. No new material fact was verified. Reviewed SMEE portfolio/news and CIOMP Chinese research listings;
+  only SMEE and CIOMP profile review dates advanced. Coverage remains partial because results were often
+  stale or sparse and several primary follow-ups remain unresolved.
 timezone: Europe/London
 runs:
   - date: 2026-09-12
@@ -2235,6 +2235,48 @@ runs:
     - innolight-operations-2026-10-23
     - eoptolink-operations-2026-10-23
     - siom-active-glass-2026-10-23
+    - mlperf-training
+    - mlperf-inference-6-1
+    - inferencex
+  - date: '2026-10-25'
+    status: partial
+    companies:
+    - aishengna
+    - amec
+    - cambricon
+    - cxmt
+    - enflame
+    - eoptolink
+    - huawei
+    - innolight
+    - naura
+    - smic
+    - ymtc
+    - yuliangsheng
+    - rslaser
+    - smee
+    - zhiqi
+    - ciomp
+    summary: Screened priority and oldest-reviewed profiles with overlapping English and Chinese searches
+      from October 17, seven days before the preceding run. Most results repeated existing evidence or were
+      stale. Read NAURA homepage, which confirms the October 13 supplier-award headline, but its linked
+      WeChat detail could not be retrieved and a targeted Infineon search did not establish tool, fab or
+      qualification details; retained the follow-up without adding a production claim. Read SMEE portfolio
+      and company-news listings; no SSD820 primary release was located. Exhibition reporting remains a follow-up,
+      not verified production acceptance. Read CIOMP Chinese homepage and research listings; no new qualifying
+      integrated scanner or projection-optics milestone was established. Its English site timed out. SMEE
+      and CIOMP received actual review dates without factual changes; search-only profiles retained their
+      dates. RSLaser and Zhiqi search results did not establish new qualified deliveries. MLPerf Training
+      v6.0 remained at eabf23a07b2a0c60a289ff871dc3a46fff0d0421 and Inference v6.1 at 4bb63cd28eb136be221bc801a9e38c66c8a7553f,
+      checked through GitHub. Read InferenceX current landing page; no new matched frontier end-to-end comparison
+      was verified, and existing independent Ascend kernel evidence remains intact. Individual result artifacts
+      were not exhaustively audited. No news, forecast, historical briefing or correction changed. Coverage
+      remains incomplete for private deployments, unindexed disclosures, tenders, shipment quantities, yield,
+      customer acceptance, utilization, reliability, power and component provenance.
+    source_ids:
+    - naura
+    - smee
+    - ciomp-chinese-research
     - mlperf-training
     - mlperf-inference-6-1
     - inferencex
