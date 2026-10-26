@@ -18,7 +18,16 @@ key_fact:
   as_of: 2026-09-29
   source_ids:
     - acm-orders-2026-10-01
-facts: []
+facts:
+  - label: Parent-reported hot SPM validation
+    value: US-listed parent ACM Research says a foundry validated its 170 C single-wafer hot SPM system
+      across more than 50 process layers. It claims 70% sulfuric-acid recycling and expects roughly 400
+      tons saved per tool annually. Customer identity, node, tool count, wafer volume, yield and independently
+      verified savings were not disclosed.
+    evidence: vendor
+    as_of: '2026-10-21'
+    source_ids:
+    - acm-hot-spm-recycling-2026-10-21
 watch_for:
   - Domestic-fab adoption
   - Advanced packaging and HBM process qualifications
@@ -26,7 +35,8 @@ watch_for:
 source_ids:
   - acm
   - acm-orders-2026-10-01
-reviewed_at: 2026-10-03
+  - acm-hot-spm-recycling-2026-10-21
+reviewed_at: 2026-10-26
 slug: acm
 layers:
   - equipment

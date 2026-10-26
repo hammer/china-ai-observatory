@@ -28,6 +28,16 @@ facts:
     as_of: 2026-06-30
     source_ids:
       - empyrean-2026-h1-report
+  - label: Proposed hardware-emulation investment
+    value: On October 13 the board approved contributing RMB 150 million cash and its indirectly held 7.78%
+      S2C stake to Wuxi Yake Hongyu as part of a proposed restructuring. Cash funding is conditional on
+      the merger; the filing says the core hardware-emulation accelerator remains in R&D, with validation
+      and commercialization uncertain. It does not establish transaction completion or a qualified complete
+      digital flow.
+    evidence: primary
+    as_of: '2026-10-13'
+    source_ids:
+    - empyrean-yake-s2c-investment-2026-10-13
 watch_for:
   - Complete-flow customer tape-outs
   - Frontier-node sign-off accuracy
@@ -35,7 +45,8 @@ watch_for:
 source_ids:
   - empyrean
   - empyrean-2026-h1-report
-reviewed_at: 2026-10-03
+  - empyrean-yake-s2c-investment-2026-10-13
+reviewed_at: 2026-10-26
 slug: empyrean
 layers:
   - eda

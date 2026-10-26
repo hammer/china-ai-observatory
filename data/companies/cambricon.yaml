@@ -7,8 +7,7 @@ priority: 1
 stage: Commercial
 role: MLU accelerators and NeuWare software.
 assessment: >-
-  IDC-reported first-half share and upstream PyTorch participation strengthen adoption and ecosystem
-  evidence, but do not identify product mix, customer utilization or matched frontier-workload performance.
+  Revenue growth supports commercialization, while inventories and prepayments increased sharply. Financial scale and upstream software participation do not establish customer utilization, replenishable HBM supply or matched frontier-workload performance.
 key_fact:
   label: Current product
   value: 590; prospective 690 remains separate
@@ -33,6 +32,16 @@ facts:
     source_ids:
       - pytorch-cambricon-2026-09-07
       - pytorch-china-2026-09-09
+  - label: Q3 financial scale and working capital
+    value: Unaudited Q3 revenue was RMB 3.531 billion and attributable profit RMB 1.404 billion. Operating
+      cash flow was negative RMB 83.68 million for Q3, versus positive RMB 227.64 million for January-September.
+      September-end inventories reached RMB 11.665 billion and prepayments RMB 3.044 billion, versus RMB
+      4.944 billion and RMB 0.745 billion at year-end 2025. The report does not identify chip/HBM inventory
+      mix, shipment counts or customer utilization.
+    evidence: primary
+    as_of: '2026-09-30'
+    source_ids:
+    - cambricon-q3-2026-report
 watch_for:
   - Repeat deployments
   - Measured utilization
@@ -43,7 +52,8 @@ source_ids:
   - pytorch-cambricon-2026-09-07
   - pytorch-china-2026-09-09
   - china-ai-accelerator-share-reuters-2026-10-13
-reviewed_at: 2026-10-13
+  - cambricon-q3-2026-report
+reviewed_at: 2026-10-26
 slug: cambricon
 layers:
   - accelerators

@@ -1,12 +1,12 @@
 schema_version: 2
 baseline_date: 2026-09-11
-last_research_at: '2026-10-25'
-last_automated_run_at: '2026-10-25'
+last_research_at: '2026-10-26'
+last_automated_run_at: '2026-10-26'
 last_run_status: partial
-coverage: Screened 12 priority-1 companies plus oldest-reviewed RSLaser, SMEE, Zhiqi and CIOMP over October
-  17-25. No new material fact was verified. Reviewed SMEE portfolio/news and CIOMP Chinese research listings;
-  only SMEE and CIOMP profile review dates advanced. Coverage remains partial because results were often
-  stale or sparse and several primary follow-ups remain unresolved.
+coverage: Screened 12 priority-1 companies plus oldest-reviewed RSLaser, Zhiqi, ACM and Empyrean over
+  October 18-26, with older filing backfills. Added three events and substantive updates to Cambricon,
+  ACM and Empyrean; only those profile review dates advanced. Coverage remains partial for sparse search
+  results and unresolved primary-source checks.
 timezone: Europe/London
 runs:
   - date: 2026-09-12
@@ -2277,6 +2277,51 @@ runs:
     - naura
     - smee
     - ciomp-chinese-research
+    - mlperf-training
+    - mlperf-inference-6-1
+    - inferencex
+  - date: '2026-10-26'
+    status: partial
+    companies:
+    - aishengna
+    - amec
+    - cambricon
+    - cxmt
+    - enflame
+    - eoptolink
+    - huawei
+    - innolight
+    - naura
+    - smic
+    - ymtc
+    - yuliangsheng
+    - rslaser
+    - zhiqi
+    - acm
+    - empyrean
+    summary: Searched English and Chinese names over October 18-26, starting seven days before the preceding
+      run. Read Cambricon Q3 filing and verified its unaudited revenue, cash-flow, inventory and prepayment
+      figures; financial values do not establish shipped units or HBM provenance. Read ACM parent October
+      21 hot-SPM announcement and backfilled Empyrean October 13 investment filing discovered through October
+      20 merger reporting. Kept customer-validation claims attributed and the restructuring conditional,
+      with hardware emulation still in R&D. Empyrean English portfolio/news pages were read; its Chinese
+      site failed to load. ACM Shanghai homepage timed out, so parent evidence is explicitly identified.
+      RSLaser searches mainly found patents and recycled investment stories; Zhiqi results included recruitment,
+      not scanner qualification. Other priority-company searches were often stale, sparse or repetitions
+      of recorded events. AMEC order commentary syndicated on October 22 traces to earlier Bay Area exhibition
+      reporting with inconsistent displayed dates; technical claims await primary confirmation and no new
+      fact was added. Previous NAURA award and SMEE SSD820 follow-ups remain unresolved. MLPerf Training
+      v6.0 remained at eabf23a07b2a0c60a289ff871dc3a46fff0d0421 and Inference v6.1 at 4bb63cd28eb136be221bc801a9e38c66c8a7553f,
+      checked via GitHub. Read the InferenceX landing page; no new matched frontier end-to-end comparison
+      was verified. Existing independent Ascend kernel evidence is retained. Individual benchmark artifacts
+      were not exhaustively audited. No historical briefing, correction or dated forecast changed. Coverage
+      remains incomplete for private deployments, unindexed disclosures, tenders, customer acceptance, shipment
+      volume, yields, utilization, reliability, power and component provenance.
+    source_ids:
+    - cambricon-q3-2026-report
+    - acm-hot-spm-recycling-2026-10-21
+    - empyrean-yake-s2c-investment-2026-10-13
+    - empyrean
     - mlperf-training
     - mlperf-inference-6-1
     - inferencex
