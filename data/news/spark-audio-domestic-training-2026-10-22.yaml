@@ -1,0 +1,15 @@
+slug: spark-audio-domestic-training-2026-10-22
+published_at: '2026-10-22'
+event_date: null
+title: iFlytek reports domestic-hardware training of Spark-Audio
+summary: The developer reports using Ascend 910B and Hygon BW1000 across audio-encoder pretraining, audio–LLM
+  pretraining and post-training.
+impact: This is developer-reported completed training, not an independently reproduced hardware-efficiency
+  comparison or evidence of domestic fabrication and memory provenance.
+companies:
+- huawei
+source_ids:
+- spark-audio-domestic-training-2026-10-22
+evidence: vendor
+added_at: '2026-10-26'
+correction_of: null

@@ -1,0 +1,120 @@
+slug: weekly-2026-10-19-complete
+cadence: weekly
+period_start: '2026-10-19'
+period_end: '2026-10-25'
+through_date: '2026-10-25'
+published_at: '2026-10-26'
+status: complete
+title: Software and operating evidence deepen; frontier efficiency remains unproven
+summary: Ascend software and independent kernel evidence became more inspectable, while a specialist model
+  developer reported completed domestic-hardware training. Cambricon’s filing and optical suppliers’ disclosures
+  strengthened commercial evidence, with working-capital, delivery and dependency limits intact. No dated
+  forecast changed.
+sections:
+- heading: Inspectable software and independent kernels strengthen the Ascend evidence
+  body: 'DeepSeek’s October 20 DeepInfer release supports V4.1-Flash offline inference on Ascend 950 and
+    NVIDIA SM100, with CANN 9.2 required for Ascend. Complete serving infrastructure is excluded, and
+    the published performance plots use NVIDIA hardware: four SM100 GPUs for prefill and 64 for decode.
+    Separately, SemiAnalysis’s October 21 study measures 1,055 BF16 GEMM shapes on Ascend 950PR and memory
+    behavior. Its independent kernel measurements must be distinguished from its analysis of a Huawei-supplied
+    model trace. High kernel utilization does not establish full-model throughput, latency, training time-to-quality
+    or operating cost. Together these sources make software support and kernel behavior more inspectable
+    without establishing a matched frontier end-to-end result.'
+  source_ids:
+  - deepinfer-release-2026-10-20
+  - semianalysis-ascend-950pr-2026-10-21
+- heading: Completed specialist training and prospective frontier adoption remain distinct
+  body: iFlytek’s October 22 Spark-Audio paper reports using Ascend 910B and Hygon BW1000 throughout its
+    training pipeline. It combines a 0.65-billion-parameter audio encoder with a 30B-A3B language model.
+    This is developer evidence of completed specialist training; matched hardware efficiency, reliability
+    and supply-chain provenance are not established. Separately, October 19 reporting relayed by Investing.com
+    from The Information describes planned DeepSeek training on Ascend 950DT from late 2026 and preferential
+    960DT supply. The accessible relay is not independent corroboration; the original article was paywalled.
+    Plans cannot be counted as completed frontier training.
+  source_ids:
+  - spark-audio-domestic-training-2026-10-22
+  - deepseek-huawei-design-investing-2026-10-19
+  - deepseek-huawei-design-information-2026-10-19
+- heading: Cambricon’s growth also requires substantial working capital
+  body: Cambricon’s October 24 unaudited filing reports Q3 revenue of RMB 3.531 billion, up 104.47%, and
+    attributable profit of RMB 1.404 billion, up 147.74%. Q3 operating cash flow was negative RMB 83.68
+    million. September-end inventory reached RMB 11.665 billion, compared with RMB 4.944 billion at December
+    2025; prepayments increased to RMB 3.044 billion from RMB 744.54 million. The commercial expansion
+    is consequential, but these accounting values do not reveal shipped accelerator units, product mix,
+    customer utilization, qualified supply or HBM provenance. The report covers an earlier operating period
+    but became public during this week.
+  source_ids:
+  - cambricon-q3-2026-report
+- heading: Optical disclosures extend visibility while leaving quantities unknown
+  body: Following October 22 operating assurances, October 23 primary filings provide more specific company-attributed
+    evidence. InnoLight says major overseas customers have placed orders through 2027, while some key
+    customers have provided separate 2028 demand guidance. It reports co-development and sampling on unspecified
+    next-generation products. Eoptolink says 800G and 1.6T are its principal delivery products and that
+    1.6T shipments are continuing to ramp. Orders, guidance and samples are different stages; neither
+    filing establishes future deliveries, shipment quantities, production yields or freedom from foreign-component
+    dependencies.
+  source_ids:
+  - optical-operations-cnr-2026-10-22
+  - innolight-operations-2026-10-23
+  - eoptolink-operations-2026-10-23
+- heading: Cleaning-tool validation advances a process step, not an entire domestic flow
+  body: ACM Research, Inc. announced on October 21 that its 170°C single-wafer hot-SPM system had been
+    validated across more than 50 process layers at an unnamed foundry and achieved 70% sulfuric-acid
+    recycling. Roughly 400 tons of annual acid savings per tool remains an expectation. This US-parent
+    disclosure is relevant to the Shanghai equipment profile, but does not separately verify a Shanghai
+    shipment, named-customer production acceptance, tool count, node, yield or independent operating economics.
+    It supports a narrower process-capability claim rather than proof of a replenishable domestic fabrication
+    flow.
+  source_ids:
+  - acm-hot-spm-recycling-2026-10-21
+- heading: Forecasts remain unchanged; the next tests concern operating results
+  body: No dated Observatory forecast changes. The week strengthens the case for useful domestic compute
+    and optical demand, while leaving frontier training efficiency and supply-chain independence unresolved.
+    The archive’s period-end benchmark review and the publication-day check did not verify a matched current
+    Chinese-versus-frontier end-to-end comparison; existing independent Ascend kernel results remain explicitly
+    recognized. MLPerf is standardized submitter-run evidence, not automatically an independent replication.
+    Prioritize completed DeepSeek training with quality, elapsed time, recovery and energy data; reproducible
+    cross-hardware inference under matched service conditions; accepted deliveries and HBM provenance;
+    optical shipment quantities and yields; and foundry-confirmed tool economics. The late-2020s frontier-pretraining
+    and 2027–2030 HBM/advanced-packaging judgments are preserved.
+  source_ids:
+  - deepinfer-release-2026-10-20
+  - semianalysis-ascend-950pr-2026-10-21
+  - mlperf-training
+  - mlperf-inference-6-1
+  - inferencex
+news_ids:
+- deepseek-huawei-training-plans-2026-10-19
+- deepinfer-release-2026-10-20
+- ascend-950pr-microbenchmarks-2026-10-21
+- acm-hot-spm-recycling-2026-10-21
+- optical-operating-statements-2026-10-22
+- spark-audio-domestic-training-2026-10-22
+- optical-operating-filings-2026-10-23
+- cambricon-q3-2026-working-capital
+source_ids:
+- acm-hot-spm-recycling-2026-10-21
+- cambricon-q3-2026-report
+- deepinfer-release-2026-10-20
+- deepseek-huawei-design-information-2026-10-19
+- deepseek-huawei-design-investing-2026-10-19
+- eoptolink-operations-2026-10-23
+- inferencex
+- innolight-operations-2026-10-23
+- mlperf-inference-6-1
+- mlperf-training
+- optical-operations-cnr-2026-10-22
+- semianalysis-ascend-950pr-2026-10-21
+- spark-audio-domestic-training-2026-10-22
+coverage_note: This closed-period edition synthesizes eight canonical events published October 19–25 and
+  supplemental English/Chinese cross-sector searches. Cambricon, ACM and Spark-Audio evidence was added
+  to the Observatory on October 26 but was public within the covered week; the financial reporting period
+  is earlier. Older filing backfills and previously recorded corrections are retained in the archive and
+  are not relabeled as this week’s events. This briefing reviewed Huawei-related evidence, Cambricon,
+  InnoLight, Eoptolink and ACM; it does not represent a new full-profile sweep. Search results were often
+  stale or secondary. The original DeepSeek–Huawei article remains paywalled. Publication-day benchmark
+  checks covered the MLPerf Training repository and InferenceX landing page; MLPerf Inference web retrieval
+  failed, so its status relies on the separately recorded same-day GitHub check. Individual result artifacts
+  were not exhaustively audited. Private deployments, unindexed disclosures, tenders, customer acceptance,
+  production volume, yields, utilization, reliability, energy and component provenance remain incompletely
+  covered. Complete describes the calendar period, not exhaustive research coverage.

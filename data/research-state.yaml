@@ -3,10 +3,11 @@ baseline_date: 2026-09-11
 last_research_at: '2026-10-26'
 last_automated_run_at: '2026-10-26'
 last_run_status: partial
-coverage: Screened 12 priority-1 companies plus oldest-reviewed RSLaser, Zhiqi, ACM and Empyrean over
-  October 18-26, with older filing backfills. Added three events and substantive updates to Cambricon,
-  ACM and Empyrean; only those profile review dates advanced. Coverage remains partial for sparse search
-  results and unresolved primary-source checks.
+coverage: >-
+  Completed the October 19-25 weekly synthesis with eight in-period events and supplemental source
+  checks. Added one developer-reported training event; preserved all prior editions, company review
+  dates and forecasts. Research coverage remains partial for unindexed disclosures, private operations
+  and unmatched benchmark evidence.
 timezone: Europe/London
 runs:
   - date: 2026-09-12
@@ -2325,3 +2326,34 @@ runs:
     - mlperf-training
     - mlperf-inference-6-1
     - inferencex
+  - date: '2026-10-26'
+    status: partial
+    companies:
+    - huawei
+    - cambricon
+    - innolight
+    - eoptolink
+    - acm
+    summary: Published the closed October 19-25 weekly synthesis from eight in-period events. Re-read primary
+      filings, DeepInfer release documentation, SemiAnalysis measurements and the accessible training-plan
+      relay. Supplemental English/Chinese cross-sector searches found the October 22 Spark-Audio developer
+      report, now recorded with vendor attribution. Cambricon and ACM were already backfilled by the earlier
+      daily run. No full-profile sweep or company review-date advancement is claimed. Rechecked MLPerf Training
+      and InferenceX web coverage; MLPerf Inference web retrieval failed and its status relies on the earlier
+      same-day GitHub check. No exhaustive artifact audit or new matched frontier comparison. Preserved
+      all historical briefings, corrections and dated forecasts. Unindexed disclosures, private deployments,
+      acceptance, yield, utilization, energy and provenance remain gaps.
+    source_ids:
+    - acm-hot-spm-recycling-2026-10-21
+    - cambricon-q3-2026-report
+    - deepinfer-release-2026-10-20
+    - deepseek-huawei-design-information-2026-10-19
+    - deepseek-huawei-design-investing-2026-10-19
+    - eoptolink-operations-2026-10-23
+    - inferencex
+    - innolight-operations-2026-10-23
+    - mlperf-inference-6-1
+    - mlperf-training
+    - optical-operations-cnr-2026-10-22
+    - semianalysis-ascend-950pr-2026-10-21
+    - spark-audio-domestic-training-2026-10-22
