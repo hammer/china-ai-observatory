@@ -1,13 +1,13 @@
 schema_version: 2
 baseline_date: 2026-09-11
-last_research_at: '2026-10-26'
-last_automated_run_at: '2026-10-26'
+last_research_at: '2026-10-27'
+last_automated_run_at: '2026-10-27'
 last_run_status: partial
 coverage: >-
-  Completed the October 19-25 weekly synthesis with eight in-period events and supplemental source
-  checks. Added one developer-reported training event; preserved all prior editions, company review
-  dates and forecasts. Research coverage remains partial for unindexed disclosures, private operations
-  and unmatched benchmark evidence.
+  Screened 12 priority-1 companies and the four oldest-reviewed remaining profiles with October 19-27
+  overlap. Backfilled two primary filings and added an independent memory-microbenchmark study.
+  Only Zhiqi and Hwatsing profile dates advanced. Coverage remains partial; search-only checks do
+  not establish complete review of unindexed disclosures, private deployments or production metrics.
 timezone: Europe/London
 runs:
   - date: 2026-09-12
@@ -2357,3 +2357,46 @@ runs:
     - optical-operations-cnr-2026-10-22
     - semianalysis-ascend-950pr-2026-10-21
     - spark-audio-domestic-training-2026-10-22
+  - date: '2026-10-27'
+    status: partial
+    companies:
+    - aishengna
+    - amec
+    - cambricon
+    - cxmt
+    - enflame
+    - eoptolink
+    - huawei
+    - innolight
+    - naura
+    - smic
+    - ymtc
+    - yuliangsheng
+    - rslaser
+    - zhiqi
+    - h3c
+    - hwatsing
+    summary: Screened 12 priority-1 companies and the four oldest-reviewed non-priority-1 profiles using
+      overlapping English and Chinese searches from October 19, seven days before the preceding run. Most
+      results were older or already recorded. Read Fujing investor-relations record 2026002 and verified
+      its May 29 publication date at the Sina filing mirror; backfilled Zhiqi 2025 operations without treating
+      component sales as scanner qualification. Read Hwatsing announcement 2026-073, recording October 15
+      registration of the existing placement and net proceeds, not a second raise. Only Zhiqi and Hwatsing
+      profile dates advanced. H3C homepages were accessible but supplied no new qualifying milestone; Hwatsing
+      homepage timed out. RSLaser, Aishengna and Yuliangsheng searches did not establish new primary qualification
+      evidence. Other search-only profiles retain their review dates. Read InferenceX landing page and ubenchX
+      core-memory-profile methodology; added independent hardware measurements with device-specific-unit
+      and repeatability caveats, without calculating an AI speedup. MLPerf Training v6.0 remained at eabf23a07b2a0c60a289ff871dc3a46fff0d0421
+      and Inference v6.1 at 4bb63cd28eb136be221bc801a9e38c66c8a7553f, checked through GitHub; individual
+      result artifacts were not exhaustively audited. No new matched current frontier end-to-end comparison
+      was verified. Historical reports, corrections and dated forecasts are unchanged. Coverage remains
+      incomplete for private deployments, unindexed disclosures, tenders, customer acceptance, yield, shipment
+      volume, utilization, reliability, power and component provenance.
+    source_ids:
+    - zhiqi-fujing-ir-2026-05-29
+    - hwatsing-share-registration-2026-10-17
+    - inferencex-core-memory-profiles
+    - h3c
+    - mlperf-training
+    - mlperf-inference-6-1
+    - inferencex

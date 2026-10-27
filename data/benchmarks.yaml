@@ -1,5 +1,5 @@
 headline: No verified matched frontier end-to-end comparison
-assessment: Follow-up through October 26 did not verify a matched independent end-to-end comparison of
+assessment: Follow-up through October 27 did not verify a matched independent end-to-end comparison of
   current Chinese accelerators against Rubin, GB300, MI355X, TPU v7, or OpenAI Jalapeño. The review checked
   MLPerf Training v6.0 and Inference v6.1 repository heads (unchanged since the previous submitter
   review) plus InferenceX's
@@ -12,7 +12,7 @@ assessment: Follow-up through October 26 did not verify a matched independent en
   A Pengcheng Laboratory preprint adds measured Ascend 910C scientific-computing results against
   A800/H800 controls, but it is not a model-training or inference comparison and does not use current
   frontier foreign hardware. Absence of a verified public result is not evidence of incapability.
-reviewed_at: 2026-10-26
+reviewed_at: 2026-10-27
 comparison:
   title: DeepSeek-R1 on Ascend 910C and H100
   date: 2025-06
@@ -33,6 +33,18 @@ comparison:
     batches, and speculative-decoding assumptions prevent a universal ratio. Perfect expert-balancing results
     are projections.
 studies:
+  - title: ubenchX core memory-access profiles
+    evidence: measured
+    date: Reviewed 2026-10-27; publication date unverified
+    finding: SemiAnalysis publishes scalar pointer-chase memory profiles for Ascend 950PR_9579
+      (128 MiB allocation, Cube and Vector controllers) and B200. Values measure differences
+      between matched-address profiles, not direct core-to-core latency or physical distance.
+      Ascend SYS_CNT ticks and B200 clock64 cycles are different units and cannot support a
+      cross-device latency ratio. Concurrent launches lack a grid-wide starting barrier; fine
+      grouping is less repeatable and does not establish physical cache sharing. These are
+      hardware microbenchmarks, not end-to-end AI performance; the Observatory did not rerun them.
+    source_ids:
+      - inferencex-core-memory-profiles
   - title: DeepInfer published performance scope
     evidence: vendor
     date: '2026-10-20'
