@@ -1,13 +1,12 @@
 schema_version: 2
 baseline_date: 2026-09-11
-last_research_at: '2026-10-27'
-last_automated_run_at: '2026-10-27'
+last_research_at: '2026-10-28'
+last_automated_run_at: '2026-10-28'
 last_run_status: partial
 coverage: >-
-  Screened 12 priority-1 companies and the four oldest-reviewed remaining profiles with October 19-27
-  overlap. Backfilled two primary filings and added an independent memory-microbenchmark study.
-  Only Zhiqi and Hwatsing profile dates advanced. Coverage remains partial; search-only checks do
-  not establish complete review of unindexed disclosures, private deployments or production metrics.
+  Screened 12 priority-1 companies and the four oldest-reviewed remaining profiles with October 20-28
+  overlap. Added reported CXMT HBM3E plans and JCET investment evidence; only their profile dates
+  advanced. Coverage remains partial for unindexed disclosures, private deployments and production metrics.
 timezone: Europe/London
 runs:
   - date: 2026-09-12
@@ -2397,6 +2396,49 @@ runs:
     - hwatsing-share-registration-2026-10-17
     - inferencex-core-memory-profiles
     - h3c
+    - mlperf-training
+    - mlperf-inference-6-1
+    - inferencex
+  - date: '2026-10-28'
+    status: partial
+    companies:
+    - aishengna
+    - amec
+    - cambricon
+    - cxmt
+    - enflame
+    - eoptolink
+    - huawei
+    - innolight
+    - naura
+    - smic
+    - ymtc
+    - yuliangsheng
+    - rslaser
+    - h3c
+    - jcet
+    - biren
+    summary: Screened the 12 priority-1 companies plus RSLaser, H3C, JCET and Biren, the four oldest-reviewed
+      remaining profiles, with overlapping English/Chinese searches from October 20. Added Reuters reporting
+      on CXMT HBM3E samples, limited-production plans and low yield estimates; original-page retrieval failed,
+      while the search service returned the Reuters syndication text. Syndication is not independent corroboration.
+      Preserved the earlier August small-volume report and all forecasts. Read Securities Daily reporting
+      of JCET's October 27 briefing; the SSE roadshow returned indexed management answers but an empty opened
+      page, so the new facts retain reported evidence labels. Only CXMT and JCET profile dates advanced.
+      H3C searches repeated September announcements; RSLaser, Aishengna and Yuliangsheng produced no verified
+      new qualification milestone. Biren search did not establish placement completion. Cambricon October
+      26 briefing coverage surfaced as a follow-up for shipment-rumour and supply-chain clarification; it
+      was not promoted to a verified new fact. Remaining search-only profiles keep their actual review dates.
+      Checked MLPerf Training v6.0 head eabf23a07b2a0c60a289ff871dc3a46fff0d0421 and Inference v6.1 head
+      4bb63cd28eb136be221bc801a9e38c66c8a7553f through GitHub, both unchanged. Read InferenceX landing coverage;
+      no new matched contemporary Chinese frontier end-to-end result was verified, and no exhaustive artifact
+      audit was performed. No historical news, correction, briefing or dated forecast was changed. Private
+      deployments, tenders, customer acceptance, shipment volume, yield verification, utilization, energy,
+      reliability and component provenance remain incompletely covered.
+    source_ids:
+    - cxmt-hbm3e-yields-2026-10-28
+    - cxmt-hbm3e-yields-2026-10-28-relay
+    - jcet-packaging-investment-2026-10-28
     - mlperf-training
     - mlperf-inference-6-1
     - inferencex

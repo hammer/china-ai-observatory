@@ -27,6 +27,15 @@ key_fact:
     - cxmt-hbm-reuters-2026-08-31
     - cxmt
 facts:
+  - label: HBM3E limited-production plan and yield estimates
+    value: Reuters sources report HBM3E samples sent to domestic chip designers, with limited production
+      expected within two months and estimated yields of 20-30%. CXMT did not comment; qualified shipment
+      volume remains unverified.
+    evidence: reported
+    as_of: '2026-10-28'
+    source_ids:
+    - cxmt-hbm3e-yields-2026-10-28
+    - cxmt-hbm3e-yields-2026-10-28-relay
   - label: 4F2 server-memory roadmap
     value: CXMT said its first product using a self-developed vertical-surrounding-gate 4F2 cell
       architecture would be a DDR5 RDIMM expected by year-end 2026. The company described related
@@ -112,7 +121,9 @@ source_ids:
   - cxmt-overfund-projects-2026-09-29
   - cxmt-nine-month-forecast-2026-10-17
   - cxmt-4f2-rdimm-2026-10-11
-reviewed_at: 2026-10-20
+  - cxmt-hbm3e-yields-2026-10-28
+  - cxmt-hbm3e-yields-2026-10-28-relay
+reviewed_at: 2026-10-28
 slug: cxmt
 layers:
   - memory
