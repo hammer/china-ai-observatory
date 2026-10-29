@@ -42,6 +42,16 @@ facts:
     as_of: '2026-09-30'
     source_ids:
     - cambricon-q3-2026-report
+  - label: Shipment guidance and inventory qualification
+    value: At the October 26 briefing, management said it had never communicated the million-chip shipment figure.
+      No SiYuan 690 shipment count or timetable was disclosed. Procurement reflects both customer orders and
+      forecast demand; stockpiles therefore do not establish fully contracted shipments. Management reported
+      RMB 501.6129 million of nine-month inventory write-down provisions, mainly associated with aging strategic
+      raw-material stocks.
+    evidence: reported
+    as_of: '2026-10-26'
+    source_ids:
+    - cambricon-shipment-clarification-2026-10-26
 watch_for:
   - Repeat deployments
   - Measured utilization
@@ -53,7 +63,8 @@ source_ids:
   - pytorch-china-2026-09-09
   - china-ai-accelerator-share-reuters-2026-10-13
   - cambricon-q3-2026-report
-reviewed_at: 2026-10-26
+  - cambricon-shipment-clarification-2026-10-26
+reviewed_at: 2026-10-29
 slug: cambricon
 layers:
   - accelerators

@@ -62,6 +62,14 @@ facts:
     as_of: 2026-10-08
     source_ids:
       - biren-placement-2026-10-08
+  - label: October placement completed
+    value: The October 12 filing confirms completion of 130 million H shares at HK$31.08, with HK$4.0404 billion
+      gross and approximately HK$4.0197 billion net proceeds. This closes the previously conditional October
+      transaction; funding availability does not establish completed procurement or qualified chip production.
+    evidence: primary
+    as_of: '2026-10-12'
+    source_ids:
+    - biren-placement-completion-2026-10-12
 watch_for:
   - Independent benchmarks
   - Customer utilization
@@ -73,7 +81,8 @@ source_ids:
   - biren-torchsupa-2026-09-07
   - biren-shanghai-lab-2026-09-10
   - biren-placement-2026-10-08
-reviewed_at: 2026-10-10
+  - biren-placement-completion-2026-10-12
+reviewed_at: 2026-10-29
 slug: biren
 layers:
   - accelerators

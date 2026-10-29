@@ -1,0 +1,16 @@
+slug: h3c-npo-standard-2026-10-28
+published_at: '2026-10-28'
+event_date: null
+title: H3C reports NPO connector standardization and 224G interoperability work
+summary: H3C says it helped draft OPEN NPO connector specifications for 6.4T/7.2T optical-engine interfaces
+  and the 224G AI Rack report. It describes multi-vendor 1.6T OSFP and DAC interoperability testing.
+impact: Interface coordination may reduce integration costs. Vendor-reported interoperability does not establish
+  production yield, full domestic component provenance or independent workload performance. The specification
+  documents and test artifacts were not separately audited.
+companies:
+- h3c
+source_ids:
+- h3c-npo-standard-2026-10-28
+evidence: vendor
+added_at: '2026-10-29'
+correction_of: null

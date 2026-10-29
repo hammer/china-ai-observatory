@@ -1,0 +1,16 @@
+slug: h3c-tsinghua-sig-2026-10-27
+published_at: '2026-10-27'
+event_date: null
+title: H3C describes shared 77-node GPU platform at Tsinghua SIG
+summary: H3C reports a shared university cluster with 77 GPU nodes, R5300 servers, 200G RoCE networking, X20000
+  storage and Lingxi orchestration.
+impact: Named adoption supports system-integration evidence. The thousand-card headline does not establish
+  an exact deployed GPU count. Unspecified GPU models and unsupported utilization/training speedup claims cannot
+  establish Chinese-accelerator or frontier parity.
+companies:
+- h3c
+source_ids:
+- h3c-tsinghua-sig-2026-10-27
+evidence: vendor
+added_at: '2026-10-29'
+correction_of: null

@@ -35,6 +35,23 @@ facts:
     as_of: 2026-09-29
     source_ids:
       - h3c-unipod-s81000-x1-2026-09-29
+  - label: NPO interface standardization
+    value: H3C reports co-authoring an OPEN NPO electrical-connector specification covering 6.4T/7.2T optical-engine
+      interfaces and a 224G AI Rack interconnect report. It also claims multi-vendor 224G interoperability with
+      1.6T OSFP modules and DAC cables; no public test harness, error-rate or power results were provided.
+    evidence: vendor
+    as_of: '2026-10-28'
+    source_ids:
+    - h3c-npo-standard-2026-10-28
+  - label: Named university deployment
+    value: H3C describes a 77-node GPU cluster at Tsinghua Shenzhen International Graduate School using R5300
+      servers, 200G RoCE, X20000 storage and Kubernetes-based Lingxi management. Its thousand-card framing is
+      not an exact installed-card count; GPU models, domestic origin and independently measured operating results
+      remain undisclosed.
+    evidence: vendor
+    as_of: '2026-10-27'
+    source_ids:
+    - h3c-tsinghua-sig-2026-10-27
 watch_for:
   - RDMA behavior under congestion
   - Switch and NIC silicon provenance
@@ -43,7 +60,9 @@ source_ids:
   - h3c
   - h3c-odx-2026-09-04
   - h3c-unipod-s81000-x1-2026-09-29
-reviewed_at: 2026-10-04
+  - h3c-npo-standard-2026-10-28
+  - h3c-tsinghua-sig-2026-10-27
+reviewed_at: 2026-10-29
 slug: h3c
 layers:
   - networking

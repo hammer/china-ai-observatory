@@ -1,12 +1,12 @@
 schema_version: 2
 baseline_date: 2026-09-11
-last_research_at: '2026-10-28'
+last_research_at: '2026-10-29'
 last_automated_run_at: '2026-10-28'
 last_run_status: partial
 coverage: >-
-  Screened 12 priority-1 companies and the four oldest-reviewed remaining profiles with October 20-28
-  overlap. Added reported CXMT HBM3E plans and JCET investment evidence; only their profile dates
-  advanced. Coverage remains partial for unindexed disclosures, private deployments and production metrics.
+  Screened 12 priority-1 companies and four oldest-reviewed remaining profiles with October 21-29
+  overlap and targeted backfill. Updated Cambricon, Biren and H3C; only these profile dates advanced.
+  Coverage remains partial for unindexed disclosures, private deployments and production metrics.
 timezone: Europe/London
 runs:
   - date: 2026-09-12
@@ -2439,6 +2439,49 @@ runs:
     - cxmt-hbm3e-yields-2026-10-28
     - cxmt-hbm3e-yields-2026-10-28-relay
     - jcet-packaging-investment-2026-10-28
+    - mlperf-training
+    - mlperf-inference-6-1
+    - inferencex
+  - date: '2026-10-29'
+    status: partial
+    companies:
+    - aishengna
+    - amec
+    - cambricon
+    - cxmt
+    - enflame
+    - eoptolink
+    - huawei
+    - innolight
+    - naura
+    - smic
+    - ymtc
+    - yuliangsheng
+    - rslaser
+    - h3c
+    - biren
+    - iluvatar
+    summary: Screened all 12 priority-1 companies plus RSLaser, H3C, Biren and Iluvatar, the four oldest-reviewed
+      remaining profiles, using overlapping English/Chinese searches for October 21-29. Read original National
+      Business Daily coverage of Cambricon's October 26 briefing; the SSE roadshow opened without text, so its
+      shipment and inventory clarification remains reported evidence. Backfilled Biren's October 12 placement
+      completion from the full HKEX filing, preserving the October 8 conditional announcement. Read H3C's October
+      27 university-deployment and October 28 NPO announcements; exact GPU count, silicon provenance and independent
+      performance remain unknown. Only Cambricon, Biren and H3C received new profile dates. Other profiles received
+      search screening only, with no new verified qualification milestone for RSLaser, Aishengna or Yuliangsheng;
+      Iluvatar results were largely older disclosures. Optical-policy commentary was not promoted to a new enacted
+      restriction; original regulatory texts and forthcoming earnings remain follow-up work. Checked MLPerf Training
+      v6.0 head eabf23a07b2a0c60a289ff871dc3a46fff0d0421 and Inference v6.1 head 4bb63cd28eb136be221bc801a9e38c66c8a7553f
+      through GitHub, both unchanged. Read InferenceX landing coverage; no new matched contemporary Chinese frontier
+      end-to-end result was verified. Individual benchmark artifacts were not exhaustively audited, and no benchmark
+      review date was advanced. Historical news, corrections, briefings and dated forecasts were preserved. Coverage
+      remains incomplete for tenders, private deployments, unindexed disclosures, customer acceptance, yields,
+      shipment volume, utilization, energy, reliability and component provenance.
+    source_ids:
+    - cambricon-shipment-clarification-2026-10-26
+    - biren-placement-completion-2026-10-12
+    - h3c-npo-standard-2026-10-28
+    - h3c-tsinghua-sig-2026-10-27
     - mlperf-training
     - mlperf-inference-6-1
     - inferencex
