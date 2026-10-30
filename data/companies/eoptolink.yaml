@@ -67,6 +67,15 @@ facts:
     as_of: '2026-10-23'
     source_ids:
     - eoptolink-operations-2026-10-23
+  - label: Nine-month growth and cash-flow pressure
+    value: The unaudited nine-month filing reports revenue of RMB 31.850 billion, up 92.97%. Operating cash flow
+      fell 68.42% to RMB 1.464 billion, attributed to increased material payments and taxes. September inventory
+      reached RMB 17.413 billion, up 140.70% from year-end, for existing and expected orders and stocking cycles.
+      The filing does not quantify qualified capacity or component provenance.
+    evidence: vendor
+    as_of: '2026-09-30'
+    source_ids:
+    - eoptolink-q3-2026-10-30
 watch_for:
   - Volume adoption of next-generation optics
   - Domestic DSP and laser substitution
@@ -80,7 +89,8 @@ source_ids:
   - eoptolink-ir-2026-09-11
   - optical-operations-cnr-2026-10-22
   - eoptolink-operations-2026-10-23
-reviewed_at: 2026-10-24
+  - eoptolink-q3-2026-10-30
+reviewed_at: 2026-10-30
 slug: eoptolink
 layers:
   - photonics

@@ -1,11 +1,11 @@
 schema_version: 2
 baseline_date: 2026-09-11
-last_research_at: '2026-10-29'
+last_research_at: '2026-10-30'
 last_automated_run_at: '2026-10-28'
 last_run_status: partial
 coverage: >-
-  Screened 12 priority-1 companies and four oldest-reviewed remaining profiles with October 21-29
-  overlap and targeted backfill. Updated Cambricon, Biren and H3C; only these profile dates advanced.
+  Screened 12 priority-1 companies and four oldest-reviewed remaining profiles with October 22-30
+  overlap. Added InnoLight, Eoptolink and Kingsemi quarterly filings; only these profile dates advanced.
   Coverage remains partial for unindexed disclosures, private deployments and production metrics.
 timezone: Europe/London
 runs:
@@ -2482,6 +2482,48 @@ runs:
     - biren-placement-completion-2026-10-12
     - h3c-npo-standard-2026-10-28
     - h3c-tsinghua-sig-2026-10-27
+    - mlperf-training
+    - mlperf-inference-6-1
+    - inferencex
+  - date: '2026-10-30'
+    status: partial
+    companies:
+    - aishengna
+    - amec
+    - cambricon
+    - cxmt
+    - enflame
+    - eoptolink
+    - huawei
+    - innolight
+    - naura
+    - smic
+    - ymtc
+    - yuliangsheng
+    - rslaser
+    - iluvatar
+    - kingsemi
+    - kunlunxin
+    summary: Screened all 12 priority-1 companies plus RSLaser, Iluvatar, Kingsemi and Kunlunxin, the four oldest-reviewed
+      remaining profiles, using overlapping English/Chinese searches for October 22-30. Read InnoLight, Eoptolink
+      and Kingsemi unaudited third-quarter filings at Sina mirrors. Formal filing dates are October 30; October
+      29 press coverage surfaced them earlier. Financial period-end dates remain September 30. Added revenue,
+      inventory and cash-flow evidence without converting asset investment into qualified capacity, stockpiles
+      into shipments, or financial reports into independent technical measurements. Only these three profile
+      dates advanced. Kunlunxin and Iluvatar news indexes surfaced October 23 MiniMax compatibility claims and
+      Kunlunxin/openEuler certification; exact announcement and test artifacts remain follow-up work. RSLaser,
+      Aishengna and Yuliangsheng searches did not establish a new qualification milestone; other search-only
+      profiles retain their dates. Checked MLPerf Training v6.0 head eabf23a07b2a0c60a289ff871dc3a46fff0d0421
+      and Inference v6.1 head 4bb63cd28eb136be221bc801a9e38c66c8a7553f through GitHub, unchanged. Read InferenceX
+      landing coverage, whose Ascend microbenchmarks are already registered; no new matched contemporary Chinese
+      frontier end-to-end comparison was verified. Individual benchmark artifacts were not exhaustively audited
+      and no benchmark review date advanced. Historical news, corrections, briefings and dated forecasts are
+      preserved. Coverage remains incomplete for private deployments, unindexed disclosures, tenders, customer
+      acceptance, shipment volume, yield, utilization, reliability, energy and component provenance.
+    source_ids:
+    - innolight-q3-2026-10-30
+    - eoptolink-q3-2026-10-30
+    - kingsemi-q3-2026-10-30
     - mlperf-training
     - mlperf-inference-6-1
     - inferencex

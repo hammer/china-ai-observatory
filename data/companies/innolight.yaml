@@ -55,6 +55,15 @@ facts:
     as_of: '2026-10-23'
     source_ids:
     - innolight-operations-2026-10-23
+  - label: Nine-month sales and inventory expansion
+    value: The unaudited nine-month filing reports revenue of RMB 69.547 billion, up 178.13%, with continued
+      800G/1.6T sales growth. September inventory was RMB 23.878 billion, up 88.30% from year-end, attributed
+      to order-related stockpiling. Operating cash flow was RMB 8.008 billion. These are company financial disclosures,
+      not qualified capacity or component-provenance measurements.
+    evidence: vendor
+    as_of: '2026-09-30'
+    source_ids:
+    - innolight-q3-2026-10-30
 watch_for:
   - 1.6T product shipments and customer qualification
   - DSP and laser sourcing
@@ -67,7 +76,8 @@ source_ids:
   - us-optical-transceiver-bill-reuters-2026-09-25
   - optical-operations-cnr-2026-10-22
   - innolight-operations-2026-10-23
-reviewed_at: 2026-10-24
+  - innolight-q3-2026-10-30
+reviewed_at: 2026-10-30
 slug: innolight
 layers:
   - photonics

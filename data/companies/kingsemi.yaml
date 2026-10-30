@@ -31,13 +31,23 @@ facts:
     as_of: 2026-06-30
     source_ids:
       - kingsemi-capacity-2026-10-10
+  - label: Nine-month delivery revenue and operating losses
+    value: The unaudited filing reports nine-month revenue of RMB 1.334 billion, up 34.73%, attributable net
+      loss of RMB 55.0 million and operating cash outflow of RMB 446.7 million. Management links revenue growth
+      to orders, deliveries and acceptance; higher personnel and procurement payments reduced cash flow. Accepted-tool
+      counts, process nodes, throughput and defect rates remain undisclosed.
+    evidence: vendor
+    as_of: '2026-09-30'
+    source_ids:
+    - kingsemi-q3-2026-10-30
 watch_for:
   - Advanced lithography integration
   - Customer-qualified throughput and defect rates
 source_ids:
   - kingsemi
   - kingsemi-capacity-2026-10-10
-reviewed_at: 2026-10-13
+  - kingsemi-q3-2026-10-30
+reviewed_at: 2026-10-30
 slug: kingsemi
 layers:
   - equipment
