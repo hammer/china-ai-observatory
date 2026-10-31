@@ -1,0 +1,15 @@
+slug: kunlunxin-openeuler-2026-10-19
+published_at: '2026-10-19'
+event_date: null
+title: openEuler and Kunlunxin report P800 compatibility certification
+summary: openEuler announced P800 compatibility certification on October 19; Kunlunxin reposted it October
+  23. The partners report seven passing tests of the basic operating environment.
+impact: This adds operating-system integration evidence. No matched training or inference result or production-scale
+  reliability measurement is established.
+companies:
+- kunlunxin
+source_ids:
+- kunlunxin-openeuler-2026-10-19
+evidence: vendor
+added_at: '2026-10-31'
+correction_of: null

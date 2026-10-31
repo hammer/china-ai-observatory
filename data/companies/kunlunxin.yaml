@@ -41,6 +41,14 @@ facts:
     as_of: 2026-09-10
     source_ids:
       - kunlunxin-minicpm-2026-09-10
+  - label: P800 operating-system compatibility
+    value: openEuler reports all seven compatibility subtests passed, covering device identification, driver
+      and SDK deployment, and host/device and device/device links. This is partner-reported runtime compatibility,
+      not independent AI workload performance, reliability at scale or CUDA parity.
+    evidence: vendor
+    as_of: '2026-10-19'
+    source_ids:
+    - kunlunxin-openeuler-2026-10-19
 watch_for:
   - Customer adoption beyond affiliated workloads
   - Model-specific cost/performance
@@ -51,7 +59,8 @@ source_ids:
   - china-ai-accelerator-share-reuters-2026-10-13
   - kunlunxin-rlinf-2026-10-10
   - rlinf-kunlunxin-support
-reviewed_at: 2026-10-13
+  - kunlunxin-openeuler-2026-10-19
+reviewed_at: 2026-10-31
 slug: kunlunxin
 layers:
   - accelerators

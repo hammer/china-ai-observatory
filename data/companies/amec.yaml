@@ -76,6 +76,15 @@ facts:
     as_of: 2026-10-09
     source_ids:
       - amec-qinghe-jingyuan-investment-2026-10-13
+  - label: September production footprint
+    value: The unaudited quarterly filing reports more than 9,300 cumulative reaction chambers in volume-production
+      lines domestically and overseas by September 30. Nine-month revenue was RMB 10.326 billion; attributable
+      profit excluding non-recurring items was RMB 1.623 billion. Product mix, named customers, nodes, utilization
+      and yield contribution remain undisclosed.
+    evidence: vendor
+    as_of: '2026-09-30'
+    source_ids:
+    - amec-q3-2026-10-31
 watch_for:
   - Advanced-process customer qualifications
   - Repeat orders and production utilization
@@ -88,7 +97,8 @@ source_ids:
   - amec-cseac-2026-09-05
   - amec-qinghe-jingyuan-investment-2026-10-13
   - guoxin-expo-2026-10-12
-reviewed_at: 2026-10-20
+  - amec-q3-2026-10-31
+reviewed_at: 2026-10-31
 slug: amec
 layers:
   - equipment

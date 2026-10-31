@@ -1,12 +1,12 @@
 schema_version: 2
 baseline_date: 2026-09-11
-last_research_at: '2026-10-30'
-last_automated_run_at: '2026-10-28'
+last_research_at: '2026-10-31'
+last_automated_run_at: '2026-10-31'
 last_run_status: partial
 coverage: >-
-  Screened 12 priority-1 companies and four oldest-reviewed remaining profiles with October 22-30
-  overlap. Added InnoLight, Eoptolink and Kingsemi quarterly filings; only these profile dates advanced.
-  Coverage remains partial for unindexed disclosures, private deployments and production metrics.
+  Screened 12 priority-1 companies and four oldest-reviewed remaining profiles with October 23-31
+  overlap. Updated AMEC and Kunlunxin from primary disclosures; only their profile dates advanced.
+  Coverage is partial, with earnings and software follow-ups outstanding.
 timezone: Europe/London
 runs:
   - date: 2026-09-12
@@ -2524,6 +2524,46 @@ runs:
     - innolight-q3-2026-10-30
     - eoptolink-q3-2026-10-30
     - kingsemi-q3-2026-10-30
+    - mlperf-training
+    - mlperf-inference-6-1
+    - inferencex
+  - date: '2026-10-31'
+    status: partial
+    companies:
+    - aishengna
+    - amec
+    - cambricon
+    - cxmt
+    - enflame
+    - eoptolink
+    - huawei
+    - innolight
+    - naura
+    - smic
+    - ymtc
+    - yuliangsheng
+    - rslaser
+    - iluvatar
+    - kunlunxin
+    - thead
+    summary: Screened 12 priority-1 companies and the four oldest-reviewed remaining profiles with grouped Chinese
+      and English searches overlapping October 23-31. Read AMEC quarterly filing at the Sina mirror after the
+      SSE PDF was inaccessible; added September cumulative chamber scale while preserving the June snapshot.
+      Read openEuler October 19 announcement and Kunlunxin October 23 repost to resolve a prior follow-up; recorded
+      the earlier publication and left the precise certification event date unknown. Only AMEC and Kunlunxin
+      review dates advanced. NAURA and CXMT quarterly results surfaced but primary filings remain follow-up work.
+      Iluvatar model-adaptation artifacts and T-Head updates were not substantively verified. RSLaser, Aishengna
+      and Yuliangsheng searches mostly repeated earlier DUV reports; no new qualification milestone was established.
+      Search-only profiles retain their dates. Checked MLPerf Training v6.0 head eabf23a07b2a0c60a289ff871dc3a46fff0d0421
+      and Inference v6.1 head 4bb63cd28eb136be221bc801a9e38c66c8a7553f through GitHub, unchanged. Read InferenceX
+      landing coverage; Ascend microbenchmarks are already registered and no new matched contemporary Chinese
+      frontier end-to-end comparison was verified. Individual benchmark artifacts were not exhaustively audited.
+      Historical reports, corrections and forecasts are preserved. Coverage remains incomplete for private deployments,
+      tenders, unindexed disclosures, customer acceptance, unit shipments, yield, utilization, energy, reliability
+      and component provenance.
+    source_ids:
+    - amec-q3-2026-10-31
+    - kunlunxin-openeuler-2026-10-19
     - mlperf-training
     - mlperf-inference-6-1
     - inferencex
