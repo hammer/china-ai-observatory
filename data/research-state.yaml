@@ -1,9 +1,9 @@
 schema_version: 2
 baseline_date: 2026-09-11
 last_research_at: '2026-11-01'
-last_automated_run_at: '2026-10-31'
+last_automated_run_at: '2026-11-01'
 last_run_status: partial
-coverage: Screened 12 priority-1 companies and four oldest-reviewed remaining profiles with October 24-November 1 overlap. Updated NAURA and CXMT from quarterly filings; only their profile dates advanced. Coverage remains partial.
+coverage: October monthly synthesis completed with explicitly partial public-source coverage; company review dates unchanged. See the November 1 daily sweep and monthly run entries for actual scope.
 timezone: Europe/London
 runs:
   - date: 2026-09-12
@@ -2603,3 +2603,38 @@ runs:
     - mlperf-training
     - mlperf-inference-6-1
     - inferencex
+  - date: '2026-11-01'
+    status: partial
+    companies:
+    - amec
+    - biren
+    - cambricon
+    - cxmt
+    - eoptolink
+    - huawei
+    - innolight
+    - jcet
+    - kunlunxin
+    - naura
+    - thead
+    summary: Prepared the missing October 1-31 monthly briefing using the monthly helper with as-of November
+      1. Reviewed selected October records, reread consequential sources and ran English/Chinese gap searches.
+      Preserved all earlier editions and dated forecasts. No company profiles were re-dated for this synthesis.
+      Included October NAURA/CXMT filings recorded November 1 on their actual publication dates. Source-access
+      limitations, unverified broker deployment claims and non-exhaustive benchmark coverage are disclosed in
+      the report. Report complete for the closed period; underlying research remains partial.
+    source_ids:
+    - china-ai-accelerator-share-reuters-2026-10-13
+    - cambricon-q3-2026-report
+    - deepinfer-release-2026-10-20
+    - spark-audio-domestic-training-2026-10-22
+    - cxmt-hbm3e-yields-2026-10-28
+    - cxmt-hbm3e-yields-2026-10-28-relay
+    - cxmt-q3-2026-10-31
+    - amec-q3-2026-10-31
+    - naura-q3-2026-10-30
+    - innolight-operations-2026-10-23
+    - eoptolink-operations-2026-10-23
+    - biren-placement-completion-2026-10-12
+    - jcet-packaging-investment-2026-10-28
+    - semianalysis-ascend-950pr-2026-10-21
