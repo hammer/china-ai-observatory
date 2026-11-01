@@ -12,9 +12,8 @@ assessment: >-
   providing a named LPDDR6 handset design-in. Adequate domestic HBM volume and frontier HBM performance
   remain separate milestones. Proposed post-IPO research and back-end-testing projects would expand
   vertical integration, but approved funding is not completed capacity. The reported NAND project is
-  an R&D-line plan, not evidence of qualified commercial output. An unaudited nine-month forecast
-  reports a sharp revenue increase and profit turnaround amid higher DRAM prices and utilization,
-  strengthening commercial-scale evidence without disclosing unit volume, yield or product mix.
+  an R&D-line plan, not evidence of qualified commercial output. The unaudited nine-month filing falls within the earlier earnings forecast. Sixth-generation
+  DRAM engineering-sample validation is reported, but customer qualification and production remain unverified.
   Its announced 4F2 VSG roadmap targets a server DDR5 RDIMM by year-end 2026, but no completed
   product, qualification, capacity, speed or density was disclosed.
 key_fact:
@@ -27,6 +26,15 @@ key_fact:
     - cxmt-hbm-reuters-2026-08-31
     - cxmt
 facts:
+  - label: Sixth-generation DRAM engineering validation
+    value: CXMT reports completion of engineering-sample validation for DRAM developed on its sixth-generation
+      platform. Its unaudited nine-month results show RMB 269.024 billion revenue and RMB 132.040 billion attributable
+      net profit, within the earlier forecast. Product specifications, customer qualification, yield and production
+      volume remain undisclosed.
+    evidence: vendor
+    as_of: '2026-09-30'
+    source_ids:
+    - cxmt-q3-2026-10-31
   - label: HBM3E limited-production plan and yield estimates
     value: Reuters sources report HBM3E samples sent to domestic chip designers, with limited production
       expected within two months and estimated yields of 20-30%. CXMT did not comment; qualified shipment
@@ -110,6 +118,7 @@ watch_for:
   - Shareholder approval, construction and operating milestones for the research and testing projects
   - Launch, independent validation and server qualification of the planned 4F2 DDR5 RDIMM
 source_ids:
+  - cxmt-q3-2026-10-31
   - cxmt-hbm
   - cxmt-hbm-reuters-2026-08-31
   - cxmt
@@ -123,7 +132,7 @@ source_ids:
   - cxmt-4f2-rdimm-2026-10-11
   - cxmt-hbm3e-yields-2026-10-28
   - cxmt-hbm3e-yields-2026-10-28-relay
-reviewed_at: 2026-10-28
+reviewed_at: 2026-11-01
 slug: cxmt
 layers:
   - memory

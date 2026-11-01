@@ -1,12 +1,9 @@
 schema_version: 2
 baseline_date: 2026-09-11
-last_research_at: '2026-10-31'
+last_research_at: '2026-11-01'
 last_automated_run_at: '2026-10-31'
 last_run_status: partial
-coverage: >-
-  Screened 12 priority-1 companies and four oldest-reviewed remaining profiles with October 23-31
-  overlap. Updated AMEC and Kunlunxin from primary disclosures; only their profile dates advanced.
-  Coverage is partial, with earnings and software follow-ups outstanding.
+coverage: Screened 12 priority-1 companies and four oldest-reviewed remaining profiles with October 24-November 1 overlap. Updated NAURA and CXMT from quarterly filings; only their profile dates advanced. Coverage remains partial.
 timezone: Europe/London
 runs:
   - date: 2026-09-12
@@ -2564,6 +2561,45 @@ runs:
     source_ids:
     - amec-q3-2026-10-31
     - kunlunxin-openeuler-2026-10-19
+    - mlperf-training
+    - mlperf-inference-6-1
+    - inferencex
+  - date: '2026-11-01'
+    status: partial
+    companies:
+    - aishengna
+    - amec
+    - cambricon
+    - cxmt
+    - enflame
+    - eoptolink
+    - huawei
+    - innolight
+    - naura
+    - smic
+    - ymtc
+    - yuliangsheng
+    - rslaser
+    - iluvatar
+    - thead
+    - metax
+    summary: Screened priority-1 companies and the four oldest-reviewed remaining profiles with grouped English
+      and Chinese searches overlapping October 24-November 1. Read NAURA CNInfo quarterly filing and CXMT quarterly
+      filing at Sina, resolving prior earnings follow-ups. Added material-supply delivery constraints and sixth-generation
+      DRAM engineering-sample validation; preserved historical forecasts and earlier production snapshots. Only
+      NAURA and CXMT profile dates advanced. CXMT October 30 investor-call record surfaced with a year-end RDIMM
+      sampling target, but full-page retrieval failed; precise roadmap clarification remains follow-up work.
+      MetaX CNCC recap retrieval timed out; Iluvatar software artifacts and T-Head developments were not substantively
+      verified. Lithography searches returned earlier reports without new verified qualification milestones.
+      Search-only profiles retain dates. Checked unchanged MLPerf Training v6.0 head eabf23a07b2a0c60a289ff871dc3a46fff0d0421
+      and Inference v6.1 head 4bb63cd28eb136be221bc801a9e38c66c8a7553f. Read InferenceX landing coverage; registered
+      Ascend microbenchmarks remain distinct from end-to-end workload comparisons. No new matched contemporary
+      Chinese frontier benchmark was verified; individual artifacts were not exhaustively audited. Coverage remains
+      incomplete for unindexed disclosures, private deployments, tenders, customer acceptance, unit shipments,
+      yield, utilization, energy, reliability and component provenance.
+    source_ids:
+    - naura-q3-2026-10-30
+    - cxmt-q3-2026-10-31
     - mlperf-training
     - mlperf-inference-6-1
     - inferencex

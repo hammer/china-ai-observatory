@@ -21,6 +21,14 @@ key_fact:
   source_ids:
     - naura-2026-h1-report
 facts:
+  - label: Nine-month sales and delivery constraints
+    value: NAURA reports RMB 31.467 billion revenue (+15.26%) and RMB 5.591 billion operating cash inflow (+317.84%).
+      It says shortages in certain materials pressure some deliveries, while new-product customer validation
+      and component upgrades contributed to lower margins. Affected inputs and order values are unspecified.
+    evidence: vendor
+    as_of: '2026-09-30'
+    source_ids:
+    - naura-q3-2026-10-30
   - label: Hybrid-bonding acquisition agreement
     value: NAURA Microelectronics signed an agreement to acquire 100% of Nuohe Jianwei for RMB 404.6
       million. The target's hybrid-bonding systems were described as being in product validation and
@@ -65,12 +73,13 @@ watch_for:
   - Installed base and service revenue
   - Production yield at advanced nodes
 source_ids:
+  - naura-q3-2026-10-30
   - naura
   - naura-2026-h1-report
   - naura-ale-primary
   - naura-ale-2026-09-24
   - naura-nuohe-jianwei-acquisition-2026-10-16
-reviewed_at: 2026-10-16
+reviewed_at: 2026-11-01
 slug: naura
 layers:
   - equipment
