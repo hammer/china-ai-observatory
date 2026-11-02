@@ -1,0 +1,118 @@
+slug: weekly-2026-10-26-complete
+cadence: weekly
+period_start: '2026-10-26'
+period_end: '2026-11-01'
+through_date: '2026-11-01'
+published_at: '2026-11-02'
+status: complete
+title: Memory constraints and capacity investment frame domestic compute expansion
+summary: Reported memory sampling and MetaX training results broaden the evidence of domestic capability.
+  Packaging investment and optical revenue show commercial scale, while HBM yields, material shortages
+  and working capital constrain what can be inferred about sustainable output. No dated forecast changed.
+sections:
+- heading: Memory sampling advances while production economics remain uncertain
+  body: Reuters reported on October 28, citing unnamed sources, that CXMT had supplied HBM3E samples to
+    domestic accelerator designers and expected limited production within two months. Reported yields
+    were only 20–30%; CXMT did not respond. These are reported plans and estimates, not verified commercial
+    output. Separately, CXMT’s October 30 investor call, published October 31, targeted first 4F2 DDR5
+    RDIMM samples by year-end, with production dependent on customer qualification and demand. Server
+    DRAM and HBM are distinct products. Neither disclosure establishes qualified HBM volume, acceptable
+    cost or a fully domestic manufacturing flow; earlier dated production claims remain preserved.
+  source_ids:
+  - cxmt-hbm3e-yields-2026-10-28
+  - cxmt-hbm3e-yields-2026-10-28-relay
+  - cxmt-rdimm-sampling-2026-10-31
+- heading: MetaX reports a larger training run, with narrowly scoped scaling evidence
+  body: MetaX’s October 26 announcement reports Pi0.5 supervised fine-tuning on RoboTwin with 1,024 C-series
+    GPUs across 128 eight-GPU servers, completing 20,000 steps in 32 hours. Reported throughput was 2.75
+    samples per second per GPU, versus 2.8 at 512 GPUs. Its separate above-97% scaling claim concerns
+    8–64 GPUs running asynchronous PPO on ManiSkill, not the thousand-GPU SFT run. These are vendor measurements
+    across different workloads. They strengthen evidence of usable domestic training infrastructure without
+    establishing independent replication, frontier pretraining time-to-quality, matched cross-hardware
+    efficiency or production reliability.
+  source_ids:
+  - metax-rlinf-validation-2026-10-26
+- heading: Cambricon separates commercial growth from an unconfirmed shipment forecast
+  body: 'At its October 26 results discussion, Cambricon said it had never communicated the market’s million-chip
+    shipment figure and provided no specific delivery schedule for Siyuan 690. Management said procurement
+    reflects both customer orders and forecasts. Its reported nine-month inventory provision of RMB 501.6
+    million reinforces the need to distinguish stockpiling from accepted shipments. This clarification
+    narrows what can be inferred from earlier growth disclosures: revenue, inventory and procurement commitments
+    do not establish accelerator unit deliveries or customer utilization.'
+  source_ids:
+  - cambricon-shipment-clarification-2026-10-26
+- heading: Packaging investment rises as equipment supply still constrains delivery
+  body: JCET’s October 27 results discussion, reported October 28, put nine-month fixed capital expenditure
+    near RMB 8.9 billion. Its revised 2026 investment plan rises from RMB 11.01 billion to RMB 18.2 billion,
+    including RMB 17.31 billion of fixed-asset investment; management says the increment principally targets
+    advanced-packaging lines. The plan is consequential capacity investment, but is not itself customer-qualified
+    output. NAURA’s October 30 unaudited filing separately reports growing orders and delivery pressure
+    from shortages in some material categories. It does not identify those inputs’ provenance. Together
+    these disclosures show demand and expansion alongside unresolved execution constraints, rather than
+    proof of a self-sufficient production chain.
+  source_ids:
+  - jcet-packaging-investment-2026-10-28
+  - naura-q3-2026-10-30
+- heading: Optical growth carries working-capital demands
+  body: October 30 unaudited filings put nine-month revenue at RMB 69.547 billion for InnoLight and RMB
+    31.850 billion for Eoptolink. InnoLight’s September-end inventory reached RMB 23.878 billion, attributed
+    to materials prepared for orders. Eoptolink’s nine-month operating cash flow was RMB 1.464 billion,
+    down 68.42% year on year. These are commercial and financing signals, not counts of shipped 800G/1.6T
+    modules, production yields or evidence that foreign optical components have been replaced. The relevant
+    next test is conversion of orders and inventory into accepted deliveries and cash, alongside component-level
+    provenance.
+  source_ids:
+  - innolight-q3-2026-10-30
+  - eoptolink-q3-2026-10-30
+- heading: Forecasts unchanged; publication-day checks remain separate
+  body: 'No dated Observatory forecast changes. The 2027–2030 HBM/advanced-packaging and late-2020s frontier-pretraining
+    judgments remain intact. Prioritize qualified HBM deliveries and yields, actual RDIMM sampling, accepted
+    packaging capacity, resolution of equipment-material shortages and reproducible training or inference
+    comparisons with matched quality and operating conditions. Post-period context: the November 2 research
+    check found no new matched contemporary Chinese frontier end-to-end comparison in the inspected MLPerf
+    repositories and InferenceX coverage. That check was not an exhaustive artifact audit or a reconstruction
+    of what each leaderboard displayed on November 1. Existing independent kernel evidence remains distinct
+    from end-to-end system parity, and standardized submitter-run benchmarks are not automatically independent
+    replications.'
+  source_ids:
+  - cxmt-hbm3e-yields-2026-10-28
+  - jcet-packaging-investment-2026-10-28
+  - mlperf-training
+  - mlperf-inference-6-1
+  - inferencex
+news_ids:
+- cxmt-hbm3e-yields-2026-10-28
+- cxmt-rdimm-sampling-2026-10-31
+- metax-rlinf-validation-2026-10-26
+- cambricon-shipment-clarification-2026-10-26
+- jcet-packaging-investment-2026-10-28
+- naura-q3-2026-10-30
+- innolight-q3-2026-10-30
+- eoptolink-q3-2026-10-30
+source_ids:
+- cambricon-shipment-clarification-2026-10-26
+- cxmt-hbm3e-yields-2026-10-28
+- cxmt-hbm3e-yields-2026-10-28-relay
+- cxmt-rdimm-sampling-2026-10-31
+- eoptolink-q3-2026-10-30
+- inferencex
+- innolight-q3-2026-10-30
+- jcet-packaging-investment-2026-10-28
+- metax-rlinf-validation-2026-10-26
+- mlperf-inference-6-1
+- mlperf-training
+- naura-q3-2026-10-30
+coverage_note: This closed-period edition selects eight consequential events public October 26–November
+  1 from thirteen in-period archive records. It synthesizes CXMT, MetaX, Cambricon, JCET, NAURA, InnoLight
+  and Eoptolink; it is not a new full-profile sweep. MetaX and CXMT sampling records were added November
+  2 but concern public in-period disclosures. Their original texts were reviewed in the separately logged
+  November 2 daily sweep; repeat retrieval during briefing preparation timed out or failed, so this synthesis
+  relies on those same-day checks. Reuters HBM reporting was reread through its accessible relay, which
+  is not independent corroboration. Financial statements cover earlier operating periods but were published
+  during this week. Supplemental English/Chinese gap searches returned existing or older reporting; unresolved
+  Iluvatar performance reporting and other conference leads are not promoted to benchmark evidence. The
+  changing RLinf pull-request record is excluded from claims about period-end knowledge. Publication-day
+  benchmark checks are explicitly post-period and not exhaustive. Private deployments, tenders, unindexed
+  disclosures, customer acceptance, qualified production volumes, yield, power, reliability and component
+  provenance remain incompletely covered. Complete describes the calendar period, not exhaustive research
+  coverage. All earlier reports and dated forecasts are retained.

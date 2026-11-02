@@ -3,8 +3,9 @@ baseline_date: 2026-09-11
 last_research_at: 2026-11-02
 last_automated_run_at: 2026-11-02
 last_run_status: partial
-coverage: 'November 2 partial sweep: 12 priority-1 companies and four oldest remaining profiles screened;
-  CXMT and MetaX substantively updated. Search-only profiles retain their actual review dates.'
+coverage: 'November 2 daily sweep and October 26–November 1 weekly synthesis completed;
+  underlying research remains partial. The weekly report covers eight selected events across seven
+  companies and does not advance profile review dates.'
 timezone: Europe/London
 runs:
   - date: 2026-09-12
@@ -2683,3 +2684,35 @@ runs:
     - mlperf-training
     - mlperf-inference-6-1
     - inferencex
+
+  - date: '2026-11-02'
+    status: partial
+    companies:
+    - cxmt
+    - metax
+    - cambricon
+    - jcet
+    - naura
+    - innolight
+    - eoptolink
+    summary: Prepared the missing October 26–November 1 weekly briefing with the weekly helper as of November
+      2. Reviewed thirteen in-period archive records and synthesized eight selected events. Reread Reuters
+      relay, Cambricon clarification, JCET investment reporting, NAURA and optical filings; ran overlapping
+      English/Chinese gap searches. Repeat MetaX and CXMT sampling retrieval failed, so retained the separately
+      recorded same-day primary-source review and disclosed this limitation. Excluded evolving upstream
+      PR details from period-end claims. Publication-day benchmark checks are labeled post-period. No new
+      profile review dates or forecasts; all prior editions preserved. Closed-period report complete, research
+      coverage partial.
+    source_ids:
+    - cambricon-shipment-clarification-2026-10-26
+    - cxmt-hbm3e-yields-2026-10-28
+    - cxmt-hbm3e-yields-2026-10-28-relay
+    - cxmt-rdimm-sampling-2026-10-31
+    - eoptolink-q3-2026-10-30
+    - inferencex
+    - innolight-q3-2026-10-30
+    - jcet-packaging-investment-2026-10-28
+    - metax-rlinf-validation-2026-10-26
+    - mlperf-inference-6-1
+    - mlperf-training
+    - naura-q3-2026-10-30
