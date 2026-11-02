@@ -11,7 +11,9 @@ assessment: >-
   after a year-earlier loss. This strengthens evidence of commercial scale, but the forecast was
   unaudited and said increased investment in supply-chain companies also contributed to the
   profit change. Compatibility and financial evidence do not establish application performance,
-  correctness across workloads, memory provenance or frontier parity.
+  correctness across workloads, memory provenance or frontier parity. Its October RLinf disclosure adds
+  vendor training measurements, while the merged upstream PR records narrower hardware tests and
+  outstanding validation of later fixes.
 key_fact:
   label: Research status
   value: Named commercial supplier; comparable independent benchmark still needed
@@ -20,6 +22,22 @@ key_fact:
   source_ids:
     - hbm-reuters
 facts:
+  - label: RLinf upstream integration
+    value: Merged PR 1656 adds MACA support. Author-reported tests used eight C550 GPUs on the original
+      submission; subsequent fixes were not rerun on MetaX hardware. ManiSkill uses CPU physics, and no
+      MetaX CI job was wired in.
+    evidence: primary
+    as_of: '2026-11-02'
+    source_ids:
+    - rlinf-metax-upstream-pr-1656
+  - label: Embodied-model training disclosure
+    value: MetaX reports Pi0.5/RoboTwin SFT on 1,024 C-series GPUs (128 eight-card nodes), with 20,000 steps
+      completed in 32 hours. These are vendor measurements without matched foreign-hardware time-to-quality
+      or power controls.
+    evidence: vendor
+    as_of: '2026-10-26'
+    source_ids:
+    - metax-rlinf-validation-2026-10-26
   - label: Nine-month earnings forecast
     value: Company forecast January-September revenue of RMB 2.541-3.106 billion and attributable
       net profit of RMB 586.8-717.2 million, versus a RMB 345.5 million loss a year earlier. The
@@ -41,10 +59,12 @@ watch_for:
   - Product availability
   - Memory sourcing
 source_ids:
+  - metax-rlinf-validation-2026-10-26
+  - rlinf-metax-upstream-pr-1656
   - hbm-reuters
   - metax-atria-2026-09-14
   - metax-nine-month-forecast-2026-10-16
-reviewed_at: 2026-10-16
+reviewed_at: 2026-11-02
 slug: metax
 layers:
   - accelerators

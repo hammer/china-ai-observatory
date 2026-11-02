@@ -1,9 +1,10 @@
 schema_version: 2
 baseline_date: 2026-09-11
-last_research_at: '2026-11-01'
-last_automated_run_at: '2026-11-01'
+last_research_at: 2026-11-02
+last_automated_run_at: 2026-11-02
 last_run_status: partial
-coverage: October monthly synthesis completed with explicitly partial public-source coverage; company review dates unchanged. See the November 1 daily sweep and monthly run entries for actual scope.
+coverage: 'November 2 partial sweep: 12 priority-1 companies and four oldest remaining profiles screened;
+  CXMT and MetaX substantively updated. Search-only profiles retain their actual review dates.'
 timezone: Europe/London
 runs:
   - date: 2026-09-12
@@ -2638,3 +2639,47 @@ runs:
     - biren-placement-completion-2026-10-12
     - jcet-packaging-investment-2026-10-28
     - semianalysis-ascend-950pr-2026-10-21
+
+  - date: '2026-11-02'
+    status: partial
+    companies:
+    - aishengna
+    - amec
+    - cambricon
+    - cxmt
+    - enflame
+    - eoptolink
+    - huawei
+    - innolight
+    - naura
+    - smic
+    - ymtc
+    - yuliangsheng
+    - rslaser
+    - iluvatar
+    - thead
+    - metax
+    summary: Screened priority-1 companies and four oldest remaining profiles with grouped English/Chinese
+      searches overlapping October 25-November 2. Retrieved CXMT October 30 investor-record PDF, resolving
+      the prior full-text access gap and clarifying year-end RDIMM sampling. Read MetaX CNCC recap and followed
+      its RLinf announcement; verified merged upstream PR 1656, original eight-C550 hardware checks and
+      follow-up limitations. Added vendor thousand-GPU SFT evidence with distinct 8-to-64-GPU scaling scope.
+      Only CXMT and MetaX profile dates advanced. Iluvatar October 28 H200-comparison reporting surfaced,
+      but original test report/configurations were not obtained; company news listing rendered no articles.
+      Its headline ratio remains a follow-up lead, not measured benchmark evidence. T-Head search results
+      and developer index did not establish a new reviewed event. Lithography results remained older reporting
+      without verified acceptance/yield. SMIC October 31 notice schedules Q3 results after trading November
+      12 and a November 13 call; no Q3 results yet verified. Enflame conference claims, optics investor
+      follow-ups and MetaX Q3 filing remain follow-up work. Checked unchanged MLPerf Training v6.0 head
+      eabf23a07b2a0c60a289ff871dc3a46fff0d0421 and Inference v6.1 head 4bb63cd28eb136be221bc801a9e38c66c8a7553f,
+      plus InferenceX landing coverage. No new matched contemporary Chinese frontier comparison verified;
+      result artifacts were not exhaustively audited. Coverage remains partial for tenders, private deployments,
+      unindexed disclosures, customer acceptance, yields, unit volumes, power, reliability and component
+      provenance. Historical briefings and forecasts preserved.
+    source_ids:
+    - cxmt-rdimm-sampling-2026-10-31
+    - metax-rlinf-validation-2026-10-26
+    - rlinf-metax-upstream-pr-1656
+    - mlperf-training
+    - mlperf-inference-6-1
+    - inferencex

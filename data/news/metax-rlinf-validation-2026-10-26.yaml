@@ -1,0 +1,18 @@
+slug: metax-rlinf-validation-2026-10-26
+published_at: '2026-10-26'
+event_date: null
+title: MetaX reports RLinf integration and 1,024-GPU supervised fine-tuning
+summary: MetaX reports Pi0.5 supervised fine-tuning on RoboTwin using 1,024 C-series GPUs, completing
+  20,000 steps in 32 hours. RLinf PR 1656 is merged, but its disclosed hardware checks cover an earlier
+  submission on eight C550 GPUs.
+impact: Upstream integration is verified separately from vendor cluster measurements. The PR follow-up
+  was not rerun on MetaX hardware, and its ManiSkill path uses CPU physics. This does not independently
+  validate the 1,024-GPU result or establish frontier training parity.
+companies:
+- metax
+source_ids:
+- metax-rlinf-validation-2026-10-26
+- rlinf-metax-upstream-pr-1656
+evidence: vendor
+added_at: '2026-11-02'
+correction_of: null

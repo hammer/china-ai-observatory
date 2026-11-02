@@ -14,8 +14,8 @@ assessment: >-
   vertical integration, but approved funding is not completed capacity. The reported NAND project is
   an R&D-line plan, not evidence of qualified commercial output. The unaudited nine-month filing falls within the earlier earnings forecast. Sixth-generation
   DRAM engineering-sample validation is reported, but customer qualification and production remain unverified.
-  Its announced 4F2 VSG roadmap targets a server DDR5 RDIMM by year-end 2026, but no completed
-  product, qualification, capacity, speed or density was disclosed.
+  Its October 30 clarification targets 4F2 DDR5 RDIMM sampling by year-end 2026; volume production
+  remains conditional on customer validation and demand. The earlier October 10 roadmap is retained.
 key_fact:
   label: HBM milestone
   value: Small-volume HBM3E reportedly produced in August 2026
@@ -26,6 +26,13 @@ key_fact:
     - cxmt-hbm-reuters-2026-08-31
     - cxmt
 facts:
+  - label: 4F2 RDIMM sampling clarification
+    value: CXMT specifies sampling of its first 4F2 DDR5 RDIMM by year-end 2026; volume production depends
+      on customer validation and demand. This is a roadmap target, not completed shipment or qualification.
+    evidence: vendor
+    as_of: '2026-10-30'
+    source_ids:
+    - cxmt-rdimm-sampling-2026-10-31
   - label: Sixth-generation DRAM engineering validation
     value: CXMT reports completion of engineering-sample validation for DRAM developed on its sixth-generation
       platform. Its unaudited nine-month results show RMB 269.024 billion revenue and RMB 132.040 billion attributable
@@ -118,6 +125,7 @@ watch_for:
   - Shareholder approval, construction and operating milestones for the research and testing projects
   - Launch, independent validation and server qualification of the planned 4F2 DDR5 RDIMM
 source_ids:
+  - cxmt-rdimm-sampling-2026-10-31
   - cxmt-q3-2026-10-31
   - cxmt-hbm
   - cxmt-hbm-reuters-2026-08-31
@@ -132,7 +140,7 @@ source_ids:
   - cxmt-4f2-rdimm-2026-10-11
   - cxmt-hbm3e-yields-2026-10-28
   - cxmt-hbm3e-yields-2026-10-28-relay
-reviewed_at: 2026-11-01
+reviewed_at: 2026-11-02
 slug: cxmt
 layers:
   - memory

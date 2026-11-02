@@ -1,5 +1,5 @@
 headline: No verified matched frontier end-to-end comparison
-assessment: Follow-up through October 27 did not verify a matched independent end-to-end comparison of
+assessment: Follow-up through November 2 did not verify a matched independent end-to-end comparison of
   current Chinese accelerators against Rubin, GB300, MI355X, TPU v7, or OpenAI Jalapeño. The review checked
   MLPerf Training v6.0 and Inference v6.1 repository heads (unchanged since the previous submitter
   review) plus InferenceX's
@@ -12,7 +12,7 @@ assessment: Follow-up through October 27 did not verify a matched independent en
   A Pengcheng Laboratory preprint adds measured Ascend 910C scientific-computing results against
   A800/H800 controls, but it is not a model-training or inference comparison and does not use current
   frontier foreign hardware. Absence of a verified public result is not evidence of incapability.
-reviewed_at: 2026-10-27
+reviewed_at: 2026-11-02
 comparison:
   title: DeepSeek-R1 on Ascend 910C and H100
   date: 2025-06
@@ -33,6 +33,18 @@ comparison:
     batches, and speculative-decoding assumptions prevent a universal ratio. Perfect expert-balancing results
     are projections.
 studies:
+  - title: MetaX RLinf embodied training
+    evidence: vendor
+    date: '2026-10-26'
+    finding: 'MetaX reports 1,024-GPU Pi0.5/RoboTwin SFT: 20,000 steps in 32 hours, 2.75 samples/s per GPU
+      versus 2.8 at 512 GPUs, using RoCE and GPFS. Its separate greater-than-97% scaling claim covers ManiSkill
+      asynchronous PPO from 8 to 64 GPUs, not the thousand-GPU SFT run. A reported task-success improvement
+      used a larger global batch and newer framework; it is not a hardware speedup. No matched foreign time-to-quality,
+      energy or recovery comparison was supplied. Upstream PR checks do not independently reproduce these
+      cluster results.'
+    source_ids:
+    - metax-rlinf-validation-2026-10-26
+    - rlinf-metax-upstream-pr-1656
   - title: ubenchX core memory-access profiles
     evidence: measured
     date: Reviewed 2026-10-27; publication date unverified
