@@ -1,11 +1,10 @@
 schema_version: 2
 baseline_date: 2026-09-11
-last_research_at: 2026-11-02
-last_automated_run_at: 2026-11-02
+last_research_at: 2026-11-03
+last_automated_run_at: 2026-11-03
 last_run_status: partial
-coverage: 'November 2 daily sweep and October 26–November 1 weekly synthesis completed;
-  underlying research remains partial. The weekly report covers eight selected events across seven
-  companies and does not advance profile review dates.'
+coverage: 'November 3 partial sweep: 12 priority-1 companies and four oldest remaining profiles screened;
+  Enflame substantively updated. Search-only profiles retain their review dates.'
 timezone: Europe/London
 runs:
   - date: 2026-09-12
@@ -2716,3 +2715,44 @@ runs:
     - mlperf-inference-6-1
     - mlperf-training
     - naura-q3-2026-10-30
+
+  - date: '2026-11-03'
+    status: partial
+    companies:
+    - aishengna
+    - amec
+    - cambricon
+    - cxmt
+    - enflame
+    - eoptolink
+    - huawei
+    - innolight
+    - naura
+    - smic
+    - ymtc
+    - yuliangsheng
+    - rslaser
+    - iluvatar
+    - thead
+    - moore-threads
+    summary: Screened 12 priority-1 companies and four oldest remaining profiles using grouped English/Chinese
+      searches over the October 26–November 3 overlap. Read the Enflame-origin October 29 conference release
+      republished by ijiwei and added narrowly attributed inference-software evidence; only Enflame profile
+      review date advanced. The source uses an October 29 release dateline; the relay displays a relative
+      posting timestamp. Iluvatar reporting names Shanghai INESA as the July H200-comparison tester, but
+      no original test report or full configurations were obtained; no ratio was promoted to measured evidence.
+      T-Head and Moore Threads queries returned older material without a new verified event. Lithography
+      searches returned older secondary reports, not new acceptance, yield or production evidence. Optics
+      broker commentary about DSP supply, delayed deliveries and NPO timing remains a primary-filing follow-up.
+      CXMT search results reiterated already-recorded sampling and financial disclosures. Reviewed MLPerf
+      Training landing coverage and InferenceX; MLPerf Inference web retrieval failed, but GitHub confirmed
+      unchanged v6.1 head 4bb63cd28eb136be221bc801a9e38c66c8a7553f. No new matched frontier end-to-end comparison
+      verified; artifacts were not exhaustively audited. Existing independent Ascend kernel measurements
+      remain distinct. Coverage remains partial for private deployments, tenders, unindexed filings, customer
+      acceptance, unit volumes, yields, reliability, energy and component provenance. Historical reports
+      and dated forecasts preserved.
+    source_ids:
+    - enflame-tencent-inference-2026-10-29
+    - mlperf-training
+    - mlperf-inference-6-1
+    - inferencex

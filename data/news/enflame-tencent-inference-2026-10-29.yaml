@@ -1,0 +1,16 @@
+slug: enflame-tencent-inference-2026-10-29
+published_at: '2026-10-29'
+event_date: '2026-10-29'
+title: Enflame describes long-context inference software at Tencent conference
+summary: Enflame reports hierarchical KV Cache and prefill/decode separation supporting million-token
+  inference contexts, without numerical service metrics or test configuration.
+impact: The software mechanisms add specificity to its inference strategy, but neither matched performance
+  nor deployment scale is independently established. The republished company release is not independent
+  corroboration.
+companies:
+- enflame
+source_ids:
+- enflame-tencent-inference-2026-10-29
+evidence: vendor
+added_at: '2026-11-03'
+correction_of: null

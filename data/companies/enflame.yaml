@@ -19,6 +19,13 @@ key_fact:
     - enflame-ipo
     - enflame-teardown
 facts:
+  - label: Long-context inference software claim
+    value: >-
+      In its October 29 conference release, Enflame describes operator fusion, memory optimization, scheduling, hierarchical KV Cache and prefill/decode separation, claiming stable high-throughput inference at million-token context lengths. It supplies no model, precision, accelerator count, latency, throughput, power or reproducible test configuration. This is a vendor capability claim, not a verified operating benchmark.
+    evidence: vendor
+    as_of: 2026-10-29
+    source_ids:
+      - enflame-tencent-inference-2026-10-29
   - label: System partner and corrected model name
     value: Enflame's October 16 release, republished October 18, identifies the model as ESL64-O
       (letter O) and names ZTE as co-developer. Its claim of supporting clusters above 10,000 cards
@@ -60,7 +67,8 @@ source_ids:
   - enflame-teardown
   - guoxin-expo-2026-10-12
   - enflame-ciif-release-2026-10-16
-reviewed_at: 2026-10-21
+  - enflame-tencent-inference-2026-10-29
+reviewed_at: 2026-11-03
 slug: enflame
 layers:
   - accelerators
