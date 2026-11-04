@@ -1,10 +1,10 @@
 schema_version: 2
 baseline_date: 2026-09-11
-last_research_at: 2026-11-03
-last_automated_run_at: 2026-11-03
+last_research_at: 2026-11-04
+last_automated_run_at: 2026-11-04
 last_run_status: partial
-coverage: 'November 3 partial sweep: 12 priority-1 companies and four oldest remaining profiles screened;
-  Enflame substantively updated. Search-only profiles retain their review dates.'
+coverage: 'November 4 partial sweep: 12 priority-1 companies and four oldest remaining profiles screened;
+  Eoptolink, Huawei, Iluvatar and Moore Threads substantively updated. Other review dates unchanged.'
 timezone: Europe/London
 runs:
   - date: 2026-09-12
@@ -2753,6 +2753,46 @@ runs:
       and dated forecasts preserved.
     source_ids:
     - enflame-tencent-inference-2026-10-29
+    - mlperf-training
+    - mlperf-inference-6-1
+    - inferencex
+  - date: '2026-11-04'
+    status: partial
+    companies:
+    - aishengna
+    - amec
+    - cambricon
+    - cxmt
+    - enflame
+    - eoptolink
+    - huawei
+    - innolight
+    - naura
+    - smic
+    - ymtc
+    - yuliangsheng
+    - rslaser
+    - iluvatar
+    - thead
+    - moore-threads
+    summary: Screened priority companies and four oldest remaining profiles using overlapping English/Chinese
+      searches covering October 27–November 4. Read Eoptolink's investor-call PDF, Moore Threads' unaudited
+      quarterly filing and Huawei's named industrial-deployment release; added four events including Iluvatar's
+      reported shipment update. Only these four profile review dates advanced. Iluvatar's original exchange
+      shipment filing remains to be retrieved; media H200-performance claims were not promoted to measured
+      evidence. InnoLight NPO/DSP commentary and T-Head software-release details remain follow-ups. Equipment,
+      memory and lithography screening mostly returned previously recorded disclosures or older secondary
+      coverage; no new qualified-tool or yield milestone accepted. Reviewed MLPerf Training v6.0 listing
+      and InferenceX landing coverage; Inference v6.1 web retrieval failed, while GitHub confirmed unchanged
+      head 4bb63cd28eb136be221bc801a9e38c66c8a7553f. No new matched frontier end-to-end result verified;
+      individual artifacts were not exhaustively audited and existing Ascend microbenchmarks remain distinct.
+      Coverage is partial for private deployments, tenders, unindexed filings, customer acceptance, production
+      yields, reliability, energy and component provenance. Historical reports and forecasts preserved.
+    source_ids:
+    - eoptolink-ir-2026-10-29
+    - moore-threads-q3-2026-10-29
+    - huawei-nisco-2026-10-27
+    - iluvatar-shipments-2026-11-02
     - mlperf-training
     - mlperf-inference-6-1
     - inferencex

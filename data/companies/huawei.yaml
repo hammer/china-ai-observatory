@@ -182,6 +182,14 @@ facts:
     as_of: '2026-10-20'
     source_ids:
     - deepinfer-release-2026-10-20
+  - label: Named steel-industry adoption
+    value: Huawei says Nanjing Iron and Steel uses Ascend, Kunpeng, Huawei Cloud Stack and Pangu for its
+      Yuanye system, with 25 business agents online by October. Accelerator counts, utilization, model throughput
+      and independent operating validation are undisclosed.
+    evidence: vendor
+    as_of: '2026-10-27'
+    source_ids:
+    - huawei-nisco-2026-10-27
 watch_for:
   - Sustained time-to-quality on large training runs
   - Customer utilization and recovery statistics
@@ -208,7 +216,8 @@ source_ids:
   - deepseek-huawei-design-investing-2026-10-19
   - semianalysis-ascend-950pr-2026-10-21
   - deepinfer-release-2026-10-20
-reviewed_at: 2026-10-23
+  - huawei-nisco-2026-10-27
+reviewed_at: 2026-11-04
 slug: huawei
 layers:
   - accelerators

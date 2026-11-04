@@ -51,6 +51,14 @@ facts:
     as_of: 2026-09-09
     source_ids:
       - moore-threads-jd-cloud-2026-09-09
+  - label: Third-quarter commercialization and cash use
+    value: Unaudited Q3 revenue was RMB 1.552 billion and attributable profit RMB 49.26 million. Nine-month
+      revenue was RMB 3.289 billion; profit excluding nonrecurring items remained negative at RMB 130.75
+      million and operating cash outflow reached RMB 3.309 billion.
+    evidence: vendor
+    as_of: '2026-09-30'
+    source_ids:
+    - moore-threads-q3-2026-10-29
 watch_for:
   - Real application portability
   - Sustained training throughput
@@ -61,7 +69,8 @@ source_ids:
   - moore-threads-jd-cloud-2026-09-09
   - moore-threads-wuxi-center-2026-09-02
   - moore-threads-wuxi-center-primary-2026-10-16
-reviewed_at: 2026-10-17
+  - moore-threads-q3-2026-10-29
+reviewed_at: 2026-11-04
 slug: moore-threads
 layers:
   - accelerators

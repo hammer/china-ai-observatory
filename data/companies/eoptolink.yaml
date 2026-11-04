@@ -76,6 +76,14 @@ facts:
     as_of: '2026-09-30'
     source_ids:
     - eoptolink-q3-2026-10-30
+  - label: Shipment timing and material constraints
+    value: Company says late-September Thai floods delayed logistics and revenue recognition, with affected
+      shipments recognized in October; production and goods were unaffected. Materials remain broadly tight,
+      with longer stocking cycles. Quantities and component provenance are undisclosed.
+    evidence: vendor
+    as_of: '2026-10-29'
+    source_ids:
+    - eoptolink-ir-2026-10-29
 watch_for:
   - Volume adoption of next-generation optics
   - Domestic DSP and laser substitution
@@ -90,7 +98,8 @@ source_ids:
   - optical-operations-cnr-2026-10-22
   - eoptolink-operations-2026-10-23
   - eoptolink-q3-2026-10-30
-reviewed_at: 2026-10-30
+  - eoptolink-ir-2026-10-29
+reviewed_at: 2026-11-04
 slug: eoptolink
 layers:
   - photonics
