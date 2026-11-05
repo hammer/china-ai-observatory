@@ -1,10 +1,10 @@
 schema_version: 2
 baseline_date: 2026-09-11
-last_research_at: 2026-11-04
-last_automated_run_at: 2026-11-04
+last_research_at: 2026-11-05
+last_automated_run_at: 2026-11-05
 last_run_status: partial
-coverage: 'November 4 partial sweep: 12 priority-1 companies and four oldest remaining profiles screened;
-  Eoptolink, Huawei, Iluvatar and Moore Threads substantively updated. Other review dates unchanged.'
+coverage: 'November 5 partial sweep: 12 priority-1 companies and four oldest remaining profiles screened;
+  Skyverse and InnoLight substantively updated. Other review dates unchanged.'
 timezone: Europe/London
 runs:
   - date: 2026-09-12
@@ -2793,6 +2793,45 @@ runs:
     - moore-threads-q3-2026-10-29
     - huawei-nisco-2026-10-27
     - iluvatar-shipments-2026-11-02
+    - mlperf-training
+    - mlperf-inference-6-1
+    - inferencex
+  - date: '2026-11-05'
+    status: partial
+    companies:
+    - aishengna
+    - amec
+    - cambricon
+    - cxmt
+    - enflame
+    - eoptolink
+    - huawei
+    - innolight
+    - naura
+    - smic
+    - ymtc
+    - yuliangsheng
+    - rslaser
+    - thead
+    - skyverse
+    - ligent
+    summary: Screened priority companies and the four oldest remaining profiles with overlapping English/Chinese
+      searches covering October 28–November 5. Read Skyverse's shipment filing and InnoLight's November
+      3 investor-call PDF; only these two profile review dates advanced. InnoLight's primary disclosure
+      resolves part of the earlier NPO/DSP follow-up, while delivered component volumes remain unknown.
+      T-Head software-release and open-source claims still require original release, code and license inspection.
+      Corrected the Ligent search to 纳真科技; indexed news and capital filings did not establish a new operational
+      milestone. RSLaser searches did not substantiate a new qualification event. Other equipment, accelerator
+      and memory queries mostly returned prior disclosures or secondary material; no new qualifying production
+      or performance claim accepted. GitHub confirmed unchanged MLPerf Training v6.0 head eabf23a07b2a0c60a289ff871dc3a46fff0d0421
+      and Inference v6.1 head 4bb63cd28eb136be221bc801a9e38c66c8a7553f. Reviewed InferenceX landing coverage;
+      no new matched frontier end-to-end result verified. Individual artifacts were not exhaustively audited;
+      existing Ascend kernel measurements remain distinct. Coverage remains partial for private deployments,
+      tenders, unindexed filings, customer acceptance, production yields, reliability, energy and component
+      provenance. Historical reports and forecasts preserved.
+    source_ids:
+    - skyverse-2000th-shipment-2026-10-31
+    - innolight-ir-2026-11-03
     - mlperf-training
     - mlperf-inference-6-1
     - inferencex

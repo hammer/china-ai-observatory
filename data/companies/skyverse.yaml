@@ -25,6 +25,14 @@ facts:
     as_of: 2026-09-10
     source_ids:
       - skyverse-ir-2026-09-11
+  - label: Cumulative shipment milestone
+    value: Company reports dispatching its 2,000th IC quality-control tool to an unnamed domestic chipmaker
+      under a signed order. Shipment does not establish customer acceptance; equipment mix, process
+      nodes, throughput and yield contribution remain undisclosed.
+    evidence: vendor
+    as_of: '2026-10-31'
+    source_ids:
+    - skyverse-2000th-shipment-2026-10-31
 watch_for:
   - Detection sensitivity
   - Production throughput
@@ -32,7 +40,8 @@ watch_for:
 source_ids:
   - skyverse
   - skyverse-ir-2026-09-11
-reviewed_at: 2026-10-21
+  - skyverse-2000th-shipment-2026-10-31
+reviewed_at: 2026-11-05
 slug: skyverse
 layers:
   - metrology
