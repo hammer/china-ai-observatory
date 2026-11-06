@@ -79,6 +79,13 @@ facts:
     as_of: 2026-08-21
     source_ids:
       - ymtc-star-market-ipo-2026-08-21
+  - label: Fourth-fab equipment target
+    value: Reuters reports a target of at least 60% domestic equipment, with an ambition of 70%,
+      for the planned fourth fab. Supplier talks remain preliminary, with no formal orders.
+    evidence: reported
+    as_of: '2026-11-06'
+    source_ids:
+    - ymtc-domestic-tools-2026-11-06
 watch_for:
   - NAND density and yield
   - Enterprise SSD qualifications
@@ -92,7 +99,8 @@ source_ids:
   - counterpoint-ymtc-q2-shipments-2026-08-12
   - ymtc-star-market-ipo-2026-08-21
   - counterpoint-ymtc-ipo-dram-2026-10-13
-reviewed_at: 2026-10-16
+  - ymtc-domestic-tools-2026-11-06
+reviewed_at: 2026-11-06
 slug: ymtc
 layers:
   - memory

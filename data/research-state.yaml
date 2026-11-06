@@ -1,10 +1,10 @@
 schema_version: 2
 baseline_date: 2026-09-11
-last_research_at: 2026-11-05
-last_automated_run_at: 2026-11-05
+last_research_at: 2026-11-06
+last_automated_run_at: 2026-11-06
 last_run_status: partial
-coverage: 'November 5 partial sweep: 12 priority-1 companies and four oldest remaining profiles screened;
-  Skyverse and InnoLight substantively updated. Other review dates unchanged.'
+coverage: 'November 6 partial sweep: 12 priority-1 companies, four oldest remaining profiles and Hwatsing screened;
+  YMTC and Hwatsing substantively updated. Other profile dates unchanged.'
 timezone: Europe/London
 runs:
   - date: 2026-09-12
@@ -2832,6 +2832,44 @@ runs:
     source_ids:
     - skyverse-2000th-shipment-2026-10-31
     - innolight-ir-2026-11-03
+    - mlperf-training
+    - mlperf-inference-6-1
+    - inferencex
+  - date: '2026-11-06'
+    status: partial
+    companies:
+    - aishengna
+    - amec
+    - cambricon
+    - cxmt
+    - enflame
+    - eoptolink
+    - huawei
+    - innolight
+    - naura
+    - smic
+    - ymtc
+    - yuliangsheng
+    - rslaser
+    - thead
+    - ligent
+    - robotechnik
+    - hwatsing
+    summary: "Screened priority companies and four oldest remaining profiles with overlapping English/Chinese\
+      \ searches covering October 29\u2013November 6; additionally reviewed Hwatsing. Read original Reuters\
+      \ reporting and the CLS results-meeting report. Only YMTC and Hwatsing profile dates advanced. Hwatsing\
+      \ financial figures in the article were not adopted; original filing verification remains necessary.\
+      \ RoboTechnik quarterly backlog and October 29 investor record, Ligent capacity-locking coverage and\
+      \ T-Head software release/code/license inspection remain follow-ups. Lithography searches returned\
+      \ older secondary coverage without new qualified-production evidence. Other priority searches mainly\
+      \ reiterated existing reports. GitHub confirmed unchanged MLPerf Training v6.0 and Inference v6.1\
+      \ heads; read InferenceX landing coverage. No new matched frontier end-to-end comparison verified;\
+      \ individual artifacts were not exhaustively audited and existing Ascend microbenchmarks remain distinct.\
+      \ Coverage remains partial for private deployments, tenders, unindexed filings, customer acceptance,\
+      \ yields, reliability, energy and component provenance. Historical reports and dated forecasts preserved."
+    source_ids:
+    - ymtc-domestic-tools-2026-11-06
+    - hwatsing-acceptance-2026-11-05
     - mlperf-training
     - mlperf-inference-6-1
     - inferencex

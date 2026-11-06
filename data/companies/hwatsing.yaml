@@ -42,6 +42,15 @@ facts:
     as_of: 2026-09-09
     source_ids:
       - hwatsing-panel-cmp-2026-09-09
+  - label: Acceptance and repeat-order claims
+    value: At its November 5 results meeting, management reportedly said multiple thinning tools had
+      passed customer acceptance and 12-inch high-current ion implanters had batch deliveries and repeat
+      orders. Medium-current models remained in development and customer validation; customers, units
+      and operating metrics were not disclosed.
+    evidence: reported
+    as_of: '2026-11-05'
+    source_ids:
+    - hwatsing-acceptance-2026-11-05
 watch_for:
   - Production yield and customer acceptance
   - HBM and packaging demand
@@ -50,7 +59,8 @@ source_ids:
   - hwatsing-panel-cmp-2026-09-09
   - hwatsing-placement-2026-09-30
   - hwatsing-share-registration-2026-10-17
-reviewed_at: 2026-10-27
+  - hwatsing-acceptance-2026-11-05
+reviewed_at: 2026-11-06
 slug: hwatsing
 layers:
   - equipment
