@@ -73,11 +73,21 @@ facts:
     as_of: '2026-11-03'
     source_ids:
     - innolight-ir-2026-11-03
+  - label: NPO fabrication provenance
+    value: Tower says InnoLight’s first NPO device entered early production using PH18M at its California
+      fab; multiple future products taped out on its 300mm platform. No output, yield or customer-acceptance
+      figures were disclosed. This early device stage does not replace InnoLight’s dated H2 2027 NPO ramp
+      expectation.
+    evidence: vendor
+    as_of: '2026-11-03'
+    source_ids:
+    - innolight-tower-npo-2026-11-03
 watch_for:
   - 1.6T product shipments and customer qualification
   - DSP and laser sourcing
   - Performance per watt and manufacturing yield
 source_ids:
+  - innolight-tower-npo-2026-11-03
   - innolight
   - innolight-hk-listing-2026-07-29
   - cioe-optics-2026-09-11
@@ -87,7 +97,7 @@ source_ids:
   - innolight-operations-2026-10-23
   - innolight-q3-2026-10-30
   - innolight-ir-2026-11-03
-reviewed_at: 2026-11-05
+reviewed_at: 2026-11-07
 slug: innolight
 layers:
   - photonics

@@ -47,16 +47,26 @@ facts:
     as_of: '2026-09-28'
     source_ids:
     - robotechnik-allotment-2026-09-28
+  - label: Equipment backlog at disclosure
+    value: The unaudited quarterly filing reports RMB 2.359 billion of optoelectronic and semiconductor
+      orders not yet recognized as revenue at disclosure. This broader category is not directly comparable
+      with June SiPh backlog. It reports scaled deliveries and revenue recognition for coupling/test equipment,
+      without unit counts or customer-level acceptance metrics.
+    evidence: vendor
+    as_of: '2026-10-28'
+    source_ids:
+    - robotechnik-q3-backlog-2026-10-28
 watch_for:
   - Over-allotment outcome, use of proceeds and realized Suzhou capacity additions
   - Named-customer acceptance, yield, uptime and delivery economics
   - Provenance of optics, motion control, cameras and test instruments
   - Transfer and retention of ficonTEC know-how across Germany, Estonia and China
 source_ids:
+  - robotechnik-q3-backlog-2026-10-28
   - robotechnik-prospectus-2026-09-21
   - robotechnik-offering-2026-09-20
   - robotechnik-allotment-2026-09-28
-reviewed_at: 2026-10-23
+reviewed_at: 2026-11-07
 slug: robotechnik
 layers:
   - equipment

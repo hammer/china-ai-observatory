@@ -38,15 +38,25 @@ facts:
     as_of: '2026-09-07'
     source_ids:
     - ligent-cioe-2026-09-07
+  - label: Qingdao chip expansion target
+    value: Company-hosted reporting says Qingdao Wangtai cleanrooms are finished and MOCVD equipment is
+      being installed. Trial and volume production are targeted for H1 2027; projected company-wide 2027
+      optical-chip capacity exceeds 170 million devices including existing lines, reportedly covered by
+      customer demand. Neither realized output nor binding order terms were disclosed.
+    evidence: vendor
+    as_of: '2026-10-23'
+    source_ids:
+    - ligent-qingdao-capacity-2026-10-23
 watch_for:
   - 800G and 1.6T shipment mix and named-customer qualification
   - Optical DSP, laser and analog-component provenance
   - Capacity additions, manufacturing yield and performance per watt
 source_ids:
+  - ligent-qingdao-capacity-2026-10-23
   - ligent
   - ligent-ipo-2026-09-22
   - ligent-cioe-2026-09-07
-reviewed_at: 2026-10-22
+reviewed_at: 2026-11-07
 slug: ligent
 layers:
   - photonics

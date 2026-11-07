@@ -68,18 +68,27 @@ facts:
     as_of: 2026-09-24
     source_ids:
       - naura-ale-2026-09-24
+  - label: Microwave ECR product launch
+    value: NAURA announced its first 12-inch Acme Helix430 microwave ECR plasma etcher, complementing ICP/CCP
+      tools and targeting low-damage advanced-node etching. Claimed process validation is not accompanied
+      by named-customer qualification, accepted tool counts, yield, throughput or uptime.
+    evidence: vendor
+    as_of: '2026-10-29'
+    source_ids:
+    - naura-ecr-launch-2026-10-29
 watch_for:
   - Customer-qualified replacement tools
   - Installed base and service revenue
   - Production yield at advanced nodes
 source_ids:
+  - naura-ecr-launch-2026-10-29
   - naura-q3-2026-10-30
   - naura
   - naura-2026-h1-report
   - naura-ale-primary
   - naura-ale-2026-09-24
   - naura-nuohe-jianwei-acquisition-2026-10-16
-reviewed_at: 2026-11-01
+reviewed_at: 2026-11-07
 slug: naura
 layers:
   - equipment
