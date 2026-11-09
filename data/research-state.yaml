@@ -1,10 +1,10 @@
 schema_version: 2
 baseline_date: 2026-09-11
-last_research_at: 2026-11-08
+last_research_at: 2026-11-09
 last_automated_run_at: 2026-11-08
 last_run_status: partial
-coverage: 'November 8 partial sweep: 12 priority-1 companies and four oldest remaining profiles screened;
-  only YMTC substantively updated. Other profile dates unchanged.'
+coverage: 'November 9 partial sweep: 12 priority-1 companies and four oldest remaining profiles screened;
+  AMEC, InnoLight and T-Head substantively updated. Other profile dates unchanged.'
 timezone: Europe/London
 runs:
   - date: 2026-09-12
@@ -2954,6 +2954,50 @@ runs:
       dated forecasts and historical reports were preserved.
     source_ids:
     - ymtc-ipo-delay-2026-11-04
+    - mlperf-training
+    - mlperf-inference-6-1
+    - inferencex
+  - date: '2026-11-09'
+    status: partial
+    companies:
+    - aishengna
+    - amec
+    - cambricon
+    - cxmt
+    - enflame
+    - eoptolink
+    - huawei
+    - innolight
+    - naura
+    - smic
+    - ymtc
+    - yuliangsheng
+    - rslaser
+    - thead
+    - guowang
+    - siom
+    summary: English/Chinese searches covered November 1–9, overlapping the last November 8 run by seven
+      days, with older-source follow-ups. Read AMEC’s original October investor-record DOCX and InnoLight’s
+      November 6 filing PDF; added attributed production-stage, shipment and supply-preparation evidence.
+      Backfilled T-Head’s July 18 SAIL announcement from original Jiemian reporting; the Alibaba Cloud community
+      account of phased opening was read but not treated as an audited release. Only these three profile
+      dates advanced. T-Head developer portal returned no readable release details; source/license/release
+      audit and the November 5 Kimi adaptation lead remain open. RSLaser searches returned undated descriptions
+      and unsupported performance claims; no accepted-scanner qualification was established. Guowang searches
+      returned historical or unrelated material, without verified projection-optics delivery. SIOM’s current
+      institutional index was readable but supplied no new relevant qualified-source evidence. SMIC financial-page
+      retrieval was blocked; Q2 capacity/earnings backfill remains unverified in primary documents. Other
+      priority searches mainly returned previously recorded evidence or generic operating assurances. MLPerf
+      Training v6.0 and Inference v6.1 HEADs remained eabf23a07b2a0c60a289ff871dc3a46fff0d0421 and 4bb63cd28eb136be221bc801a9e38c66c8a7553f;
+      no exhaustive submission-artifact audit was performed. InferenceX again displayed an unofficial-deployment
+      warning, so no new results were accepted; original-run provenance remains unresolved. No new matched
+      frontier AI training/inference comparison verified. Coverage remains partial for private deployments,
+      tenders, unindexed disclosures, yields, acceptance, energy, reliability and component provenance.
+      Benchmarks, historical reports and dated forecasts were preserved.
+    source_ids:
+    - amec-ir-2026-11-02
+    - innolight-supply-preparation-2026-11-06
+    - thead-sail-announcement-2026-07-18
     - mlperf-training
     - mlperf-inference-6-1
     - inferencex

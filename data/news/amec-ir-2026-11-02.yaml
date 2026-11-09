@@ -1,0 +1,15 @@
+slug: amec-ir-2026-11-02
+published_at: '2026-11-02'
+event_date: null
+title: AMEC separates production etchers from newer validation-stage tools
+summary: AMEC reports over 90% uptime for its production 60:1 etcher and over 500 tungsten-deposition
+  reaction stations shipped. Newer high-aspect-ratio etchers remain in customer validation.
+impact: Vendor evidence strengthens the deployment record; customer identity, yield contribution and independent
+  operating measurements remain unknown.
+companies:
+- amec
+source_ids:
+- amec-ir-2026-11-02
+evidence: vendor
+added_at: '2026-11-09'
+correction_of: null

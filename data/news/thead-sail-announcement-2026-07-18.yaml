@@ -1,0 +1,15 @@
+slug: thead-sail-announcement-2026-07-18
+published_at: '2026-07-18'
+event_date: '2026-07-18'
+title: T-Head announced SAIL developer access at WAIC
+summary: Jiemian reported T-Head’s announcement that developers could obtain SAIL resources through its
+  developer community.
+impact: Historical software-ecosystem evidence, added November 9. An announcement of openness does not
+  establish an audited open-source release, CUDA compatibility or matched workload performance.
+companies:
+- thead
+source_ids:
+- thead-sail-announcement-2026-07-18
+evidence: reported
+added_at: '2026-11-09'
+correction_of: null

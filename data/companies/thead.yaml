@@ -58,6 +58,15 @@ facts:
     as_of: 2026-09-22
     source_ids:
       - alibaba-v900-primary-2026-09-22
+  - label: SAIL developer-access announcement
+    value: Jiemian reported the July 18 WAIC announcement of SAIL developer access, including SDK, kernel-driver,
+      profiling and debugging resources. This historical announcement is backfilled on November 9; source
+      availability, licensing, release completeness and migration/performance claims were not independently
+      verified.
+    evidence: reported
+    as_of: '2026-07-18'
+    source_ids:
+    - thead-sail-announcement-2026-07-18
 watch_for:
   - Measured cloud utilization
   - Independent model-serving economics
@@ -65,12 +74,13 @@ watch_for:
   - Product mix, utilization and acceptance behind reported shipment counts
   - V900 production, customer acceptance and reproducible cluster-scale workloads
 source_ids:
+  - thead-sail-announcement-2026-07-18
   - m890
   - thead
   - alibaba-v900-2026-09-22
   - alibaba-v900-primary-2026-09-22
   - china-ai-accelerator-share-reuters-2026-10-13
-reviewed_at: 2026-10-13
+reviewed_at: 2026-11-09
 slug: thead
 layers:
   - accelerators

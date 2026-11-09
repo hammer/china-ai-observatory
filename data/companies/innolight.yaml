@@ -82,11 +82,21 @@ facts:
     as_of: '2026-11-03'
     source_ids:
     - innolight-tower-npo-2026-11-03
+  - label: Supply preparation for 2027 orders
+    value: The November 6 filing says long-term agreements, prepayments and new suppliers helped secure
+      scarce materials. It reiterates that major-customer orders broadly cover 2027, with 2028 demand guidance
+      from some customers, and expects NPO/XPO demand from H2 2027. It discloses no secured component quantities,
+      supplier identities or qualified capacity.
+    evidence: vendor
+    as_of: '2026-11-06'
+    source_ids:
+    - innolight-supply-preparation-2026-11-06
 watch_for:
   - 1.6T product shipments and customer qualification
   - DSP and laser sourcing
   - Performance per watt and manufacturing yield
 source_ids:
+  - innolight-supply-preparation-2026-11-06
   - innolight-tower-npo-2026-11-03
   - innolight
   - innolight-hk-listing-2026-07-29
@@ -97,7 +107,7 @@ source_ids:
   - innolight-operations-2026-10-23
   - innolight-q3-2026-10-30
   - innolight-ir-2026-11-03
-reviewed_at: 2026-11-07
+reviewed_at: 2026-11-09
 slug: innolight
 layers:
   - photonics

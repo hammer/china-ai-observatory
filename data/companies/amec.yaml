@@ -85,12 +85,37 @@ facts:
     as_of: '2026-09-30'
     source_ids:
     - amec-q3-2026-10-31
+  - label: Etch operating-stage distinction
+    value: Company reports its 60:1 etcher in volume production with uptime above 90%; the measurement period,
+      fleet and method are undisclosed. Its 90:1 successor remains in customer validation. Primo Angnova
+      reportedly achieved 140:1 etching and shipped for certification, not demonstrated qualified volume
+      production.
+    evidence: vendor
+    as_of: '2026-11-02'
+    source_ids:
+    - amec-ir-2026-11-02
+  - label: Tungsten deposition shipments
+    value: Company reports more than 500 cumulative reaction stations shipped across CVD-W, HAR-W and ALD-W
+      products. This is not a count of complete tools or independently accepted installations.
+    evidence: vendor
+    as_of: '2026-11-02'
+    source_ids:
+    - amec-ir-2026-11-02
+  - label: Memory demand and parts supply
+    value: Company says NAND and DRAM represented about 60% of nine-month orders, while component shortages
+      challenge delivery. Domestic-supplier development and capacity expansion are mitigation efforts, not
+      proof of a fully domestic bill of materials.
+    evidence: vendor
+    as_of: '2026-11-02'
+    source_ids:
+    - amec-ir-2026-11-02
 watch_for:
   - Advanced-process customer qualifications
   - Repeat orders and production utilization
   - Signed Qinghe Jingyuan financing and independently verified bonding-tool customer acceptance
   - Customer qualification and production metrics for XD-RIE and Unicore AM
 source_ids:
+  - amec-ir-2026-11-02
   - amec
   - amec-evaluation-reuters-2026-08-05
   - amec-2026-h1-report
@@ -98,7 +123,7 @@ source_ids:
   - amec-qinghe-jingyuan-investment-2026-10-13
   - guoxin-expo-2026-10-12
   - amec-q3-2026-10-31
-reviewed_at: 2026-10-31
+reviewed_at: 2026-11-09
 slug: amec
 layers:
   - equipment
