@@ -1,0 +1,118 @@
+slug: weekly-2026-11-02-complete
+cadence: weekly
+period_start: '2026-11-02'
+period_end: '2026-11-08'
+through_date: '2026-11-08'
+published_at: '2026-11-09'
+status: complete
+title: Early optical production and equipment progress leave supply dependencies unresolved
+summary: InnoLight and Tower report early NPO-device production, while Chinese equipment suppliers disclose
+  progress across production and customer validation. Material shortages, foreign fabrication and tool
+  dependencies, and YMTC’s financing pause qualify the expansion story. No dated forecast changed.
+sections:
+- heading: Early NPO production still relies on an overseas fab
+  body: Tower and InnoLight announced on November 3 that their first near-package-optics device had entered
+    early production on Tower’s PH18M platform at its California fab; additional products were planned
+    for 300 mm tape-outs. This is a specific manufacturing milestone with a named overseas dependency,
+    without disclosed production volume, yield or customer acceptance. InnoLight’s separate investor disclosure
+    expected NPO demand to begin ramping in the second half of 2027, with more demand in 2028. Early device
+    production and a future module-demand ramp describe different stages. Management identified manufacturing
+    yields and upstream light-source and electronic-chip readiness as work still required.
+  source_ids:
+  - innolight-tower-npo-2026-11-03
+  - innolight-ir-2026-11-03
+- heading: Optical order visibility does not remove material constraints
+  body: In its November 6 disclosure, InnoLight said major-customer orders broadly covered 2027 and some
+    customers had provided 2028 demand guidance. It described long-term supply agreements, prepayments
+    and additional suppliers as responses to shortages of critical materials. The company again expected
+    next-generation NPO/XPO demand from the second half of 2027. These are management statements about
+    demand and supply preparation, not verified accepted shipments or assured component availability.
+    Supplier identities, secured quantities and qualified capacity remain undisclosed; stronger order
+    visibility therefore does not establish a self-sufficient supply chain.
+  source_ids:
+  - innolight-supply-preparation-2026-11-06
+- heading: Equipment progress spans production, acceptance and validation
+  body: AMEC’s investor record published November 2 says its 60:1 high-aspect-ratio etcher is in volume
+    production with uptime above 90%, while its 90:1 successor remains in customer validation. It reports
+    a 140:1 Angnova etch result and shipment for customer certification, plus cumulative tungsten-deposition
+    shipments exceeding 500 reaction stations—not 500 complete tools or accepted installations. These
+    are vendor claims without independent uptime methodology or production economics. Separately, November
+    5 reporting on Hwatsing’s management discussion describes bulk deliveries and repeat orders for high-current
+    ion implantation and customer acceptance of multiple thinning tools; medium-current implantation and
+    metrology remain in validation. These stages should not be collapsed into qualified HBM production
+    capacity.
+  source_ids:
+  - amec-ir-2026-11-02
+  - hwatsing-acceptance-2026-11-05
+- heading: YMTC’s domestic-tool ambition faces financing uncertainty
+  body: Reuters reported November 6 that YMTC targets at least 60% domestic equipment, potentially 70%,
+    at a planned fourth Wuhan factory. Construction is expected in 2027; supplier talks are preliminary,
+    with no formal orders. Foreign lithography and inspection dependencies remain. Separately, Reuters
+    reported November 4 that YMTC’s IPO process was on hold amid weaker markets, citing sources and a
+    memo. Neither report establishes cancellation of the factory. Together they make financing, actual
+    tool orders and qualification the next tests of planned capacity; a sourcing target alone does not
+    prove a sovereign production flow.
+  source_ids:
+  - ymtc-domestic-tools-2026-11-06
+  - ymtc-ipo-delay-2026-11-04
+- heading: Iluvatar reports shipment scale, with operating evidence still missing
+  body: November 2 reporting on Iluvatar’s voluntary announcement puts January–October chip shipments
+    above 80,000. The figure is unaudited and may be adjusted. It concerns an earlier operating period
+    and does not disclose product mix, customer-accepted installations, utilization or matched workload
+    performance. Shipment scale is commercially relevant, but it cannot establish training time-to-quality,
+    inference efficiency or frontier parity. The original exchange filing remains a follow-up retrieval
+    gap for this briefing.
+  source_ids:
+  - iluvatar-shipments-2026-11-02
+- heading: Forecasts unchanged; benchmark verification remains limited
+  body: 'No dated Observatory forecast changes. The optical-development horizon through 2028, the 2027–2030
+    HBM/advanced-packaging horizon and the late-2020s frontier-pretraining judgment remain intact. Watch
+    for accepted NPO deliveries, disclosed material availability, validated equipment at production scale,
+    YMTC financing and formal orders, and accelerator deployments with reproducible operating data. Post-period
+    context: November 9 checks did not verify a new matched contemporary Chinese frontier end-to-end comparison.
+    MLPerf repository-head checks were not an exhaustive result-artifact audit. The retrieved InferenceX
+    page carried an unofficial-deployment warning that its data could be modified or outdated, so it was
+    not accepted as authoritative new benchmark evidence. This is a limitation of verification, not proof
+    that no qualifying result exists; historical measured evidence remains preserved.'
+  source_ids:
+  - innolight-ir-2026-11-03
+  - ymtc-domestic-tools-2026-11-06
+  - mlperf-training
+  - mlperf-inference-6-1
+  - inferencex
+news_ids:
+- innolight-supply-preparation-2026-11-06
+- ymtc-domestic-tools-2026-11-06
+- hwatsing-acceptance-2026-11-05
+- ymtc-ipo-delay-2026-11-04
+- innolight-ir-2026-11-03
+- innolight-tower-npo-2026-11-03
+- amec-ir-2026-11-02
+- iluvatar-shipments-2026-11-02
+source_ids:
+- amec-ir-2026-11-02
+- hwatsing-acceptance-2026-11-05
+- iluvatar-shipments-2026-11-02
+- inferencex
+- innolight-ir-2026-11-03
+- innolight-supply-preparation-2026-11-06
+- innolight-tower-npo-2026-11-03
+- mlperf-inference-6-1
+- mlperf-training
+- ymtc-domestic-tools-2026-11-06
+- ymtc-ipo-delay-2026-11-04
+coverage_note: This closed-period edition covers eight archive disclosures public November 2–8 and synthesizes
+  AMEC, Hwatsing, Iluvatar, InnoLight and YMTC. It is not a new full-profile sweep. AMEC and InnoLight’s
+  November 6 records were added on November 9 after reviewing their original documents; those documents
+  were public during the covered week. Iluvatar’s shipment total and other operating disclosures describe
+  earlier operating periods. Supplemental English and Chinese searches checked industry and accelerator-performance
+  gaps without establishing a further qualifying milestone. Primary InnoLight and Tower documents and
+  Hwatsing reporting were reread; AMEC’s original investor record was reviewed in today’s separately logged
+  daily sweep. Direct Reuters pages were unavailable, so indexed Reuters reporting and accessible Reuters
+  relays were used; relays are not independent corroboration. Iluvatar’s original exchange filing and
+  a reproducible package for additional reported performance claims remain unresolved. Publication-day
+  benchmark checks are explicitly post-period and do not reconstruct period-end leaderboard contents.
+  Private deployments, tenders, unindexed disclosures, customer acceptance, qualified volumes, yields,
+  power, reliability and component provenance remain incompletely covered. Complete describes the closed
+  calendar period, not exhaustive research coverage. Earlier editions, corrections, profile review dates
+  and dated forecasts are preserved.

@@ -3,8 +3,9 @@ baseline_date: 2026-09-11
 last_research_at: 2026-11-09
 last_automated_run_at: 2026-11-08
 last_run_status: partial
-coverage: 'November 9 partial sweep: 12 priority-1 companies and four oldest remaining profiles screened;
-  AMEC, InnoLight and T-Head substantively updated. Other profile dates unchanged.'
+coverage: >-
+  November 9 weekly briefing: eight public November 2–8 disclosures synthesized across
+  five companies. Coverage remains partial; no additional profile review dates advanced.
 timezone: Europe/London
 runs:
   - date: 2026-09-12
@@ -3001,3 +3002,37 @@ runs:
     - mlperf-training
     - mlperf-inference-6-1
     - inferencex
+  - date: '2026-11-09'
+    status: partial
+    companies:
+    - amec
+    - hwatsing
+    - iluvatar
+    - innolight
+    - ymtc
+    summary: Prepared weekly-2026-11-02-complete using the closed-period helper for November 2–8. Synthesized
+      eight archived in-period disclosures and performed supplemental English/Chinese industry and accelerator
+      gap searches. Read Tower’s original NPO announcement, InnoLight’s November 3 and November 6 investor
+      documents, Hwatsing management-call reporting and Iluvatar shipment reporting; reused today’s original
+      AMEC document review. Reuters direct-page retrieval failed, so indexed Reuters reporting and accessible
+      Reuters relays supported the YMTC sourcing and IPO sections, without treating relays as independent
+      corroboration. Original Iluvatar exchange-filing retrieval and additional performance-claim verification
+      remain unresolved. November 9 MLPerf head checks from the separately logged daily sweep and the
+      InferenceX unofficial-deployment warning are labeled post-period; no exhaustive artifact audit or
+      period-end leaderboard reconstruction was performed. No new benchmark, forecast revision or company
+      review-date change was made. Preserved all historical reports and prior run records. This briefing
+      is complete as a calendar period but research coverage remains partial, including private deployments,
+      tenders, unindexed disclosures and qualified-production metrics. Source synchronization and publication
+      are checked separately after commit.
+    source_ids:
+    - amec-ir-2026-11-02
+    - hwatsing-acceptance-2026-11-05
+    - iluvatar-shipments-2026-11-02
+    - inferencex
+    - innolight-ir-2026-11-03
+    - innolight-supply-preparation-2026-11-06
+    - innolight-tower-npo-2026-11-03
+    - mlperf-inference-6-1
+    - mlperf-training
+    - ymtc-domestic-tools-2026-11-06
+    - ymtc-ipo-delay-2026-11-04
