@@ -1,8 +1,8 @@
 name: SMEE
 chinese_name: 上海微电子
 counterparts:
-  - ASML
-  - Nikon
+- ASML
+- Nikon
 priority: 2
 stage: Commercial
 role: Domestic lithography equipment company.
@@ -13,16 +13,37 @@ key_fact:
   evidence: vendor
   as_of: 2026-09-11
   source_ids:
-    - smee
-    - duv-reuters
-facts: []
-watch_for:
-  - Advanced-tool acceptance by customers
-  - Published throughput and overlay
-source_ids:
   - smee
   - duv-reuters
-reviewed_at: 2026-10-25
+facts:
+- label: Dry-lithography product scope
+  value: The undated official listings specify SSB800 I-line for 280 nm and above and SSC800 KrF for 110
+    nm and above. These product scopes do not establish advanced immersion or EUV qualification.
+  evidence: vendor
+  as_of: '2026-11-10'
+  source_ids:
+  - smee-ssb800
+  - smee-ssc800
+- label: Attributed dry-tool operating claims
+  value: November 9 CIIE reporting quotes SMEE claiming over 90% domestic content in key components, more
+    than 10 million cumulative wafer passes supported, and effective operating rate above 92%. The exhibit
+    comprised platform models. Customer identities, installed-tool count, measurement period, uptime methodology
+    and component-content denominator are undisclosed; repeated wafer processing must not be read as unique
+    good wafers or independent performance validation.
+  evidence: vendor
+  as_of: '2026-11-09'
+  source_ids:
+  - smee-ciie-2026-11-09
+watch_for:
+- Advanced-tool acceptance by customers
+- Published throughput and overlay
+source_ids:
+- smee
+- duv-reuters
+- smee-ssb800
+- smee-ssc800
+- smee-ciie-2026-11-09
+reviewed_at: '2026-11-10'
 slug: smee
 layers:
-  - lithography
+- lithography

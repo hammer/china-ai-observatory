@@ -1,11 +1,11 @@
 schema_version: 2
 baseline_date: 2026-09-11
-last_research_at: 2026-11-09
-last_automated_run_at: 2026-11-08
+last_research_at: 2026-11-10
+last_automated_run_at: 2026-11-10
 last_run_status: partial
 coverage: >-
-  November 9 weekly briefing: eight public November 2–8 disclosures synthesized across
-  five companies. Coverage remains partial; no additional profile review dates advanced.
+  November 10 partial sweep: 12 priority companies and five oldest remaining profiles screened;
+  SMIC and SMEE substantively updated. Other profile review dates remain unchanged.
 timezone: Europe/London
 runs:
   - date: 2026-09-12
@@ -3036,3 +3036,48 @@ runs:
     - mlperf-training
     - ymtc-domestic-tools-2026-11-06
     - ymtc-ipo-delay-2026-11-04
+  - date: '2026-11-10'
+    status: partial
+    companies:
+    - aishengna
+    - amec
+    - cambricon
+    - cxmt
+    - enflame
+    - eoptolink
+    - huawei
+    - innolight
+    - naura
+    - smic
+    - ymtc
+    - yuliangsheng
+    - rslaser
+    - guowang
+    - siom
+    - smee
+    - ciomp
+    summary: English/Chinese overlap searches covered November 2–10, with older-source follow-ups. Read
+      SMIC’s original unaudited Q2 filing through Sina and resolved the prior capacity backfill gap. Its
+      October 31 notice schedules Q3 results for November 12; no Q3 actuals were inferred. Read SMEE official
+      SSB800/SSC800 product listings and November 9 Guancha reporting through Sina, retaining vendor attribution
+      for operating and domestic-content claims and distinguishing exhibition models from qualified advanced
+      tools. Only SMIC and SMEE review dates advanced. RSLaser/Guowang searches returned undated or historical
+      institutional and recruitment descriptions; no new accepted-tool evidence verified. SIOM homepage
+      retrieval timed out; indexed institutional results did not establish a new qualified lithography
+      source. CIOMP results included a 2016 project test, not a current milestone. Other priority searches
+      mainly returned recorded disclosures and market commentary; broker claims about improved HBM supply
+      and Enflame supply prepayments remain primary-filing follow-ups. MLPerf Training v6.0 and Inference
+      v6.1 HEADs remained eabf23a07b2a0c60a289ff871dc3a46fff0d0421 and 4bb63cd28eb136be221bc801a9e38c66c8a7553f;
+      individual result artifacts were not exhaustively audited. InferenceX retained its unofficial-deployment
+      warning, so no new results were accepted. No new matched frontier end-to-end benchmark was verified.
+      Coverage remains partial for private deployments, tenders, unindexed filings, acceptance, yield,
+      reliability and component provenance. Historical reports, forecasts, corrections and benchmark records
+      are preserved.
+    source_ids:
+    - smic-q2-2026-08-13
+    - smee-ciie-2026-11-09
+    - smee-ssb800
+    - smee-ssc800
+    - mlperf-training
+    - mlperf-inference-6-1
+    - inferencex
