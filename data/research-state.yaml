@@ -1,11 +1,11 @@
 schema_version: 2
 baseline_date: 2026-09-11
-last_research_at: 2026-11-10
+last_research_at: 2026-11-11
 last_automated_run_at: 2026-11-10
 last_run_status: partial
 coverage: >-
-  November 10 partial sweep: 12 priority companies and five oldest remaining profiles screened;
-  SMIC and SMEE substantively updated. Other profile review dates remain unchanged.
+  November 11 partial sweep: 12 priority companies and four oldest remaining profiles screened;
+  Enflame and Guowang substantively updated. Other profile review dates remain unchanged.
 timezone: Europe/London
 runs:
   - date: 2026-09-12
@@ -3081,3 +3081,47 @@ runs:
     - mlperf-training
     - mlperf-inference-6-1
     - inferencex
+
+  - date: 2026-11-11
+    status: partial
+    companies:
+      - aishengna
+      - amec
+      - cambricon
+      - cxmt
+      - enflame
+      - eoptolink
+      - huawei
+      - innolight
+      - naura
+      - smic
+      - ymtc
+      - yuliangsheng
+      - rslaser
+      - guowang
+      - siom
+      - ciomp
+    summary: English/Chinese overlap searches covered November 3–11, with older-source follow-ups. Read
+      Enflame’s original unaudited Q3 filing, resolving the prior prepayment follow-up without
+      inferring HBM provenance or delivery quantities. Read Guowang’s November 2 qualified-applicant
+      notice, its attachment and the August 18 tender; construction scope and estimated spending
+      remain distinct from completed premises or qualified optics. Only Enflame and Guowang profile
+      review dates advanced. RSLaser’s website could not be retrieved; indexed claims of volume
+      delivery lacked a verified primary source. SIOM Chinese retrieval timed out and its English
+      research index returned 502; indexed space-station cooling research did not establish
+      lithography progress. Read CIOMP’s research index and September 17 telescope-mirror review; no
+      new scanner-qualification evidence was verified. Other priority searches mainly returned
+      already-recorded disclosures, older reporting and broker commentary. MLPerf Training v6.0 and
+      Inference v6.1 HEADs remained eabf23a07b2a0c60a289ff871dc3a46fff0d0421 and
+      4bb63cd28eb136be221bc801a9e38c66c8a7553f; individual result artifacts were not exhaustively
+      audited. InferenceX retained its unofficial-deployment warning, so no new results were accepted.
+      No new matched frontier end-to-end benchmark was verified. Coverage remains partial for private
+      deployments, tenders, unindexed disclosures, acceptance, yield, reliability and component
+      provenance. Historical reports, forecasts, corrections and benchmark records are preserved.
+    source_ids:
+      - enflame-q3-2026-10-31
+      - guowang-renovation-tender-2026-08-18
+      - guowang-renovation-applicants-2026-11-02
+      - mlperf-training
+      - mlperf-inference-6-1
+      - inferencex

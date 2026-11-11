@@ -19,6 +19,17 @@ key_fact:
     - enflame-ipo
     - enflame-teardown
 facts:
+  - label: Prepayments and operating cash needs
+    value: The unaudited September 30 balance sheet reports RMB 7.709 billion of prepayments, versus RMB
+      388.132 million at year-end, and RMB 6.385 billion of contract liabilities, versus RMB 346.042
+      million. Nine-month operating cash outflow was RMB 2.017 billion, attributed to increased
+      raw-material supplier payments. Q3 revenue was RMB 1.212 billion and the attributable net loss
+      RMB 121.639 million. These financial balances do not identify suppliers, reserved wafer or HBM
+      quantities, chip deliveries or a replenishable domestic supply route.
+    evidence: vendor
+    as_of: 2026-09-30
+    source_ids:
+      - enflame-q3-2026-10-31
   - label: Long-context inference software claim
     value: >-
       In its October 29 conference release, Enflame describes operator fusion, memory optimization, scheduling, hierarchical KV Cache and prefill/decode separation, claiming stable high-throughput inference at million-token context lengths. It supplies no model, precision, accelerator count, latency, throughput, power or reproducible test configuration. This is a vendor capability claim, not a verified operating benchmark.
@@ -63,12 +74,13 @@ watch_for:
   - Independent training and inference results
   - Operating ESL64-O deployments with card count, topology, utilization, reliability and power data
 source_ids:
+  - enflame-q3-2026-10-31
   - enflame-ipo
   - enflame-teardown
   - guoxin-expo-2026-10-12
   - enflame-ciif-release-2026-10-16
   - enflame-tencent-inference-2026-10-29
-reviewed_at: 2026-11-03
+reviewed_at: 2026-11-11
 slug: enflame
 layers:
   - accelerators

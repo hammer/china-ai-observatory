@@ -14,6 +14,17 @@ key_fact:
   source_ids:
     - guowang
 facts:
+  - label: Yizhuang facility renovation procurement
+    value: A November 2 government notice discloses qualified applicants for Building 3 renovation. The
+      August 18 tender specifies 11,610.69 square metres, an estimated RMB 76.9104 million contract
+      and a planned 176-day construction period. These are procurement-stage premises works, not
+      evidence of a contract award, completed facility, qualified projection optics or production
+      throughput.
+    evidence: primary
+    as_of: 2026-11-02
+    source_ids:
+      - guowang-renovation-tender-2026-08-18
+      - guowang-renovation-applicants-2026-11-02
   - label: Optical manufacturing recruitment
     value: An October 16 Hebei University notice recruits 2027 graduates for optical coating, processing
       and inspection, optical-mechanical integration, and system testing. It supports continuing staffing
@@ -27,9 +38,11 @@ watch_for:
   - Customer qualifications
   - Verified projection-optics production
 source_ids:
+  - guowang-renovation-tender-2026-08-18
+  - guowang-renovation-applicants-2026-11-02
   - guowang
   - guowang-recruitment-2026-10-16
-reviewed_at: 2026-10-23
+reviewed_at: 2026-11-11
 slug: guowang
 layers:
   - optics
