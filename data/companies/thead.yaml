@@ -19,6 +19,16 @@ key_fact:
     - m890
     - thead
 facts:
+  - label: Proposed separate listing
+    value: Alibaba’s November 10 filing discloses T-Head’s September 11 confidential Hong Kong listing
+      application. Exchange clearance to proceed with the spin-off is distinct from final listing
+      approval. T-Head is expected to remain an Alibaba subsidiary; offering size, structure and
+      ownership dilution were not finalized. Listing Committee approval, CSRC filing and final company
+      decisions remain conditions, with no assured completion date.
+    evidence: primary
+    as_of: 2026-11-10
+    source_ids:
+      - thead-spinoff-2026-11-10
   - label: Reported China market share
     value: IDC data reported by Reuters put T-Head at 7% of China's data-center AI-accelerator
       shipments in the first half of 2026; unit volume, product mix, customers and workloads were not disclosed.
@@ -74,13 +84,14 @@ watch_for:
   - Product mix, utilization and acceptance behind reported shipment counts
   - V900 production, customer acceptance and reproducible cluster-scale workloads
 source_ids:
+  - thead-spinoff-2026-11-10
   - thead-sail-announcement-2026-07-18
   - m890
   - thead
   - alibaba-v900-2026-09-22
   - alibaba-v900-primary-2026-09-22
   - china-ai-accelerator-share-reuters-2026-10-13
-reviewed_at: 2026-11-09
+reviewed_at: 2026-11-12
 slug: thead
 layers:
   - accelerators

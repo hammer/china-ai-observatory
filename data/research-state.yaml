@@ -1,11 +1,11 @@
 schema_version: 2
 baseline_date: 2026-09-11
-last_research_at: 2026-11-11
-last_automated_run_at: 2026-11-10
+last_research_at: 2026-11-12
+last_automated_run_at: 2026-11-12
 last_run_status: partial
 coverage: >-
-  November 11 partial sweep: 12 priority companies and four oldest remaining profiles screened;
-  Enflame and Guowang substantively updated. Other profile review dates remain unchanged.
+  November 12 partial sweep: 12 priority companies, five oldest remaining profiles and T-Head screened;
+  ACM and T-Head substantively updated. Other profile review dates remain unchanged.
 timezone: Europe/London
 runs:
   - date: 2026-09-12
@@ -3122,6 +3122,50 @@ runs:
       - enflame-q3-2026-10-31
       - guowang-renovation-tender-2026-08-18
       - guowang-renovation-applicants-2026-11-02
+      - mlperf-training
+      - mlperf-inference-6-1
+      - inferencex
+
+  - date: 2026-11-12
+    status: partial
+    companies:
+      - aishengna
+      - amec
+      - cambricon
+      - cxmt
+      - enflame
+      - eoptolink
+      - huawei
+      - innolight
+      - naura
+      - smic
+      - ymtc
+      - yuliangsheng
+      - rslaser
+      - siom
+      - ciomp
+      - acm
+      - empyrean
+      - thead
+    summary: English/Chinese overlap searches covered November 4–12, with earlier-source follow-ups.
+      Read Alibaba’s November 10 SEC exhibit and ACM’s November 5 company release via GlobeNewswire
+      after its IR page returned 403. Only T-Head and ACM profile review dates advanced. Other
+      searches largely returned market-price commentary and existing disclosures. RSLaser/SIOM
+      production claims surfaced in secondary summaries without primary verification and were not
+      added; CIOMP indexed results described institutional activity, not scanner acceptance.
+      Empyrean’s proposed Qijie acquisition surfaced in November 2 reporting and remains a
+      primary-filing follow-up. CXMT reporting and meeting-notice dates require reconciliation before
+      adding further financial or customer-agreement claims. SMIC’s indexed announcements did not yet
+      supply the scheduled November 12 quarterly results at this morning’s check. MLPerf Training v6.0
+      and Inference v6.1 HEADs remained eabf23a07b2a0c60a289ff871dc3a46fff0d0421 and
+      4bb63cd28eb136be221bc801a9e38c66c8a7553f; individual artifacts were not exhaustively audited.
+      InferenceX retained its unofficial-deployment warning, so no new results were accepted. No new
+      matched frontier end-to-end benchmark was verified. Coverage remains partial for private
+      deployments, unindexed sources, tenders, acceptance, yield and component provenance. Historical
+      reports, forecasts and corrections remain unchanged.
+    source_ids:
+      - thead-spinoff-2026-11-10
+      - acm-parent-q3-2026-11-05
       - mlperf-training
       - mlperf-inference-6-1
       - inferencex
