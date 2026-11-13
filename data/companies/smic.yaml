@@ -1,35 +1,48 @@
 name: SMIC
 chinese_name: 中芯国际
 counterparts:
-- TSMC
+  - TSMC
 priority: 1
 stage: Commercial
 role: The key domestic foundry for advanced logic.
 assessment: Fabrication in China still relies on an installed base of foreign tools.
 key_fact:
   label: Independent process evidence
-  value: 'N+3: improved 7nm-family process'
+  value: "N+3: improved 7nm-family process"
   evidence: measured
   as_of: 2025-12-11
   source_ids:
-  - smic-teardown
+    - smic-teardown
 facts:
-- label: Q2 aggregate foundry operations
-  value: SMIC’s unaudited August 13 release reports Q2 revenue of USD 3,005.6 million, 93.7% utilization
-    and monthly capacity of 1,096,500 eight-inch-equivalent standard-logic wafers. These aggregate figures
-    do not disclose advanced-node capacity, good large AI dies, process yield or domestic-tool share.
-  evidence: vendor
-  as_of: '2026-08-13'
-  source_ids:
-  - smic-q2-2026-08-13
+  - label: Q3 aggregate foundry operations
+    value: SMIC’s November 12 quarterly filing reports 97.3% utilization, versus
+      93.7% in Q2; quarter-end monthly capacity of 1,116,750 and quarterly wafer
+      sales of 3,033,683, both expressed as eight-inch-equivalent standard-logic
+      wafers. These aggregate figures do not disclose advanced-node capacity,
+      good large AI dies, process yield or domestic-tool share.
+    evidence: vendor
+    as_of: 2026-09-30
+    source_ids:
+      - smic-q3-2026-11-12
+  - label: Q2 aggregate foundry operations
+    value: SMIC’s unaudited August 13 release reports Q2 revenue of USD 3,005.6
+      million, 93.7% utilization and monthly capacity of 1,096,500
+      eight-inch-equivalent standard-logic wafers. These aggregate figures do
+      not disclose advanced-node capacity, good large AI dies, process yield or
+      domestic-tool share.
+    evidence: vendor
+    as_of: 2026-08-13
+    source_ids:
+      - smic-q2-2026-08-13
 watch_for:
-- Good large AI dies per month
-- Process scaling measured by teardown
-- Domestic-tool qualification and production yield
+  - Good large AI dies per month
+  - Process scaling measured by teardown
+  - Domestic-tool qualification and production yield
 source_ids:
-- smic-teardown
-- smic-q2-2026-08-13
-reviewed_at: '2026-11-10'
+  - smic-q3-2026-11-12
+  - smic-teardown
+  - smic-q2-2026-08-13
+reviewed_at: 2026-11-13
 slug: smic
 layers:
-- foundry
+  - foundry

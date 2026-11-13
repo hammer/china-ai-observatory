@@ -1,11 +1,11 @@
 schema_version: 2
 baseline_date: 2026-09-11
-last_research_at: 2026-11-12
-last_automated_run_at: 2026-11-12
+last_research_at: 2026-11-13
+last_automated_run_at: 2026-11-13
 last_run_status: partial
 coverage: >-
-  November 12 partial sweep: 12 priority companies, five oldest remaining profiles and T-Head screened;
-  ACM and T-Head substantively updated. Other profile review dates remain unchanged.
+  November 13 partial sweep: 12 priority companies and five oldest remaining profiles screened;
+  SMIC and Empyrean substantively updated. Other profile review dates remain unchanged.
 timezone: Europe/London
 runs:
   - date: 2026-09-12
@@ -3166,6 +3166,48 @@ runs:
     source_ids:
       - thead-spinoff-2026-11-10
       - acm-parent-q3-2026-11-05
+      - mlperf-training
+      - mlperf-inference-6-1
+      - inferencex
+
+  - date: 2026-11-13
+    status: partial
+    companies:
+      - aishengna
+      - amec
+      - cambricon
+      - cxmt
+      - enflame
+      - eoptolink
+      - huawei
+      - innolight
+      - naura
+      - smic
+      - ymtc
+      - yuliangsheng
+      - rslaser
+      - siom
+      - ciomp
+      - empyrean
+      - zhiqi
+    summary: English/Chinese overlap searches covered November 5–13 with earlier-source follow-ups. Read
+      SMIC’s November 12 HKEX quarterly filing (downloaded after web retrieval timed out) and
+      Empyrean’s November 2 board-resolution filing, resolving two pending checks. Only these two
+      profile review dates advanced. Other priority searches largely returned previously recorded
+      disclosures and secondary market summaries. Zhiqi searches surfaced November 10 recruitment, not
+      scanner qualification; SIOM/CIOMP results described research or institutional activity. No new
+      primary lithography production evidence was verified for RSLaser, Aishengna or Yuliangsheng.
+      Eoptolink November 11–12 expansion and delivery statements surfaced in reporting and remain a
+      primary-source follow-up. MLPerf Training v6.0 and Inference v6.1 HEADs remained
+      eabf23a07b2a0c60a289ff871dc3a46fff0d0421 and 4bb63cd28eb136be221bc801a9e38c66c8a7553f;
+      individual artifacts were not exhaustively audited. InferenceX retained its
+      unofficial-deployment warning; no new results were accepted. No new matched frontier end-to-end
+      benchmark was verified. Coverage remains partial for private deployments, tenders, unindexed
+      disclosures, acceptance, yield and component provenance. Historical reports and dated forecasts
+      remain unchanged.
+    source_ids:
+      - smic-q3-2026-11-12
+      - empyrean-qijie-board-2026-11-02
       - mlperf-training
       - mlperf-inference-6-1
       - inferencex

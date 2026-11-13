@@ -19,6 +19,18 @@ key_fact:
   source_ids:
     - empyrean
 facts:
+  - label: Proposed digital-logic EDA acquisition
+    value: The October 30 board approved a proposed investment of up to RMB 220
+      million to acquire no more than 51% of Qijie Technology (Shenzhen). The
+      November 2 disclosure says the aim is to address digital-logic optimization
+      gaps and develop next-generation AI/3DIC logic and performance optimization.
+      Consolidation is conditional on completion; board approval does not
+      establish a completed acquisition, integrated product flow or
+      customer-qualified sign-off capability.
+    evidence: primary
+    as_of: 2026-10-30
+    source_ids:
+      - empyrean-qijie-board-2026-11-02
   - label: Customer-flow and foundry-certification claims
     value: Empyrean says products entered core design flows at leading domestic chip-design and
       manufacturing customers and supported mass production. It reports ALPS certification at
@@ -43,10 +55,11 @@ watch_for:
   - Frontier-node sign-off accuracy
   - Interoperability and productivity
 source_ids:
+  - empyrean-qijie-board-2026-11-02
   - empyrean
   - empyrean-2026-h1-report
   - empyrean-yake-s2c-investment-2026-10-13
-reviewed_at: 2026-10-26
+reviewed_at: 2026-11-13
 slug: empyrean
 layers:
   - eda
