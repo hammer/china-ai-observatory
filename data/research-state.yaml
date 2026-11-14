@@ -1,11 +1,11 @@
 schema_version: 2
 baseline_date: 2026-09-11
-last_research_at: 2026-11-13
-last_automated_run_at: 2026-11-13
+last_research_at: 2026-11-14
+last_automated_run_at: 2026-11-14
 last_run_status: partial
 coverage: >-
-  November 13 partial sweep: 12 priority companies and five oldest remaining profiles screened;
-  SMIC and Empyrean substantively updated. Other profile review dates remain unchanged.
+  November 14 partial sweep: 12 priority companies and five oldest remaining profiles screened;
+  JCET substantively updated with an August briefing backfill. Other profile dates remain unchanged.
 timezone: Europe/London
 runs:
   - date: 2026-09-12
@@ -3208,6 +3208,49 @@ runs:
     source_ids:
       - smic-q3-2026-11-12
       - empyrean-qijie-board-2026-11-02
+      - mlperf-training
+      - mlperf-inference-6-1
+      - inferencex
+
+  - date: 2026-11-14
+    status: partial
+    companies:
+      - aishengna
+      - amec
+      - cambricon
+      - cxmt
+      - enflame
+      - eoptolink
+      - huawei
+      - innolight
+      - naura
+      - smic
+      - ymtc
+      - yuliangsheng
+      - rslaser
+      - siom
+      - ciomp
+      - zhiqi
+      - jcet
+    summary: English/Chinese overlap searches covered November 6–14 with older-source follow-ups. Read
+      JCET’s original seven-page half-year briefing PDF through its filing-archive mirror; exact
+      meeting date was not stated, so the news event date remains unknown. Only JCET’s review date
+      advanced. Eoptolink’s November flood and revenue-recognition statements repeated the
+      already-recorded October 29 disclosure; no duplicate event was added. Other searches surfaced
+      market commentary, previously recorded announcements and unreconciled CXMT reporting. RSLaser
+      results included a supplier profile without newly verified acceptance data; SIOM’s November 13
+      research concerned proton irradiation/FLASH therapy, CIOMP’s results were institutional, and
+      Zhiqi searches returned recruitment rather than qualified scanner optics. No new lithography
+      production claim was accepted. MLPerf Training v6.0 and Inference v6.1 HEADs remained
+      eabf23a07b2a0c60a289ff871dc3a46fff0d0421 and 4bb63cd28eb136be221bc801a9e38c66c8a7553f;
+      individual artifacts were not exhaustively audited. InferenceX still carried its
+      unofficial-deployment warning, so no new results were accepted. No new matched frontier
+      end-to-end benchmark was verified. Coverage remains partial for private deployments, tenders,
+      unindexed sources, customer acceptance, yields and provenance. Historical reports, corrections
+      and forecasts were preserved.
+    source_ids:
+      - jcet-h1-briefing-2026-08-31
+      - eoptolink-ir-2026-10-29
       - mlperf-training
       - mlperf-inference-6-1
       - inferencex

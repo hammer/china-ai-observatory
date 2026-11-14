@@ -21,6 +21,24 @@ key_fact:
   source_ids:
     - jcet-2026-h1-report
 facts:
+  - label: Glass and panel packaging pilot work
+    value: In its August 31 briefing record, JCET says glass-substrate and panel-level packaging work
+      had advanced from early R&D to pilot-line construction, with multiple customer joint-development
+      projects. Technical challenges remained; this does not establish an operating qualified volume
+      line.
+    evidence: vendor
+    as_of: 2026-08-31
+    source_ids:
+      - jcet-h1-briefing-2026-08-31
+  - label: CPO system-validation stage
+    value: The same briefing reports prior CPO light-up and ongoing customer system validation with
+      end-system customers, plus joint reliability and optical/electrical testing capabilities. It
+      says customer products had not yet reached large-scale production or contributed actual results;
+      future revenue depended on validation and ramp-up. Yield and shipment quantities remain undisclosed.
+    evidence: vendor
+    as_of: 2026-08-31
+    source_ids:
+      - jcet-h1-briefing-2026-08-31
   - label: Advanced-packaging investment expansion
     value: At its October 27 briefing, JCET said nine-month fixed capital expenditure was nearly RMB 8.9
       billion. Its 2026 investment plan rises from RMB 11.01 billion to RMB 18.2 billion, including fixed-asset
@@ -58,11 +76,12 @@ watch_for:
   - Large compute-plus-HBM package yield
   - Capacity, thermal limits and reliability
 source_ids:
+  - jcet-h1-briefing-2026-08-31
   - jcet
   - jcet-2026-h1-report
   - jcet-private-placement-plan-2026-09-04
   - jcet-packaging-investment-2026-10-28
-reviewed_at: 2026-10-28
+reviewed_at: 2026-11-14
 slug: jcet
 layers:
   - packaging
