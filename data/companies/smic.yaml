@@ -14,6 +14,18 @@ key_fact:
   source_ids:
     - smic-teardown
 facts:
+  - label: Equipment lead times and supply outlook
+    value: At the November 13 earnings call, co-CEO Zhao Haijun reportedly cited
+      16–24-month equipment delivery times and possible disruption to 2026 capital
+      spending, while saying the year's expansion plan remained intact. He expected
+      tight wafer supply in 2027 and AI-memory balance around mid-to-late 2028,
+      with compute/supporting chips still constrained. These are management
+      statements and forecasts, without tool-specific acceptance or advanced-node
+      yield evidence.
+    evidence: reported
+    as_of: 2026-11-13
+    source_ids:
+      - smic-supply-outlook-2026-11-13
   - label: Q3 aggregate foundry operations
     value: SMIC’s November 12 quarterly filing reports 97.3% utilization, versus
       93.7% in Q2; quarter-end monthly capacity of 1,116,750 and quarterly wafer
@@ -39,10 +51,11 @@ watch_for:
   - Process scaling measured by teardown
   - Domestic-tool qualification and production yield
 source_ids:
+  - smic-supply-outlook-2026-11-13
   - smic-q3-2026-11-12
   - smic-teardown
   - smic-q2-2026-08-13
-reviewed_at: 2026-11-13
+reviewed_at: 2026-11-15
 slug: smic
 layers:
   - foundry
