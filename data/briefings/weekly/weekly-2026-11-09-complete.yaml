@@ -1,0 +1,94 @@
+slug: weekly-2026-11-09-complete
+cadence: weekly
+period_start: '2026-11-09'
+period_end: '2026-11-15'
+through_date: '2026-11-15'
+published_at: '2026-11-16'
+status: complete
+title: Higher foundry activity meets equipment constraints as chip financing advances
+summary: SMIC reports higher aggregate utilization while warning of equipment delays. SMEE describes
+  dry-lithography progress, and Alibaba discloses T-Head's proposed listing. These developments strengthen
+  the evidence for industrial activity without establishing advanced-node self-sufficiency or frontier
+  workload parity. No dated Observatory forecast changes.
+sections:
+  - heading: More foundry activity does not reveal advanced-AI-chip output
+    body: SMIC's November 12 unaudited quarterly filing reports utilization of 97.3%, up from 93.7%
+      in Q2. Quarter-end monthly capacity was 1,116,750 eight-inch-equivalent standard-logic wafers,
+      with quarterly sales of 3,033,683 on the same equivalent basis. These figures describe the
+      quarter ended September 30, not November production. They support higher aggregate foundry
+      activity but do not isolate advanced-node capacity, good large AI dies, process yield or
+      domestic-tool share. The sovereignty question therefore remains about qualified output and
+      replenishable inputs, rather than utilization alone.
+    source_ids:
+      - smic-q3-2026-11-12
+  - heading: Equipment delivery is a constraint on expansion timing
+    body: At the November 13 earnings call, co-CEO Zhao Haijun reportedly cited equipment delivery
+      times of 16–24 months and possible disruption to capital-spending execution, while saying the
+      year's expansion plan remained intact. He expected tight wafer supply in 2027 and AI-memory
+      supply-demand balance around mid-to-late 2028, with compute and supporting chips still
+      constrained. These are management statements and forecasts, not measured future capacity.
+      They highlight delivery schedules and customer qualification as tests of expansion plans;
+      the report does not identify the delayed tools or quantify their effect on advanced-node output.
+    source_ids:
+      - smic-supply-outlook-2026-11-13
+  - heading: Dry-lithography claims need an operating denominator
+    body: November 9 CIIE reporting describes SMEE exhibiting SSC800 and SSB800 platform models,
+      covering KrF and I-line dry lithography. It attributes to SMEE claims of over 90% domestic
+      content in key components, more than 10 million cumulative wafer passes supported and an
+      effective operating rate above 92%. These are vendor claims conveyed by reporting, without
+      identified customers, installed-tool count, measurement period, uptime methodology or the
+      domestic-content denominator. Repeated wafer processing is not a count of unique good wafers.
+      The evidence concerns dry platforms and cannot establish advanced immersion or EUV qualification.
+      Independently documented customer acceptance and sustained throughput remain the next milestones.
+    source_ids:
+      - smee-ciie-2026-11-09
+  - heading: T-Head opens a financing route, not a funded capacity commitment
+    body: Alibaba's November 10 disclosure says T-Head confidentially submitted its Hong Kong listing
+      application on September 11 after exchange clearance to proceed with the proposed spin-off.
+      Publication and application dates are distinct. Offering size, structure and Alibaba's eventual
+      stake were not finalized; Alibaba expected T-Head to remain a subsidiary following completion.
+      A separate listing could provide access to capital and clearer standalone valuation, but the
+      application does not establish completed financing, proceeds, manufacturing expansion or a change
+      in fabrication and memory dependence. Approval, offering terms and use of proceeds are the
+      consequential next checks.
+    source_ids:
+      - thead-spinoff-2026-11-10
+  - heading: Forecasts and benchmark judgments remain unchanged
+    body: 'No dated Observatory forecast changes. The evidence does not resolve the manufacturing,
+      memory and operating-performance uncertainties behind the existing judgments. Watch for accepted
+      lithography equipment, disclosed advanced-node yields and good-die output, actual financing and
+      reproducible training time-to-quality or inference throughput/latency measurements. The week’s
+      recorded reviews did not verify a new matched contemporary Chinese frontier end-to-end benchmark.
+      This is a verification limit, not evidence that none exists. Post-period context: November 16
+      repository-head checks found unchanged MLPerf Training v6.0 and Inference v6.1 heads, without an
+      exhaustive artifact audit. The retrieved InferenceX page still carried an unofficial-deployment
+      warning, so it was not accepted as authoritative new evidence. These publication-day checks do
+      not reconstruct the exact period-end leaderboard.'
+    source_ids:
+      - mlperf-training
+      - mlperf-inference-6-1
+      - inferencex
+news_ids:
+  - smee-ciie-2026-11-09
+  - thead-spinoff-2026-11-10
+  - smic-q3-2026-11-12
+  - smic-supply-outlook-2026-11-13
+source_ids:
+  - smee-ciie-2026-11-09
+  - thead-spinoff-2026-11-10
+  - smic-q3-2026-11-12
+  - smic-supply-outlook-2026-11-13
+  - mlperf-training
+  - mlperf-inference-6-1
+  - inferencex
+coverage_note: This closed-period edition synthesizes four archive disclosures public November 9–15,
+  covering SMEE, T-Head and SMIC. Original Alibaba and SMIC filings and attributed SMEE and SMIC
+  reporting were reread. Supplemental English/Chinese searches checked manufacturing, accelerator
+  and industry gaps without establishing a further qualifying milestone. Earlier disclosures added
+  to the archive during the week are not relabeled as new in-period events. The November 16 daily
+  sweep supplies explicitly post-period benchmark-check context; this briefing is not another full
+  company-profile review. Daily coverage was partial, and a sparse event list does not imply a quiet
+  industry. Private deployments, tenders, unindexed disclosures, qualified volumes, yields, acceptance,
+  power, reliability and component provenance remain incompletely covered. Complete denotes the
+  closed calendar period, not exhaustive research. Earlier editions, corrections, profile review dates
+  and historical forecasts are preserved.

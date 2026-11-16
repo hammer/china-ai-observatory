@@ -4,8 +4,8 @@ last_research_at: 2026-11-16
 last_automated_run_at: 2026-11-16
 last_run_status: partial
 coverage: >-
-  November 16 partial sweep: 12 priority companies and five oldest remaining profiles screened.
-  No new material fact or benchmark was verified; profile review dates remain unchanged.
+  November 16 daily sweep remains partial across 17 companies. The November 9–15 closed weekly
+  briefing was appended after source rereads and gap searches; no profile dates or forecasts changed.
 timezone: Europe/London
 runs:
   - date: 2026-09-12
@@ -3336,6 +3336,30 @@ runs:
       yields and component provenance. Historical reports, corrections and forecasts remain intact.
     source_ids:
       - innolight-supply-preparation-2026-11-06
+      - mlperf-training
+      - mlperf-inference-6-1
+      - inferencex
+
+  - date: 2026-11-16
+    status: partial
+    companies:
+      - smee
+      - thead
+      - smic
+    summary: Appended weekly-2026-11-09-complete for the fully closed November 9–15 period using
+      the cadence helper. Reread Alibaba's SEC disclosure, SMIC's HKEX quarterly filing, SMEE's
+      CIIE reporting and SMIC's signed earnings-call report. Supplemental English/Chinese searches
+      checked industry and manufacturing gaps; no additional qualifying event was established.
+      Four in-period archive events were synthesized. Earlier backfills were not treated as
+      current-week developments, and November 16 benchmark checks were labeled post-period.
+      This was synthesis, not a fresh full-profile sweep. Research remains incomplete for private
+      deployments, tenders, unindexed filings, qualified capacity, yields and component provenance.
+      No profile review dates or dated forecasts changed; all earlier editions were preserved.
+    source_ids:
+      - smee-ciie-2026-11-09
+      - thead-spinoff-2026-11-10
+      - smic-q3-2026-11-12
+      - smic-supply-outlook-2026-11-13
       - mlperf-training
       - mlperf-inference-6-1
       - inferencex
