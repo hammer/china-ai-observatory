@@ -1,11 +1,11 @@
 schema_version: 2
 baseline_date: 2026-09-11
-last_research_at: 2026-11-15
-last_automated_run_at: 2026-11-15
+last_research_at: 2026-11-16
+last_automated_run_at: 2026-11-16
 last_run_status: partial
 coverage: >-
-  November 15 partial sweep: 12 priority companies and five oldest remaining profiles screened;
-  only SMIC substantively updated. Search-only coverage did not advance other profile dates.
+  November 16 partial sweep: 12 priority companies and five oldest remaining profiles screened.
+  No new material fact or benchmark was verified; profile review dates remain unchanged.
 timezone: Europe/London
 runs:
   - date: 2026-09-12
@@ -3292,6 +3292,50 @@ runs:
       provenance. Historical reports, corrections and dated Observatory forecasts were preserved.
     source_ids:
       - smic-supply-outlook-2026-11-13
+      - mlperf-training
+      - mlperf-inference-6-1
+      - inferencex
+
+  - date: 2026-11-16
+    status: partial
+    companies:
+      - aishengna
+      - amec
+      - cambricon
+      - cxmt
+      - enflame
+      - eoptolink
+      - huawei
+      - innolight
+      - naura
+      - smic
+      - ymtc
+      - yuliangsheng
+      - rslaser
+      - siom
+      - ciomp
+      - zhiqi
+      - biren
+    summary: English/Chinese grouped searches covered the November 8–16 overlap, with targeted
+      follow-ups for the oldest profiles and optical-module/equipment suppliers. Read Biren's
+      news index and CIOMP's primary homepage; the former still surfaced October compatibility
+      announcements and the latter institutional news and awards, not new qualified production.
+      SIOM's research index failed to open with HTTP 502; indexed November 13 results concerned
+      irradiation research, not scanner acceptance. RSLaser searches surfaced older unverified
+      aggregation claims; Zhiqi, Aishengna and Yuliangsheng follow-ups did not establish a new
+      qualified delivery. No profile review date advanced. Huawei Peerium coverage repeated the
+      existing September roadmap; InnoLight's November 6 filing was already recorded. November
+      12 Eoptolink coverage reiterated order confidence and an 800G delivery outlook without new
+      quantified shipment or acceptance data. Equipment-order commentary was not promoted to
+      qualified capacity; underlying new primary evidence remains a follow-up. MLPerf Training
+      v6.0 and Inference v6.1 HEADs remained eabf23a07b2a0c60a289ff871dc3a46fff0d0421 and
+      4bb63cd28eb136be221bc801a9e38c66c8a7553f; individual artifacts were not exhaustively audited.
+      InferenceX still explicitly warned of an unofficial deployment, so no new results were
+      accepted. No new matched frontier end-to-end comparison was verified. Coverage remains
+      partial for unindexed disclosures, private deployments, tenders, customer acceptance,
+      yields and component provenance. Historical reports, corrections and forecasts remain intact.
+    source_ids:
+      - innolight-supply-preparation-2026-11-06
       - mlperf-training
       - mlperf-inference-6-1
       - inferencex
