@@ -15,6 +15,16 @@ key_fact:
   source_ids:
     - biren
 facts:
+  - label: Public llm-d compatibility configuration
+    value: The llm-d guide documents Qwen2.5-72B-Instruct-GPTQ-Int8 on eight Biren
+      166M GPUs, split into one prefill and one decode replica with TP=4 each.
+      KV transfer uses NixlConnector over RDMA with CPU buffering. The project labels
+      this community-maintained, outside nightly end-to-end testing; it is configuration
+      evidence, not independently measured performance or production reliability.
+    evidence: primary
+    as_of: 2026-11-17
+    source_ids:
+      - llmd-biren-compatibility
   - label: First-half 2026 commercialization
     value: Company reports RMB 1.236 billion revenue (up 1,997.6% year on year) and a
       RMB 377 million loss for the period in its September 7 half-year summary.
@@ -75,6 +85,8 @@ watch_for:
   - Customer utilization
   - Repeatable manufacturing supply
 source_ids:
+  - llmd-biren-compatibility
+  - biren-ecosystem-2026-10-10
   - biren
   - biren-2026-h1
   - biren-glm-2026-09-07
@@ -82,7 +94,7 @@ source_ids:
   - biren-shanghai-lab-2026-09-10
   - biren-placement-2026-10-08
   - biren-placement-completion-2026-10-12
-reviewed_at: 2026-10-29
+reviewed_at: 2026-11-17
 slug: biren
 layers:
   - accelerators

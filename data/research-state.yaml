@@ -1,11 +1,11 @@
 schema_version: 2
 baseline_date: 2026-09-11
-last_research_at: 2026-11-16
-last_automated_run_at: 2026-11-16
+last_research_at: 2026-11-17
+last_automated_run_at: 2026-11-17
 last_run_status: partial
 coverage: >-
-  November 16 daily sweep remains partial across 17 companies. The November 9–15 closed weekly
-  briefing was appended after source rereads and gap searches; no profile dates or forecasts changed.
+  November 17 partial sweep: 12 priority companies and five oldest remaining profiles screened.
+  Biren's public inference configuration was substantively reviewed; only its profile date advanced.
 timezone: Europe/London
 runs:
   - date: 2026-09-12
@@ -3360,6 +3360,49 @@ runs:
       - thead-spinoff-2026-11-10
       - smic-q3-2026-11-12
       - smic-supply-outlook-2026-11-13
+      - mlperf-training
+      - mlperf-inference-6-1
+      - inferencex
+
+  - date: 2026-11-17
+    status: partial
+    companies:
+      - aishengna
+      - amec
+      - cambricon
+      - cxmt
+      - enflame
+      - eoptolink
+      - huawei
+      - innolight
+      - naura
+      - smic
+      - ymtc
+      - yuliangsheng
+      - rslaser
+      - siom
+      - ciomp
+      - zhiqi
+      - biren
+    summary: English/Chinese overlap searches covered November 9–17 with older-source follow-ups.
+      Read Biren's October 10 announcement and current llm-d guide; added the vendor announcement
+      as a backfill and documented the public eight-GPU INT8 compatibility configuration with its
+      community/non-nightly-test limitation. No measured speedup or production reliability was inferred.
+      RLinf, slime and verl mainline claims were not exhaustively audited. Only Biren's review date
+      advanced. Other results mainly repeated recorded memory/foundry disclosures or surfaced market
+      commentary. RSLaser listings did not establish new scanner acceptance; SIOM/CIOMP results
+      concerned procurement, irradiation research and institutional news. No new Zhiqi qualified
+      delivery was verified. MLPerf Training v6.0 HEAD remained eabf23a07b2a0c60a289ff871dc3a46fff0d0421;
+      Inference v6.1 advanced to 6623c6c8bac460c46a8768ac261bc0889c9c7f13. Inspected its two-commit
+      comparison; the API's first 300 file entries concerned NVIDIA/NV_AvailableVR results and ASUS
+      metadata, including preview-to-available changes. This capped diff is not a full result audit
+      and establishes no matched Chinese comparison. InferenceX retained its unofficial-deployment
+      warning; no new result was accepted. Coverage remains partial for private deployments, tenders,
+      unindexed disclosures, qualified volumes, yields and component provenance. Reports and forecasts
+      were preserved.
+    source_ids:
+      - biren-ecosystem-2026-10-10
+      - llmd-biren-compatibility
       - mlperf-training
       - mlperf-inference-6-1
       - inferencex

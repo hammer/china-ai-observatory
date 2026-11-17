@@ -1,0 +1,19 @@
+slug: biren-ecosystem-2026-10-10
+published_at: 2026-10-10
+event_date: null
+title: Biren describes distributed inference adaptation and RL integrations
+summary: Biren says it submitted a 166M adaptation to llm-d with Dynamia and integrated
+  RLinf, slime and verl support into community mainlines. Its inference example separates
+  prefill and decode across two four-GPU nodes using RDMA and CPU-buffered KV transfer.
+impact: This backfilled announcement is vendor integration evidence, not a matched performance
+  comparison. The llm-d guide checked on November 17 documents a community compatibility
+  configuration outside nightly end-to-end testing; that later check does not establish the
+  guide's October contents. The three RL mainline claims were not independently audited here.
+companies:
+  - biren
+source_ids:
+  - biren-ecosystem-2026-10-10
+  - llmd-biren-compatibility
+evidence: vendor
+added_at: 2026-11-17
+correction_of: null
