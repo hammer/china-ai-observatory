@@ -15,6 +15,15 @@ key_fact:
   source_ids:
     - biren
 facts:
+  - label: Upstream RLinf SUPA support
+    value: RLinf PR 1581 merged on September 20, adding device discovery, visibility, BCCL communication and
+      runtime installation. Its author reports a PI0.5 SFT end-to-end test; this review did not reproduce it
+      or establish performance parity.
+    evidence: primary
+    as_of: '2026-11-18'
+    source_ids:
+    - rlinf-biren-supa-pr
+    - rlinf-biren-grpo-2026-11-10
   - label: Public llm-d compatibility configuration
     value: The llm-d guide documents Qwen2.5-72B-Instruct-GPTQ-Int8 on eight Biren
       166M GPUs, split into one prefill and one decode replica with TP=4 each.
@@ -85,6 +94,8 @@ watch_for:
   - Customer utilization
   - Repeatable manufacturing supply
 source_ids:
+  - rlinf-biren-supa-pr
+  - rlinf-biren-grpo-2026-11-10
   - llmd-biren-compatibility
   - biren-ecosystem-2026-10-10
   - biren
@@ -94,7 +105,7 @@ source_ids:
   - biren-shanghai-lab-2026-09-10
   - biren-placement-2026-10-08
   - biren-placement-completion-2026-10-12
-reviewed_at: 2026-11-17
+reviewed_at: 2026-11-18
 slug: biren
 layers:
   - accelerators

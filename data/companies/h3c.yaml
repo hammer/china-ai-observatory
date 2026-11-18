@@ -19,6 +19,13 @@ key_fact:
   source_ids:
     - h3c-odx-2026-09-04
 facts:
+  - label: Education AI-platform adoption
+    value: H3C reports deployments at seven of twelve approved national AI industry-education platform universities.
+      Hardware counts, utilization and domestic provenance remain undisclosed.
+    evidence: vendor
+    as_of: '2026-11-18'
+    source_ids:
+    - h3c-science-adoption-2026-11-13
   - label: Open scale-up direction
     value: H3C describes UXM module support, G-Link development and NPO/CPO interfaces with
       112G/224G compatibility and a reserved 448G SerDes path.
@@ -57,12 +64,13 @@ watch_for:
   - Switch and NIC silicon provenance
   - Large-cluster collective performance
 source_ids:
+  - h3c-science-adoption-2026-11-13
   - h3c
   - h3c-odx-2026-09-04
   - h3c-unipod-s81000-x1-2026-09-29
   - h3c-npo-standard-2026-10-28
   - h3c-tsinghua-sig-2026-10-27
-reviewed_at: 2026-10-29
+reviewed_at: 2026-11-18
 slug: h3c
 layers:
   - networking

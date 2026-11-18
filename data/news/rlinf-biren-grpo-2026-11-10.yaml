@@ -1,0 +1,17 @@
+slug: rlinf-biren-grpo-2026-11-10
+published_at: '2026-11-10'
+event_date: null
+title: RLinf and Biren document SUPA integration and embodied RL work
+summary: The co-authored account describes LingBot-VLA GRPO adaptation and numerical alignment. The linked
+  SUPA accelerator-manager PR was merged on September 20; the model integration was still under review at publication.
+impact: Public upstream support is verifiable integration evidence. Co-authored optimization claims are not
+  an independent cross-hardware benchmark; BRTT open-sourcing remained planned. This follow-up preserves the
+  earlier October vendor announcement.
+companies:
+- biren
+source_ids:
+- rlinf-biren-grpo-2026-11-10
+- rlinf-biren-supa-pr
+evidence: vendor
+added_at: '2026-11-18'
+correction_of: null

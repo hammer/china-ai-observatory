@@ -1,11 +1,11 @@
 schema_version: 2
 baseline_date: 2026-09-11
-last_research_at: 2026-11-17
-last_automated_run_at: 2026-11-17
+last_research_at: 2026-11-18
+last_automated_run_at: 2026-11-18
 last_run_status: partial
 coverage: >-
-  November 17 partial sweep: 12 priority companies and five oldest remaining profiles screened.
-  Biren's public inference configuration was substantively reviewed; only its profile date advanced.
+  November 18 partial sweep screened 12 priority companies and five oldest remaining profiles,
+  plus a Biren follow-up. Only Biren and H3C received substantive profile updates and new review dates.
 timezone: Europe/London
 runs:
   - date: 2026-09-12
@@ -3406,3 +3406,43 @@ runs:
       - mlperf-training
       - mlperf-inference-6-1
       - inferencex
+
+  - date: '2026-11-18'
+    status: partial
+    companies:
+    - aishengna
+    - amec
+    - cambricon
+    - cxmt
+    - enflame
+    - eoptolink
+    - huawei
+    - innolight
+    - naura
+    - smic
+    - ymtc
+    - yuliangsheng
+    - rslaser
+    - siom
+    - ciomp
+    - zhiqi
+    - h3c
+    - biren
+    summary: "English/Chinese overlap searches covered November 10\u201318, with older-source follow-ups. Read\
+      \ the RLinf/Biren co-authored account and merged SUPA PR; added public upstream support without accepting\
+      \ independent performance parity. Read H3C science-adoption announcement and recorded attributed university\
+      \ coverage. Other searches mostly repeated prior disclosures or market commentary; RSLaser commentary,\
+      \ SIOM irradiation news and CIOMP awards did not establish new qualified lithography deliveries. A DIGITIMES\
+      \ CXMT customer-validation lead was not fully verified and remains a follow-up. No new Zhiqi delivery was\
+      \ verified. MLPerf Training v6.0 HEAD remained eabf23a07b2a0c60a289ff871dc3a46fff0d0421 and Inference v6.1\
+      \ remained 6623c6c8bac460c46a8768ac261bc0889c9c7f13; unchanged heads are not a fresh full audit. InferenceX\
+      \ still disclosed an unofficial deployment; no new benchmark was accepted. Coverage remains partial for\
+      \ private deployments, unindexed filings, tenders, yields and component provenance. Historical reports\
+      \ and forecasts preserved."
+    source_ids:
+    - rlinf-biren-supa-pr
+    - rlinf-biren-grpo-2026-11-10
+    - h3c-science-adoption-2026-11-13
+    - mlperf-training
+    - mlperf-inference-6-1
+    - inferencex
