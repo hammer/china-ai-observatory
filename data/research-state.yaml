@@ -1,11 +1,11 @@
 schema_version: 2
 baseline_date: 2026-09-11
-last_research_at: 2026-11-18
-last_automated_run_at: 2026-11-18
+last_research_at: 2026-11-19
+last_automated_run_at: 2026-11-19
 last_run_status: partial
 coverage: >-
-  November 18 partial sweep screened 12 priority companies and five oldest remaining profiles,
-  plus a Biren follow-up. Only Biren and H3C received substantive profile updates and new review dates.
+  November 19 partial sweep screened 12 priority companies and five oldest remaining profiles.
+  Only InnoLight received a substantive update and a new profile review date.
 timezone: Europe/London
 runs:
   - date: 2026-09-12
@@ -3443,6 +3443,44 @@ runs:
     - rlinf-biren-supa-pr
     - rlinf-biren-grpo-2026-11-10
     - h3c-science-adoption-2026-11-13
+    - mlperf-training
+    - mlperf-inference-6-1
+    - inferencex
+
+  - date: '2026-11-19'
+    status: partial
+    companies:
+    - aishengna
+    - amec
+    - cambricon
+    - cxmt
+    - enflame
+    - eoptolink
+    - huawei
+    - innolight
+    - naura
+    - smic
+    - ymtc
+    - yuliangsheng
+    - rslaser
+    - siom
+    - ciomp
+    - zhiqi
+    - kingsemi
+    summary: English/Chinese overlap searches covered November 11–19. Read InnoLight November 18 primary filing
+      and recorded the conditional buyback without interpreting it as capacity expansion. Other priority-company
+      searches mainly repeated existing disclosures. CXMT November 17 briefing accounts and the USCC synthesis
+      require further primary-source reconciliation; no new HBM, yield or signed-contract claim was accepted.
+      CNFIN full-page retrieval failed. RSLaser hiring and directories, SIOM/CIOMP institutional news and Zhiqi
+      recruitment/technical-center recognition did not establish qualified tool deliveries. A Zhiqi facility-renovation
+      procurement lead remains unverified. Kingsemi issuer listings showed previously dated disclosures and awards.
+      Only InnoLight profile date advanced. MLPerf Training v6.0 HEAD remained eabf23a07b2a0c60a289ff871dc3a46fff0d0421
+      and Inference v6.1 remained 6623c6c8bac460c46a8768ac261bc0889c9c7f13; this was a head check, not a full
+      result audit. InferenceX retained its unofficial-deployment warning; no new matched Chinese benchmark accepted.
+      Coverage remains partial for private deployments, tenders, unindexed filings, yields and component provenance.
+      Historical reports and forecasts preserved.
+    source_ids:
+    - innolight-buyback-proposal-2026-11-18
     - mlperf-training
     - mlperf-inference-6-1
     - inferencex

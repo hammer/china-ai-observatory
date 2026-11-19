@@ -16,6 +16,13 @@ key_fact:
   source_ids:
     - innolight
 facts:
+  - label: November capital-allocation proposal
+    value: Chairman proposed a RMB 2–4 billion buyback on November 18, subject to approval and execution. The
+      accompanying operating assurances do not establish additional qualified capacity.
+    evidence: primary
+    as_of: '2026-11-18'
+    source_ids:
+    - innolight-buyback-proposal-2026-11-18
   - label: Hong Kong financing
     value: The July 2026 global offering priced at HKD 980 per share with estimated net proceeds of
       HKD 52.891 billion before any over-allotment exercise.
@@ -96,6 +103,7 @@ watch_for:
   - DSP and laser sourcing
   - Performance per watt and manufacturing yield
 source_ids:
+  - innolight-buyback-proposal-2026-11-18
   - innolight-supply-preparation-2026-11-06
   - innolight-tower-npo-2026-11-03
   - innolight
@@ -107,7 +115,7 @@ source_ids:
   - innolight-operations-2026-10-23
   - innolight-q3-2026-10-30
   - innolight-ir-2026-11-03
-reviewed_at: 2026-11-09
+reviewed_at: 2026-11-19
 slug: innolight
 layers:
   - photonics
