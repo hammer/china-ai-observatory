@@ -1,0 +1,14 @@
+slug: alibaba-compute-call-2026-11-19
+published_at: '2026-11-19'
+event_date: '2026-11-19'
+title: Alibaba updates domestic-compute deployment and roadmap
+summary: The earnings call sets a Q2 2027 commercial-scale V900 cluster target, following planned Q1 chip mass production.
+  Management says Qwen training and Model Studio inference already use domestic chips.
+impact: These are company claims and future milestones, not verified capacity or matched benchmarks. The earlier roadmap is retained; no independent training result was supplied.
+companies:
+- thead
+source_ids:
+- alibaba-compute-call-2026-11-19
+evidence: vendor
+added_at: '2026-11-20'
+correction_of: null

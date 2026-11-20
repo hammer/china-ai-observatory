@@ -1,11 +1,11 @@
 schema_version: 2
 baseline_date: 2026-09-11
-last_research_at: 2026-11-19
-last_automated_run_at: 2026-11-19
+last_research_at: 2026-11-20
+last_automated_run_at: 2026-11-20
 last_run_status: partial
 coverage: >-
-  November 19 partial sweep screened 12 priority companies and five oldest remaining profiles.
-  Only InnoLight received a substantive update and a new profile review date.
+  November 20 partial sweep screened 12 priority companies, five oldest remaining profiles and T-Head.
+  Only CXMT and T-Head received new facts and profile review dates.
 timezone: Europe/London
 runs:
   - date: 2026-09-12
@@ -3481,6 +3481,44 @@ runs:
       Historical reports and forecasts preserved.
     source_ids:
     - innolight-buyback-proposal-2026-11-18
+    - mlperf-training
+    - mlperf-inference-6-1
+    - inferencex
+
+  - date: '2026-11-20'
+    status: partial
+    companies:
+    - aishengna
+    - amec
+    - cambricon
+    - cxmt
+    - enflame
+    - eoptolink
+    - huawei
+    - innolight
+    - naura
+    - smic
+    - ymtc
+    - yuliangsheng
+    - rslaser
+    - siom
+    - ciomp
+    - zhiqi
+    - kingsemi
+    - thead
+    summary: English/Chinese overlap searches covered November 12–20. Read Alibaba earnings-call transcript and
+      original The Paper reporting on CXMT; recorded attributed roadmap/adoption claims and supply negotiations,
+      not measured parity or signed contracts. Other searches mainly repeated earlier disclosures. SIOM/CIOMP
+      listings concerned scientific and institutional activity; no new qualified lithography delivery was established.
+      Oldest-profile screening was search-only, not a full source audit. USCC synthesis and Zhiqi facility-procurement
+      leads remain unresolved. MLPerf Training v6.0 HEAD remained eabf23a07b2a0c60a289ff871dc3a46fff0d0421 and
+      Inference v6.1 remained 6623c6c8bac460c46a8768ac261bc0889c9c7f13; unchanged heads are not a fresh full
+      benchmark audit. InferenceX retained its unofficial-deployment warning. No new matched Chinese benchmark
+      accepted. Coverage remains partial for private deployments, tenders, unindexed filings, yields and component
+      provenance. Historical reports, corrections and forecasts preserved.
+    source_ids:
+    - alibaba-compute-call-2026-11-19
+    - cxmt-lta-2026-11-17
     - mlperf-training
     - mlperf-inference-6-1
     - inferencex
