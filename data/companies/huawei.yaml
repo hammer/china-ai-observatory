@@ -22,6 +22,14 @@ key_fact:
     - ascend
     - hbm-reuters
 facts:
+  - label: Independent production model, September revision
+    value: Epoch AI estimates 1.5 million Ascend units in 2026 using domestic and foreign memory
+      supply assumptions. This is modeled production, not verified shipments. Its H100-equivalent
+      metric normalizes arithmetic specifications and excludes realized workload performance.
+    evidence: reported
+    as_of: '2026-09-24'
+    source_ids:
+      - epoch-huawei-production-2026-09-24
   - label: Reported DeepSeek training plans
     value: Investing.com, citing The Information, reports DeepSeek input into future Huawei chip
       designs, planned Ascend 950DT training as early as end-2026, and priority access to most
@@ -197,6 +205,7 @@ watch_for:
   - 960DT and 960PR delivery against the new 2027 launch targets
   - Capacity, order fulfillment and verified performance of commercial Ascend 950 systems
 source_ids:
+  - epoch-huawei-production-2026-09-24
   - ascend
   - hbm-reuters
   - pytorch-china-2026-09-09
@@ -217,7 +226,7 @@ source_ids:
   - semianalysis-ascend-950pr-2026-10-21
   - deepinfer-release-2026-10-20
   - huawei-nisco-2026-10-27
-reviewed_at: 2026-11-04
+reviewed_at: 2026-11-21
 slug: huawei
 layers:
   - accelerators

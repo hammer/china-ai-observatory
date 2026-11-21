@@ -1,0 +1,15 @@
+slug: epoch-huawei-production-2026-09-24
+published_at: '2026-09-24'
+event_date: '2026-09-24'
+title: Epoch Huawei production model added as historical analysis
+summary: Epoch’s September 24 revision estimates 1.5 million Ascend units in 2026, combining domestic memory,
+  foreign stockpiles and other supply. Its arithmetic-normalized output estimate is below 4% of NVIDIA’s.
+impact: These are modeled totals, not audited shipments or matched training/inference measurements. Memory
+  allocation, yield and supply assumptions matter; existing Observatory forecasts remain unchanged.
+companies:
+- huawei
+source_ids:
+- epoch-huawei-production-2026-09-24
+evidence: reported
+added_at: '2026-11-21'
+correction_of: null
