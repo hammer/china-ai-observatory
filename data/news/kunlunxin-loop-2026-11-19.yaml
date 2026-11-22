@@ -1,0 +1,16 @@
+slug: kunlunxin-loop-2026-11-19
+published_at: '2026-11-19'
+event_date: '2026-11-17'
+title: Kunlunxin reports SenseNova Loop-9B compatibility
+summary: Kunlunxin says it completed release-day adaptation, deployment and accuracy validation for SenseNova
+  Loop-9B using its software stack.
+impact: Vendor compatibility evidence only. The announcement does not disclose accelerator configuration,
+  measured throughput, latency, power or a matched foreign-hardware control; stable operation is not independently
+  reproduced.
+companies:
+- kunlunxin
+source_ids:
+- kunlunxin-loop-2026-11-19
+evidence: vendor
+added_at: '2026-11-22'
+correction_of: null

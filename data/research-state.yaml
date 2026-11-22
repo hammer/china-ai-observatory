@@ -1,11 +1,11 @@
 schema_version: 2
 baseline_date: 2026-09-11
-last_research_at: 2026-11-21
-last_automated_run_at: 2026-11-20
+last_research_at: 2026-11-22
+last_automated_run_at: 2026-11-22
 last_run_status: partial
 coverage: >-
-  November 21 partial sweep screened 12 priority companies and five oldest remaining profiles.
-  Huawei and Zhiqi received historical evidence backfills and actual profile review dates.
+  November 22 partial sweep screened 12 priority companies and five oldest remaining profiles.
+  Only Kunlunxin received new facts and an actual profile review date.
 timezone: Europe/London
 runs:
   - date: 2026-09-12
@@ -3559,6 +3559,46 @@ runs:
     source_ids:
     - zhiqi-h1-2026-08-28
     - epoch-huawei-production-2026-09-24
+    - mlperf-training
+    - mlperf-inference-6-1
+    - inferencex
+
+  - date: '2026-11-22'
+    status: partial
+    companies:
+    - aishengna
+    - amec
+    - cambricon
+    - cxmt
+    - enflame
+    - eoptolink
+    - huawei
+    - innolight
+    - naura
+    - smic
+    - ymtc
+    - yuliangsheng
+    - rslaser
+    - siom
+    - ciomp
+    - kingsemi
+    - kunlunxin
+    summary: English/Chinese overlap searches screened November 14–22 from the November 21 review,
+      with a November 12 Kunlunxin announcement backfilled from its news index. Read the two Kunlunxin
+      original announcements and recorded only attributed model-compatibility claims; no hardware
+      performance figures or production deployment inferred. Other company screening mainly returned
+      prior disclosures, institutional listings and secondary summaries. SIOM/CIOMP research listings
+      and Kingsemi issuer information supplied no new verified lithography qualification in this search.
+      No profile dates advanced for search-only coverage. Enflame’s announced November 23 briefing is
+      a follow-up lead, not completed results. USCC synthesis and Zhiqi facility-procurement checks remain
+      unresolved. MLPerf Training v6.0 HEAD remained eabf23a07b2a0c60a289ff871dc3a46fff0d0421 and
+      Inference v6.1 remained 6623c6c8bac460c46a8768ac261bc0889c9c7f13; these were head checks,
+      not a fresh full audit. InferenceX still displayed its unofficial-deployment warning. No new matched
+      benchmark accepted; benchmark review date unchanged. Coverage remains partial for private deployments,
+      unindexed filings, tenders, yields and component provenance. Historical reports and forecasts preserved.
+    source_ids:
+    - kunlunxin-loop-2026-11-19
+    - kunlunxin-h3-image-2026-11-12
     - mlperf-training
     - mlperf-inference-6-1
     - inferencex

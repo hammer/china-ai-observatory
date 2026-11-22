@@ -1,0 +1,16 @@
+slug: kunlunxin-h3-image-2026-11-12
+published_at: '2026-11-12'
+event_date: '2026-11-10'
+title: Kunlunxin reports MiniMax H3-Image compatibility
+summary: Kunlunxin says it completed release-day adaptation, deployment and accuracy validation for MiniMax
+  H3-Image using its software stack.
+impact: Vendor compatibility evidence only. The announcement does not disclose accelerator configuration,
+  measured throughput, latency, power or a matched foreign-hardware control; stable operation is not independently
+  reproduced.
+companies:
+- kunlunxin
+source_ids:
+- kunlunxin-h3-image-2026-11-12
+evidence: vendor
+added_at: '2026-11-22'
+correction_of: null

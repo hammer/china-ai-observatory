@@ -18,6 +18,16 @@ key_fact:
   source_ids:
     - kunlunxin
 facts:
+  - label: November model compatibility claims
+    value: Kunlunxin reports release-day adaptation and accuracy validation for SenseNova Loop-9B
+      (November 17) and MiniMax H3-Image (November 10). Hardware configuration, numerical accuracy,
+      throughput, latency and power are undisclosed; these are vendor software-support claims,
+      not independently reproduced performance or production-adoption evidence.
+    evidence: vendor
+    as_of: '2026-11-19'
+    source_ids:
+      - kunlunxin-loop-2026-11-19
+      - kunlunxin-h3-image-2026-11-12
   - label: Reported China market share
     value: IDC data reported by Reuters put Kunlunxin at 4% of China's data-center AI-accelerator
       shipments in the first half of 2026; unit volume, product mix, customers and workloads were not disclosed.
@@ -54,13 +64,15 @@ watch_for:
   - Model-specific cost/performance
   - Manufacturing provenance
 source_ids:
+  - kunlunxin-loop-2026-11-19
+  - kunlunxin-h3-image-2026-11-12
   - kunlunxin
   - kunlunxin-minicpm-2026-09-10
   - china-ai-accelerator-share-reuters-2026-10-13
   - kunlunxin-rlinf-2026-10-10
   - rlinf-kunlunxin-support
   - kunlunxin-openeuler-2026-10-19
-reviewed_at: 2026-10-31
+reviewed_at: 2026-11-22
 slug: kunlunxin
 layers:
   - accelerators
