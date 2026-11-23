@@ -4,8 +4,8 @@ last_research_at: 2026-11-23
 last_automated_run_at: 2026-11-23
 last_run_status: partial
 coverage: >-
-  November 23 partial sweep screened 12 priority companies and five oldest remaining profiles.
-  Only MetaX received a substantive filing backfill and a new profile review date.
+  November 23 daily sweep and November 16–22 weekly synthesis remain partial in research coverage.
+  The weekly report reread four in-period sources; no additional profile review dates advanced.
 timezone: Europe/London
 runs:
   - date: 2026-09-12
@@ -3640,3 +3640,26 @@ runs:
     - mlperf-training
     - mlperf-inference-6-1
     - inferencex
+
+  - date: '2026-11-23'
+    status: partial
+    companies:
+    - thead
+    - cxmt
+    - innolight
+    - kunlunxin
+    summary: Published the closed November 16–22 weekly synthesis from four in-period disclosures after
+      rereading their sources. Supplemental English/Chinese searches covered accelerator, manufacturing
+      and memory gaps. A TSMC restrictions Reuters search lead could not be resolved from the full article
+      and is disclosed as unverified follow-up, not added as established news. No comprehensive company
+      sweep or benchmark-artifact audit was claimed. Earlier backfills are not relabeled as current events.
+      No profile dates, benchmark dates or dated forecasts changed. Research remains partial for private
+      deployments, tenders, unindexed disclosures, yields and component provenance; all earlier editions
+      and corrections preserved.
+    source_ids:
+    - alibaba-compute-call-2026-11-19
+    - cxmt-lta-2026-11-17
+    - innolight-buyback-proposal-2026-11-18
+    - kunlunxin-loop-2026-11-19
+    - mlperf-training
+    - mlperf-inference-6-1

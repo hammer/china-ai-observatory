@@ -1,0 +1,89 @@
+slug: weekly-2026-11-16-complete
+cadence: weekly
+period_start: '2026-11-16'
+period_end: '2026-11-22'
+through_date: '2026-11-22'
+published_at: '2026-11-23'
+status: complete
+title: Domestic compute adoption advances; production and performance remain open tests
+summary: Alibaba describes domestic-chip training and inference use and dates its next cluster rollout.
+  CXMT discusses longer-term customer commitments, while Kunlunxin adds model compatibility and InnoLight
+  proposes a buyback. These are adoption, roadmap and capital-allocation signals; they do not establish
+  a replenishable domestic supply chain or matched frontier performance. No dated Observatory forecast
+  changes.
+sections:
+- heading: Alibaba links domestic-chip adoption to a staged 2027 rollout
+  body: On November 19, Alibaba management said Qwen was training its next-generation model on T-Head
+    chips and Model Studio already served inference on domestic chips. It targeted V900 mass production
+    in calendar Q1 2027 and commercial-scale supernode clusters in Q2. These are attributed deployment
+    claims and future milestones. The call does not provide a reproducible training time-to-quality comparison,
+    utilization, reliability or energy measurements. The analytical implication is a stronger claimed
+    connection between domestic hardware and an operating cloud platform, with the next test being delivered
+    capacity and measured workload economics. Chinese chip design alone does not establish domestic fabrication
+    or replenishable memory and equipment inputs. Earlier roadmap records remain preserved.
+  source_ids:
+  - alibaba-compute-call-2026-11-19
+- heading: Memory negotiations improve demand visibility only if converted into contracts
+  body: 'At its November 17 briefing, CXMT reportedly described progress negotiating long-term supply
+    agreements with several leading customers. This is evidence of an effort to secure demand visibility,
+    not disclosure of executed terms, contracted volume or qualified capacity. The distinction matters
+    for expansion planning: customer negotiations can precede both binding commitments and production.
+    The statement does not establish HBM shipments or remove the memory constraint on accelerator scale.
+    Watch for executed agreements and product-specific qualified output.'
+  source_ids:
+  - cxmt-lta-2026-11-17
+- heading: Software coverage expands without a hardware speedup claim
+  body: Kunlunxin’s November 19 announcement says it adapted SenseNova Loop-9B at its November 17 release
+    and completed deployment and accuracy validation. This supports an attributed compatibility milestone.
+    It supplies no matched accelerator configuration, throughput, latency, power or foreign-hardware control.
+    Compatibility can broaden usable workloads, but stable operation and migration economics still need
+    reproducible evidence; model-level memory descriptions are not accepted here as accelerator benchmarks.
+  source_ids:
+  - kunlunxin-loop-2026-11-19
+- heading: Optical capital allocation is separate from added production capacity
+  body: InnoLight’s November 18 filing records its chairman’s proposed RMB 2–4 billion repurchase, funded
+    with own or raised funds and planned within twelve months of board approval. Approval and execution
+    were still uncertain in this disclosure. Management reiterated strong orders and stable supply without
+    a numerical utilization rate, shipment count or yield measurement. The proposal concerns capital allocation
+    and shareholder or employee interests; it is not a commitment of funding to new industrial capacity
+    and does not resolve component provenance.
+  source_ids:
+  - innolight-buyback-proposal-2026-11-18
+- heading: Forecasts and evidence thresholds
+  body: No dated Observatory forecast changes. Domestic adoption and software support are consistent with
+    the existing substitution thesis, but do not establish frontier training parity or supply-chain independence.
+    The week’s recorded reviews did not verify a new matched contemporary Chinese end-to-end benchmark;
+    that is a coverage limit, not proof that none exists. Training comparisons still require time-to-quality,
+    failures and recovery; inference comparisons require matched quality, precision, context, batching
+    and latency. Standardized submitter-run results are not automatically independent measurements. Watch
+    for delivered V900 systems, reproducible workload results, binding memory contracts and qualified
+    production metrics. No publication-day leaderboard check is presented as a reconstruction of the November
+    22 snapshot.
+  source_ids:
+  - mlperf-training
+  - mlperf-inference-6-1
+  - alibaba-compute-call-2026-11-19
+  - cxmt-lta-2026-11-17
+news_ids:
+- alibaba-compute-call-2026-11-19
+- cxmt-lta-2026-11-17
+- innolight-buyback-proposal-2026-11-18
+- kunlunxin-loop-2026-11-19
+source_ids:
+- alibaba-compute-call-2026-11-19
+- cxmt-lta-2026-11-17
+- innolight-buyback-proposal-2026-11-18
+- kunlunxin-loop-2026-11-19
+- mlperf-training
+- mlperf-inference-6-1
+coverage_note: This closed-period edition covers four archived disclosures public November 16–22. The
+  Alibaba transcript, CXMT original reporting, InnoLight filing and Kunlunxin announcement were reread
+  on November 23. Supplemental English/Chinese searches checked accelerator, manufacturing and memory
+  gaps. A Reuters search result concerning tighter TSMC access was found, but the full article could not
+  be retrieved and its publication timing was not resolved; it remains a follow-up lead and is not treated
+  as an established event here. Earlier filings backfilled during or after the week, including MetaX’s
+  October results, are not relabeled as new in-period news. This synthesis is not a new comprehensive
+  company sweep or benchmark-artifact audit, and no profile or benchmark review date advances. Daily coverage
+  was partial; private deployments, tenders, unindexed disclosures, production yields, tool acceptance
+  and component provenance remain incomplete. Complete denotes a closed calendar period, not exhaustive
+  research. Earlier reports, corrections and dated forecasts are preserved.
