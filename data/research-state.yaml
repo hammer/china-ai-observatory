@@ -1,11 +1,11 @@
 schema_version: 2
 baseline_date: 2026-09-11
-last_research_at: 2026-11-22
-last_automated_run_at: 2026-11-22
+last_research_at: 2026-11-23
+last_automated_run_at: 2026-11-23
 last_run_status: partial
 coverage: >-
-  November 22 partial sweep screened 12 priority companies and five oldest remaining profiles.
-  Only Kunlunxin received new facts and an actual profile review date.
+  November 23 partial sweep screened 12 priority companies and five oldest remaining profiles.
+  Only MetaX received a substantive filing backfill and a new profile review date.
 timezone: Europe/London
 runs:
   - date: 2026-09-12
@@ -3599,6 +3599,44 @@ runs:
     source_ids:
     - kunlunxin-loop-2026-11-19
     - kunlunxin-h3-image-2026-11-12
+    - mlperf-training
+    - mlperf-inference-6-1
+    - inferencex
+
+  - date: '2026-11-23'
+    status: partial
+    companies:
+    - aishengna
+    - amec
+    - cambricon
+    - cxmt
+    - enflame
+    - eoptolink
+    - huawei
+    - innolight
+    - naura
+    - smic
+    - ymtc
+    - yuliangsheng
+    - rslaser
+    - siom
+    - ciomp
+    - kingsemi
+    - metax
+    summary: English/Chinese overlap searches screened November 15–23. Read MetaX’s October 31
+      quarterly filing via its PDF mirror and cross-checked the publication date against the exchange
+      listing; backfilled nine-month results, separating adjusted profit and cash outflow from headline
+      profit. Preserved the earlier forecast. Other company coverage was search-only and did not advance
+      profile dates. Enflame’s November 23 briefing notice was found again, but completed Q&A results were
+      not retrieved. SIOM/CIOMP listings mainly repeated scientific activity; no new lithography acceptance
+      was verified. USCC synthesis and Zhiqi procurement leads remain unresolved. MLPerf Training v6.0
+      HEAD remained eabf23a07b2a0c60a289ff871dc3a46fff0d0421 and Inference v6.1 remained
+      6623c6c8bac460c46a8768ac261bc0889c9c7f13; head checks are not a full result audit. InferenceX
+      retained its unofficial-deployment warning. No new matched benchmark accepted or benchmark review
+      date advanced. Coverage remains partial for unindexed filings, private deployments, tenders, yields
+      and component provenance. Historical reports, corrections and dated forecasts preserved.
+    source_ids:
+    - metax-q3-2026-10-31
     - mlperf-training
     - mlperf-inference-6-1
     - inferencex

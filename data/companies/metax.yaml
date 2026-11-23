@@ -7,13 +7,10 @@ priority: 2
 stage: Scaling
 role: Chinese GPU compute contender.
 assessment: >-
-  MetaX reports broadening model and framework coverage and forecast a first-nine-month profit
-  after a year-earlier loss. This strengthens evidence of commercial scale, but the forecast was
-  unaudited and said increased investment in supply-chain companies also contributed to the
-  profit change. Compatibility and financial evidence do not establish application performance,
-  correctness across workloads, memory provenance or frontier parity. Its October RLinf disclosure adds
-  vendor training measurements, while the merged upstream PR records narrower hardware tests and
-  outstanding validation of later fixes.
+  MetaX reports broader model/framework support and unaudited nine-month profitability, alongside
+  negative operating cash flow. Non-recurring gains materially affect reported profit. These financial
+  and compatibility signals do not establish workload correctness, memory provenance or frontier parity.
+  Its RLinf measurements remain vendor evidence; upstream integration is not independent reproduction.
 key_fact:
   label: Research status
   value: Named commercial supplier; comparable independent benchmark still needed
@@ -22,6 +19,14 @@ key_fact:
   source_ids:
     - hbm-reuters
 facts:
+  - label: Reported nine-month results
+    value: Unaudited revenue was RMB 2.824 billion and attributable profit RMB 638.977 million;
+      profit excluding non-recurring items was RMB 259.421 million. Operating cash outflow was
+      RMB 1.338 billion. These figures cover January–September, not the third quarter alone.
+    evidence: primary
+    as_of: '2026-09-30'
+    source_ids:
+      - metax-q3-2026-10-31
   - label: RLinf upstream integration
     value: Merged PR 1656 adds MACA support. Author-reported tests used eight C550 GPUs on the original
       submission; subsequent fixes were not rerun on MetaX hardware. ManiSkill uses CPU physics, and no
@@ -59,12 +64,13 @@ watch_for:
   - Product availability
   - Memory sourcing
 source_ids:
+  - metax-q3-2026-10-31
   - metax-rlinf-validation-2026-10-26
   - rlinf-metax-upstream-pr-1656
   - hbm-reuters
   - metax-atria-2026-09-14
   - metax-nine-month-forecast-2026-10-16
-reviewed_at: 2026-11-02
+reviewed_at: 2026-11-23
 slug: metax
 layers:
   - accelerators
