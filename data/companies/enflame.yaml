@@ -68,19 +68,28 @@ facts:
     as_of: 2026-02-03
     source_ids:
       - enflame-teardown
+  - label: November earnings-briefing outlook
+    value: On November 23, management expected high Tencent sales concentration to persist while pursuing
+      diversification. Its 2027 consolidated-profit target is conditional on operating circumstances, demand,
+      orders, delivery, costs and R&D plans; it is not achieved profitability.
+    evidence: reported
+    as_of: '2026-11-23'
+    source_ids:
+    - enflame-briefing-2026-11-23
 watch_for:
   - Adoption beyond Tencent
   - Manufacturing route for new generations
   - Independent training and inference results
   - Operating ESL64-O deployments with card count, topology, utilization, reliability and power data
 source_ids:
+  - enflame-briefing-2026-11-23
   - enflame-q3-2026-10-31
   - enflame-ipo
   - enflame-teardown
   - guoxin-expo-2026-10-12
   - enflame-ciif-release-2026-10-16
   - enflame-tencent-inference-2026-10-29
-reviewed_at: 2026-11-11
+reviewed_at: 2026-11-24
 slug: enflame
 layers:
   - accelerators

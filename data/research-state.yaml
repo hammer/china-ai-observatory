@@ -1,11 +1,11 @@
 schema_version: 2
 baseline_date: 2026-09-11
-last_research_at: 2026-11-23
-last_automated_run_at: 2026-11-23
+last_research_at: 2026-11-24
+last_automated_run_at: 2026-11-24
 last_run_status: partial
 coverage: >-
-  November 23 daily sweep and November 16–22 weekly synthesis remain partial in research coverage.
-  The weekly report reread four in-period sources; no additional profile review dates advanced.
+  November 24 partial screening covered 12 priority companies and five oldest remaining profiles.
+  Only Enflame received a substantive update and new profile review date.
 timezone: Europe/London
 runs:
   - date: 2026-09-12
@@ -3663,3 +3663,40 @@ runs:
     - kunlunxin-loop-2026-11-19
     - mlperf-training
     - mlperf-inference-6-1
+
+  - date: '2026-11-24'
+    status: partial
+    companies:
+    - aishengna
+    - amec
+    - cambricon
+    - cxmt
+    - enflame
+    - eoptolink
+    - huawei
+    - innolight
+    - naura
+    - smic
+    - ymtc
+    - yuliangsheng
+    - rslaser
+    - siom
+    - ciomp
+    - kingsemi
+    - iluvatar
+    summary: English/Chinese overlap screening covered November 16–24. Read original Beijing News reporting
+      on Enflame’s completed November 23 briefing, resolving the prior notice-only follow-up; recorded conditional
+      profitability and persistent Tencent concentration. Other profile coverage remained search-only, without
+      date advances. Market-share, memory-expansion and supply-chain reassurance leads require primary-document
+      follow-up; secondary conference summaries were not treated as verified production or benchmarks. SIOM/CIOMP
+      institutional listings and Kingsemi results did not establish new lithography acceptance. The TSMC
+      Reuters lead still has unresolved full-text/date verification; USCC and Zhiqi procurement follow-ups
+      remain open. MLPerf repository-head checks are not a full artifact audit; InferenceX retained its
+      unofficial-deployment warning. No new matched benchmark accepted or benchmark date advanced. Private
+      deployments, tenders, yields and component provenance remain incompletely covered. Historical reports,
+      corrections and forecasts preserved.
+    source_ids:
+    - enflame-briefing-2026-11-23
+    - mlperf-training
+    - mlperf-inference-6-1
+    - inferencex
