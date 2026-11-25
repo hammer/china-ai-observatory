@@ -98,11 +98,20 @@ facts:
     as_of: '2026-11-06'
     source_ids:
     - innolight-supply-preparation-2026-11-06
+  - label: Board-approved repurchase plan
+    value: The November 24 filing records November 23 board approval for RMB 2–4 billion, capped at RMB
+      600 per share, within three months. Execution remains unverified; the earlier proposal is retained
+      as historical context.
+    evidence: primary
+    as_of: '2026-11-23'
+    source_ids:
+    - innolight-buyback-approved-2026-11-24
 watch_for:
   - 1.6T product shipments and customer qualification
   - DSP and laser sourcing
   - Performance per watt and manufacturing yield
 source_ids:
+  - innolight-buyback-approved-2026-11-24
   - innolight-buyback-proposal-2026-11-18
   - innolight-supply-preparation-2026-11-06
   - innolight-tower-npo-2026-11-03
@@ -115,7 +124,7 @@ source_ids:
   - innolight-operations-2026-10-23
   - innolight-q3-2026-10-30
   - innolight-ir-2026-11-03
-reviewed_at: 2026-11-19
+reviewed_at: 2026-11-25
 slug: innolight
 layers:
   - photonics
