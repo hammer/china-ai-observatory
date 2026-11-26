@@ -47,22 +47,24 @@ facts:
     source_ids:
       - iluvatar-2026-h1-report
   - label: Reported ten-month shipments
-    value: Sina relays a company announcement of more than 80,000 chips shipped through October 31. The
+    value: The company’s November 2 exchange filing states more than 80,000 chips shipped through October 31. The
       figure is unaudited, subject to adjustment and explicitly not a revenue measure. Product mix, acceptance,
       utilization and component provenance remain unverified.
-    evidence: reported
+    evidence: vendor
     as_of: '2026-10-31'
     source_ids:
     - iluvatar-shipments-2026-11-02
+    - iluvatar-shipments-primary-2026-11-02
 watch_for:
   - Repeat orders
   - Utilization and deployment economics
   - Independent contemporary benchmarks
 source_ids:
+  - iluvatar-shipments-primary-2026-11-02
   - iluvatar
   - iluvatar-2026-h1-report
   - iluvatar-shipments-2026-11-02
-reviewed_at: 2026-11-04
+reviewed_at: 2026-11-26
 slug: iluvatar
 layers:
   - accelerators

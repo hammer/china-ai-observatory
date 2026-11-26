@@ -1,11 +1,11 @@
 schema_version: 2
 baseline_date: 2026-09-11
-last_research_at: 2026-11-25
-last_automated_run_at: 2026-11-25
+last_research_at: 2026-11-26
+last_automated_run_at: 2026-11-26
 last_run_status: partial
 coverage: >-
-  November 25 partial screening covered 12 priority companies and five oldest remaining profiles.
-  Only InnoLight received a substantive filing update and new profile review date.
+  November 26 partial screening covered 12 priority companies and five oldest remaining profiles.
+  Iluvatar’s existing shipment claim was checked against its original exchange filing.
 timezone: Europe/London
 runs:
   - date: 2026-09-12
@@ -3733,6 +3733,43 @@ runs:
       qualified volumes and component provenance remain incompletely covered.
     source_ids:
     - innolight-buyback-approved-2026-11-24
+    - mlperf-training
+    - mlperf-inference-6-1
+    - inferencex
+
+  - date: '2026-11-26'
+    status: partial
+    companies:
+    - aishengna
+    - amec
+    - cambricon
+    - cxmt
+    - enflame
+    - eoptolink
+    - huawei
+    - innolight
+    - naura
+    - smic
+    - ymtc
+    - yuliangsheng
+    - rslaser
+    - siom
+    - ciomp
+    - kingsemi
+    - iluvatar
+    summary: English/Chinese overlap searches covered November 18–26. Retrieved and read Iluvatar’s November
+      2 HKEX filing, adding primary provenance to the existing unaudited shipment claim; preserved the earlier
+      reporting and event. This is source strengthening, not a new shipment milestone. Only Iluvatar’s profile
+      review date advanced. Other screening mainly returned secondary research summaries and listings; no
+      new verified production or benchmark milestone accepted. SIOM and CIOMP direct-page retrieval timed
+      out. Secondary estimates of foundry yields, HBM supply and policy effects were not promoted to established
+      facts. TSMC, USCC, Zhiqi and memory-market-share follow-ups remain unresolved. MLPerf Training v6.0
+      and Inference v6.1 repository heads were unchanged from November 25; checks were not full artifact
+      audits. InferenceX retained its unofficial-deployment warning. Benchmark dates and historical forecasts
+      unchanged. Private deployments, unindexed disclosures, tenders, qualified volumes and component provenance
+      remain incompletely covered.
+    source_ids:
+    - iluvatar-shipments-primary-2026-11-02
     - mlperf-training
     - mlperf-inference-6-1
     - inferencex
