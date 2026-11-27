@@ -1,0 +1,16 @@
+slug: isscc-memory-listings-2026-11-25
+published_at: 2026-11-25
+event_date: 2026-11-25
+title: ISSCC program lists Huawei custom HBM and CXMT bonded DDR5 research
+summary: The November 25 draft lists both companies in its February 2027 memory session. The
+  presentations have not yet occurred.
+impact: Research visibility improves, but a conference listing does not resolve production scale,
+  supply-chain sovereignty or accelerator performance. Await the papers and implementation evidence.
+companies:
+  - huawei
+  - cxmt
+source_ids:
+  - isscc-2027-program-2026-11-25
+evidence: primary
+added_at: 2026-11-27
+correction_of: null

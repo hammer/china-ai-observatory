@@ -26,6 +26,14 @@ key_fact:
     - cxmt-hbm-reuters-2026-08-31
     - cxmt
 facts:
+  - label: ISSCC 2027 memory research listing
+    value: "ISSCC schedules paper 22.8 for February 16, 2027: 32 Gb DDR5 at 9.2 Gb/s/pin using
+      vertical-surrounding-gate cells and wafer-level copper hybrid bonding. These title-level
+      specifications do not establish customer qualification or volume production."
+    evidence: primary
+    as_of: 2026-11-25
+    source_ids:
+      - isscc-2027-program-2026-11-25
   - label: Long-term DRAM supply negotiations
     value: The Paper reports CXMT is negotiating long-term supply agreements with multiple leading customers.
       Counterparties, volumes, pricing, duration and signed-contract status are undisclosed.
@@ -132,6 +140,7 @@ watch_for:
   - Shareholder approval, construction and operating milestones for the research and testing projects
   - Launch, independent validation and server qualification of the planned 4F2 DDR5 RDIMM
 source_ids:
+  - isscc-2027-program-2026-11-25
   - cxmt-lta-2026-11-17
   - cxmt-rdimm-sampling-2026-10-31
   - cxmt-q3-2026-10-31
@@ -148,7 +157,7 @@ source_ids:
   - cxmt-4f2-rdimm-2026-10-11
   - cxmt-hbm3e-yields-2026-10-28
   - cxmt-hbm3e-yields-2026-10-28-relay
-reviewed_at: 2026-11-20
+reviewed_at: 2026-11-27
 slug: cxmt
 layers:
   - memory

@@ -22,6 +22,14 @@ key_fact:
     - ascend
     - hbm-reuters
 facts:
+  - label: ISSCC 2027 memory research listing
+    value: "ISSCC schedules paper 22.6 for February 16, 2027: custom HBM with 64 channels, 4096 data
+      connections, controllers and five-layer wafer bonding. This is a program listing; capacity,
+      speed, yield, supplier provenance and commercial availability remain unverified."
+    evidence: primary
+    as_of: 2026-11-25
+    source_ids:
+      - isscc-2027-program-2026-11-25
   - label: Independent production model, September revision
     value: Epoch AI estimates 1.5 million Ascend units in 2026 using domestic and foreign memory
       supply assumptions. This is modeled production, not verified shipments. Its H100-equivalent
@@ -205,6 +213,7 @@ watch_for:
   - 960DT and 960PR delivery against the new 2027 launch targets
   - Capacity, order fulfillment and verified performance of commercial Ascend 950 systems
 source_ids:
+  - isscc-2027-program-2026-11-25
   - epoch-huawei-production-2026-09-24
   - ascend
   - hbm-reuters
@@ -226,7 +235,7 @@ source_ids:
   - semianalysis-ascend-950pr-2026-10-21
   - deepinfer-release-2026-10-20
   - huawei-nisco-2026-10-27
-reviewed_at: 2026-11-21
+reviewed_at: 2026-11-27
 slug: huawei
 layers:
   - accelerators

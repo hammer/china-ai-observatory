@@ -1,11 +1,11 @@
 schema_version: 2
 baseline_date: 2026-09-11
-last_research_at: 2026-11-26
-last_automated_run_at: 2026-11-26
+last_research_at: 2026-11-27
+last_automated_run_at: 2026-11-27
 last_run_status: partial
 coverage: >-
-  November 26 partial screening covered 12 priority companies and five oldest remaining profiles.
-  Iluvatar’s existing shipment claim was checked against its original exchange filing.
+  November 27 partial screening covered 12 priority companies and five oldest remaining profiles.
+  Huawei and CXMT received primary conference-program evidence and actual review dates.
 timezone: Europe/London
 runs:
   - date: 2026-09-12
@@ -3773,3 +3773,40 @@ runs:
     - mlperf-training
     - mlperf-inference-6-1
     - inferencex
+
+  - date: 2026-11-27
+    status: partial
+    companies:
+      - aishengna
+      - amec
+      - cambricon
+      - cxmt
+      - enflame
+      - eoptolink
+      - huawei
+      - innolight
+      - naura
+      - smic
+      - ymtc
+      - yuliangsheng
+      - rslaser
+      - siom
+      - ciomp
+      - kingsemi
+      - moore-threads
+    summary: English/Chinese searches overlapped November 19–27, with older context retained. Read the
+      current ISSCC draft and added one linked research-listing event; only Huawei and CXMT profile
+      dates advanced. CIOMP research index was retrieved; SIOM retrieval timed out. Other searches
+      returned mainly secondary summaries, institutional listings and holdings pages, not verified new
+      industrial milestones. MLPerf Training v6.0 and Inference v6.1 heads remain
+      eabf23a07b2a0c60a289ff871dc3a46fff0d0421 and 6623c6c8bac460c46a8768ac261bc0889c9c7f13; this was
+      a head check, not a full artifact audit. InferenceX still displays an unofficial-deployment
+      warning; no displayed result was accepted. No new matched frontier benchmark verified.
+      Historical forecasts and benchmark dates unchanged. Private deployments, tenders, qualified
+      volumes, yields, supplier provenance and previously unresolved research leads remain
+      incompletely covered.
+    source_ids:
+      - isscc-2027-program-2026-11-25
+      - mlperf-training
+      - mlperf-inference-6-1
+      - inferencex
