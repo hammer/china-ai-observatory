@@ -16,6 +16,15 @@ key_fact:
   source_ids:
     - kingsemi
 facts:
+  - label: First-half customer qualification claims
+    value: The company reports SPM chemical-cleaning process validation at multiple customers and repeat
+      orders. It also reports customer validation and volume production of temporary bonding/debonding
+      tools, with Frame cleaning entering ramp-up. Customer names, tool counts, yields and throughput
+      remain undisclosed.
+    evidence: vendor
+    as_of: 2026-06-30
+    source_ids:
+      - kingsemi-h1-progress-2026-08-26
   - label: Reported order and capacity pressure
     value: Management said new orders grew markedly and production was under pressure, prompting
       capacity expansion; it targets faster front-end track progress in 2026-2027 and further customer
@@ -44,10 +53,11 @@ watch_for:
   - Advanced lithography integration
   - Customer-qualified throughput and defect rates
 source_ids:
+  - kingsemi-h1-progress-2026-08-26
   - kingsemi
   - kingsemi-capacity-2026-10-10
   - kingsemi-q3-2026-10-30
-reviewed_at: 2026-10-30
+reviewed_at: 2026-11-28
 slug: kingsemi
 layers:
   - equipment
